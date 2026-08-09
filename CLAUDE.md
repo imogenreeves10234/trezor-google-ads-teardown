@@ -88,6 +88,27 @@ harvested BIP-39 phrases. **73 wallets, 20.93 BTC, $1,349,952, in 32.9 hours.**
   `trezor.io` searches render, once the creative PNG is downloaded, as an **`affil.trezor.io`** ad
   (Trezor's own affiliate subdomain), a **Bybit** ad and an **MEXC** ad.
 
+## ⭐ Rev 2 (2026-08-09, Bob asked for the exact advertised URLs + clearer segmentation)
+
+- **Report RESTRUCTURED**: 17 numbered sections in document order, sticky contents bar, and an
+  **"Answers, up front"** Q&A block. Bob's complaint was segmentation, not content.
+- ⭐ **§10 — 16 URLs with a click-parameter RECEIPT, 11 campaign IDs, 4 still live.** Method: urlscan
+  `page.domain:sites.google.com AND page.url:"gclid"|"gad_source"|"gbraid"|"gad_campaignid"` crossed
+  with brand terms. Google's click redirector appends those params, so their presence proves the page
+  was reached **through a paid ad**. ⚠ **~9,900 Google Sites URLs carry them in total and MOST ARE
+  LEGITIMATE small businesses** — always state the crypto subset, never the raw 9,900.
+  ⭐ Campaign **22897044940** ran **three** different Uniswap landing pages as each was killed —
+  taking down a page does not touch the ad account.
+  ⚠ **No Trezor URL is on this list** — the start-trezor-suite capture was a direct submission, not
+  an ad click. Say so; the table proves the technique, not that page.
+- ⭐ **§11 — `sites.google.com/ledgerstart-web.com/ledger-live/home`: NO EVIDENCE of advertising.**
+  Page is LIVE and malicious. ATC 0 in US/GB/DE (control passed, routed via residential exit);
+  3 urlscan captures, none with ad params; does not rank organically (Google autocorrects the "Leder"
+  misspelling away). US paid check **not measured** — 6/6 exits got `/sorry/`. Verdict = dormant
+  portfolio asset. ⚠ ATC-zero is WEAK evidence here — it was also zero for the Trezor campaign.
+- **`scripts/atc_res.py` NEW** — ATC via curl through a Gonzo residential exit. **This is the fix for
+  the 429**: the datacenter IP stays blocked for hours, a fresh residential exit works immediately.
+
 ## Open
 
 - Advertiser of record, takedown latency, geo-targeting pattern, cloaking specifics for this URL — all
