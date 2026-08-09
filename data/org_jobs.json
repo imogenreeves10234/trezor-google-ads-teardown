@@ -1,0 +1,16 @@
+[
+ {"brand":"trezor","cc":"GB","query":"trezor suite download","tld":"co.uk","hl":"en"},
+ {"brand":"trezor","cc":"DE","query":"trezor suite","tld":"de","hl":"de"},
+ {"brand":"trezor","cc":"TR","query":"trezor suite","tld":"com.tr","hl":"tr"},
+ {"brand":"ledger","cc":"GB","query":"ledger live download","tld":"co.uk","hl":"en"},
+ {"brand":"ledger","cc":"DE","query":"ledger live","tld":"de","hl":"de"},
+ {"brand":"ledger","cc":"FR","query":"ledger live telecharger","tld":"fr","hl":"fr"},
+ {"brand":"ledger","cc":"TR","query":"ledger live indir","tld":"com.tr","hl":"tr"},
+ {"brand":"exodus","cc":"GB","query":"exodus wallet download","tld":"co.uk","hl":"en"},
+ {"brand":"exodus","cc":"BR","query":"exodus wallet","tld":"com.br","hl":"pt"},
+ {"brand":"uniswap","cc":"DE","query":"uniswap app download","tld":"de","hl":"de"},
+ {"brand":"phantom","cc":"TR","query":"phantom wallet","tld":"com.tr","hl":"tr"},
+ {"brand":"metamask","cc":"NL","query":"metamask download","tld":"nl","hl":"nl"},
+ {"brand":"okx","cc":"TR","query":"okx wallet","tld":"com.tr","hl":"tr"},
+ {"brand":"coinbase","cc":"GB","query":"coinbase wallet extension","tld":"co.uk","hl":"en"}
+]

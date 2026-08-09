@@ -1,0 +1,146 @@
+{
+  "brand": "ledger",
+  "cc": "FR",
+  "query": "ledger live telecharger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "90.14.219.81",
+        "hostname": "alyon-657-1-41-81.w90-14.abo.wanadoo.fr",
+        "city": "\u00c9cully",
+        "region": "Rh\u00f4ne-Alpes",
+        "country": "FR",
+        "loc": "45.7744,4.7776",
+        "org": "AS3215 Orange S.A.",
+        "postal": "69130",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "37.66.41.252",
+        "hostname": "252.41.66.37.rev.sfr.net",
+        "city": "Aix-en-Provence",
+        "region": "Provence-Alpes-C\u00f4te d'Azur",
+        "country": "FR",
+        "loc": "43.5283,5.4497",
+        "org": "AS15557 Societe Francaise Du Radiotelephone - SFR SA",
+        "postal": "13080",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "90.89.98.74",
+        "hostname": "lfbn-tou-1-1535-74.w90-89.abo.wanadoo.fr",
+        "city": "Toulouse",
+        "region": "Occitanie",
+        "country": "FR",
+        "loc": "43.6043,1.4437",
+        "org": "AS3215 Orange S.A.",
+        "postal": "31000",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "86.212.96.242",
+        "hostname": "lfbn-nan-1-1277-242.w86-212.abo.wanadoo.fr",
+        "city": "Cholet",
+        "region": "Pays de la Loire",
+        "country": "FR",
+        "loc": "47.0589,-0.8797",
+        "org": "AS3215 Orange S.A.",
+        "postal": "49300",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 5,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "93.1.104.212",
+        "hostname": "212.104.1.93.rev.sfr.net",
+        "city": "Orl\u00e9ans",
+        "region": "Centre-Val de Loire",
+        "country": "FR",
+        "loc": "47.9025,1.9041",
+        "org": "AS15557 Societe Francaise Du Radiotelephone - SFR SA",
+        "postal": "45000",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 6,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "90.54.140.195",
+        "hostname": "lfbn-rei-1-13-195.w90-54.abo.wanadoo.fr",
+        "city": "Saint-Julien-de-Concelles",
+        "region": "Pays de la Loire",
+        "country": "FR",
+        "loc": "47.2536,-1.3857",
+        "org": "AS3215 Orange S.A.",
+        "postal": "44450",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 7,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "37.66.150.34",
+        "hostname": "34.150.66.37.rev.sfr.net",
+        "city": "Rouen",
+        "region": "Normandy",
+        "country": "FR",
+        "loc": "49.4431,1.0993",
+        "org": "AS15557 Societe Francaise Du Radiotelephone - SFR SA",
+        "postal": "76000",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 8,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "92.133.12.131",
+        "hostname": "amarseille-655-1-56-131.w92-133.abo.wanadoo.fr",
+        "city": "Ch\u00e2teau-Thierry",
+        "region": "Hauts-de-France",
+        "country": "FR",
+        "loc": "49.0464,3.4030",
+        "org": "AS3215 Orange S.A.",
+        "postal": "02400",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "organic": [],
+  "phishing_hits": [],
+  "status": "BLOCKED"
+}

@@ -1,0 +1,792 @@
+[
+  {
+    "url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+    "brand": "trezor",
+    "attached_domain": "walletcryptohub.com",
+    "source": "ranked",
+    "ranked_for": [
+      "trezor suite download #3 (GB)",
+      "trezor suite #8 (DE)"
+    ],
+    "http": 200,
+    "final_url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+    "live": true,
+    "title": "Trezor Suite (Official) | Download Trezor App \u2014 Desktop\u00ae",
+    "signals": [
+      "private key",
+      "passphrase"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "aa6dc967c4eb1ce0",
+    "screenshot": "00_https---sites-google-com-walletcryptohub-com-trezo.png"
+  },
+  {
+    "url": "https://sites.google.com/kryptowallets.app/ledger-live-download-app/",
+    "brand": "ledger",
+    "attached_domain": "kryptowallets.app",
+    "source": "ranked",
+    "ranked_for": [
+      "ledger live #1 (DE)"
+    ],
+    "http": 200,
+    "final_url": "https://sites.google.com/kryptowallets.app/ledger-live-download-app/",
+    "live": true,
+    "title": "Ledger Live Download | App & Erweiterung (Offizielle Website)",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "137f749079fa45a9",
+    "screenshot": "01_https---sites-google-com-kryptowallets-app-ledger-.png"
+  },
+  {
+    "url": "https://sites.google.com/willet-suits.com/xodus-wolt/home",
+    "brand": "?",
+    "attached_domain": "willet-suits.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/willet-suits.com/xodus-wolt/home",
+    "live": true,
+    "title": "Exodus Web3 Wallet | Trusted Web3 Wallet for Everyone",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "f8f2eefae7011ef4",
+    "screenshot": "02_https---sites-google-com-willet-suits-com-xodus-wo.png"
+  },
+  {
+    "url": "https://sites.google.com/cryptowalletuk.com/exodus-crypto-app/",
+    "brand": "exodus",
+    "attached_domain": "cryptowalletuk.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/cryptowalletuk.com/exodus-crypto-app/",
+    "live": true,
+    "title": "Exodus Crypto App Download | Official Site",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "b8ded58f43b43911",
+    "screenshot": "03_https---sites-google-com-cryptowalletuk-com-exodus.png"
+  },
+  {
+    "url": "https://sites.google.com/logswallet.com/exodus-web3-wallet/home",
+    "brand": "exodus",
+    "attached_domain": "logswallet.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&dsh=S1225950532%3A1786311094454311&followup=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsaFG5cihlj9QwyOIk8MZBeMsTkWONRzNhac2UkyA5pdERAAlAnS3srvSZFSSCh_8ORcBWHTQ",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&dsh=S1225950532%3A1786311094454311&followup=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsaFG5cihlj9QwyOIk8MZBeMsTkWONRzNhac2UkyA5pdERAAlAnS3srvSZFSSCh_8ORcBWHTQ"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "04_https---sites-google-com-logswallet-com-exodus-web.png"
+  },
+  {
+    "url": "https://sites.google.com/wallcrypus.com/coinbase-pro-login/home",
+    "brand": "coinbase",
+    "attached_domain": "wallcrypus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/wallcrypus.com/coinbase-pro-login/home",
+    "live": true,
+    "title": "Coinbase Pro Login - Accessing the Global Wallet Platform",
+    "signals": [],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "13faec4d80b874b1",
+    "screenshot": "05_https---sites-google-com-wallcrypus-com-coinbase-p.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptoextension.com/ledger-wallet/",
+    "brand": "ledger",
+    "attached_domain": "walletcryptoextension.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/walletcryptoextension.com/ledger-wallet/",
+    "live": true,
+    "title": "Ledger Live| Download App | Official Site",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "08e8bcc8caa8cf4a",
+    "screenshot": "06_https---sites-google-com-walletcryptoextension-com.png"
+  },
+  {
+    "url": "https://sites.google.com/ledgrliveus.com/ledger-live/home/",
+    "brand": "ledger",
+    "attached_domain": "ledgrliveus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/ledgrliveus.com/ledger-live/home/",
+    "live": true,
+    "title": "Ledger Live: Login - Download Crypto Wallet App | Ledger\u00ae",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "24 word"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "5abdcfc0a3fb5d52",
+    "screenshot": "07_https---sites-google-com-ledgrliveus-com-ledger-li.png"
+  },
+  {
+    "url": "https://sites.google.com/ledgerlive.cfd/ledger-wallet/",
+    "brand": "ledger",
+    "attached_domain": "ledgerlive.cfd",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/ledgerlive.cfd/ledger-wallet/",
+    "live": true,
+    "title": "Ledger hardware wallet | Official Site | Log In",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "8c3adbcc3455ddec",
+    "screenshot": "08_https---sites-google-com-ledgerlive-cfd-ledger-wal.png"
+  },
+  {
+    "url": "https://sites.google.com/homelazor.com/ledgerstart/home",
+    "brand": "ledger",
+    "attached_domain": "homelazor.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/homelazor.com/ledgerstart/home",
+    "live": true,
+    "title": "Ledger.com/start-Security for DeFi & Web3",
+    "signals": [
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "3e50f58d1d62f3ef",
+    "screenshot": "09_https---sites-google-com-homelazor-com-ledgerstart.png"
+  },
+  {
+    "url": "https://sites.google.com/ledgrliveus.com/ledgerlive/home/",
+    "brand": "ledger",
+    "attached_domain": "ledgrliveus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/ledgrliveus.com/ledgerlive/home/",
+    "live": true,
+    "title": "Ledger Live | Ledger Live App Crypto Wallet - Ledger\u00ae",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "16acf266c79f2fb0",
+    "screenshot": "10_https---sites-google-com-ledgrliveus-com-ledgerliv.png"
+  },
+  {
+    "url": "https://sites.google.com/metamaslogi.com/metamaskextension/home",
+    "brand": "metamask",
+    "attached_domain": "metamaslogi.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/metamaslogi.com/metamaskextension/home",
+    "live": true,
+    "title": "MetaMask Wallet Extension - Official Website",
+    "signals": [
+      "private key",
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "c11265b7d9b48bd9",
+    "screenshot": "11_https---sites-google-com-metamaslogi-com-metamaske.png"
+  },
+  {
+    "url": "https://sites.google.com/metamaslogi.com/metamask-extension/home",
+    "brand": "metamask",
+    "attached_domain": "metamaslogi.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/metamaslogi.com/metamask-extension/home",
+    "live": true,
+    "title": "Download MetaMask Extension - Official Website",
+    "signals": [
+      "seed phrase",
+      "private key",
+      "12 word",
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "ea7a2a93a638d29d",
+    "screenshot": "12_https---sites-google-com-metamaslogi-com-metamask-.png"
+  },
+  {
+    "url": "https://sites.google.com/metamaslogi.com/metamask-login/home",
+    "brand": "metamask",
+    "attached_domain": "metamaslogi.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/metamaslogi.com/metamask-login/home",
+    "live": true,
+    "title": "Metamask Login - Official Website | Sign in with Ethereum",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "347e1e43d61369fe",
+    "screenshot": "13_https---sites-google-com-metamaslogi-com-metamask-.png"
+  },
+  {
+    "url": "https://sites.google.com/crptoguide.com/metamaskwalletextension/home",
+    "brand": "metamask",
+    "attached_domain": "crptoguide.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/crptoguide.com/metamaskwalletextension/home",
+    "live": true,
+    "title": "Setting Up Metamask Extension for Chrome | Crypto Wallet Guides",
+    "signals": [
+      "seed phrase",
+      "private key",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "c503813709d95b20",
+    "screenshot": "14_https---sites-google-com-crptoguide-com-metamaskwa.png"
+  },
+  {
+    "url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-extension/",
+    "brand": "okx",
+    "attached_domain": "okx-wallet-extension.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-extension/",
+    "live": true,
+    "title": "OKX Wallet | Download Extension | Crypto & NFT Wallet",
+    "signals": [
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "10155e14c70eecc7",
+    "screenshot": "15_https---sites-google-com-okx-wallet-extension-com-.png"
+  },
+  {
+    "url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-official-site/",
+    "brand": "okx",
+    "attached_domain": "okx-wallet-extension.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-official-site/",
+    "live": true,
+    "title": "OKX Wallet | Official Site",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "f69473b47ff2b668",
+    "screenshot": "16_https---sites-google-com-okx-wallet-extension-com-.png"
+  },
+  {
+    "url": "https://sites.google.com/web3walletapp.com/okx-wallet-extension/home",
+    "brand": "okx",
+    "attached_domain": "web3walletapp.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/web3walletapp.com/okx-wallet-extension/home",
+    "live": true,
+    "title": "OKX Wallet | Download Extension | Crypto DeFi & Multi-Chain",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "8a059e126e96d7ae",
+    "screenshot": "17_https---sites-google-com-web3walletapp-com-okx-wal.png"
+  },
+  {
+    "url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet/",
+    "brand": "okx",
+    "attached_domain": "okx-wallet-extension.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet/",
+    "live": true,
+    "title": "OKX Wallet | Download Extension | Official Site",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "24 word",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "b1f309872cec1b27",
+    "screenshot": "18_https---sites-google-com-okx-wallet-extension-com-.png"
+  },
+  {
+    "url": "https://sites.google.com/cryptowalletextensionus.com/okx-login-web/",
+    "brand": "okx",
+    "attached_domain": "cryptowalletextensionus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/cryptowalletextensionus.com/okx-login-web/",
+    "live": true,
+    "title": "Sign-in | OKX Login (Official Site)",
+    "signals": [
+      "seed phrase",
+      "private key",
+      "passphrase",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "814cfbf2fc2e09bf",
+    "screenshot": "19_https---sites-google-com-cryptowalletextensionus-c.png"
+  },
+  {
+    "url": "https://sites.google.com/trzrio.com/trezor-hardware-wallet/home",
+    "brand": "trezor",
+    "attached_domain": "trzrio.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&dsh=S-1709758869%3A1786311183855207&followup=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxuPvhEqmh6y-CWyyDBP2L9uId5qQ1gfhac8gOIoCOGxsvz6q_nC4gZ5j1MIoxl7XJEVrEkymQ",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&dsh=S-1709758869%3A1786311183855207&followup=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxuPvhEqmh6y-CWyyDBP2L9uId5qQ1gfhac8gOIoCOGxsvz6q_nC4gZ5j1MIoxl7XJEVrEkymQ"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "20_https---sites-google-com-trzrio-com-trezor-hardwar.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptoextension.com/trezor-wallet/home",
+    "brand": "trezor",
+    "attached_domain": "walletcryptoextension.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/walletcryptoextension.com/trezor-wallet/home",
+    "live": true,
+    "title": "Trezor Hardware Wallet | Official Site",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "24 word",
+      "passphrase",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "6e9a1327464cbd9a",
+    "screenshot": "21_https---sites-google-com-walletcryptoextension-com.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptohub.com/trezoriostart/home/",
+    "brand": "trezor",
+    "attached_domain": "walletcryptohub.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/walletcryptohub.com/trezoriostart/home/",
+    "live": true,
+    "title": "Trezor.io/start \u2013 The #1 Most Advanced Hardware Wallet",
+    "signals": [
+      "seed phrase",
+      "private key",
+      "24 word",
+      "passphrase",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "f4d86ecdf4d9e9aa",
+    "screenshot": "22_https---sites-google-com-walletcryptohub-com-trezo.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptohub.com/trezorhardwarewallet/home",
+    "brand": "trezor",
+    "attached_domain": "walletcryptohub.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/walletcryptohub.com/trezorhardwarewallet/home",
+    "live": true,
+    "title": "Trezor Hardware Wallet (Official) | Starting\u2122 Up Your Device",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "passphrase"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "291f7e0acf6058e1",
+    "screenshot": "23_https---sites-google-com-walletcryptohub-com-trezo.png"
+  },
+  {
+    "url": "https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/",
+    "brand": "trezor",
+    "attached_domain": "wallcrypus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/",
+    "live": true,
+    "title": "Trezor Wallet Login - Trezor Hardware Wallet | Official WebSite",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "private key",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "5665243d123c3ccf",
+    "screenshot": "24_https---sites-google-com-wallcrypus-com-trezorwall.png"
+  },
+  {
+    "url": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+    "brand": "trezor",
+    "attached_domain": "trazor-start.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+    "live": true,
+    "title": "Trezor Hardware Wallet | The #1 Hardware Crypto Wallet",
+    "signals": [
+      "private key",
+      "24 word"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "c80821016aa00a98",
+    "screenshot": "25_https---sites-google-com-trazor-start-com-trezorha.png"
+  },
+  {
+    "url": "https://sites.google.com/phantom-extension.app/phantomwalletextensionn/home",
+    "brand": "phantom",
+    "attached_domain": "phantom-extension.app",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fphantom-extension.app%2Fphantomwalletextensionn%2Fhome&dsh=S1578422980%3A1786311217625749&followup=https%3A%2F%2Fsites.google.com%2Fphantom-extension.app%2Fphantomwalletextensionn%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxulkoLOV7AglXIjOcHwxh3aBfEt62zfpZkeRcqFbFcCcCTY6bjogFMrHGoirGkhYwwFEXvDlA",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fphantom-extension.app%2Fphantomwalletextensionn%2Fhome&dsh=S1578422980%3A1786311217625749&followup=https%3A%2F%2Fsites.google.com%2Fphantom-extension.app%2Fphantomwalletextensionn%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxulkoLOV7AglXIjOcHwxh3aBfEt62zfpZkeRcqFbFcCcCTY6bjogFMrHGoirGkhYwwFEXvDlA"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "26_https---sites-google-com-phantom-extension-app-pha.png"
+  },
+  {
+    "url": "https://sites.google.com/phantom-extension.app/phantom-extension/home",
+    "brand": "phantom",
+    "attached_domain": "phantom-extension.app",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/phantom-extension.app/phantom-extension/home",
+    "live": true,
+    "title": "Phantom Wallet | Extension Download | Official Site",
+    "signals": [
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "a6f6732567053dfb",
+    "screenshot": "27_https---sites-google-com-phantom-extension-app-pha.png"
+  },
+  {
+    "url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet",
+    "brand": "phantom",
+    "attached_domain": "phantom-solana-wallet.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet",
+    "live": true,
+    "title": "Phantom Wallet | Extension Download | Official Site",
+    "signals": [
+      "seed phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "a300b71814dc9a53",
+    "screenshot": "28_https---sites-google-com-phantom-solana-wallet-com.png"
+  },
+  {
+    "url": "https://sites.google.com/phantom-wallet-extension.app/phantom-wallet-extension/",
+    "brand": "phantom",
+    "attached_domain": "phantom-wallet-extension.app",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fphantom-wallet-extension.app%2Fphantom-wallet-extension%2F&dsh=S-1709758869%3A1786311234235702&followup=https%3A%2F%2Fsites.google.com%2Fphantom-wallet-extension.app%2Fphantom-wallet-extension%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsovYC0TTQeR-u4Fz2yfn3vKvjyfiJ0DxQ2g-JqrOc0dJHZAUd-O5NlCQyaMURiuCCwZ0aosQ",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fphantom-wallet-extension.app%2Fphantom-wallet-extension%2F&dsh=S-1709758869%3A1786311234235702&followup=https%3A%2F%2Fsites.google.com%2Fphantom-wallet-extension.app%2Fphantom-wallet-extension%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsovYC0TTQeR-u4Fz2yfn3vKvjyfiJ0DxQ2g-JqrOc0dJHZAUd-O5NlCQyaMURiuCCwZ0aosQ"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "29_https---sites-google-com-phantom-wallet-extension-.png"
+  },
+  {
+    "url": "https://sites.google.com/wallcrypus.com/phantom-extension/home",
+    "brand": "phantom",
+    "attached_domain": "wallcrypus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/wallcrypus.com/phantom-extension/home",
+    "live": true,
+    "title": "Download Phantom Chrome Extension | Official WebSite\u00ae",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "connect wallet"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "32436c92cc764b1f",
+    "screenshot": "30_https---sites-google-com-wallcrypus-com-phantom-ex.png"
+  },
+  {
+    "url": "https://sites.google.com/mycryptowalletus.com/phantomwalletdownload-extensio",
+    "brand": "phantom",
+    "attached_domain": "mycryptowalletus.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fmycryptowalletus.com%2Fphantomwalletdownload-extensio&dsh=S-920391091%3A1786311245432718&followup=https%3A%2F%2Fsites.google.com%2Fmycryptowalletus.com%2Fphantomwalletdownload-extensio&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxu_oET-crz7F7nMIaJy8aZkasENAgwcZzyv4uH4urcVyDbTwCvYpY1MYlhmL1RO-NXyB9gWJA",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fmycryptowalletus.com%2Fphantomwalletdownload-extensio&dsh=S-920391091%3A1786311245432718&followup=https%3A%2F%2Fsites.google.com%2Fmycryptowalletus.com%2Fphantomwalletdownload-extensio&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxu_oET-crz7F7nMIaJy8aZkasENAgwcZzyv4uH4urcVyDbTwCvYpY1MYlhmL1RO-NXyB9gWJA"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "31_https---sites-google-com-mycryptowalletus-com-phan.png"
+  },
+  {
+    "url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet-extension/",
+    "brand": "phantom",
+    "attached_domain": "phantom-solana-wallet.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fphantom-solana-wallet.com%2Fphantom-wallet-extension%2F&dsh=S-1709758869%3A1786311251043045&followup=https%3A%2F%2Fsites.google.com%2Fphantom-solana-wallet.com%2Fphantom-wallet-extension%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsPUP4d6PsX8zCcl3FomkRmM8yC8a4AzJ2QceHDJlkAZw2ivPrMc1JWu8J6Gb5OJOl4y5pN",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fphantom-solana-wallet.com%2Fphantom-wallet-extension%2F&dsh=S-1709758869%3A1786311251043045&followup=https%3A%2F%2Fsites.google.com%2Fphantom-solana-wallet.com%2Fphantom-wallet-extension%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsPUP4d6PsX8zCcl3FomkRmM8yC8a4AzJ2QceHDJlkAZw2ivPrMc1JWu8J6Gb5OJOl4y5pN"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "32_https---sites-google-com-phantom-solana-wallet-com.png"
+  },
+  {
+    "url": "https://sites.google.com/mywalletcryptous.com/phantom-wallet-extension",
+    "brand": "phantom",
+    "attached_domain": "mywalletcryptous.com",
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fmywalletcryptous.com%2Fphantom-wallet-extension&dsh=S-920391091%3A1786311256788178&followup=https%3A%2F%2Fsites.google.com%2Fmywalletcryptous.com%2Fphantom-wallet-extension&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsYtPccOn5N5UoKDO9oYvr7Yf-r4l7Ymo2-uQKhVdG7HAg3s9lcyVy3qqJPK97FQGhSbPnwKA",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fmywalletcryptous.com%2Fphantom-wallet-extension&dsh=S-920391091%3A1786311256788178&followup=https%3A%2F%2Fsites.google.com%2Fmywalletcryptous.com%2Fphantom-wallet-extension&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsYtPccOn5N5UoKDO9oYvr7Yf-r4l7Ymo2-uQKhVdG7HAg3s9lcyVy3qqJPK97FQGhSbPnwKA"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "33_https---sites-google-com-mywalletcryptous-com-phan.png"
+  },
+  {
+    "url": "https://sites.google.com/view/exodu-webs/home",
+    "brand": "?",
+    "attached_domain": null,
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fview%2Fexodu-webs%2Fhome&dsh=S221064858%3A1786311262351135&followup=https%3A%2F%2Fsites.google.com%2Fview%2Fexodu-webs%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvyoSESjIg8mN-1VofUZTj8zsQA7pyV1yc0-SehRvVfF6F8lwDaSGHj_pA2lfO4-tGuaxv3XQ",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fview%2Fexodu-webs%2Fhome&dsh=S221064858%3A1786311262351135&followup=https%3A%2F%2Fsites.google.com%2Fview%2Fexodu-webs%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvyoSESjIg8mN-1VofUZTj8zsQA7pyV1yc0-SehRvVfF6F8lwDaSGHj_pA2lfO4-tGuaxv3XQ"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "34_https---sites-google-com-view-exodu-webs-home.png"
+  },
+  {
+    "url": "https://sites.google.com/view/exoduswallr/home",
+    "brand": "exodus",
+    "attached_domain": null,
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/view/exoduswallr/home",
+    "live": true,
+    "title": "Exodus Wallet\u2122 \u2013 Web3 Control",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "173bfbec504d340a",
+    "screenshot": "35_https---sites-google-com-view-exoduswallr-home.png"
+  },
+  {
+    "url": "https://sites.google.com/view/web-exodus-ext/home",
+    "brand": "exodus",
+    "attached_domain": null,
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/view/web-exodus-ext/home",
+    "live": true,
+    "title": "Exodus\u00ae Web3 Wallet | Exodus\u00ae Browser Extension",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "restore"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "13be09f488f7f885",
+    "screenshot": "36_https---sites-google-com-view-web-exodus-ext-home.png"
+  },
+  {
+    "url": "https://sites.google.com/view/exodus-web3-w/home",
+    "brand": "exodus",
+    "attached_domain": null,
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/view/exodus-web3-w/home",
+    "live": true,
+    "title": "Exodus\u00ae Web3 Wallet | Exodus\u00ae Browser Extension",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "3966a49cdf0079f0",
+    "screenshot": "37_https---sites-google-com-view-exodus-web3-w-home.png"
+  },
+  {
+    "url": "https://sites.google.com/view/exoduss-webwallet/home",
+    "brand": "exodus",
+    "attached_domain": null,
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fview%2Fexoduss-webwallet%2Fhome&dsh=S219817196%3A1786311284562876&followup=https%3A%2F%2Fsites.google.com%2Fview%2Fexoduss-webwallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxtN7XpSW75MyOifH3wVtPR4b01O-fFnj4zSZUlNWV8fac0P8If83jYnNzDkbXzmB_GBzFM44A",
+    "live": false,
+    "title": "Sign in - Google Accounts",
+    "signals": [],
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fview%2Fexoduss-webwallet%2Fhome&dsh=S219817196%3A1786311284562876&followup=https%3A%2F%2Fsites.google.com%2Fview%2Fexoduss-webwallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxtN7XpSW75MyOifH3wVtPR4b01O-fFnj4zSZUlNWV8fac0P8If83jYnNzDkbXzmB_GBzFM44A"
+    ],
+    "payload_host": "accounts.google.com",
+    "dom_hash": "c76f5e8a856a807e",
+    "screenshot": "38_https---sites-google-com-view-exoduss-webwallet-ho.png"
+  },
+  {
+    "url": "https://sites.google.com/view/exodu-web3wallet-/home",
+    "brand": "?",
+    "attached_domain": null,
+    "source": "site:index",
+    "ranked_for": [],
+    "http": 200,
+    "final_url": "https://sites.google.com/view/exodu-web3wallet-/home",
+    "live": true,
+    "title": "Exodus Web3 Wallet Review 2026: Is Exodus Safe, \u2026",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "payload_frames": [],
+    "payload_host": null,
+    "dom_hash": "dfe0046684aa3bd8",
+    "screenshot": "39_https---sites-google-com-view-exodu-web3wallet--ho.png"
+  }
+]

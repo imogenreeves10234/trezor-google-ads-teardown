@@ -1,0 +1,110 @@
+{
+  "brand": "trezor",
+  "cc": "GB",
+  "query": "trezor suite",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "86.133.183.241",
+        "hostname": "host86-133-183-241.range86-133.btcentralplus.com",
+        "city": "Gainsborough",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.3833,-0.7667",
+        "org": "AS2856 British Telecommunications Limited",
+        "postal": "DN21",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "90.192.239.20",
+        "city": "Derby",
+        "region": "England",
+        "country": "GB",
+        "loc": "52.9228,-1.4766",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "DE1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "84.70.60.222",
+        "city": "Manchester",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.4809,-2.2374",
+        "org": "AS5378 Vodafone Limited",
+        "postal": "M1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 8,
+      "screenshot": "trezor_GB_trezor-suite.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Trezor Suite App (Official) | Desktop & Web Crypto ...",
+      "href": "https://trezor.io/trezor-suite?srsltid=AfmBOoq7N1-PrQv_jLXg7Eza0sCbCwGP_mYYAXDhOVmqcB7x7ohkokMi",
+      "displayed": "https://trezor.io \u203a trezor-suite"
+    },
+    {
+      "rank": 2,
+      "title": "How do I connect my Trezor to BTC Direct?",
+      "href": "https://trezor.io/?srsltid=AfmBOoqQ6IhsFoCsIQ1nrs0aEnOuqpUXzESGyU3I5xT0Eo9sJkrIyXy7",
+      "displayed": "https://btcdirect.eu \u203a en-eu \u203a trezor"
+    },
+    {
+      "rank": 3,
+      "title": "Trezor Suite App (Official) | Congrats on your new Trezor",
+      "href": "https://trezor.io/start?srsltid=AfmBOoq_3cmBI6CkqeI8jbEW4XFyJth7c96ryb6_u3XmopQOSoU1Lz55",
+      "displayed": "https://trezor.io \u203a start"
+    },
+    {
+      "rank": 4,
+      "title": "Trezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...",
+      "href": "https://trezor.io/?srsltid=AfmBOooD17U_HF8ML8O4Ikty64Sdg0yWBcWgur-erDzNL7a0lAg1j_KB",
+      "displayed": "https://trezor.io"
+    },
+    {
+      "rank": 5,
+      "title": "How to Set Up Trezor Suite to Manage Your Bitcoin on Your ...",
+      "href": "https://www.youtube.com/watch?v=e8GkYtmeGak",
+      "displayed": "19.9k+ views \u00b7 5 years ago"
+    },
+    {
+      "rank": 6,
+      "title": "Trezor Suite - App Store",
+      "href": "https://apps.apple.com/gb/app/trezor-suite/id1631884497",
+      "displayed": "https://apps.apple.com \u203a app \u203a trezor-suite"
+    },
+    {
+      "rank": 7,
+      "title": "Trezor Suite \u2013 Apps on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=io.trezor.suite&hl=en_GB",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=io.tr..."
+    },
+    {
+      "rank": 8,
+      "title": "Trezor: The Original Hardware Wallet",
+      "href": "https://www.reddit.com/r/TREZOR/",
+      "displayed": "82.1k+ followers"
+    }
+  ],
+  "phishing_hits": [],
+  "status": "CLEAN"
+}

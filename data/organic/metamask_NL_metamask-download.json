@@ -1,0 +1,90 @@
+{
+  "brand": "metamask",
+  "cc": "NL",
+  "query": "metamask download",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "212.187.104.50",
+        "hostname": "c104050.upc-c.chello.nl",
+        "city": "Helmond",
+        "region": "North Brabant",
+        "country": "NL",
+        "loc": "51.4817,5.6611",
+        "org": "AS33915 Vodafone Libertel B.V.",
+        "postal": "5701",
+        "timezone": "Europe/Amsterdam",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 10,
+      "screenshot": "metamask_NL_metamask-download.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Download MetaMask: The Premier Crypto Wallet App and ...",
+      "href": "https://metamask.io/download",
+      "displayed": "https://metamask.io \u203a download"
+    },
+    {
+      "rank": 2,
+      "title": "MetaMask - Chrome Web Store",
+      "href": "https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn",
+      "displayed": "https://chromewebstore.google.com \u203a ..."
+    },
+    {
+      "rank": 3,
+      "title": "MetaMask: Trade Crypto - Apps on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=io.metamask",
+      "displayed": "https://play.google.com \u203a details"
+    },
+    {
+      "rank": 4,
+      "title": "MetaMask Crypto Wallet. Buy and Sell Bitcoin, Ethereum ...",
+      "href": "https://metamask.io/",
+      "displayed": "https://metamask.io"
+    },
+    {
+      "rank": 5,
+      "title": "MetaMask: Trade Crypto - App Store - Apple",
+      "href": "https://apps.apple.com/us/app/metamask-trade-crypto/id1438144202",
+      "displayed": "https://apps.apple.com \u203a app \u203a m..."
+    },
+    {
+      "rank": 6,
+      "title": "MetaMask for Android - Download the APK from Uptodown",
+      "href": "https://metamask-crypto-wallet.en.uptodown.com/android",
+      "displayed": "https://metamask-crypto-wallet.en.uptodown.com \u203a ..."
+    },
+    {
+      "rank": 7,
+      "title": "How to install MetaMask",
+      "href": "https://support.metamask.io/start/getting-started-with-metamask/",
+      "displayed": "https://support.metamask.io \u203a start"
+    },
+    {
+      "rank": 8,
+      "title": "MetaMask: Trade Crypto - App Store - Apple",
+      "href": "https://apps.apple.com/us/app/metamask-trade-crypto/id1438144202#:~:text=MetaMask%20is%20the%20world's%20most,trades%20with%20complete%20self%2Dcustody.",
+      "displayed": "https://apps.apple.com \u203a app \u203a metamask-trade-crypto"
+    },
+    {
+      "rank": 9,
+      "title": "MetaMask - Download",
+      "href": "https://metamask.en.softonic.com/",
+      "displayed": "https://metamask.en.softonic.com"
+    },
+    {
+      "rank": 10,
+      "title": "The Premier Blockchain Wallet App and Browser Extension",
+      "href": "https://metamask.github.io/download/",
+      "displayed": "https://metamask.github.io \u203a dow..."
+    }
+  ],
+  "phishing_hits": [],
+  "status": "CLEAN"
+}

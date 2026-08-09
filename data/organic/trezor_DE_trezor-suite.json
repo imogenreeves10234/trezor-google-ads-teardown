@@ -1,0 +1,103 @@
+{
+  "brand": "trezor",
+  "cc": "DE",
+  "query": "trezor suite",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "79.203.3.74",
+        "hostname": "p4fcb034a.dip0.t-ipconnect.de",
+        "city": "Eisleben Lutherstadt",
+        "region": "Saxony-Anhalt",
+        "country": "DE",
+        "loc": "51.5275,11.5483",
+        "org": "AS3320 Deutsche Telekom AG",
+        "postal": "06291",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 10,
+      "screenshot": "trezor_DE_trezor-suite.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Trezor Suite App (Offiziell) | Desktop & Web Krypto- ...",
+      "href": "https://trezor.io/de/trezor-suite?srsltid=AfmBOopXeTrLrLYw-6VRIfWqMJFmT82oHzdb5rOGKhEshlkmXN7ijVkl",
+      "displayed": "https://trezor.io \u203a trezor-suite"
+    },
+    {
+      "rank": 2,
+      "title": "Trezor Suite App (Offiziell) | Gratulation zu deinem neuen ...",
+      "href": "https://trezor.io/de/trezor-suite?srsltid=AfmBOoqRReIl1k-6863VAhzteliOKmKOWbqKdEKplmOkGejkUkM-Wmbc",
+      "displayed": "https://trezor.io \u203a start"
+    },
+    {
+      "rank": 3,
+      "title": "Trezor Suite App (Offiziell) | Gratulation zu deinem neuen ...",
+      "href": "https://trezor.io/de/start?srsltid=AfmBOoqmqT1ZGhxZozAq2DD9RGGlpxNUV5rPf0yoOPxRz25MQ076P5LX",
+      "displayed": "https://trezor.io \u203a start"
+    },
+    {
+      "rank": 4,
+      "title": "Trezor Suite \u2013 Apps bei Google Play",
+      "href": "https://play.google.com/store/apps/details?id=io.trezor.suite&hl=de",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=io.tr..."
+    },
+    {
+      "rank": 5,
+      "title": "Trezor Suite - App Store",
+      "href": "https://apps.apple.com/us/app/trezor-suite/id1631884497",
+      "displayed": "https://apps.apple.com \u203a app \u203a tr..."
+    },
+    {
+      "rank": 6,
+      "title": "Bitcoin & Krypto-Sicherheit",
+      "href": "https://trezor.io/de?srsltid=AfmBOopugwjcaaKnm7IwNYQOuGD-OwrSD_M4zmYb7mwdKYcCTg4pzeb6",
+      "displayed": "https://trezor.io \u203a ..."
+    },
+    {
+      "rank": 7,
+      "title": "Download & verify Trezor Suite",
+      "href": "https://trezor.io/guides/trezor-suite/download-verify-trezor-suite?srsltid=AfmBOoqQ0pmzU6IfbwsCxf9oVw9NbdculoNI5e1oL9jpY7dnIRSvr4mZ",
+      "displayed": "https://trezor.io \u203a guides \u203a down..."
+    },
+    {
+      "rank": 8,
+      "title": "Trezor Suite (Official) | Download Trezor App \u2014 Desktop\u00ae",
+      "href": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+      "displayed": "https://sites.google.com \u203a trezors...",
+      "cc": "DE",
+      "query": "trezor suite",
+      "screenshot": "trezor_DE_trezor-suite.png"
+    },
+    {
+      "rank": 9,
+      "title": "Handel Kryptow\u00e4hrungen sicher mit der Trezor Suite.",
+      "href": "https://trezor.io/de/trade-features?srsltid=AfmBOop-sIbiAPzaGrtqVu8NKs4gLFC2qrfeKh-q_RdpTNHZfaCx-1MV",
+      "displayed": "https://trezor.io \u203a trade-features"
+    },
+    {
+      "rank": 10,
+      "title": "Trezor Suite - App Store - Apple",
+      "href": "https://apps.apple.com/de/app/trezor-suite/id1631884497",
+      "displayed": "https://apps.apple.com \u203a app \u203a trezor-suite"
+    }
+  ],
+  "phishing_hits": [
+    {
+      "rank": 8,
+      "title": "Trezor Suite (Official) | Download Trezor App \u2014 Desktop\u00ae",
+      "href": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+      "displayed": "https://sites.google.com \u203a trezors...",
+      "cc": "DE",
+      "query": "trezor suite",
+      "screenshot": "trezor_DE_trezor-suite.png"
+    }
+  ],
+  "status": "PHISHING_RANKS"
+}

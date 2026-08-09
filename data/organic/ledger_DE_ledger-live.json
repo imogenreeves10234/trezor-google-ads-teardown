@@ -1,0 +1,101 @@
+{
+  "brand": "ledger",
+  "cc": "DE",
+  "query": "ledger live",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "156.67.128.167",
+        "hostname": "167-128-067-156.ip-addr.inexio.net",
+        "city": "Mainz",
+        "region": "Rheinland-Pfalz",
+        "country": "DE",
+        "loc": "49.9819,8.2801",
+        "org": "AS42652 inexio Informationstechnologie und Telekommunikation Gmbh",
+        "postal": "55130",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "92.208.229.81",
+        "hostname": "ipservice-092-208-229-081.092.208.pools.vodafone-ip.de",
+        "city": "Stuttgart",
+        "region": "Baden-Wurttemberg",
+        "country": "DE",
+        "loc": "48.7823,9.1770",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "70173",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "77.0.208.125",
+        "hostname": "dynamic-077-000-208-125.77.0.pool.telefonica.de",
+        "city": "Hamburg",
+        "region": "Hamburg",
+        "country": "DE",
+        "loc": "53.5507,9.9930",
+        "org": "AS6805 Telefonica Germany GmbH & Co.OHG",
+        "postal": "20038",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 4,
+      "screenshot": "ledger_DE_ledger-live.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Ledger Wallet (vormals Ledger Live) \u2013 Krypto-App",
+      "href": "https://sites.google.com/kryptowallets.app/ledger-live-download-app/",
+      "displayed": "https://shop.ledger.com \u203a Home \u203a Pages",
+      "cc": "DE",
+      "query": "ledger live",
+      "screenshot": "ledger_DE_ledger-live.png"
+    },
+    {
+      "rank": 2,
+      "title": "Ledger Wallet\u2122-Krypto-App \u2013 Apps bei Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.ledger.live&hl=de",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=com..."
+    },
+    {
+      "rank": 3,
+      "title": "Ledger Wallet (vormals Ledger Live) \u2013 Krypto-App",
+      "href": "https://support.google.com/websearch?p=ai_overviews&hl=de",
+      "displayed": "https://shop.ledger.com \u203a Home \u203a Pages"
+    },
+    {
+      "rank": 4,
+      "title": "Ledger Live Crypto Wallet App",
+      "href": "https://www.ledger.com/ledger-live/?ref=blog.obsidian.systems",
+      "displayed": "https://www.ledger.com \u203a ledger-..."
+    }
+  ],
+  "phishing_hits": [
+    {
+      "rank": 1,
+      "title": "Ledger Wallet (vormals Ledger Live) \u2013 Krypto-App",
+      "href": "https://sites.google.com/kryptowallets.app/ledger-live-download-app/",
+      "displayed": "https://shop.ledger.com \u203a Home \u203a Pages",
+      "cc": "DE",
+      "query": "ledger live",
+      "screenshot": "ledger_DE_ledger-live.png"
+    }
+  ],
+  "status": "PHISHING_RANKS"
+}

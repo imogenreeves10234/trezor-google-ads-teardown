@@ -1,0 +1,111 @@
+{
+  "brand": "exodus",
+  "cc": "BR",
+  "query": "exodus wallet",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "45.185.219.65",
+        "hostname": "45-185-219-65-ipv4.mitastelecom.com.br",
+        "city": "Dourados",
+        "region": "Mato Grosso do Sul",
+        "country": "BR",
+        "loc": "-22.2211,-54.8056",
+        "org": "AS269394 Mitas - Internet Banda Larga Ltda",
+        "postal": "79800-000",
+        "timezone": "America/Campo_Grande",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "177.92.248.4",
+        "hostname": "177-92-248-4.migonet.com.br",
+        "city": "Clementina",
+        "region": "S\u00e3o Paulo",
+        "country": "BR",
+        "loc": "-21.5597,-50.4492",
+        "org": "AS263152 MIGO TELECOM",
+        "postal": "16250-000",
+        "timezone": "America/Sao_Paulo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "45.5.142.141",
+        "city": "Fortaleza",
+        "region": "Cear\u00e1",
+        "country": "BR",
+        "loc": "-3.7172,-38.5431",
+        "org": "AS269633 LINK CEARA TELECOM LTDA",
+        "postal": "60000-000",
+        "timezone": "America/Fortaleza",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 8,
+      "screenshot": "exodus_BR_exodus-wallet.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Exodus | Send Money, Manage Crypto, Spend Worldwide",
+      "href": "https://www.exodus.com/",
+      "displayed": "https://www.exodus.com"
+    },
+    {
+      "rank": 2,
+      "title": "How can I sell and withdraw Bitcoin and other crypto?",
+      "href": "https://www.kucoin.com/blog/is-exodus-wallet-safe",
+      "displayed": "https://support.exodus.com \u203a support \u203a articles \u203a 859863..."
+    },
+    {
+      "rank": 3,
+      "title": "Exodus: Wallet Cripto Bitcoin \u2013 Apps no ...",
+      "href": "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=pt_BR",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=exo..."
+    },
+    {
+      "rank": 4,
+      "title": "Exodus: Crypto & Payments - App Store - Apple",
+      "href": "https://apps.apple.com/us/app/exodus-crypto-payments/id1414384820",
+      "displayed": "https://apps.apple.com \u203a app \u203a e..."
+    },
+    {
+      "rank": 5,
+      "title": "Exodus Wallet",
+      "href": "https://en.wikipedia.org/wiki/Exodus_Wallet",
+      "displayed": "https://en.wikipedia.org \u203a wiki"
+    },
+    {
+      "rank": 6,
+      "title": "Exodus: Crypto & Payments - Apps on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=exodusmovement.exodus",
+      "displayed": "https://play.google.com \u203a details"
+    },
+    {
+      "rank": 7,
+      "title": "Como instalar EXODUS | Pr\u00f3s e Contras da Carteira de ...",
+      "href": "https://www.youtube.com/watch?v=AdD8RcYycPw",
+      "displayed": "Mais de 20,4\u00a0mil visualiza\u00e7\u00f5es \u00b7 h\u00e1 3 anos"
+    },
+    {
+      "rank": 8,
+      "title": "O que \u00e9 a Exodus Wallet?",
+      "href": "https://www.gate.com/pt-br/learn/articles/what-is-exodus-wallet/5655",
+      "displayed": "https://www.gate.com \u203a Gate \u203a Learn"
+    }
+  ],
+  "phishing_hits": [],
+  "status": "CLEAN"
+}

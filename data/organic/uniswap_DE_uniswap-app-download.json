@@ -1,0 +1,90 @@
+{
+  "brand": "uniswap",
+  "cc": "DE",
+  "query": "uniswap app download",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "92.217.11.226",
+        "hostname": "ipservice-092-217-011-226.092.217.pools.vodafone-ip.de",
+        "city": "Villingen-Schwenningen",
+        "region": "Baden-Wurttemberg",
+        "country": "DE",
+        "loc": "48.0623,8.4936",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "78048",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 10,
+      "screenshot": "uniswap_DE_uniswap-app-download.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Uniswap: Crypto & NFT Wallet - Apps on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.uniswap.mobile",
+      "displayed": "https://play.google.com \u203a details"
+    },
+    {
+      "rank": 2,
+      "title": "Uniswap Wallet | The Self-Custody DeFi Wallet",
+      "href": "https://wallet.uniswap.org/",
+      "displayed": "https://wallet.uniswap.org"
+    },
+    {
+      "rank": 3,
+      "title": "Uniswap: Crypto & NFT Wallet - App Store - Apple",
+      "href": "https://apps.apple.com/us/app/uniswap-crypto-nft-wallet/id6443944476",
+      "displayed": "https://apps.apple.com \u203a app \u203a u..."
+    },
+    {
+      "rank": 4,
+      "title": "Uniswap Interface",
+      "href": "https://app.uniswap.org/",
+      "displayed": "https://app.uniswap.org"
+    },
+    {
+      "rank": 5,
+      "title": "Android Apps von Uniswap by Uniswap Labs bei ...",
+      "href": "https://play.google.com/store/apps/dev?id=6184990697078640206&hl=gsw",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a dev"
+    },
+    {
+      "rank": 6,
+      "title": "Uniswap: Crypto & NFT Wallet \u2013 Apps on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=com.uniswap.mobile&hl=en_SG#:~:text=About%20this%20app&text=With%20Uniswap%20Wallet%2C%20you%20can,to%20web3%20apps%2C%20and%20more.",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=com..."
+    },
+    {
+      "rank": 7,
+      "title": "Uniswap Web App | Trade Crypto with the World's Leading DEX",
+      "href": "https://web.uniswap.org/",
+      "displayed": "https://web.uniswap.org"
+    },
+    {
+      "rank": 8,
+      "title": "Uniswap Wallet",
+      "href": "https://uniswap.org/app/wc",
+      "displayed": "https://uniswap.org \u203a app"
+    },
+    {
+      "rank": 9,
+      "title": "Uniswap (UNI) Wallet app download",
+      "href": "https://arcticwallet.io/assets/uni",
+      "displayed": "https://arcticwallet.io \u203a assets \u203a uni"
+    },
+    {
+      "rank": 10,
+      "title": "Uniswap on Android",
+      "href": "https://blog.uniswap.org/uniswap-wallet-android",
+      "displayed": "https://blog.uniswap.org \u203a uniswa..."
+    }
+  ],
+  "phishing_hits": [],
+  "status": "CLEAN"
+}

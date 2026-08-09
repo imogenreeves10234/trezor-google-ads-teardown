@@ -1,0 +1,72 @@
+{
+  "query": "site:sites.google.com ledger",
+  "cc": "GB",
+  "results": [
+    {
+      "href": "https://sites.google.com/view/ledgercomss/home",
+      "title": "Ledger.com/Start\u00ae | Getting started \u2014 Ledger Support",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/walletcryptoextension.com/ledger-wallet/",
+      "title": "Ledger Live| Download App | Official Site",
+      "attached_domain": "walletcryptoextension.com"
+    },
+    {
+      "href": "https://sites.google.com/ledgrliveus.com/ledger-live/home/",
+      "title": "Ledger Live: Login - Download Crypto Wallet App",
+      "attached_domain": "ledgrliveus.com"
+    },
+    {
+      "href": "https://sites.google.com/ledgerlive.cfd/ledger-wallet/",
+      "title": "Ledger hardware wallet | Official Site | Log In",
+      "attached_domain": "ledgerlive.cfd"
+    },
+    {
+      "href": "https://sites.google.com/homelazor.com/ledgerstart/home",
+      "title": "Ledger.com/start-Security for DeFi & Web3",
+      "attached_domain": "homelazor.com"
+    },
+    {
+      "href": "https://sites.google.com/ledgrliveus.com/ledgerlive/home/",
+      "title": "Ledger Live App Crypto Wallet",
+      "attached_domain": "ledgrliveus.com"
+    },
+    {
+      "href": "https://sites.google.com/view/0tuedisdorji",
+      "title": "Ledgers",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/ledger-long-in/home",
+      "title": "Ledger Wallet (Formerly Ledger Live) - Your Digital Asset ...",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/ledger-long-in/home#:~:text=Ledger%20Wallet%2C%20formerly%20known%20as,alongside%20compatible%20Ledger%20hardware%20devices.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/gettingstartedledger/home",
+      "title": "Ledger.com/Start\u00ae | Getting started \u2014 Ledger Support",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/gettingstartedledger/home#:~:text=Ledger.com%2FStart%20is%20the%20official%20setup,installing%20software%2C%20and%20managing%20cryptocurrencies.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/official-site-app/home",
+      "title": "Official Site | Ledger Live App \u2013 The Official Wallet*",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/official-site-app/home#:~:text=Ledger%20Live%20App%20is%20a,remain%20offline%20and%20fully%20protected.",
+      "title": null,
+      "attached_domain": null
+    }
+  ],
+  "status": "OK"
+}

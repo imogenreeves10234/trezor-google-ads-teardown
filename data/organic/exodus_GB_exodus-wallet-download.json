@@ -1,0 +1,200 @@
+{
+  "brand": "exodus",
+  "cc": "GB",
+  "query": "exodus wallet download",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "164.138.86.61",
+        "city": "Selby",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.7833,-1.0667",
+        "org": "AS57099 Quickline Communications Limited",
+        "postal": "YO8",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "82.30.19.201",
+        "hostname": "cpc104198-ipsw4-2-0-cust968.7-4.cable.virginm.net",
+        "city": "Ipswich",
+        "region": "England",
+        "country": "GB",
+        "loc": "52.0592,1.1555",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "IP1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "82.32.166.56",
+        "hostname": "croy-24-b2-v4wan-165594-cust1591.vm24.cable.virginm.net",
+        "city": "Purley",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.3368,-0.1120",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "CR8",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "82.9.78.88",
+        "hostname": "macc-04-b2-v4wan-167023-cust599.vm21.cable.virginm.net",
+        "city": "Macclesfield",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.2602,-2.1256",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "SK11",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 5,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "185.149.211.27",
+        "city": "Stoke-on-Trent",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.0042,-2.1854",
+        "org": "AS47638 Cadence Networks Ltd",
+        "postal": "ST4",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 6,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "92.16.32.132",
+        "hostname": "host-92-16-32-132.as13285.net",
+        "city": "Manchester",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.4809,-2.2374",
+        "org": "AS13285 TalkTalk Communications Limited",
+        "postal": "M1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 7,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "217.171.104.179",
+        "city": "Bath",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.3751,-2.3617",
+        "org": "AS43915 TrueSpeed Communications Limited",
+        "postal": "BA1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 8,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "82.33.51.200",
+        "hostname": "soli-07-b2-v4wan-165880-cust967.vm20.cable.virginm.net",
+        "city": "Edinburgh",
+        "region": "Scotland",
+        "country": "GB",
+        "loc": "55.9521,-3.1965",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "EH1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "organic_count": 9,
+      "screenshot": "exodus_GB_exodus-wallet-download.png"
+    }
+  ],
+  "organic": [
+    {
+      "rank": 1,
+      "title": "Exodus Crypto App Download",
+      "href": "https://www.exodus.com/download",
+      "displayed": "https://www.exodus.com \u203a download"
+    },
+    {
+      "rank": 2,
+      "title": "Exodus | Send Money, Manage Crypto, Spend Worldwide",
+      "href": "https://www.exodus.com/",
+      "displayed": "https://www.exodus.com"
+    },
+    {
+      "rank": 3,
+      "title": "Exodus: Crypto & Payments - App Store - Apple",
+      "href": "https://apps.apple.com/us/app/exodus-crypto-payments/id1414384820",
+      "displayed": "https://apps.apple.com \u203a app \u203a exodus-crypto-payments"
+    },
+    {
+      "rank": 4,
+      "title": "Secure Desktop Crypto Wallet for Windows, Mac & Linux",
+      "href": "https://www.exodus.com/desktop",
+      "displayed": "https://www.exodus.com \u203a desktop"
+    },
+    {
+      "rank": 5,
+      "title": "Exodus: Crypto & Payments - Apps on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a id=exo..."
+    },
+    {
+      "rank": 6,
+      "title": "Exodus: Crypto Bitcoin Wallet \u2013 Apps on ...",
+      "href": "https://play.google.com/store/apps/details/Exodus_Crypto_Bitcoin_Wallet?id=exodusmovement.exodus&hl=en_GB",
+      "displayed": "https://play.google.com \u203a store \u203a apps \u203a details \u203a Exodus..."
+    },
+    {
+      "rank": 7,
+      "title": "Multichain Web3 Wallet | Exodus Browser Extension",
+      "href": "https://www.exodus.com/web3-wallet",
+      "displayed": "https://www.exodus.com \u203a web3-wallet"
+    },
+    {
+      "rank": 8,
+      "title": "Exodus Web3 Wallet - Chrome Web Store",
+      "href": "https://chromewebstore.google.com/detail/exodus-web3-wallet/aholpfdialjgjfhomihkjbmgjidlcdno",
+      "displayed": "https://chromewebstore.google.com \u203a detail \u203a aholpfdia..."
+    },
+    {
+      "rank": 9,
+      "title": "Secure Crypto Wallet App for Mac OS | Exodus for M Series",
+      "href": "https://www.exodus.com/m-series",
+      "displayed": "https://www.exodus.com \u203a m-series"
+    }
+  ],
+  "phishing_hits": [],
+  "status": "CLEAN"
+}

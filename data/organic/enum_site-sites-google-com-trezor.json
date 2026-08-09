@@ -1,0 +1,77 @@
+{
+  "query": "site:sites.google.com trezor",
+  "cc": "GB",
+  "results": [
+    {
+      "href": "https://sites.google.com/trzrio.com/trezor-hardware-wallet/home",
+      "title": "Trezor Hardware Wallet (Official) | Bitcoin & Crypto Security",
+      "attached_domain": "trzrio.com"
+    },
+    {
+      "href": "https://sites.google.com/walletcryptoextension.com/trezor-wallet/home",
+      "title": "Trezor Hardware Wallet | Official Site",
+      "attached_domain": "walletcryptoextension.com"
+    },
+    {
+      "href": "https://sites.google.com/view/suiteapps-trezor/home",
+      "title": "Official Trezor\u2122 Suite \u2014 Desktop & Web App for Hardware ...",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+      "title": "Trezor Suite (Official) | Download Trezor App \u2014 Desktop\u00ae",
+      "attached_domain": "walletcryptohub.com"
+    },
+    {
+      "href": "https://sites.google.com/view/trezor-hardwnj/home",
+      "title": "Trezor Hardware Wallet Review \u2013 Safe 3, Safe 5, Model \u2026",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/trezor-hardwnj/home#:~:text=A%20Trezor%20Hardware%20Wallet%20is,sensitive%20information%20from%20internet%2Dconnected%20devices.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/walletcryptohub.com/trezoriostart/home/",
+      "title": "Trezor.io/start \u2013 The #1 Most Advanced Hardware Wallet",
+      "attached_domain": "walletcryptohub.com"
+    },
+    {
+      "href": "https://sites.google.com/walletcryptohub.com/trezorhardwarewallet/home",
+      "title": "Trezor Hardware Wallet (Official) | Starting\u2122 Up Your Device",
+      "attached_domain": "walletcryptohub.com"
+    },
+    {
+      "href": "https://sites.google.com/view/trezrsuiteapp/home",
+      "title": "\ud83d\udcbc Trezor Suite App \u2013 The Ultimate Companion for Your ...",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/trezrsuiteapp/home#:~:text=The%20Trezor%20Suite%20App%20is,your%20cryptocurrencies%20safely%20and%20intuitively.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/",
+      "title": "Trezor Hardware Wallet | Official WebSite",
+      "attached_domain": "wallcrypus.com"
+    },
+    {
+      "href": "https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/#:~:text=Logging%20into%20a%20Trezor%20wallet,wallet%20recovery%20and%20backup%20options.",
+      "title": null,
+      "attached_domain": "wallcrypus.com"
+    },
+    {
+      "href": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+      "title": "Trezor Hardware Wallet | The #1 Hardware Crypto Wallet",
+      "attached_domain": "trazor-start.com"
+    },
+    {
+      "href": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home#:~:text=It%20stores%20private%20keys%20offline,protection%20for%20their%20digital%20assets.",
+      "title": null,
+      "attached_domain": "trazor-start.com"
+    }
+  ],
+  "status": "OK"
+}

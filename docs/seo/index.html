@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>How crypto phishing pages reach Google's first page (Google Sites SEO teardown)</title>
+<style>
+:root{--bg:#0b0d10;--panel:#12161b;--line:#232a33;--ink:#e8edf3;--dim:#97a3b2;--accent:#4ade80;
+--after:#ef4444;--amber:#f59e0b;--link:#7dd3fc;--mono:ui-monospace,Menlo,Consolas,monospace;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+a{color:var(--link)}
+h1,h2,h3{line-height:1.15;letter-spacing:-.02em}
+header{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+.kicker{font:600 12px/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--amber)}
+h1{font-size:clamp(30px,5.5vw,52px);font-weight:800;margin:16px 0}
+.lede{font-size:clamp(17px,2.2vw,20px);color:var(--dim);max-width:70ch}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);
+border:1px solid var(--line);margin:34px 0 0}
+.stat{background:var(--panel);padding:16px 18px}
+.stat b{display:block;font:700 24px/1.1 var(--mono)} .stat span{font-size:12px;color:var(--dim)}
+.stat.red b{color:var(--after)}
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(22px,3.4vw,30px);font-weight:750;margin:0 0 8px}
+.sub{color:var(--dim);margin:0 0 22px;max-width:74ch}
+p{max-width:74ch} b.bad,.bad{color:var(--after)}
+ol.steps{counter-reset:s;list-style:none;padding:0}
+ol.steps>li{counter-increment:s;position:relative;padding:0 0 22px 56px;border-left:1px solid var(--line);margin-left:16px}
+ol.steps>li:last-child{border-left:1px solid transparent}
+ol.steps>li::before{content:counter(s);position:absolute;left:-16px;top:-3px;width:32px;height:32px;
+border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--amber);
+font:700 14px/32px var(--mono);text-align:center}
+ol.steps h3{font-size:17px;margin:0 0 6px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+.panel.flag{border-left:3px solid var(--after)} .panel.good{border-left:3px solid var(--accent)}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--dim)}
+.mono,code{font-family:var(--mono);font-size:12.5px;word-break:break-all}
+code{background:#1a1f26;padding:2px 6px;border-radius:4px;color:#cfe6ff}
+.muted{color:var(--dim)} .scroll{overflow-x:auto}
+.case{border:1px solid var(--line);border-radius:11px;margin:18px 0;overflow:hidden;background:var(--panel)}
+.rankbadge{background:#2a1114;color:#ffb4b4;font:700 12px/1.4 var(--mono);padding:8px 16px;border-bottom:1px solid var(--line)}
+.case .ct{padding:16px 18px}
+.case h3{font-size:16px;margin:0 0 10px}
+table.kv td{font-size:13px} table.kv td:first-child{color:var(--dim);width:150px;font-size:12px}
+.cs{border-top:1px solid var(--line);background:#fff}
+.cs img{width:100%;display:block}
+@media(min-width:760px){.case{display:grid;grid-template-columns:1fr 1fr;align-items:start}
+.rankbadge{grid-column:1/3} .cs{border-top:0;border-left:1px solid var(--line)}}
+footer{padding:40px 0 70px;color:var(--dim);font-size:13px}
+</style></head><body>
+
+<header><div class="wrap">
+  <div class="kicker">Companion teardown &middot; the SEO route</div>
+  <h1>How fake wallet pages reach Google's first page &mdash; without ads</h1>
+  <p class="lede">The paid ads have stopped. But the same crooks now get their fake Trezor, Ledger,
+  MetaMask, Phantom, Exodus, Coinbase and OKX pages onto Google's first page <b>for free</b>, by
+  hiding them inside <b>Google's own website, google.com</b>. Here is exactly how, which pages, and
+  who registered them.</p>
+  <div class="stats">
+    <div class="stat"><b>71</b><span>fake pages indexed on Google</span></div>
+    <div class="stat"><b>22</b><span>attacker domains behind them</span></div>
+    <div class="stat red"><b>#1</b><span>rank in Germany for &ldquo;ledger live&rdquo;</span></div>
+    <div class="stat red"><b>#3</b><span>rank in UK for &ldquo;trezor suite&rdquo;</span></div>
+  </div>
+</div></header>
+
+<section><div class="wrap">
+  <h2>The one-sentence answer</h2>
+  <p>They build the fake page on <b>Google Sites</b> (a free Google product), so the address starts
+  with <code>sites.google.com</code>. Google trusts its own domain, so these pages borrow that trust
+  and rank on page one &mdash; no ads, no real backlinks needed. This trick has a name:
+  <b>parasite SEO</b> (a scam page feeding off a trusted host's reputation).</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Why it works (plain version)</h2>
+  <p class="sub">Four things stack up. None of them is clever hacking &mdash; it's abuse of features
+  Google gives everyone.</p>
+  <ol class="steps">
+    <li><h3>google.com is the most trusted domain on earth</h3>
+      <p>Google's ranking heavily favours trusted domains. A page at
+      <code>sites.google.com/&hellip;</code> <b>is</b> on google.com, so it starts with a huge trust
+      advantage over any new scam domain the crook could register.</p></li>
+    <li><h3>They bolt a look-alike domain onto it</h3>
+      <p>Using a Google Workspace account with a <i>verified</i> domain, the page's address becomes
+      <code>sites.google.com/<b>walletcryptohub.com</b>/trezorsuite</code>. Now the URL carries
+      <b>both</b> google.com <b>and</b> a wallet-sounding word. Google's own domain verification
+      becomes part of the disguise.</p></li>
+    <li><h3>The page is stuffed with the exact words people search</h3>
+      <p>Titles like &ldquo;Trezor Suite (Official) | Download Trezor App&rdquo; and
+      &ldquo;Ledger Live Download | Official Website&rdquo; match what victims type. The body repeats
+      &ldquo;download&rdquo;, &ldquo;official&rdquo;, &ldquo;login&rdquo;, &ldquo;recovery phrase&rdquo;.</p></li>
+    <li><h3>They run a whole network of these pages</h3>
+      <p>We found <b>71</b> of them across <b>22</b> domains. They interlink and
+      reinforce each other. When Google removes one, the next is already indexed.</p></li>
+  </ol>
+  <div class="panel">
+    <p style="margin:0"><b>About backlinks:</b> we looked &mdash; these pages have <b>almost no
+    outside backlinks</b>. They don't need them. The whole point of parasite SEO is that the
+    google.com host supplies the authority that backlinks normally would. The &ldquo;link building&rdquo;
+    here is just the network of Google Sites pages pointing at each other.</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Is the back end the same as the ad pages?</h2>
+  <div class="panel flag">
+    <p style="margin-top:0"><b>No. They are two different set-ups.</b></p>
+    <p style="margin-bottom:0"><b>The ad pages</b> (the ones people paid to reach months ago) were a
+    thin Google Sites shell that loaded the real theft page from a <i>second</i> server in a hidden
+    frame &mdash; Firebase (<code>ksf-webapp-080826.web.app</code>), Google Cloud Storage, or a
+    throwaway domain. <b>These SEO pages</b> mostly put the theft <b>directly on the Google Sites
+    page itself</b>: 20 of the ones we opened ask for the
+    recovery phrase or private key right there, or show a fake &ldquo;ledger.com &mdash; verify you
+    are human&rdquo; box before the theft screen. Different domains, different registrars, different
+    kits &mdash; <b>not one shared back end.</b></p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Where the money is asked for</h2>
+  <p class="sub">All of these end the same way: get you to type your <b>12/24-word recovery phrase</b>
+  or &ldquo;connect&rdquo; the wallet. That hands over full control. A real wallet never asks for the
+  phrase on a website.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>The pages (URL &middot; domain &middot; registration &middot; screenshot)</h2>
+  <p class="sub">A representative page per attacker domain. The first two are confirmed ranking on
+  page one for real searches; the rest are indexed and live. Full list of 71 in the data file.</p>
+  <div class="case">
+      <div class="rankbadge">Seen ranking: trezor suite download #3 (GB), trezor suite #8 (DE)</div>
+      <div class="ct">
+        <h3>Trezor &mdash; Trezor Suite (Official) | Download Trezor App — Desktop®</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/walletcryptohub.com/trezorsuite/home" target="_blank">https://sites.google.com/walletcryptohub.com/trezorsuite/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">walletcryptohub.com</td></tr><tr><td>Registered</td><td>2025-12-20 &middot; BigRock Solutions Ltd &middot; <b>India</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">private key, passphrase</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/walletcryptohub-com-trezorsuite-home.jpg" target="_blank"><img src="shots/walletcryptohub-com-trezorsuite-home.jpg" loading="lazy" alt="Phishing page for trezor"></a></div>
+    </div><div class="case">
+      <div class="rankbadge">Seen ranking: ledger live #1 (DE)</div>
+      <div class="ct">
+        <h3>Ledger &mdash; Ledger Live Download | App &amp; Erweiterung (Offizielle Website)</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/kryptowallets.app/ledger-live-download-app/" target="_blank">https://sites.google.com/kryptowallets.app/ledger-live-download-app/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">kryptowallets.app</td></tr><tr><td>Registered</td><td>2026-03-05 &middot; NICENIC INTERNATIONAL GROUP CO., LIMITED &middot; <b>Hong Kong</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, seed phrase, connect wallet</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/kryptowallets-app-ledger-live-download-app-.jpg" target="_blank"><img src="shots/kryptowallets-app-ledger-live-download-app-.jpg" loading="lazy" alt="Phishing page for ledger"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>? &mdash; Exodus Web3 Wallet | Trusted Web3 Wallet for Everyone</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/willet-suits.com/xodus-wolt/home" target="_blank">https://sites.google.com/willet-suits.com/xodus-wolt/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">willet-suits.com</td></tr><tr><td>Registered</td><td>unknown</td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/willet-suits-com-xodus-wolt-home.jpg" target="_blank"><img src="shots/willet-suits-com-xodus-wolt-home.jpg" loading="lazy" alt="Phishing page for ?"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Exodus &mdash; Exodus Crypto App Download | Official Site</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/cryptowalletuk.com/exodus-crypto-app/" target="_blank">https://sites.google.com/cryptowalletuk.com/exodus-crypto-app/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">cryptowalletuk.com</td></tr><tr><td>Registered</td><td>2025-08-11 &middot; Paknic (Private) Limited &middot; <b>Pakistan</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, seed phrase, private key, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/cryptowalletuk-com-exodus-crypto-app-.jpg" target="_blank"><img src="shots/cryptowalletuk-com-exodus-crypto-app-.jpg" loading="lazy" alt="Phishing page for exodus"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Ledger &mdash; Ledger Live| Download App | Official Site</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/walletcryptoextension.com/ledger-wallet/" target="_blank">https://sites.google.com/walletcryptoextension.com/ledger-wallet/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">walletcryptoextension.com</td></tr><tr><td>Registered</td><td>2025-08-03 &middot; Web Commerce Communications Limited dba WebNic.cc &middot; <b>Malaysia</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, seed phrase, private key, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/walletcryptoextension-com-ledger-wallet-.jpg" target="_blank"><img src="shots/walletcryptoextension-com-ledger-wallet-.jpg" loading="lazy" alt="Phishing page for ledger"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Ledger &mdash; Ledger Live: Login - Download Crypto Wallet App | Ledger®</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/ledgrliveus.com/ledger-live/home/" target="_blank">https://sites.google.com/ledgrliveus.com/ledger-live/home/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">ledgrliveus.com</td></tr><tr><td>Registered</td><td>2026-01-14 &middot; BigRock Solutions Ltd &middot; <b>India</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key, 24 word</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/ledgrliveus-com-ledger-live-home-.jpg" target="_blank"><img src="shots/ledgrliveus-com-ledger-live-home-.jpg" loading="lazy" alt="Phishing page for ledger"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Ledger &mdash; Ledger hardware wallet | Official Site | Log In</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/ledgerlive.cfd/ledger-wallet/" target="_blank">https://sites.google.com/ledgerlive.cfd/ledger-wallet/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">ledgerlive.cfd</td></tr><tr><td>Registered</td><td>2025-12-26 &middot; Global Domain Group LLC &middot; <b>USA</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/ledgerlive-cfd-ledger-wallet-.jpg" target="_blank"><img src="shots/ledgerlive-cfd-ledger-wallet-.jpg" loading="lazy" alt="Phishing page for ledger"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Ledger &mdash; Ledger.com/start-Security for DeFi &amp; Web3</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/homelazor.com/ledgerstart/home" target="_blank">https://sites.google.com/homelazor.com/ledgerstart/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">homelazor.com</td></tr><tr><td>Registered</td><td>2026-04-09 &middot; HOSTINGER operations, UAB &middot; <b>Lithuania</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">private key</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/homelazor-com-ledgerstart-home.jpg" target="_blank"><img src="shots/homelazor-com-ledgerstart-home.jpg" loading="lazy" alt="Phishing page for ledger"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Metamask &mdash; MetaMask Wallet Extension - Official Website</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/metamaslogi.com/metamaskextension/home" target="_blank">https://sites.google.com/metamaslogi.com/metamaskextension/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">metamaslogi.com</td></tr><tr><td>Registered</td><td>2026-07-07 &middot; Squarespace Domains LLC &middot; <b>USA</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">private key, connect wallet</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/metamaslogi-com-metamaskextension-home.jpg" target="_blank"><img src="shots/metamaslogi-com-metamaskextension-home.jpg" loading="lazy" alt="Phishing page for metamask"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Metamask &mdash; Setting Up Metamask Extension for Chrome | Crypto Wallet Guides</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/crptoguide.com/metamaskwalletextension/home" target="_blank">https://sites.google.com/crptoguide.com/metamaskwalletextension/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">crptoguide.com</td></tr><tr><td>Registered</td><td>2026-01-05 &middot; NameCheap, Inc. &middot; <b>USA</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">seed phrase, private key, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/crptoguide-com-metamaskwalletextension-home.jpg" target="_blank"><img src="shots/crptoguide-com-metamaskwalletextension-home.jpg" loading="lazy" alt="Phishing page for metamask"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Okx &mdash; OKX Wallet | Download Extension | Crypto &amp; NFT Wallet</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/okx-wallet-extension.com/okx-wallet-extension/" target="_blank">https://sites.google.com/okx-wallet-extension.com/okx-wallet-extension/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">okx-wallet-extension.com</td></tr><tr><td>Registered</td><td>2025-08-03 &middot; Web Commerce Communications Limited dba WebNic.cc &middot; <b>Malaysia</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">private key</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/okx-wallet-extension-com-okx-wallet-extension-.jpg" target="_blank"><img src="shots/okx-wallet-extension-com-okx-wallet-extension-.jpg" loading="lazy" alt="Phishing page for okx"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Okx &mdash; OKX Wallet | Download Extension | Crypto DeFi &amp; Multi-Chain</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/web3walletapp.com/okx-wallet-extension/home" target="_blank">https://sites.google.com/web3walletapp.com/okx-wallet-extension/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">web3walletapp.com</td></tr><tr><td>Registered</td><td>2025-12-31 &middot; BigRock Solutions Ltd &middot; <b>India</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key, connect wallet</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/web3walletapp-com-okx-wallet-extension-home.jpg" target="_blank"><img src="shots/web3walletapp-com-okx-wallet-extension-home.jpg" loading="lazy" alt="Phishing page for okx"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Okx &mdash; Sign-in | OKX Login (Official Site)</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/cryptowalletextensionus.com/okx-login-web/" target="_blank">https://sites.google.com/cryptowalletextensionus.com/okx-login-web/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">cryptowalletextensionus.com</td></tr><tr><td>Registered</td><td>2025-12-24 &middot; MAT BAO CORPORATION &middot; <b>Vietnam</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">seed phrase, private key, passphrase, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/cryptowalletextensionus-com-okx-login-web-.jpg" target="_blank"><img src="shots/cryptowalletextensionus-com-okx-login-web-.jpg" loading="lazy" alt="Phishing page for okx"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Trezor &mdash; Trezor Wallet Login - Trezor Hardware Wallet | Official WebSite</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/" target="_blank">https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">wallcrypus.com</td></tr><tr><td>Registered</td><td>unknown</td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, seed phrase, private key, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/wallcrypus-com-trezorwalletlogin-home-.jpg" target="_blank"><img src="shots/wallcrypus-com-trezorwalletlogin-home-.jpg" loading="lazy" alt="Phishing page for trezor"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Trezor &mdash; Trezor Hardware Wallet | The #1 Hardware Crypto Wallet</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/trazor-start.com/trezorhardware-wallet/home" target="_blank">https://sites.google.com/trazor-start.com/trezorhardware-wallet/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">trazor-start.com</td></tr><tr><td>Registered</td><td>2026-01-12 &middot; Internet Domain Service BS Corp &middot; <b>Bahamas</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">private key, 24 word</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/trazor-start-com-trezorhardware-wallet-home.jpg" target="_blank"><img src="shots/trazor-start-com-trezorhardware-wallet-home.jpg" loading="lazy" alt="Phishing page for trezor"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Phantom &mdash; Phantom Wallet | Extension Download | Official Site</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/phantom-extension.app/phantom-extension/home" target="_blank">https://sites.google.com/phantom-extension.app/phantom-extension/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">phantom-extension.app</td></tr><tr><td>Registered</td><td>2025-05-27 &middot; Hosting Concepts B.V. d/b/a Registrar.eu &middot; <b>Netherlands</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">connect wallet</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/phantom-extension-app-phantom-extension-home.jpg" target="_blank"><img src="shots/phantom-extension-app-phantom-extension-home.jpg" loading="lazy" alt="Phishing page for phantom"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Phantom &mdash; Phantom Wallet | Extension Download | Official Site</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/phantom-solana-wallet.com/phantom-wallet" target="_blank">https://sites.google.com/phantom-solana-wallet.com/phantom-wallet</a></td></tr>
+          <tr><td>Attached domain</td><td class="mono">phantom-solana-wallet.com</td></tr><tr><td>Registered</td><td>2025-08-03 &middot; Web Commerce Communications Limited dba WebNic.cc &middot; <b>Malaysia</b></td></tr>
+          <tr><td>Asks victim for</td><td class="bad">seed phrase, private key</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/phantom-solana-wallet-com-phantom-wallet.jpg" target="_blank"><img src="shots/phantom-solana-wallet-com-phantom-wallet.jpg" loading="lazy" alt="Phishing page for phantom"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Exodus &mdash; Exodus Wallet™ – Web3 Control</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/view/exoduswallr/home" target="_blank">https://sites.google.com/view/exoduswallr/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="muted">none &mdash; anonymous <code>/view/</code> page (free, no domain)</td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/view-exoduswallr-home.jpg" target="_blank"><img src="shots/view-exoduswallr-home.jpg" loading="lazy" alt="Phishing page for exodus"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Exodus &mdash; Exodus® Web3 Wallet | Exodus® Browser Extension</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/view/web-exodus-ext/home" target="_blank">https://sites.google.com/view/web-exodus-ext/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="muted">none &mdash; anonymous <code>/view/</code> page (free, no domain)</td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key, restore</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/view-web-exodus-ext-home.jpg" target="_blank"><img src="shots/view-web-exodus-ext-home.jpg" loading="lazy" alt="Phishing page for exodus"></a></div>
+    </div><div class="case">
+      
+      <div class="ct">
+        <h3>Exodus &mdash; Exodus® Web3 Wallet | Exodus® Browser Extension</h3>
+        <table class="kv">
+          <tr><td>Live URL</td><td class="mono"><a href="https://sites.google.com/view/exodus-web3-w/home" target="_blank">https://sites.google.com/view/exodus-web3-w/home</a></td></tr>
+          <tr><td>Attached domain</td><td class="muted">none &mdash; anonymous <code>/view/</code> page (free, no domain)</td></tr>
+          <tr><td>Asks victim for</td><td class="bad">recovery phrase, private key</td></tr>
+          <tr><td>Status</td><td><b class=bad>live</b></td></tr>
+        </table>
+      </div>
+      <div class=cs><a href="shots/view-exodus-web3-w-home.jpg" target="_blank"><img src="shots/view-exodus-web3-w-home.jpg" loading="lazy" alt="Phishing page for exodus"></a></div>
+    </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Every attacker domain, and where it was registered</h2>
+  <div class="scroll"><table>
+    <tr><th>Domain</th><th>Registered</th><th>Registrar</th><th>Registrar country</th></tr>
+    <tr><td class="mono">walletcryptohub.com</td><td>2025-12-20</td><td>BigRock Solutions Ltd</td><td>India</td></tr>
+<tr><td class="mono">kryptowallets.app</td><td>2026-03-05</td><td>NICENIC INTERNATIONAL GROUP CO., LIMITED</td><td>Hong Kong</td></tr>
+<tr><td class="mono">willet-suits.com</td><td>?</td><td>?</td><td></td></tr>
+<tr><td class="mono">cryptowalletuk.com</td><td>2025-08-11</td><td>Paknic (Private) Limited</td><td>Pakistan</td></tr>
+<tr><td class="mono">walletcryptoextension.com</td><td>2025-08-03</td><td>Web Commerce Communications Limited dba WebNic.cc</td><td>Malaysia</td></tr>
+<tr><td class="mono">ledgrliveus.com</td><td>2026-01-14</td><td>BigRock Solutions Ltd</td><td>India</td></tr>
+<tr><td class="mono">ledgerlive.cfd</td><td>2025-12-26</td><td>Global Domain Group LLC</td><td>USA</td></tr>
+<tr><td class="mono">homelazor.com</td><td>2026-04-09</td><td>HOSTINGER operations, UAB</td><td>Lithuania</td></tr>
+<tr><td class="mono">metamaslogi.com</td><td>2026-07-07</td><td>Squarespace Domains LLC</td><td>USA</td></tr>
+<tr><td class="mono">crptoguide.com</td><td>2026-01-05</td><td>NameCheap, Inc.</td><td>USA</td></tr>
+<tr><td class="mono">okx-wallet-extension.com</td><td>2025-08-03</td><td>Web Commerce Communications Limited dba WebNic.cc</td><td>Malaysia</td></tr>
+<tr><td class="mono">web3walletapp.com</td><td>2025-12-31</td><td>BigRock Solutions Ltd</td><td>India</td></tr>
+<tr><td class="mono">cryptowalletextensionus.com</td><td>2025-12-24</td><td>MAT BAO CORPORATION</td><td>Vietnam</td></tr>
+<tr><td class="mono">wallcrypus.com</td><td>?</td><td>?</td><td></td></tr>
+<tr><td class="mono">trazor-start.com</td><td>2026-01-12</td><td>Internet Domain Service BS Corp</td><td>Bahamas</td></tr>
+<tr><td class="mono">phantom-extension.app</td><td>2025-05-27</td><td>Hosting Concepts B.V. d/b/a Registrar.eu</td><td>Netherlands</td></tr>
+<tr><td class="mono">phantom-solana-wallet.com</td><td>2025-08-03</td><td>Web Commerce Communications Limited dba WebNic.cc</td><td>Malaysia</td></tr>
+  </table></div>
+  <p class="small muted">Clear clusters: several were registered on the <b>same day (3 Aug 2025)</b>
+  through the same Malaysian registrar (WebNic) &mdash; one operator batch. Another cluster runs
+  through <b>BigRock (India)</b>, another through <b>NICENIC (Hong Kong)</b>.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>How to get them taken down</h2>
+  <ol>
+    <li><b>Google Sites abuse:</b> <a href="https://support.google.com/sites/answer/1651998">support.google.com/sites/answer/1651998</a> &mdash; report the <code>sites.google.com/&hellip;</code> URL.</li>
+    <li><b>Google Safe Browsing:</b> <a href="https://safebrowsing.google.com/safebrowsing/report_phish/">report the phishing URL</a> (flags it in Chrome/Firefox/Safari).</li>
+    <li><b>The look-alike domain:</b> report to its registrar's abuse desk (listed above) and to the impersonated brand.</li>
+    <li><b>The brands</b> (Trezor, Ledger, etc.) run their own takedown desks &mdash; send them the list.</li>
+  </ol>
+  <p class="small muted">The full machine-readable list of all 71 URLs and 22 domains
+  is in <code>data/ranking_pages.json</code> / <code>data/ranking_rdap.json</code> in the repository.</p>
+</div></section>
+
+<footer><div class="wrap">
+  Built 09 August 2026 &middot; defensive research, noindex &middot;
+  companion to the <a href="../">main teardown</a> &middot; every URL, domain and date verified live.
+</div></footer>
+</body></html>

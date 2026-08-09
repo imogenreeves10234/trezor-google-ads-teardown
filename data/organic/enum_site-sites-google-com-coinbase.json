@@ -1,0 +1,87 @@
+{
+  "query": "site:sites.google.com coinbase",
+  "cc": "GB",
+  "results": [
+    {
+      "href": "https://sites.google.com/view/coinbase-getting/home",
+      "title": "Coinbase Extension\u00ae \u2014 Getting Started | Coinbase Wallet\u00ae",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/coinbase-getting/home#:~:text=The%20Coinbase%20Wallet%20browser%20extension,directly%20from%20your%20Chrome%20browser.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/portal-coinbase/home",
+      "title": "Coinbase Extension\u00ae \u2014 Getting Started",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/portal-coinbase/home#:~:text=The%20Coinbase%20Extension%20allows%20users,assets%20from%20a%20browser%20interface.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/completeandsimpledoescoinbasew/home",
+      "title": "(Complete and Simple)Does Coinbase work 24 hours 24 7 ...",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/decentralised-news/home/coinbase-review-2026",
+      "title": "Decentralised News - Coinbase Review 2026",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/decentralised-news/home/coinbase-review-2026#:~:text=Coinbase%20is%20a%20centralized%20cryptocurrency,transparent%20operations%2C%20and%20institutional%2Dgrade%20infrastructure.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/coinbasepo/home",
+      "title": "Coinbase Pro\u00ae | Digital Asset Exchange\u00ae\u00ae\u00ae",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/coinbaseextensi/home",
+      "title": "Coinbase Extension \u2013 Secure Crypto Access in Your Browser",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/coinbaseextensi/home#:~:text=The%20Coinbase%20Extension%20supports%20NFTs%2C,How%20to%20Install%20Coinbase%20Extension",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/wallcrypus.com/coinbase-pro-login/home",
+      "title": "Coinbase Pro Login - Accessing the Global Wallet Platform",
+      "attached_domain": "wallcrypus.com"
+    },
+    {
+      "href": "https://sites.google.com/view/extensions-coinbase-/home",
+      "title": "Coinbase Chrome Extension\u00ae | Getting Started",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/getstarted-coinbase/home",
+      "title": "Coinbase Extension\u00ae \u2014 Getting Started | Coinbase Wallet\u00ae",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/getstarted-coinbase/home#:~:text=The%20Coinbase%20Wallet%20Extension%20is,explore%20the%20expanding%20Web3%20ecosystem.",
+      "title": null,
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/coinbase-portal/home",
+      "title": "Coinbase Pro\u00ae | Digital Asset Exchange\u00ae",
+      "attached_domain": null
+    },
+    {
+      "href": "https://sites.google.com/view/coinbase-portal/home#:~:text=Coinbase%20Pro%20was%20a%20professional,beyond%20simple%20buying%20and%20selling.",
+      "title": null,
+      "attached_domain": null
+    }
+  ],
+  "status": "OK"
+}

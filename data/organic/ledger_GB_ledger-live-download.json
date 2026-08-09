@@ -1,0 +1,144 @@
+{
+  "brand": "ledger",
+  "cc": "GB",
+  "query": "ledger live download",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "89.241.219.72",
+        "hostname": "host-89-241-219-72.as13285.net",
+        "city": "Woking",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.3190,-0.5589",
+        "org": "AS13285 TalkTalk Communications Limited",
+        "postal": "GU22",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "82.10.134.118",
+        "hostname": "nrth-01-b2-v4wan-172887-cust629.vm17.cable.virginm.net",
+        "city": "Wellingborough",
+        "region": "England",
+        "country": "GB",
+        "loc": "52.3027,-0.6945",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "NN8",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "92.234.166.175",
+        "hostname": "shef-16-b2-v4wan-169443-cust1710.vm3.cable.virginm.net",
+        "city": "Sheffield",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.3830,-1.4659",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "S1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "no-results"
+    },
+    {
+      "attempt": 4,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "94.11.3.69",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5085,-0.1257",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "WC2N",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 5,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "5.67.220.198",
+        "hostname": "0543dcc6.skybroadband.com",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5085,-0.1257",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "WC2N",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 6,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "90.212.81.238",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5085,-0.1257",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "WC2N",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 7,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "82.1.23.240",
+        "hostname": "oxfd-27-b2-v4wan-171535-cust495.vm42.cable.virginm.net",
+        "city": "Abingdon",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.6711,-1.2828",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "OX14",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 8,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "5.69.97.50",
+        "hostname": "05456132.skybroadband.com",
+        "city": "Glasgow",
+        "region": "Scotland",
+        "country": "GB",
+        "loc": "55.8651,-4.2576",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "G1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "organic": [],
+  "phishing_hits": [],
+  "status": "BLOCKED"
+}

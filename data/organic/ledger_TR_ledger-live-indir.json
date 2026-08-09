@@ -1,0 +1,143 @@
+{
+  "brand": "ledger",
+  "cc": "TR",
+  "query": "ledger live indir",
+  "attempts": [
+    {
+      "attempt": 1,
+      "device": "win11-chrome-1080",
+      "exit": {
+        "ip": "178.233.71.77",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "78.169.42.34",
+        "hostname": "78.169.42.34.dynamic.ttnet.com.tr",
+        "city": "Cizre",
+        "region": "\u015e\u0131rnak",
+        "country": "TR",
+        "loc": "37.3302,42.1848",
+        "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+        "postal": "73200",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "78.185.32.9",
+        "hostname": "78.185.32.9.dynamic.ttnet.com.tr",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "31.223.99.245",
+        "hostname": "245.99.223.31.srv.turk.net",
+        "city": "\u0130zmir",
+        "region": "\u0130zmir Province",
+        "country": "TR",
+        "loc": "38.4127,27.1384",
+        "org": "AS12735 TurkNet Iletisim Hizmetleri A.S.",
+        "postal": "35210",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 5,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "88.236.240.27",
+        "hostname": "88.236.240.27.dynamic.ttnet.com.tr",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 6,
+      "device": "mac-chrome",
+      "exit": {
+        "ip": "149.86.137.232",
+        "city": "Sel\u00e7uklu",
+        "region": "Konya",
+        "country": "TR",
+        "loc": "37.8842,32.4922",
+        "org": "AS208972 GIBIRNET ILETISIM HIZMETLERI SANAYI VE TICARET LIMITED SIRKETI",
+        "postal": "42090",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 7,
+      "device": "win11-chrome-1440",
+      "exit": {
+        "ip": "85.106.138.198",
+        "hostname": "85.106.138.198.dynamic.ttnet.com.tr",
+        "city": "Adana",
+        "region": "Adana",
+        "country": "TR",
+        "loc": "36.9862,35.3253",
+        "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+        "postal": "01200",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 8,
+      "device": "win10-chrome-laptop",
+      "exit": {
+        "ip": "5.27.39.58",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS16135 Turkcell A.S.",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "organic": [],
+  "phishing_hits": [],
+  "status": "BLOCKED"
+}
