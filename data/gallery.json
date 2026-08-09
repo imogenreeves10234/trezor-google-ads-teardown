@@ -1,0 +1,167 @@
+[
+  {
+    "url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login/",
+    "title": "Uniswap Login | Offizielle Website f\u00fcr Swaps",
+    "key": "kryptowallets-app-uniswap-dex-login",
+    "shot": "assets/live/kryptowallets-app-uniswap-dex-login.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "asks for the recovery phrase in the page itself",
+    "payload": null,
+    "payload_state": null
+  },
+  {
+    "url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+    "title": "Leder Live | Ledger Live App Crypto Wallet - Official\u00ae Site\u00ae",
+    "key": "ledgerstart-web-com-ledger-live-home",
+    "shot": "assets/live/ledgerstart-web-com-ledger-live-home.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "asks for the recovery phrase in the page itself",
+    "payload": null,
+    "payload_state": null
+  },
+  {
+    "url": "https://sites.google.com/net7.net/coinbase/home",
+    "title": "home",
+    "key": "net7-net-coinbase-home",
+    "shot": "assets/live/net7-net-coinbase-home.jpg",
+    "shots_total": 10,
+    "kind": "BRAND PAGE",
+    "note": "impersonating content, no harvesting seen at capture time",
+    "payload": null,
+    "payload_state": null
+  },
+  {
+    "url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+    "title": "uniswap",
+    "key": "preloadcomubx-com-nsdh232-uniswap",
+    "shot": "assets/live/preloadcomubx-com-nsdh232-uniswap.jpg",
+    "shots_total": 10,
+    "kind": "BROKEN SHELL",
+    "note": "live page, but its payload host is dead",
+    "payload": "https://multichain-swap-interface-v4.co",
+    "payload_state": "CF_521_ORIGIN_DOWN"
+  },
+  {
+    "url": "https://sites.google.com/view/app-ledger-com/home",
+    "title": "Ledger.com",
+    "key": "view-app-ledger-com-home",
+    "shot": "assets/live/view-app-ledger-com-home.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "loads a live harvesting payload in an iframe",
+    "payload": "https://japanesetoenailfunguscode.com/ledger1/v5.html",
+    "payload_state": "LIVE"
+  },
+  {
+    "url": "https://sites.google.com/view/app-ledger-wallet",
+    "title": "Ledger",
+    "key": "view-app-ledger-wallet",
+    "shot": "assets/live/view-app-ledger-wallet.jpg",
+    "shots_total": 10,
+    "kind": "BROKEN SHELL",
+    "note": "live page, but its payload host is dead",
+    "payload": "https://storage.googleapis.com/ledg-leg1-20860/index.html",
+    "payload_state": "404"
+  },
+  {
+    "url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap",
+    "title": "uniswap",
+    "key": "view-app-uniswap-dashbroad-uniswap",
+    "shot": "assets/live/view-app-uniswap-dashbroad-uniswap.jpg",
+    "shots_total": 10,
+    "kind": "BROKEN SHELL",
+    "note": "live page, but its payload host is dead",
+    "payload": "https://storage.googleapis.com/app-uni-sww/index.html",
+    "payload_state": "404"
+  },
+  {
+    "url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/",
+    "title": "\u30e1\u30bf\u30de\u30b9\u30af\u62e1\u5f35\u6a5f\u80fd\u306e\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u4eca\u3059\u3050\u5229\u7528\u3092\u958b\u59cb\u3057\u3088\u3046\u306f\u3053\u3061\u3089",
+    "key": "view-dplhzjdquwbtktmp-metamask-ja-jp",
+    "shot": "assets/live/view-dplhzjdquwbtktmp-metamask-ja-jp.jpg",
+    "shots_total": 10,
+    "kind": "BRAND PAGE",
+    "note": "impersonating content, no harvesting seen at capture time",
+    "payload": null,
+    "payload_state": null
+  },
+  {
+    "url": "https://sites.google.com/view/exodus-web3wallet-/home",
+    "title": "Exodus\u00ae Web3 Wallet | Exodus\u00ae Browser Extension",
+    "key": "view-exodus-web3wallet-home",
+    "shot": "assets/live/view-exodus-web3wallet-home.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "asks for the recovery phrase in the page itself",
+    "payload": null,
+    "payload_state": null
+  },
+  {
+    "url": "https://sites.google.com/view/exodus-wlt/home",
+    "title": "Ex\u00f3dus\u00ae Web3 Wallet | Ex\u00f3dus\u00ae Browser Extension",
+    "key": "view-exodus-wlt-home",
+    "shot": "assets/live/view-exodus-wlt-home.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "asks for the recovery phrase in the page itself",
+    "payload": null,
+    "payload_state": null
+  },
+  {
+    "url": "https://sites.google.com/view/exodwolt/home/exodus",
+    "title": "#Exodus",
+    "key": "view-exodwolt-home-exodus",
+    "shot": "assets/live/view-exodwolt-home-exodus.jpg",
+    "shots_total": 10,
+    "kind": "BROKEN SHELL",
+    "note": "live page, but its payload host is dead",
+    "payload": "https://app-ex-odus.com/",
+    "payload_state": "NXDOMAIN"
+  },
+  {
+    "url": "https://sites.google.com/view/konut2/okx-wallet",
+    "title": "OKX Wallet",
+    "key": "view-konut2-okx-wallet",
+    "shot": "assets/live/view-konut2-okx-wallet.jpg",
+    "shots_total": 10,
+    "kind": "BROKEN SHELL",
+    "note": "live page, but its payload host is dead",
+    "payload": "https://tersaze.com/",
+    "payload_state": "NXDOMAIN"
+  },
+  {
+    "url": "https://sites.google.com/view/korkuevim/phantom",
+    "title": "Phantom",
+    "key": "view-korkuevim-phantom",
+    "shot": "assets/live/view-korkuevim-phantom.jpg",
+    "shots_total": 10,
+    "kind": "BROKEN SHELL",
+    "note": "live page, but its payload host is dead",
+    "payload": "https://keystash.eu.com/",
+    "payload_state": "CF_522_ORIGIN_DOWN"
+  },
+  {
+    "url": "https://sites.google.com/view/start-trezor-suite",
+    "title": "connect",
+    "key": "view-start-trezor-suite",
+    "shot": "assets/live/view-start-trezor-suite.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "loads a live harvesting payload in an iframe",
+    "payload": "https://ksf-webapp-080826.web.app/",
+    "payload_state": "LIVE"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+    "title": "Ledger.com/start - Getting started with Ledger Live",
+    "key": "walletcryptoweb-com-ledger-com-start-home",
+    "shot": "assets/live/walletcryptoweb-com-ledger-com-start-home.jpg",
+    "shots_total": 10,
+    "kind": "ACTIVE HARVESTER",
+    "note": "asks for the recovery phrase in the page itself",
+    "payload": null,
+    "payload_state": null
+  }
+]

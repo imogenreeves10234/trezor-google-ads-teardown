@@ -1,0 +1,287 @@
+[
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login/",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login/",
+    "state": "SERVED",
+    "title": "Uniswap Login | Offizielle Website f\u00fcr Swaps",
+    "text_len": 18278,
+    "text_hash": "649dd47d959a06fa",
+    "signals": [
+      "private key",
+      "connect wallet",
+      "wiederherstellung"
+    ],
+    "frames": [
+      "https://1120734815-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=805605447"
+    ],
+    "screenshot": "DE__kryptowallets-app-uniswap-dex-login.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+    "state": "SERVED",
+    "title": "Leder Live | Ledger Live App Crypto Wallet - Official\u00ae Site\u00ae",
+    "text_len": 6916,
+    "text_hash": "74434b65b52e3be4",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "frames": [],
+    "screenshot": "DE__ledgerstart-web-com-ledger-live-home.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/net7.net/coinbase/home",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/net7.net/coinbase/home",
+    "state": "SERVED",
+    "title": "home",
+    "text_len": 419,
+    "text_hash": "2960a4607177e278",
+    "signals": [],
+    "frames": [
+      "https://477997273-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=702458039"
+    ],
+    "screenshot": "DE__net7-net-coinbase-home.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+    "state": "SERVED",
+    "title": "uniswap",
+    "text_len": 400,
+    "text_hash": "76d0d629ba324902",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=434124739"
+    ],
+    "screenshot": "DE__preloadcomubx-com-nsdh232-uniswap.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/app-ledger-com/home",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/app-ledger-com/home",
+    "state": "SERVED",
+    "title": "Ledger.com",
+    "text_len": 443,
+    "text_hash": "1ca79291c4b1cee1",
+    "signals": [],
+    "frames": [
+      "https://1072381359-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__",
+      "https://japanesetoenailfunguscode.com/ledger1/v5.html",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=41543938"
+    ],
+    "screenshot": "DE__view-app-ledger-com-home.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/app-ledger-wallet",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/app-ledger-wallet",
+    "state": "SERVED",
+    "title": "Ledger",
+    "text_len": 432,
+    "text_hash": "6bcb81a7eb407393",
+    "signals": [],
+    "frames": [
+      "https://storage.googleapis.com/ledg-leg1-20860/index.html",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=802888077"
+    ],
+    "screenshot": "DE__view-app-ledger-wallet.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap",
+    "state": "SERVED",
+    "title": "uniswap",
+    "text_len": 432,
+    "text_hash": "6bcb81a7eb407393",
+    "signals": [],
+    "frames": [
+      "https://storage.googleapis.com/app-uni-sww/index.html",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=930482744"
+    ],
+    "screenshot": "DE__view-app-uniswap-dashbroad-uniswap.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/",
+    "state": "SERVED",
+    "title": "\u30e1\u30bf\u30de\u30b9\u30af\u62e1\u5f35\u6a5f\u80fd\u306e\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u4eca\u3059\u3050\u5229\u7528\u3092\u958b\u59cb\u3057\u3088\u3046\u306f\u3053\u3061\u3089",
+    "text_len": 521,
+    "text_hash": "2f2a8fc89e126dae",
+    "signals": [],
+    "frames": [],
+    "screenshot": "DE__view-dplhzjdquwbtktmp-metamask-ja-jp.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/exodus-web3wallet-/home",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/exodus-web3wallet-/home",
+    "state": "SERVED",
+    "title": "Exodus\u00ae Web3 Wallet | Exodus\u00ae Browser Extension",
+    "text_len": 4553,
+    "text_hash": "272eab2e0b56d9c7",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "frames": [],
+    "screenshot": "DE__view-exodus-web3wallet-home.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/exodus-wlt/home",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/exodus-wlt/home",
+    "state": "SERVED",
+    "title": "Ex\u00f3dus\u00ae Web3 Wallet | Ex\u00f3dus\u00ae Browser Extension",
+    "text_len": 5872,
+    "text_hash": "a91ae4d926469707",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "restore wallet"
+    ],
+    "frames": [],
+    "screenshot": "DE__view-exodus-wlt-home.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/exodwolt/home/exodus",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/exodwolt/home/exodus",
+    "state": "SERVED",
+    "title": "#Exodus",
+    "text_len": 432,
+    "text_hash": "6bcb81a7eb407393",
+    "signals": [],
+    "frames": [
+      "chrome-error://chromewebdata/",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=895705348"
+    ],
+    "screenshot": "DE__view-exodwolt-home-exodus.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/konut2/okx-wallet",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/konut2/okx-wallet",
+    "state": "SERVED",
+    "title": "OKX Wallet",
+    "text_len": 432,
+    "text_hash": "6bcb81a7eb407393",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=217457609"
+    ],
+    "screenshot": "DE__view-konut2-okx-wallet.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/korkuevim/phantom",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/korkuevim/phantom",
+    "state": "SERVED",
+    "title": "Phantom",
+    "text_len": 432,
+    "text_hash": "6bcb81a7eb407393",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=98652358"
+    ],
+    "screenshot": "DE__view-korkuevim-phantom.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/view/start-trezor-suite",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/start-trezor-suite",
+    "state": "SERVED",
+    "title": "connect",
+    "text_len": 432,
+    "text_hash": "6bcb81a7eb407393",
+    "signals": [],
+    "frames": [
+      "about:srcdoc",
+      "https://ksf-webapp-080826.web.app/",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.de.CaFTcCg5s-g.O%2Fd%3D1%2Frs%3DAHpOoo-POILFK5ekNTk-vxGiuihTRjwh1Q%2Fm%3D__features__&r=373567629"
+    ],
+    "screenshot": "DE__view-start-trezor-suite.png"
+  },
+  {
+    "cc": "DE",
+    "url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+    "exit_ip": "91.96.215.104",
+    "exit_country": "DE",
+    "exit_org": "AS9145 EWE TEL GmbH",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+    "state": "SERVED",
+    "title": "Ledger.com/start - Getting started with Ledger Live",
+    "text_len": 7925,
+    "text_hash": "7bb0d54885d4e2e3",
+    "signals": [
+      "recovery phrase"
+    ],
+    "frames": [],
+    "screenshot": "DE__walletcryptoweb-com-ledger-com-start-home.png"
+  }
+]

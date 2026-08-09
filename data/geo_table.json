@@ -1,0 +1,300 @@
+{
+  "geos": [
+    "BR",
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "IN",
+    "JP",
+    "NL",
+    "TR",
+    "US"
+  ],
+  "exits": {
+    "TR": {
+      "ip": "91.93.236.89",
+      "org": "AS34984 Superonline Iletisim Hizmetleri A.S."
+    },
+    "BR": {
+      "ip": "177.70.93.86",
+      "org": "AS28241 VERO S.A"
+    },
+    "NL": {
+      "ip": "77.250.182.66",
+      "org": "AS33915 Vodafone Libertel B.V."
+    },
+    "DE": {
+      "ip": "91.96.215.104",
+      "org": "AS9145 EWE TEL GmbH"
+    },
+    "IN": {
+      "ip": "103.161.231.201",
+      "org": "AS153252 ELXIRE"
+    },
+    "JP": {
+      "ip": "130.62.0.104",
+      "org": "AS55391 INTERNET MULTIFEED CO."
+    },
+    "US": {
+      "ip": "69.243.69.221",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    "GB": {
+      "ip": "88.97.220.40",
+      "org": "AS212655 YouFibre Limited"
+    },
+    "FR": {
+      "ip": "109.208.252.133",
+      "org": "AS3215 Orange S.A."
+    },
+    "ES": {
+      "ip": "89.128.160.83",
+      "org": "AS12479 Orange Espagne SA"
+    }
+  },
+  "matrix": [
+    {
+      "url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login/",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/net7.net/coinbase/home",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/app-ledger-com/home",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/app-ledger-wallet",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/exodus-web3wallet-/home",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/exodus-wlt/home",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/exodwolt/home/exodus",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/konut2/okx-wallet",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/korkuevim/phantom",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/view/start-trezor-suite",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    },
+    {
+      "url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+      "cells": {
+        "BR": "SERVED",
+        "DE": "SERVED",
+        "ES": "SERVED",
+        "FR": "SERVED",
+        "GB": "SERVED",
+        "IN": "SERVED",
+        "JP": "SERVED",
+        "NL": "SERVED",
+        "TR": "SERVED",
+        "US": "SERVED"
+      },
+      "served": 10
+    }
+  ],
+  "total_cells": 150,
+  "served_cells": 150
+}

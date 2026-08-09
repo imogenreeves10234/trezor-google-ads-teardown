@@ -156,6 +156,68 @@ def legit_html():
 geo_rows, geo_ok, geo_tot = geo_html()
 eco = load("ecosystem.json", {})
 adv = load("advertised_final.json", [])
+gallery = load("gallery.json", [])
+geotab = load("geo_table.json", {})
+zipmeta = load("zip_meta.json", {})
+payhosts = load("payload_hosts.json", [])
+
+
+def gallery_html():
+    ngeo = len(geotab.get("geos", []))
+    out = []
+    for g in gallery:
+        path = g["url"].replace("https://sites.google.com", "")
+        out.append(
+            '<figure class="card">'
+            f'<img src="{E(g["shot"])}" loading="lazy" '
+            f'alt="Screenshot of the live phishing page at {E(path)}">'
+            f'<figcaption><span class="tag tag-{E((g.get("kind") or "").split()[0].lower())}">'
+            f'{E(g.get("kind") or "")}</span>'
+            f'<b class="mono">{E(path)}</b>'
+            f'<span class="t">{E(g["title"] or "(no title)")}</span>'
+            f'<span class="muted small">{E(g.get("note") or "")}</span>'
+            + (f'<span class="muted small mono">payload: {E(g.get("payload") or "")} '
+               f'({E(g.get("payload_state") or "")})</span>' if g.get("payload") else "")
+            + f'<span class="muted small">served in all {ngeo} countries &middot; '
+            f'{g["shots_total"]} screenshots in the archive</span></figcaption></figure>')
+    return "\n".join(out)
+
+
+def geotable_html():
+    ccs = geotab.get("geos", [])
+    head = "".join(f"<th>{E(c)}</th>" for c in ccs)
+    body = []
+    for m in geotab.get("matrix", []):
+        cells = "".join(
+            '<td class="{}">{}</td>'.format(
+                "cell-ok" if m["cells"].get(c) == "SERVED" else "cell-no",
+                "&#9679;" if m["cells"].get(c) == "SERVED" else "&mdash;")
+            for c in ccs)
+        body.append('<tr><td class="mono small">{}</td>{}</tr>'.format(
+            E(m["url"].replace("https://sites.google.com", "")), cells))
+    return head, "\n".join(body)
+
+
+def exits_html():
+    e = geotab.get("exits", {})
+    return "".join(
+        f'<tr><td><b>{E(c)}</b></td><td class="mono small">{E(v.get("ip") or "")}</td>'
+        f'<td class="small muted">{E(v.get("org") or "")}</td></tr>'
+        for c, v in sorted(e.items()))
+
+
+def payhosts_html():
+    st = {"LIVE": ("bad", "LIVE"), "NXDOMAIN": ("muted", "dead &mdash; NXDOMAIN"),
+          "CF_522_ORIGIN_DOWN": ("muted", "dead &mdash; origin down (CF 522)"),
+          "404": ("muted", "deleted &mdash; 404")}
+    rows = []
+    for h in payhosts:
+        cls, lab = st.get(h["state"], ("muted", h["state"]))
+        rows.append(f'<tr><td class="mono small">{E(h["url"])}</td>'
+                    f'<td><span class="{cls}"><b>{lab}</b></span></td>'
+                    f'<td class="small">{E(h.get("title") or "")}</td>'
+                    f'<td class="small muted">{E(", ".join(h.get("signals") or []))}</td></tr>')
+    return "\n".join(rows)
 ledger = load("ledger_status.json", {})
 
 
@@ -342,6 +404,26 @@ li.t-def .t-when b{{color:var(--accent)}}
 .urlbar{{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
   padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}}
 .urlbar .g{{color:#188038}} .urlbar .r{{color:#c5221f;font-weight:700}}
+.tag{{display:inline-block;align-self:flex-start;font:700 10px/1 var(--mono);letter-spacing:.09em;
+  padding:5px 8px;border-radius:4px;text-transform:uppercase}}
+.tag-active{{background:#3a1418;color:#ff8b8b;border:1px solid #5c1f26}}
+.tag-broken{{background:#3a2c11;color:#f0c078;border:1px solid #5c4620}}
+.tag-brand{{background:#1b2430;color:#9ec5e8;border:1px solid #2b3a4d}}
+.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px;margin:26px 0}}
+.card{{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}}
+.card img{{width:100%;display:block;border:0;border-bottom:1px solid var(--line);background:#fff}}
+.card figcaption{{padding:12px 14px;margin:0;display:flex;flex-direction:column;gap:5px}}
+.card figcaption b{{font-size:12px;word-break:break-all;color:var(--ink)}}
+.card figcaption .t{{font-size:13px;color:var(--dim)}}
+table.matrix td,table.matrix th{{text-align:center;padding:7px 6px}}
+table.matrix td:first-child,table.matrix th:first-child{{text-align:left}}
+.cell-ok{{color:var(--accent);font-size:15px}} .cell-no{{color:var(--dim)}}
+.dl{{display:inline-flex;align-items:center;gap:16px;background:var(--panel);
+  border:1px solid var(--accent);border-radius:10px;padding:17px 24px;text-decoration:none;
+  color:var(--ink);margin:14px 0 8px}}
+.dl:hover{{background:#182018}}
+.dl-i{{font:700 22px/1 var(--mono);color:var(--accent)}}
+.dl b{{display:block;font-size:16px}} .dl .small{{display:block;margin-top:3px}}
 .toc{{position:sticky;top:0;z-index:20;background:rgba(11,13,16,.94);
   backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:11px 0;font-size:12.5px}}
 .toc .wrap{{display:flex;gap:14px;flex-wrap:wrap;align-items:baseline}}
@@ -380,7 +462,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 
 <nav class="toc"><div class="wrap">
   <b>Contents</b>
-  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 The google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#advertised">10 Advertised URLs</a><a href="#ledger">11 The Ledger domain</a><a href="#pattern">12 Platform pattern</a><a href="#geo">13 Multi-geo</a><a href="#advertiser">14 The advertiser</a><a href="#response">15 Response</a><a href="#ioc">16 Indicators</a><a href="#method">17 Method</a>
+  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#live">10 Live pages</a><a href="#chain">11 Payload chain</a><a href="#geo">12 Where they serve</a><a href="#download">13 Download evidence</a><a href="#advertised">14 Advertised URLs</a><a href="#ledger">15 The Ledger domain</a><a href="#pattern">16 Platform pattern</a><a href="#serpgeo">17 Multi-geo SERP</a><a href="#advertiser">18 The advertiser</a><a href="#response">19 Response</a><a href="#ioc">20 Indicators</a><a href="#method">21 Method</a>
 </div></nav>
 
 <section id="answers"><div class="wrap">
@@ -397,18 +479,18 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
     <div class="a"><b>{len(adv)} of them, listed in full with their campaign IDs</b>, each captured
       with Google's own click parameters still attached — a receipt, not a guess.
       {sum(1 for r in adv if r.get("state")=="LIVE")} are still live.
-      <a href="#advertised">§10</a></div>
+      <a href="#advertised">§14</a></div>
 
     <div class="q">Is <code>ledgerstart-web.com</code> currently being advertised?</div>
     <div class="a"><b>No evidence that it is</b> — zero in the Ads Transparency Center (with a passing
       control), no click parameters on any of its 3 public captures, and it does not rank organically
       for its own title. The page <b>is</b> live and does solicit recovery phrases. Four tests, their
-      controls and their weight: <a href="#ledger">§11</a></div>
+      controls and their weight: <a href="#ledger">§15</a></div>
 
     <div class="q">Who ran the ad?</div>
     <div class="a"><b>Unknown, and unknowable from public records.</b> Google's Ads Transparency Center
       holds no entry for it. The sweep did find two <i>confirmed</i> advertiser-account takeovers of
-      real companies — neither connected to this incident. <a href="#advertiser">§14</a></div>
+      real companies — neither connected to this incident. <a href="#advertiser">§18</a></div>
 
     <div class="q">How much was taken?</div>
     <div class="a"><b>{money(usd(dep))}</b> from <b>{len(dep)}</b> wallets in 32.9 hours, valued at
@@ -697,8 +779,152 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </table></div>
 </div></section>
 
+<section id="live"><div class="wrap">
+  <h2>10 &middot; The live pages, photographed</h2>
+  <p class="sub">Every page below was fetched and screenshotted through a residential connection in
+  <b>{len(geotab.get("geos", []))} countries</b> on {time.strftime("%d %B %Y", time.gmtime())}. All
+  {geotab.get("served_cells", 0)} of {geotab.get("total_cells", 0)} page&times;country probes served.</p>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">The Trezor page came back</h3>
+    <p style="margin-top:0">On 8 August <code>sites.google.com/view/start-trezor-suite</code>
+    redirected to a Google sign-in &mdash; removed or unpublished. On <b>9 August it is serving
+    again</b>, now titled &ldquo;connect&rdquo;, and it loads its payload from a
+    <b>Firebase Hosting</b> app: <code>ksf-webapp-080826.web.app</code>. The name reads as a date,
+    08-08-26 &mdash; the day after the incident. That payload is a 2.37&nbsp;MB clone titled
+    &ldquo;Trezor Suite App (Official)&rdquo; which even pulls real assets from
+    <code>forum.trezor.io</code> and <code>sgtm.trezor.io</code>.</p>
+    <p style="margin-bottom:0">It loaded in <b>every one</b> of the {len(geotab.get("geos", []))}
+    countries probed.</p>
+  </div>
+
+  <div class="stats" style="margin:0 0 22px">
+    <div class="stat red"><b>{sum(1 for g in gallery if g.get("kind")=="ACTIVE HARVESTER")}</b><span>still actively harvesting</span></div>
+    <div class="stat amber"><b>{sum(1 for g in gallery if g.get("kind")=="BROKEN SHELL")}</b><span>live page, dead payload</span></div>
+    <div class="stat"><b>{sum(1 for g in gallery if g.get("kind")=="BRAND PAGE")}</b><span>impersonation, no harvest seen</span></div>
+    <div class="stat"><b>{geotab.get("served_cells",0)}/{geotab.get("total_cells",0)}</b><span>page&times;country probes served</span></div>
+  </div>
+  <div class="grid">{gallery_html()}</div>
+  <p class="small muted">Screenshots are the outer Google Sites frame as a normal visitor receives it.
+  Several render sparse because the harvesting UI lives in an iframe whose host has since died &mdash;
+  Google still serves the frame. Full-resolution captures for every country are in the archive.</p>
+</div></section>
+
+<section id="chain"><div class="wrap">
+  <h2>11 &middot; The two-stage chain, and what is still alive</h2>
+  <p class="sub">The Google Sites page is only the outer frame. The part that asks for your recovery
+  phrase is loaded into it from a second host.</p>
+  <div class="scroll"><table>
+    <tr><th>Second-stage payload host</th><th>Status now</th><th>Title</th><th>Signals in source</th></tr>
+    {payhosts_html()}
+  </table></div>
+  <div class="panel">
+    <p style="margin-top:0"><b>Two of the second-stage hosts are Google&rsquo;s own.</b>
+    <code>ksf-webapp-080826.web.app</code> is Firebase Hosting;
+    <code>storage.googleapis.com/ledg-leg1-20860/</code> and
+    <code>storage.googleapis.com/app-uni-sww/</code> are Google Cloud Storage buckets. Add the
+    <code>sites.google.com</code> frame and the Google Ads click that delivered the traffic, and the
+    entire chain &mdash; distribution, frame and payload &mdash; ran on Google property.</p>
+    <p style="margin-bottom:0"><b>The frames outlive the payloads.</b> Five of the seven payload hosts
+    are dead: two buckets deleted (404 <code>NoSuchBucket</code>), two domains
+    <code>NXDOMAIN</code>, one origin down. Yet <b>all 15</b> Google Sites pages still serve. Killing
+    the payload does not remove the page, and the page is still a brand impersonation carrying a
+    google.com URL.</p>
+  </div>
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">The cloaking script, verbatim</h3>
+    <p style="margin-top:0"><code>japanesetoenailfunguscode.com/ledger1/v5.html</code> &mdash; titled
+    &ldquo;Ledger Connect&rdquo;, live today &mdash; opens with a block commented
+    <code>// ANTI-BOT SCRIPT</code>. It records whether the visitor moved a mouse, pressed a key or
+    touched the screen, then collects <code>screen.width</code>, <code>screen.height</code>,
+    <code>timezoneOffset</code>, <code>navigator.language</code>, <code>navigator.platform</code> and
+    <code>navigator.plugins.length</code> and POSTs the lot to <code>/verify_human.php</code> on load,
+    on unload, and again after three seconds.</p>
+    <p style="margin-bottom:0">Timezone and language are geolocation. This is the server deciding, per
+    visitor, whether to show the harvesting UI &mdash; the cloaking layer that keeps automated review
+    from seeing what a victim sees. The page also ships a BIP-39 wordlist autocomplete for the
+    seed-phrase inputs.</p>
+  </div>
+</div></section>
+
+<section id="geo"><div class="wrap">
+  <h2>12 &middot; Where they serve</h2>
+  <p class="sub">Each cell is one real fetch through a residential ISP connection in that country,
+  driving a real Chrome profile.</p>
+  <div class="panel good">
+    <p style="margin-top:0"><b>There is no geo-blocking and no geo-cloaking at the Google Sites
+    layer.</b> All {geotab.get("served_cells", 0)} of {geotab.get("total_cells", 0)} probes served,
+    and every page returned an identical title, identical payload frame and identical phishing signals
+    in all {len(geotab.get("geos", []))} countries.</p>
+    <p style="margin-bottom:0" class="small">A check worth showing, because it nearly produced a false
+    finding: the raw page text <i>did</i> hash differently in every country. That was
+    <b>our own doing</b> &mdash; Google Sites localises its own footer chrome to the browser locale we
+    set per country. The tell is that the same hash appeared on six <i>unrelated</i> pages within a
+    country. Comparing only attacker-controlled fields, the variation disappears. Targeting here is by
+    <b>page language</b>, not by serving rules.</p>
+  </div>
+  <div class="scroll"><table class="matrix">
+    <tr><th>Page</th>{geotable_html()[0]}</tr>
+    {geotable_html()[1]}
+  </table></div>
+  <h3 style="margin-top:30px">The exit used for each country</h3>
+  <div class="scroll"><table>
+    <tr><th>Country</th><th>Exit IP</th><th>ISP</th></tr>
+    {exits_html()}
+  </table></div>
+  <p class="small muted">Language targeting observed in the page content itself:
+  <code>/kryptowallets.app/uniswap-dex-login/</code> is German
+  (&ldquo;Uniswap Login | Offizielle Website f&uuml;r Swaps&rdquo;) and
+  <code>/view/dplhzjdquwbtktmp/metamask-ja-jp/</code> is Japanese. The rest are English.</p>
+</div></section>
+
+<section id="download"><div class="wrap">
+  <h2>13 &middot; Download the evidence</h2>
+  <p class="sub">Everything needed to file an abuse report or check any claim on this page.</p>
+  <a class="dl" href="{E(zipmeta.get("file",""))}" download>
+    <span class="dl-i">&darr;</span>
+    <span><b>{E(zipmeta.get("file",""))}</b>
+      <span class="muted small">{zipmeta.get("mb","?")} MB &middot; {zipmeta.get("files","?")} files &middot;
+      {zipmeta.get("pages","?")} pages &middot; {len(zipmeta.get("geos", []))} countries</span></span>
+  </a>
+  <p class="small mono muted">md5 {E(zipmeta.get("md5",""))}<br>sha256 {E(zipmeta.get("sha256",""))}</p>
+  <div class="two">
+    <div class="panel">
+      <h3 style="margin-bottom:6px">What is inside</h3>
+      <ul class="small" style="margin-bottom:0">
+        <li>One folder per phishing page</li>
+        <li><code>page.source.txt</code> &mdash; the unmodified response bytes, with a sha256</li>
+        <li><code>page.headers.txt</code> &mdash; the HTTP response headers</li>
+        <li><code>payloadN.source.txt</code> &mdash; the second-stage page(s), unmodified</li>
+        <li>One screenshot per country probed</li>
+        <li><code>EVIDENCE.txt</code> &mdash; per-page summary sheet</li>
+        <li><code>INDICATORS.txt</code> &mdash; every URL, payload host, BTC address and campaign ID</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3 style="margin-bottom:6px">Why the sources end in .txt</h3>
+      <p class="small" style="margin-top:0">Each <code>.source.txt</code> is the original response
+      body byte for byte, with its sha256 recorded next to it. The extension is the only change. It
+      keeps the archive from being double-clicked into a working phishing kit while preserving the
+      evidence exactly &mdash; which is also what stops the archive itself being taken down.</p>
+      <p class="small muted" style="margin-bottom:0">Verify any file with
+      <code>sha256sum</code> against the value in its <code>EVIDENCE.txt</code>, or re-fetch the URL
+      and compare.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <h3 style="margin-bottom:6px">Reporting routes</h3>
+    <p style="margin:0" class="small">Google Sites abuse &mdash;
+    <a href="https://support.google.com/sites/answer/1651998">support.google.com/sites/answer/1651998</a>
+    &middot; Google Ads &mdash;
+    <a href="https://support.google.com/google-ads/contact/report_ad">report an ad</a>
+    &middot; Safe Browsing &mdash;
+    <a href="https://safebrowsing.google.com/safebrowsing/report_phish/">report a phishing page</a></p>
+  </div>
+</div></section>
+
 <section id="advertised"><div class="wrap">
-  <h2>10 · The URLs that were provably used for advertising</h2>
+  <h2>14 · The URLs that were provably used for advertising</h2>
   <p class="sub">Not inferred. Every URL below was captured by a public scanner with Google’s own
   ad-click parameters still attached to it.</p>
 
@@ -748,7 +974,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section id="ledger"><div class="wrap">
-  <h2>11 · Is <span class="mono" style="font-size:.62em">sites.google.com/ledgerstart-web.com/ledger-live/home</span> being advertised?</h2>
+  <h2>15 · Is <span class="mono" style="font-size:.62em">sites.google.com/ledgerstart-web.com/ledger-live/home</span> being advertised?</h2>
   <div class="panel flag">
     <p style="margin-top:0"><b>Short answer: no evidence that it is — but that is not the same as
     proof it isn’t.</b></p>
@@ -765,7 +991,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section id="pattern"><div class="wrap">
-  <h2>12 · This is not one page. It is a platform pattern.</h2>
+  <h2>16 · This is not one page. It is a platform pattern.</h2>
   <p class="sub">Searching every public scan of <code>sites.google.com</code> against ten wallet and
   exchange brands returns <b>{eco.get("unique_urls",0)} distinct phishing URLs</b>, running
   continuously from <b>2020 to today</b>.</p>
@@ -834,8 +1060,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </table></div>
 </div></section>
 
-<section id="geo"><div class="wrap">
-  <h2>13 · Multi-geo live check</h2>
+<section id="serpgeo"><div class="wrap">
+  <h2>17 · Multi-geo live SERP check</h2>
   <p class="sub">{geo_tot} probes across 18 countries, each through a fresh residential exit in-country,
   driving a real Chrome profile. {geo_ok} rendered a genuine local SERP.</p>
   <div class="panel">
@@ -862,7 +1088,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section id="advertiser"><div class="wrap">
-  <h2>14 · Who the advertiser is — and why nobody can say</h2>
+  <h2>18 · Who the advertiser is — and why nobody can say</h2>
   <p class="sub">Google’s own advertiser-accountability record, queried directly through the RPC the
   site itself uses, across 20 regions.</p>
   <div class="panel flag">
@@ -887,7 +1113,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section id="response"><div class="wrap">
-  <h2>15 · The response, and the four-month-old warning</h2>
+  <h2>19 · The response, and the four-month-old warning</h2>
   <div class="panel">
     <h3 style="margin-bottom:6px">Trezor</h3>
     <p style="margin-top:0">The verified @Trezor account replied to the victim at
@@ -928,7 +1154,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section id="ioc"><div class="wrap">
-  <h2>16 · Indicators</h2>
+  <h2>20 · Indicators</h2>
   <div class="ioc">Phishing page   sites.google.com/view/start-trezor-suite   (unpublished as of 2026-08-09)
 Ad display URL  https://www.google.com          Ad advertiser name  "Trezor.io"
 Ad headline     Trezor Suite | Download Trezor App
@@ -952,7 +1178,7 @@ Prior hosting   start-trezor-suite-{{faq,en,ai,us,dlv,cdn,download-io}}.pages.de
 </div></section>
 
 <section id="method"><div class="wrap">
-  <h2>17 · Method, and what could not be measured</h2>
+  <h2>21 · Method, and what could not be measured</h2>
   <p class="sub">Everything here is reproducible from the repository.</p>
   <table>
     <tr><th>Question</th><th>How it was answered</th></tr>

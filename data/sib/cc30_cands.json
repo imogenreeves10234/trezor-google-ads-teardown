@@ -1,0 +1,3302 @@
+[
+ {
+  "url": "http://sites.google.com/coinbselogs.com/coinbasepro/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinbselogs.com",
+  "ts": "20260715084404",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/coinsloginx.com/binance-uslogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "coinsloginx.com",
+  "ts": "20260715083114",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/coinsloginx.com/coinbaselogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinsloginx.com",
+  "ts": "20260715070058",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/coinsloginx.com/coinbaseprologin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinsloginx.com",
+  "ts": "20260715083547",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/coinswallett.com/coinbase-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinswallett.com",
+  "ts": "20260720045328",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/coinswallett.com/metamaskwallet",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "coinswallett.com",
+  "ts": "20260719201159",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/cryptocoinlog.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "cryptocoinlog.com",
+  "ts": "20260720033735",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/cryptoexchangeu.com/bybit-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "bybit"
+  ],
+  "seg1": "cryptoexchangeu.com",
+  "ts": "20260720145913",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/extension-logi.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "extension-logi.com",
+  "ts": "20260712235355",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/ledgercom-start.com/ledger-com-start/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "ledger"
+  ],
+  "seg1": "ledgercom-start.com",
+  "ts": "20260719070004",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/metamakios.com/metamaskapp/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamakios.com",
+  "ts": "20260720051919",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/metamsklogs.com/metamaskchroomeextension",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamsklogs.com",
+  "ts": "20260719182425",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/metmaskios.com/metamasksigninn/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metmaskios.com",
+  "ts": "20260715085535",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/trazor-start.com/trezor-io-start/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trazor-start.com",
+  "ts": "20260710211152",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trazor-start.com",
+  "ts": "20260713041715",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/uscryptocomlogin.com/cryptocomlogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom"
+  ],
+  "seg1": "uscryptocomlogin.com",
+  "ts": "20260715081638",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/view/cash-app-loginn",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260720054409",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/view/cash-applogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710203312",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/view/cashapp-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710212133",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/view/cashappcontacts/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710210603",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/view/cashapphelpus/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710215223",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/view/flyingravensart",
+  "verdict": "BRAND",
+  "brands": [
+   "ngrave"
+  ],
+  "seg1": "view",
+  "ts": "20260716053105",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/walletlogs.com/cashapploginn/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "walletlogs.com",
+  "ts": "20260718031106",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/walletslog.com/cash-app-login",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "walletslog.com",
+  "ts": "20260719202714",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/wallletcrypto.com/atomic-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "atomicwallet",
+   "cryptocom"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260711061159",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/wallletcrypto.com/coinbase-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase",
+   "cryptocom"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260710215913",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/wallletcrypto.com/trezor-bridge/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom",
+   "trezor"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260717190942",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/wallletcrypto.com/trust-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom",
+   "trustwallet"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260710211451",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/walltcrypto.com/coinbase-wallet-extension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase",
+   "cryptocom"
+  ],
+  "seg1": "walltcrypto.com",
+  "ts": "20260719075340",
+  "status": "301"
+ },
+ {
+  "url": "http://sites.google.com/web-extension.com/trust-wallet-app/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trustwallet"
+  ],
+  "seg1": "web-extension.com",
+  "ts": "20260715083759",
+  "status": "301"
+ },
+ {
+  "url": "https://sites.google.com/365cryptocurrencies.com/cashapplogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "365cryptocurrencies.com",
+  "ts": "20260716180650",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/365cryptocurrencies.com/metamaskextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "365cryptocurrencies.com",
+  "ts": "20260710152247",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/365cryptocurrencies.com/phantom-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "365cryptocurrencies.com",
+  "ts": "20260714145140",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/365cryptocurrencies.com/phantomwallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "365cryptocurrencies.com",
+  "ts": "20260711005118",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/365cryptocurrencies.com/plasmawalletextension",
+  "verdict": "BRAND",
+  "brands": [
+   "plasmawallet"
+  ],
+  "seg1": "365cryptocurrencies.com",
+  "ts": "20260720183526",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/365cryptocurrencies.com/pontemaptoswallet",
+  "verdict": "BRAND",
+  "brands": [
+   "pontem"
+  ],
+  "seg1": "365cryptocurrencies.com",
+  "ts": "20260717130252",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/99cryptocurrencies.com/coinbase-login",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "99cryptocurrencies.com",
+  "ts": "20260715150340",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextensionau/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "phantomwallet"
+  ],
+  "seg1": "99cryptowallet.com",
+  "ts": "20260713195922",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextensionus/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "phantomwallet"
+  ],
+  "seg1": "99cryptowallet.com",
+  "ts": "20260721205421",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/a/privatelender.org/private-equity-mortgage-institute/Risk-Reduction-through-National-International-Standards-Class-NISC-Risk-Management-Standards-Audit--Higher-Order-MQCC-Certified-BlockChain-Quality-Management-Systems-CBQMS/Peer-to-Peer--Private-Lending-P2PL-Risk-P2PL-Source-Identifier-Trademark/peer-to-peer-private-lending-p2pl-risk-mitigation-compliance",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "a",
+  "ts": "20260715172927",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/ab-ed.org/brimmondschool/nursery/parent-zone/key-worker-system",
+  "verdict": "BRAND",
+  "brands": [
+   "onekey"
+  ],
+  "seg1": "ab-ed.org",
+  "ts": "20260721203300",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/abcrypt.com/uniswapwallet",
+  "verdict": "BRAND",
+  "brands": [
+   "uniswap"
+  ],
+  "seg1": "abcrypt.com",
+  "ts": "20260711221555",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/aeaag.pt/crtic-guarda/download-de-documentos",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "aeaag.pt",
+  "ts": "20260713061432",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/aeaag.pt/crtic-guarda/faq",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "aeaag.pt",
+  "ts": "20260711052735",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/aeaag.pt/crtic-guarda/p%C3%A1gina-inicial",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "aeaag.pt",
+  "ts": "20260712205455",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/aeaag.pt/crtic-guarda/quem-somos",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "aeaag.pt",
+  "ts": "20260715103000",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/alllogin.info/metamaskexetension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "alllogin.info",
+  "ts": "20260710172544",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/bitlogins.com/cryptocomlogin/cryptocom-wallet",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom"
+  ],
+  "seg1": "bitlogins.com",
+  "ts": "20260712130241",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cashapplogs.com/cashapp-loginus/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "cashapplogs.com",
+  "ts": "20260713003809",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/ccoinbaselogin.com/coinbasepro/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "ccoinbaselogin.com",
+  "ts": "20260711065158",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coiinnb.com/download-coinbase/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coiinnb.com",
+  "ts": "20260712215615",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coiinsb.com/metamask-extension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "coiinsb.com",
+  "ts": "20260720045904",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coiinsb.com/metamaskextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "coiinsb.com",
+  "ts": "20260711094207",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinbaswallet.com/coinbasestaking/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinbaswallet.com",
+  "ts": "20260710093600",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinbselogs.com/coinbaselogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinbselogs.com",
+  "ts": "20260722092207",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinbselogs.com/coinbasepro/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinbselogs.com",
+  "ts": "20260715084404",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinbselogs.com/coinbasewallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinbselogs.com",
+  "ts": "20260715114945",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinlogi.com/coinbaseapp/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinlogi.com",
+  "ts": "20260714042920",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinlogi.com/coinbaselogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinlogi.com",
+  "ts": "20260713084958",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinlogi.com/coinbasepro/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinlogi.com",
+  "ts": "20260719074003",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinlogins.com/coinbasecom-logins/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinlogins.com",
+  "ts": "20260712025939",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinslogi.com/Coinbasepro-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinslogi.com",
+  "ts": "20260716124703",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinsloginx.com/binance-uslogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "coinsloginx.com",
+  "ts": "20260715083114",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinsloginx.com/coinbaselogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinsloginx.com",
+  "ts": "20260715070058",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinsloginx.com/coinbaseprologin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinsloginx.com",
+  "ts": "20260715083547",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinslogs.com/metamask-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "coinslogs.com",
+  "ts": "20260710085945",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinslogus.com/coinbaselogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinslogus.com",
+  "ts": "20260721121932",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinslogus.com/walletconnect/home",
+  "verdict": "BRAND",
+  "brands": [
+   "walletconnect"
+  ],
+  "seg1": "coinslogus.com",
+  "ts": "20260711192341",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinswallett.com/coinbase-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "coinswallett.com",
+  "ts": "20260720045329",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinswallett.com/exodus-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "exoduswallet"
+  ],
+  "seg1": "coinswallett.com",
+  "ts": "20260714203948",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/coinswallett.com/metamaskwallet",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "coinswallett.com",
+  "ts": "20260719201159",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/crawfordschools.org/ccmhsajrotc/color-guard-and-drill-practice",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "crawfordschools.org",
+  "ts": "20260714050741",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/criptowalletweb.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "criptowalletweb.com",
+  "ts": "20260712163312",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/crypto-coinexchange.com/kraken-exchange/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "crypto",
+   "kraken"
+  ],
+  "seg1": "crypto-coinexchange.com",
+  "ts": "20260712094500",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptocoinlog.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "cryptocoinlog.com",
+  "ts": "20260720033735",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptocoinlog.com/uniswap-exchange/home",
+  "verdict": "BRAND",
+  "brands": [
+   "uniswap"
+  ],
+  "seg1": "cryptocoinlog.com",
+  "ts": "20260712192949",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptocoinslogin.com/metamask-sign-in/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "cryptocoinslogin.com",
+  "ts": "20260713042334",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptocoinsusa.com/guarda-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "cryptocoinsusa.com",
+  "ts": "20260711080108",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptoexchangeu.com/bybit-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "bybit"
+  ],
+  "seg1": "cryptoexchangeu.com",
+  "ts": "20260720145913",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletal.com/guardawallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "guarda"
+  ],
+  "seg1": "cryptowalletal.com",
+  "ts": "20260718194140",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletit.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "trezor"
+  ],
+  "seg1": "cryptowalletit.com",
+  "ts": "20260719193507",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletts.com/mexcexchange/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet"
+  ],
+  "seg1": "cryptowalletts.com",
+  "ts": "20260714175556",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletts.com/pancake-swap/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "pancakeswap"
+  ],
+  "seg1": "cryptowalletts.com",
+  "ts": "20260710093003",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/curve-finance-official-site",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet"
+  ],
+  "seg1": "cryptowalletuk.com",
+  "ts": "20260719135600",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/ledgercomstart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet"
+  ],
+  "seg1": "cryptowalletuk.com",
+  "ts": "20260712030917",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/metamask-chrom/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "metamask"
+  ],
+  "seg1": "cryptowalletuk.com",
+  "ts": "20260718033123",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/okx-wallet-extension",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "okx"
+  ],
+  "seg1": "cryptowalletuk.com",
+  "ts": "20260713075726",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/solscan",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet"
+  ],
+  "seg1": "cryptowalletuk.com",
+  "ts": "20260722121804",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/tangem-hardware-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "tangem"
+  ],
+  "seg1": "cryptowallitt.com",
+  "ts": "20260712164021",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/tangem-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "tangem"
+  ],
+  "seg1": "cryptowallitt.com",
+  "ts": "20260712163739",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/tangemwallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "tangem"
+  ],
+  "seg1": "cryptowallitt.com",
+  "ts": "20260712162550",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/trezor-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "cryptowallitt.com",
+  "ts": "20260722183232",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/wallet-atomic/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "atomic"
+  ],
+  "seg1": "cryptowallitt.com",
+  "ts": "20260722154052",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalllets.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "cryptowalllets.com",
+  "ts": "20260719075606",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/cryptwalle.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "cryptwalle.com",
+  "ts": "20260715212931",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/cryptwalleto.com/walletconnect/home",
+  "verdict": "BRAND",
+  "brands": [
+   "walletconnect"
+  ],
+  "seg1": "cryptwalleto.com",
+  "ts": "20260711222856",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/crytostaking.com/binance-staking/home",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "crytostaking.com",
+  "ts": "20260719073505",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/deocs.com/daedalus",
+  "verdict": "BRAND",
+  "brands": [
+   "daedalus"
+  ],
+  "seg1": "deocs.com",
+  "ts": "20260720212609",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/elogns.com/cashapploginn/home/%22%3ECash",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "elogns.com",
+  "ts": "20260718072927",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/extension-logi.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "extension-logi.com",
+  "ts": "20260721024611",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/fixuscoins.com/metamaskhelp/blog/reset-metamask-password",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "fixuscoins.com",
+  "ts": "20260713203552",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/ftrdex.com/coinbasenotworking/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "ftrdex.com",
+  "ts": "20260711192022",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/ftrdex.com/metamaskextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "ftrdex.com",
+  "ts": "20260714171501",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/gtrainerdemo.attechedu.com/ingravejohnstonecpd/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ngrave"
+  ],
+  "seg1": "gtrainerdemo.attechedu.com",
+  "ts": "20260712104211",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/krakenlogins.com/krakenexchanges/home",
+  "verdict": "BRAND",
+  "brands": [
+   "krakenlogin"
+  ],
+  "seg1": "krakenlogins.com",
+  "ts": "20260712025855",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/kucoin-log.com/kucoinloginin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "kucoin"
+  ],
+  "seg1": "kucoin-log.com",
+  "ts": "20260714191342",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/kucoinloginu.com/kucoinlogins/home",
+  "verdict": "BRAND",
+  "brands": [
+   "kucoin"
+  ],
+  "seg1": "kucoinloginu.com",
+  "ts": "20260716115313",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/ledgar-comstart.com/ledgerlive/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "ledgar-comstart.com",
+  "ts": "20260716150607",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/ledgercom-start.com/ledger-com-start/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "ledger"
+  ],
+  "seg1": "ledgercom-start.com",
+  "ts": "20260719070004",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/ledgercom-start.com/ledger-live/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "ledgercom-start.com",
+  "ts": "20260712190806",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/ledgercom-start.com/ledgerlive-desktop/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "ledgercom-start.com",
+  "ts": "20260723005704",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/matmusk.com/metamaskwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "matmusk.com",
+  "ts": "20260719081051",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mcryptologin.com/procoinbasecomlogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "mcryptologin.com",
+  "ts": "20260722084020",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamaaslogi.com/metamasksignin",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamaaslogi.com",
+  "ts": "20260716054930",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamakios.com/metamaskapp/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamakios.com",
+  "ts": "20260720051919",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamask-ai.com/metamaskcromeextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamask-ai.com",
+  "ts": "20260714200642",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamask-ios.com/metamask-log-in/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamask-ios.com",
+  "ts": "20260713090252",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamaskchrme.com/metamask-crome/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamaskchrme.com",
+  "ts": "20260720144758",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamaskgo.com/metamaskextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamaskgo.com",
+  "ts": "20260717202937",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamasklog.us/metamask-extension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamasklog.us",
+  "ts": "20260712031103",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamasklog.us/metamask-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamasklog.us",
+  "ts": "20260719203732",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamaskslogin.com/metamasklogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamaskslogin.com",
+  "ts": "20260719014547",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamskio.com/metamaskapp/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamskio.com",
+  "ts": "20260720185332",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamskio.com/metamaskextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamskio.com",
+  "ts": "20260720034450",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamsklogi.com/metamaskweb3wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamsklogi.com",
+  "ts": "20260717004152",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamskloginx.com/metamask-log-in/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamskloginx.com",
+  "ts": "20260712181640",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamskloginx.com/metamaskextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamskloginx.com",
+  "ts": "20260718103719",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamsklogs.com/metamask-log-in/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamsklogs.com",
+  "ts": "20260710160039",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metamsklogs.com/metamaskchroomeextension",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metamsklogs.com",
+  "ts": "20260719182425",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metmaskios.com/metamasksigninn/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metmaskios.com",
+  "ts": "20260715085535",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/metmsklgin.com/metamask-sign-in/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "metmsklgin.com",
+  "ts": "20260723001408",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchain-ecosystem",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260720204700",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainhof/welcome-blockchain-hall-of-fame",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260712132549",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/benchmark-standard-for-a-blockchain-application",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260714081331",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/bis-bank-integrated-standards-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260711234224",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/bitcoinstandards-net/worth-less-bitcoin",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260717134417",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/blockchain-bitcoin-crypto-city",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain",
+   "crypto"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260719135808",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/blockchain-developer-program",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260711224141",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/blockchain-developer-program/make-a-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260710174215",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/blockchain-ecosystem",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260712215637",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/blockchain-standev",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260722152407",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/interbank-blockchain-trademark-interbank-network",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260716151250",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/mit-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260717100651",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/mqcc-blockchain-advertising-and-business-services",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260714180510",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/quality-standards-for-blockchain-and-crypto",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain",
+   "crypto"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260714085556",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchainstandards/turnkey-blockchain-solutions",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260711063459",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchub/blockchain-god-services",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260712065524",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchub/blockchain-in-a-box",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260716061153",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/blockchub/quality-powered-by-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260720021111",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/enter-the-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260721040021",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/enter-the-blockchain/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260717115815",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/enter-the-blockchain/mqcc-id-mqcc-identity-services",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260712065003",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/enter-the-blockchain/mqcc-indigenous-economy",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260721060009",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/enter-the-blockchain/mqcc-indigenous-economy/indigennovation-indigenous-innovation",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260714175839",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/enter-the-blockchain/mqcc-indigenous-economy/mqcc-indigenous-economy-members/indigenous-hockey",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260721060918",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/master-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260711033820",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mortgagequote.ca/mqcc-powered-by-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "mortgagequote.ca",
+  "ts": "20260714180323",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowallet.us.com/phantomextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet"
+  ],
+  "seg1": "mycryptowallet.us.com",
+  "ts": "20260717004007",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/coinmarketcapcryptocurrency",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet"
+  ],
+  "seg1": "mycryptowalletus.com",
+  "ts": "20260717231658",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/metamaskwalletapp-extension/%5DMetaMask",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "metamask"
+  ],
+  "seg1": "mycryptowalletus.com",
+  "ts": "20260714201340",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/phantomwalletdownload-extensio",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptowallet",
+   "phantomwallet"
+  ],
+  "seg1": "mycryptowalletus.com",
+  "ts": "20260720045214",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/1inch-dex",
+  "verdict": "BRAND",
+  "brands": [
+   "1inch"
+  ],
+  "seg1": "myextensionwallet.com",
+  "ts": "20260717223309",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/metamask-wallet-extension-app",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "myextensionwallet.com",
+  "ts": "20260714130639",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/okx-wallet-extension-app",
+  "verdict": "BRAND",
+  "brands": [
+   "okx"
+  ],
+  "seg1": "myextensionwallet.com",
+  "ts": "20260722153825",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/pancakeswap-dex",
+  "verdict": "BRAND",
+  "brands": [
+   "pancakeswap"
+  ],
+  "seg1": "myextensionwallet.com",
+  "ts": "20260719134040",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/rabby-wallet-extension-app",
+  "verdict": "BRAND",
+  "brands": [
+   "rabby"
+  ],
+  "seg1": "myextensionwallet.com",
+  "ts": "20260721130903",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/mywalletcrypto.com/ledgerlive-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom",
+   "ledgerlive"
+  ],
+  "seg1": "mywalletcrypto.com",
+  "ts": "20260716001942",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/mywalletcryptous.com/phantom-wallet-extension",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "mywalletcryptous.com",
+  "ts": "20260712104408",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/1inch",
+  "verdict": "BRAND",
+  "brands": [
+   "1inch"
+  ],
+  "seg1": "myweb3extensionwallet.com",
+  "ts": "20260713104108",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/ledger-live-download-app",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "myweb3extensionwallet.com",
+  "ts": "20260719201513",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/pancakeswap",
+  "verdict": "BRAND",
+  "brands": [
+   "pancakeswap"
+  ],
+  "seg1": "myweb3extensionwallet.com",
+  "ts": "20260714185019",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/trezor-suite-download-app",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "myweb3extensionwallet.com",
+  "ts": "20260718162645",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/phantom-extension.app/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "phantom-extension.app",
+  "ts": "20260711220034",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "phantom-solana-wallet.com",
+  "ts": "20260719040647",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/phantomm-extension.com/phantomextension/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "phantom"
+  ],
+  "seg1": "phantomm-extension.com",
+  "ts": "20260717093857",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/phantomm-wallet.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "phantomm-wallet.com",
+  "ts": "20260722084057",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/phantomwalletus.com/phantom-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "phantomwalletus.com",
+  "ts": "20260714171955",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/phantwallet.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "phantwallet.com",
+  "ts": "20260722064250",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/rabby-wallet-extension.com/rabby-wallet-extension",
+  "verdict": "BRAND",
+  "brands": [
+   "rabby"
+  ],
+  "seg1": "rabby-wallet-extension.com",
+  "ts": "20260712085603",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260715082625",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/Documentos/biologia-de-la-conservacion",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260718102004",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/Documentos/mamiferos-en-anps/--huemules-y-las-rutas",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260714114021",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/guardaparques",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260719172657",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/trabajadores",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260715121803",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/composguitar2/obras-de-guitarra/kleynjans/op-097-le-coin-de-lenfance/12-comme-un-r%C3%AAve",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "aave"
+  ],
+  "seg1": "site",
+  "ts": "20260713041431",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/freedomcolorguard/about-us/colorguard/2013-season",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260720210203",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/freedomcolorguard/about-us/winterguard/2013-season",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260718095118",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/ismageorgianbayhuronialodge15/freighter-trip-raffle",
+  "verdict": "BRAND",
+  "brands": [
+   "freighter"
+  ],
+  "seg1": "site",
+  "ts": "20260716023142",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/site/jennyguardado",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260718095947",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/joaorib94/teaching/codes-lattices-in-crypto",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "crypto"
+  ],
+  "seg1": "site",
+  "ts": "20260721152126",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/naresi1968/418-guarda-corpo",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "site",
+  "ts": "20260716204814",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/orionbeardedcollies/rainbow-bridge",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "rainbow"
+  ],
+  "seg1": "site",
+  "ts": "20260715115122",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/orionbeardedcollies/rainbow-bridge/stanley",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "rainbow"
+  ],
+  "seg1": "site",
+  "ts": "20260713080558",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/walkinonmusicnotes/rainbow-color-mufti-level-books/level-1-red-book/red-book-on-the-magic-bridge",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "rainbow"
+  ],
+  "seg1": "site",
+  "ts": "20260719110725",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/site/walkinonmusicnotes/rainbow-color-mufti-level-books/level-1-red-book/train-ride-to-the-magic-bridge",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "rainbow"
+  ],
+  "seg1": "site",
+  "ts": "20260719112116",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/solflare-wallet.com/solflare-wallet-download",
+  "verdict": "BRAND",
+  "brands": [
+   "solflare"
+  ],
+  "seg1": "solflare-wallet.com",
+  "ts": "20260714201020",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/trajorstart.com/trezor-suite/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "trajorstart.com",
+  "ts": "20260711220407",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trajorstarts.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trajorstarts.com",
+  "ts": "20260719072102",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trazor-start.com/trezor-io-start/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trazor-start.com",
+  "ts": "20260710211152",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trazor-start.com",
+  "ts": "20260713041715",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/trazrsuite.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trazrsuite.com",
+  "ts": "20260717155440",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/trejorio-start.com/trezorstart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trejorio-start.com",
+  "ts": "20260714232114",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trejorstart.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trejorstart.com",
+  "ts": "20260719075828",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trezcrio.com/trezor-app/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trezcrio.com",
+  "ts": "20260716024933",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trezcrio.com/trezor-suite/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "trezcrio.com",
+  "ts": "20260712125617",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trzoreio.com/trezoriostart/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "trzoreio.com",
+  "ts": "20260711161017",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/trzorio.com/trezor-suite",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "trzorio.com",
+  "ts": "20260714051513",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/uscryptocomlogin.com/cryptocomlogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom"
+  ],
+  "seg1": "uscryptocomlogin.com",
+  "ts": "20260715081638",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/uscryptocomlogin.com/cryptocomsigninn/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom"
+  ],
+  "seg1": "uscryptocomlogin.com",
+  "ts": "20260716001636",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/uswalletapp.com/ledger-com-start/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "ledger"
+  ],
+  "seg1": "uswalletapp.com",
+  "ts": "20260719082050",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/app-ledger-live/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "view",
+  "ts": "20260721110655",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/binance-acc-login",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "view",
+  "ts": "20260712021234",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/binancelogini",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "view",
+  "ts": "20260712021138",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/binanceuslogins",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "view",
+  "ts": "20260712025808",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/blocked-binance-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "binance"
+  ],
+  "seg1": "view",
+  "ts": "20260713164226",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/brava-gente-brasileira/ferramentas/guardando-lembran%C3%A7as",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "view",
+  "ts": "20260716213124",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-add-cash-pendings/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260714225727",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-loginn",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260720054410",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-pending-deposit",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260711161613",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-applogin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710203312",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-apprefund-policy/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260716081457",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapp-login/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710212133",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashappcontacts/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710210603",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapphelpus/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260710215224",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapploginss/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260711072129",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxesdownload",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260716172131",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260717004632",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-file-state-taxes-easily-using-cash-app-taxes",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260717003405",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-file-your-federal-and-state-taxes-quickly-with-cash-apptaxes",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260717005309",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-log-in-to-cash-apptaxes-easily",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260717003919",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-upload-tax-documents-to-cash-app-taxes-quickly",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260717004525",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260717153809",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/co-op-blockchain",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "view",
+  "ts": "20260715053713",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/co-op-blockchain/About-Us",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "view",
+  "ts": "20260711065224",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/co-op-blockchain/Resources/Funding-Sources",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "blockchain"
+  ],
+  "seg1": "view",
+  "ts": "20260711065642",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbas-ext-/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260716225921",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase--public-/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260717002829",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-browser-us/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720235517",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-digital-pro/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720235835",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-ext-addmin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720221359",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-public-/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260717005448",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-setup/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260721122044",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-wallet-getting/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720230025",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasecom-advancedtrade/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260721175740",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasewalletcontrol/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720230827",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasewalletnumber",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720174709",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasewallets",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260712033938",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/coinchecks/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coincheck"
+  ],
+  "seg1": "view",
+  "ts": "20260714170517",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/commetamask-en/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260710175959",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/crypto-casino-bonus-e-04d33af2",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "crypto"
+  ],
+  "seg1": "view",
+  "ts": "20260715150717",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/desktop-coinbase/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "view",
+  "ts": "20260720233802",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/electrumwalletus",
+  "verdict": "BRAND",
+  "brands": [
+   "electrum"
+  ],
+  "seg1": "view",
+  "ts": "20260712024224",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/flyingravensart",
+  "verdict": "BRAND",
+  "brands": [
+   "ngrave"
+  ],
+  "seg1": "view",
+  "ts": "20260716053105",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/fuzedcraftsstudio/live-edge-racks",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "edge"
+  ],
+  "seg1": "view",
+  "ts": "20260717184021",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/fuzedcraftsstudio/live-edge-tables",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "edge"
+  ],
+  "seg1": "view",
+  "ts": "20260717190520",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/getmoneybackfromcashapp/speedy-analysis-cash-app-for-business-account-fee-limit-benefits",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260714050700",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/guardaraia/add",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "view",
+  "ts": "20260714081335",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/guardaraia/afc",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "view",
+  "ts": "20260722090706",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/guardaraia/home",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "view",
+  "ts": "20260714233255",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/intro-trezor-suite/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "view",
+  "ts": "20260720235636",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/ledger-live-login-by/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "view",
+  "ts": "20260722014456",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/ledgerlive-logon-/home",
+  "verdict": "BRAND",
+  "brands": [
+   "ledgerlive"
+  ],
+  "seg1": "view",
+  "ts": "20260717002130",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/login-metamask-apps/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260721101417",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/login-metamask-web/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260721114933",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/london-crypto-day",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "crypto"
+  ],
+  "seg1": "view",
+  "ts": "20260720170403",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/mentoroftrading/inside-bh-insights-daily-crypto-market-updates-copy-trade-signals",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "crypto"
+  ],
+  "seg1": "view",
+  "ts": "20260718163814",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/metamask-extension-download-oa/chrome",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260721144039",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/metamask-extension-secure/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260720232830",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/metamask-gateway/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260720235731",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/metamask-signin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260721133031",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/metamasklog-in",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "view",
+  "ts": "20260717091602",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/myblogzone/key-selling-tips-you-should-know-if-you-are-planning-to-sell-gold-jewels",
+  "verdict": "BRAND",
+  "brands": [
+   "onekey"
+  ],
+  "seg1": "view",
+  "ts": "20260716121638",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/newapp-trezor/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260710183341",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/phantomwallet-extension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "view",
+  "ts": "20260721022514",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260713231832",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke/anbi",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260717065057",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke/geschiedenis",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260718213342",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke/wie-doet-wat/diaconie",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260723004950",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke/wie-doet-wat/kerkrentmeesters",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260712041743",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke/wie-doet-wat/kerkrentmeesters/begraafplaats",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260717191622",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/pknkleverskerke/wie-doet-wat/zwo",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260711183123",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/mountainbike",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260716090749",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/mountainbike/mtb-wegeregeln",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260713071051",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/rennrad/radrennen",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260710154019",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/veranstaltungen",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260711215449",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/veranstaltungen/schnuppertage-2026",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260722120724",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/verein/vorstand",
+  "verdict": "BRAND",
+  "brands": [
+   "klever"
+  ],
+  "seg1": "view",
+  "ts": "20260722121341",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/thihaelec/hobby-projects/esp32-crypto-display",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "crypto"
+  ],
+  "seg1": "view",
+  "ts": "20260717062358",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-bridge-enus/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260720234058",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-en-com/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260722152256",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-en-hub/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260722153057",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-hardware-app/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260712035511",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-secure-/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260717004359",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezorhard-en-us/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260722145928",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/trezorio-en-web/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260710183752",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezorio-us-en/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260722132429",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezorioen-web/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260710180225",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/trezoriostart-trezorhardware/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260714175144",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/trezorlogiin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor"
+  ],
+  "seg1": "view",
+  "ts": "20260721122330",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/trezorsuite-weba/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "view",
+  "ts": "20260712040010",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/uniswap-v3-ads-929",
+  "verdict": "BRAND",
+  "brands": [
+   "uniswap"
+  ],
+  "seg1": "view",
+  "ts": "20260720061922",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/verticalfreighter/about",
+  "verdict": "BRAND",
+  "brands": [
+   "freighter"
+  ],
+  "seg1": "view",
+  "ts": "20260717202549",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/verticalfreighter/contact",
+  "verdict": "BRAND",
+  "brands": [
+   "freighter"
+  ],
+  "seg1": "view",
+  "ts": "20260713065325",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/verticalfreighter/home",
+  "verdict": "BRAND",
+  "brands": [
+   "freighter"
+  ],
+  "seg1": "view",
+  "ts": "20260718131745",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/verticalfreighter/privacy-policy",
+  "verdict": "BRAND",
+  "brands": [
+   "freighter"
+  ],
+  "seg1": "view",
+  "ts": "20260718094631",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/victoria-spiegl-2028-guard/awards-recognition",
+  "verdict": "BRAND",
+  "brands": [
+   "guarda"
+  ],
+  "seg1": "view",
+  "ts": "20260715023552",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/wallet-login-en/home",
+  "verdict": "LURE",
+  "brands": [
+   "walletlogin"
+  ],
+  "seg1": "view",
+  "ts": "20260722153135",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/view/why-cash-app-transfer-failed/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "view",
+  "ts": "20260718221217",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/view/wwwcoinspotcomlogin",
+  "verdict": "BRAND",
+  "brands": [
+   "coinspot"
+  ],
+  "seg1": "view",
+  "ts": "20260722212025",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/wallcrypus.com/phantomwalletextension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "phantomwallet"
+  ],
+  "seg1": "wallcrypus.com",
+  "ts": "20260721173019",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/walletcryptoextension.com/bitcoin-core/home",
+  "verdict": "BRAND_CTX",
+  "brands": [
+   "core"
+  ],
+  "seg1": "walletcryptoextension.com",
+  "ts": "20260714164743",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/walletcryptoextension.com/rabby-wallet-extension",
+  "verdict": "BRAND",
+  "brands": [
+   "rabby"
+  ],
+  "seg1": "walletcryptoextension.com",
+  "ts": "20260717214950",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/walletcryptoextension.com/solflare-wallet",
+  "verdict": "BRAND",
+  "brands": [
+   "solflare"
+  ],
+  "seg1": "walletcryptoextension.com",
+  "ts": "20260718220521",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "seg1": "walletcryptohub.com",
+  "ts": "20260718153111",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/walletcrytptrade.xyz/coinbaselogin",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase"
+  ],
+  "seg1": "walletcrytptrade.xyz",
+  "ts": "20260712021827",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/walletlogs.com/cashapploginn/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "walletlogs.com",
+  "ts": "20260718031106",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/walletslog.com/cash-app-login",
+  "verdict": "BRAND",
+  "brands": [
+   "cashapp"
+  ],
+  "seg1": "walletslog.com",
+  "ts": "20260719202714",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/atomic-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "atomicwallet",
+   "cryptocom"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260712041244",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/coinbase-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase",
+   "cryptocom"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260720033701",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/trezor-bridge/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom",
+   "trezor"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260722061100",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/trust-wallet/home",
+  "verdict": "BRAND",
+  "brands": [
+   "cryptocom",
+   "trustwallet"
+  ],
+  "seg1": "wallletcrypto.com",
+  "ts": "20260710211451",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/walltcrypto.com/coinbase-wallet-extension/home",
+  "verdict": "BRAND",
+  "brands": [
+   "coinbase",
+   "cryptocom"
+  ],
+  "seg1": "walltcrypto.com",
+  "ts": "20260719075340",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/web-extension.com/trust-wallet-app/home",
+  "verdict": "BRAND",
+  "brands": [
+   "trustwallet"
+  ],
+  "seg1": "web-extension.com",
+  "ts": "20260715083759",
+  "status": "302"
+ },
+ {
+  "url": "https://sites.google.com/web3walletextension.com/1inch",
+  "verdict": "BRAND",
+  "brands": [
+   "1inch"
+  ],
+  "seg1": "web3walletextension.com",
+  "ts": "20260713031508",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/web3walletextension.com/metamask-wallet-extension-app/home",
+  "verdict": "BRAND",
+  "brands": [
+   "metamask"
+  ],
+  "seg1": "web3walletextension.com",
+  "ts": "20260718102716",
+  "status": "200"
+ },
+ {
+  "url": "https://sites.google.com/web3walletextension.com/okx-wallet-extension-app",
+  "verdict": "BRAND",
+  "brands": [
+   "okx"
+  ],
+  "seg1": "web3walletextension.com",
+  "ts": "20260720174754",
+  "status": "200"
+ },
+ {
+  "url": "https://www.sites.google.com/kucoin-log.com/kucoinloginin/home",
+  "verdict": "BRAND",
+  "brands": [
+   "kucoin"
+  ],
+  "seg1": "kucoin-log.com",
+  "ts": "20260714191342",
+  "status": "302"
+ }
+]

@@ -78,6 +78,26 @@ li.t-def .t-when b{color:var(--accent)}
 .urlbar{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
   padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}
 .urlbar .g{color:#188038} .urlbar .r{color:#c5221f;font-weight:700}
+.tag{display:inline-block;align-self:flex-start;font:700 10px/1 var(--mono);letter-spacing:.09em;
+  padding:5px 8px;border-radius:4px;text-transform:uppercase}
+.tag-active{background:#3a1418;color:#ff8b8b;border:1px solid #5c1f26}
+.tag-broken{background:#3a2c11;color:#f0c078;border:1px solid #5c4620}
+.tag-brand{background:#1b2430;color:#9ec5e8;border:1px solid #2b3a4d}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px;margin:26px 0}
+.card{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.card img{width:100%;display:block;border:0;border-bottom:1px solid var(--line);background:#fff}
+.card figcaption{padding:12px 14px;margin:0;display:flex;flex-direction:column;gap:5px}
+.card figcaption b{font-size:12px;word-break:break-all;color:var(--ink)}
+.card figcaption .t{font-size:13px;color:var(--dim)}
+table.matrix td,table.matrix th{text-align:center;padding:7px 6px}
+table.matrix td:first-child,table.matrix th:first-child{text-align:left}
+.cell-ok{color:var(--accent);font-size:15px} .cell-no{color:var(--dim)}
+.dl{display:inline-flex;align-items:center;gap:16px;background:var(--panel);
+  border:1px solid var(--accent);border-radius:10px;padding:17px 24px;text-decoration:none;
+  color:var(--ink);margin:14px 0 8px}
+.dl:hover{background:#182018}
+.dl-i{font:700 22px/1 var(--mono);color:var(--accent)}
+.dl b{display:block;font-size:16px} .dl .small{display:block;margin-top:3px}
 .toc{position:sticky;top:0;z-index:20;background:rgba(11,13,16,.94);
   backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:11px 0;font-size:12.5px}
 .toc .wrap{display:flex;gap:14px;flex-wrap:wrap;align-items:baseline}
@@ -116,7 +136,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 
 <nav class="toc"><div class="wrap">
   <b>Contents</b>
-  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 The google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#advertised">10 Advertised URLs</a><a href="#ledger">11 The Ledger domain</a><a href="#pattern">12 Platform pattern</a><a href="#geo">13 Multi-geo</a><a href="#advertiser">14 The advertiser</a><a href="#response">15 Response</a><a href="#ioc">16 Indicators</a><a href="#method">17 Method</a>
+  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#live">10 Live pages</a><a href="#chain">11 Payload chain</a><a href="#geo">12 Where they serve</a><a href="#download">13 Download evidence</a><a href="#advertised">14 Advertised URLs</a><a href="#ledger">15 The Ledger domain</a><a href="#pattern">16 Platform pattern</a><a href="#serpgeo">17 Multi-geo SERP</a><a href="#advertiser">18 The advertiser</a><a href="#response">19 Response</a><a href="#ioc">20 Indicators</a><a href="#method">21 Method</a>
 </div></nav>
 
 <section id="answers"><div class="wrap">
@@ -133,18 +153,18 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
     <div class="a"><b>16 of them, listed in full with their campaign IDs</b>, each captured
       with Google's own click parameters still attached — a receipt, not a guess.
       4 are still live.
-      <a href="#advertised">§10</a></div>
+      <a href="#advertised">§14</a></div>
 
     <div class="q">Is <code>ledgerstart-web.com</code> currently being advertised?</div>
     <div class="a"><b>No evidence that it is</b> — zero in the Ads Transparency Center (with a passing
       control), no click parameters on any of its 3 public captures, and it does not rank organically
       for its own title. The page <b>is</b> live and does solicit recovery phrases. Four tests, their
-      controls and their weight: <a href="#ledger">§11</a></div>
+      controls and their weight: <a href="#ledger">§15</a></div>
 
     <div class="q">Who ran the ad?</div>
     <div class="a"><b>Unknown, and unknowable from public records.</b> Google's Ads Transparency Center
       holds no entry for it. The sweep did find two <i>confirmed</i> advertiser-account takeovers of
-      real companies — neither connected to this incident. <a href="#advertiser">§14</a></div>
+      real companies — neither connected to this incident. <a href="#advertiser">§18</a></div>
 
     <div class="q">How much was taken?</div>
     <div class="a"><b>$1,349,952</b> from <b>73</b> wallets in 32.9 hours, valued at
@@ -484,8 +504,187 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
   </table></div>
 </div></section>
 
+<section id="live"><div class="wrap">
+  <h2>10 &middot; The live pages, photographed</h2>
+  <p class="sub">Every page below was fetched and screenshotted through a residential connection in
+  <b>10 countries</b> on 09 August 2026. All
+  150 of 150 page&times;country probes served.</p>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">The Trezor page came back</h3>
+    <p style="margin-top:0">On 8 August <code>sites.google.com/view/start-trezor-suite</code>
+    redirected to a Google sign-in &mdash; removed or unpublished. On <b>9 August it is serving
+    again</b>, now titled &ldquo;connect&rdquo;, and it loads its payload from a
+    <b>Firebase Hosting</b> app: <code>ksf-webapp-080826.web.app</code>. The name reads as a date,
+    08-08-26 &mdash; the day after the incident. That payload is a 2.37&nbsp;MB clone titled
+    &ldquo;Trezor Suite App (Official)&rdquo; which even pulls real assets from
+    <code>forum.trezor.io</code> and <code>sgtm.trezor.io</code>.</p>
+    <p style="margin-bottom:0">It loaded in <b>every one</b> of the 10
+    countries probed.</p>
+  </div>
+
+  <div class="stats" style="margin:0 0 22px">
+    <div class="stat red"><b>7</b><span>still actively harvesting</span></div>
+    <div class="stat amber"><b>6</b><span>live page, dead payload</span></div>
+    <div class="stat"><b>2</b><span>impersonation, no harvest seen</span></div>
+    <div class="stat"><b>150/150</b><span>page&times;country probes served</span></div>
+  </div>
+  <div class="grid"><figure class="card"><img src="assets/live/kryptowallets-app-uniswap-dex-login.jpg" loading="lazy" alt="Screenshot of the live phishing page at /kryptowallets.app/uniswap-dex-login/"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/kryptowallets.app/uniswap-dex-login/</b><span class="t">Uniswap Login | Offizielle Website für Swaps</span><span class="muted small">asks for the recovery phrase in the page itself</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/ledgerstart-web-com-ledger-live-home.jpg" loading="lazy" alt="Screenshot of the live phishing page at /ledgerstart-web.com/ledger-live/home"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/ledgerstart-web.com/ledger-live/home</b><span class="t">Leder Live | Ledger Live App Crypto Wallet - Official® Site®</span><span class="muted small">asks for the recovery phrase in the page itself</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/net7-net-coinbase-home.jpg" loading="lazy" alt="Screenshot of the live phishing page at /net7.net/coinbase/home"><figcaption><span class="tag tag-brand">BRAND PAGE</span><b class="mono">/net7.net/coinbase/home</b><span class="t">home</span><span class="muted small">impersonating content, no harvesting seen at capture time</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/preloadcomubx-com-nsdh232-uniswap.jpg" loading="lazy" alt="Screenshot of the live phishing page at /preloadcomubx.com/nsdh232/uniswap"><figcaption><span class="tag tag-broken">BROKEN SHELL</span><b class="mono">/preloadcomubx.com/nsdh232/uniswap</b><span class="t">uniswap</span><span class="muted small">live page, but its payload host is dead</span><span class="muted small mono">payload: https://multichain-swap-interface-v4.co (CF_521_ORIGIN_DOWN)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-app-ledger-com-home.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/app-ledger-com/home"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/view/app-ledger-com/home</b><span class="t">Ledger.com</span><span class="muted small">loads a live harvesting payload in an iframe</span><span class="muted small mono">payload: https://japanesetoenailfunguscode.com/ledger1/v5.html (LIVE)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-app-ledger-wallet.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/app-ledger-wallet"><figcaption><span class="tag tag-broken">BROKEN SHELL</span><b class="mono">/view/app-ledger-wallet</b><span class="t">Ledger</span><span class="muted small">live page, but its payload host is dead</span><span class="muted small mono">payload: https://storage.googleapis.com/ledg-leg1-20860/index.html (404)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-app-uniswap-dashbroad-uniswap.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/app-uniswap-dashbroad/uniswap"><figcaption><span class="tag tag-broken">BROKEN SHELL</span><b class="mono">/view/app-uniswap-dashbroad/uniswap</b><span class="t">uniswap</span><span class="muted small">live page, but its payload host is dead</span><span class="muted small mono">payload: https://storage.googleapis.com/app-uni-sww/index.html (404)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-dplhzjdquwbtktmp-metamask-ja-jp.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/dplhzjdquwbtktmp/metamask-ja-jp/"><figcaption><span class="tag tag-brand">BRAND PAGE</span><b class="mono">/view/dplhzjdquwbtktmp/metamask-ja-jp/</b><span class="t">メタマスク拡張機能のダウンロード今すぐ利用を開始しようはこちら</span><span class="muted small">impersonating content, no harvesting seen at capture time</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-exodus-web3wallet-home.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/exodus-web3wallet-/home"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/view/exodus-web3wallet-/home</b><span class="t">Exodus® Web3 Wallet | Exodus® Browser Extension</span><span class="muted small">asks for the recovery phrase in the page itself</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-exodus-wlt-home.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/exodus-wlt/home"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/view/exodus-wlt/home</b><span class="t">Exódus® Web3 Wallet | Exódus® Browser Extension</span><span class="muted small">asks for the recovery phrase in the page itself</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-exodwolt-home-exodus.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/exodwolt/home/exodus"><figcaption><span class="tag tag-broken">BROKEN SHELL</span><b class="mono">/view/exodwolt/home/exodus</b><span class="t">#Exodus</span><span class="muted small">live page, but its payload host is dead</span><span class="muted small mono">payload: https://app-ex-odus.com/ (NXDOMAIN)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-konut2-okx-wallet.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/konut2/okx-wallet"><figcaption><span class="tag tag-broken">BROKEN SHELL</span><b class="mono">/view/konut2/okx-wallet</b><span class="t">OKX Wallet</span><span class="muted small">live page, but its payload host is dead</span><span class="muted small mono">payload: https://tersaze.com/ (NXDOMAIN)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-korkuevim-phantom.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/korkuevim/phantom"><figcaption><span class="tag tag-broken">BROKEN SHELL</span><b class="mono">/view/korkuevim/phantom</b><span class="t">Phantom</span><span class="muted small">live page, but its payload host is dead</span><span class="muted small mono">payload: https://keystash.eu.com/ (CF_522_ORIGIN_DOWN)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/view-start-trezor-suite.jpg" loading="lazy" alt="Screenshot of the live phishing page at /view/start-trezor-suite"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/view/start-trezor-suite</b><span class="t">connect</span><span class="muted small">loads a live harvesting payload in an iframe</span><span class="muted small mono">payload: https://ksf-webapp-080826.web.app/ (LIVE)</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure>
+<figure class="card"><img src="assets/live/walletcryptoweb-com-ledger-com-start-home.jpg" loading="lazy" alt="Screenshot of the live phishing page at /walletcryptoweb.com/ledger-com-start/home"><figcaption><span class="tag tag-active">ACTIVE HARVESTER</span><b class="mono">/walletcryptoweb.com/ledger-com-start/home</b><span class="t">Ledger.com/start - Getting started with Ledger Live</span><span class="muted small">asks for the recovery phrase in the page itself</span><span class="muted small">served in all 10 countries &middot; 10 screenshots in the archive</span></figcaption></figure></div>
+  <p class="small muted">Screenshots are the outer Google Sites frame as a normal visitor receives it.
+  Several render sparse because the harvesting UI lives in an iframe whose host has since died &mdash;
+  Google still serves the frame. Full-resolution captures for every country are in the archive.</p>
+</div></section>
+
+<section id="chain"><div class="wrap">
+  <h2>11 &middot; The two-stage chain, and what is still alive</h2>
+  <p class="sub">The Google Sites page is only the outer frame. The part that asks for your recovery
+  phrase is loaded into it from a second host.</p>
+  <div class="scroll"><table>
+    <tr><th>Second-stage payload host</th><th>Status now</th><th>Title</th><th>Signals in source</th></tr>
+    <tr><td class="mono small">https://app-ex-odus.com/</td><td><span class="muted"><b>dead &mdash; NXDOMAIN</b></span></td><td class="small"></td><td class="small muted"></td></tr>
+<tr><td class="mono small">https://tersaze.com/</td><td><span class="muted"><b>dead &mdash; NXDOMAIN</b></span></td><td class="small"></td><td class="small muted"></td></tr>
+<tr><td class="mono small">https://keystash.eu.com/</td><td><span class="muted"><b>dead &mdash; origin down (CF 522)</b></span></td><td class="small"></td><td class="small muted"></td></tr>
+<tr><td class="mono small">https://ksf-webapp-080826.web.app/</td><td><span class="bad"><b>LIVE</b></span></td><td class="small">Trezor Suite App (Official) | Desktop &amp;amp; Web Crypto Management | Trezor</td><td class="small muted">private key, passphrase</td></tr>
+<tr><td class="mono small">https://japanesetoenailfunguscode.com/ledger1/v5.html</td><td><span class="bad"><b>LIVE</b></span></td><td class="small">Ledger Connect</td><td class="small muted">recovery phrase, seed phrase, 24 word, 12 word, verify_human</td></tr>
+<tr><td class="mono small">https://storage.googleapis.com/ledg-leg1-20860/index.html</td><td><span class="muted"><b>deleted &mdash; 404</b></span></td><td class="small"></td><td class="small muted"></td></tr>
+<tr><td class="mono small">https://storage.googleapis.com/app-uni-sww/index.html</td><td><span class="muted"><b>deleted &mdash; 404</b></span></td><td class="small"></td><td class="small muted"></td></tr>
+<tr><td class="mono small">https://multichain-swap-interface-v4.co</td><td><span class="muted"><b>CF_521_ORIGIN_DOWN</b></span></td><td class="small"></td><td class="small muted"></td></tr>
+  </table></div>
+  <div class="panel">
+    <p style="margin-top:0"><b>Two of the second-stage hosts are Google&rsquo;s own.</b>
+    <code>ksf-webapp-080826.web.app</code> is Firebase Hosting;
+    <code>storage.googleapis.com/ledg-leg1-20860/</code> and
+    <code>storage.googleapis.com/app-uni-sww/</code> are Google Cloud Storage buckets. Add the
+    <code>sites.google.com</code> frame and the Google Ads click that delivered the traffic, and the
+    entire chain &mdash; distribution, frame and payload &mdash; ran on Google property.</p>
+    <p style="margin-bottom:0"><b>The frames outlive the payloads.</b> Five of the seven payload hosts
+    are dead: two buckets deleted (404 <code>NoSuchBucket</code>), two domains
+    <code>NXDOMAIN</code>, one origin down. Yet <b>all 15</b> Google Sites pages still serve. Killing
+    the payload does not remove the page, and the page is still a brand impersonation carrying a
+    google.com URL.</p>
+  </div>
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">The cloaking script, verbatim</h3>
+    <p style="margin-top:0"><code>japanesetoenailfunguscode.com/ledger1/v5.html</code> &mdash; titled
+    &ldquo;Ledger Connect&rdquo;, live today &mdash; opens with a block commented
+    <code>// ANTI-BOT SCRIPT</code>. It records whether the visitor moved a mouse, pressed a key or
+    touched the screen, then collects <code>screen.width</code>, <code>screen.height</code>,
+    <code>timezoneOffset</code>, <code>navigator.language</code>, <code>navigator.platform</code> and
+    <code>navigator.plugins.length</code> and POSTs the lot to <code>/verify_human.php</code> on load,
+    on unload, and again after three seconds.</p>
+    <p style="margin-bottom:0">Timezone and language are geolocation. This is the server deciding, per
+    visitor, whether to show the harvesting UI &mdash; the cloaking layer that keeps automated review
+    from seeing what a victim sees. The page also ships a BIP-39 wordlist autocomplete for the
+    seed-phrase inputs.</p>
+  </div>
+</div></section>
+
+<section id="geo"><div class="wrap">
+  <h2>12 &middot; Where they serve</h2>
+  <p class="sub">Each cell is one real fetch through a residential ISP connection in that country,
+  driving a real Chrome profile.</p>
+  <div class="panel good">
+    <p style="margin-top:0"><b>There is no geo-blocking and no geo-cloaking at the Google Sites
+    layer.</b> All 150 of 150 probes served,
+    and every page returned an identical title, identical payload frame and identical phishing signals
+    in all 10 countries.</p>
+    <p style="margin-bottom:0" class="small">A check worth showing, because it nearly produced a false
+    finding: the raw page text <i>did</i> hash differently in every country. That was
+    <b>our own doing</b> &mdash; Google Sites localises its own footer chrome to the browser locale we
+    set per country. The tell is that the same hash appeared on six <i>unrelated</i> pages within a
+    country. Comparing only attacker-controlled fields, the variation disappears. Targeting here is by
+    <b>page language</b>, not by serving rules.</p>
+  </div>
+  <div class="scroll"><table class="matrix">
+    <tr><th>Page</th><th>BR</th><th>DE</th><th>ES</th><th>FR</th><th>GB</th><th>IN</th><th>JP</th><th>NL</th><th>TR</th><th>US</th></tr>
+    <tr><td class="mono small">/kryptowallets.app/uniswap-dex-login/</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/ledgerstart-web.com/ledger-live/home</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/net7.net/coinbase/home</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/preloadcomubx.com/nsdh232/uniswap</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/app-ledger-com/home</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/app-ledger-wallet</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/app-uniswap-dashbroad/uniswap</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/dplhzjdquwbtktmp/metamask-ja-jp/</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/exodus-web3wallet-/home</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/exodus-wlt/home</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/exodwolt/home/exodus</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/konut2/okx-wallet</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/korkuevim/phantom</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/view/start-trezor-suite</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+<tr><td class="mono small">/walletcryptoweb.com/ledger-com-start/home</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td><td class="cell-ok">&#9679;</td></tr>
+  </table></div>
+  <h3 style="margin-top:30px">The exit used for each country</h3>
+  <div class="scroll"><table>
+    <tr><th>Country</th><th>Exit IP</th><th>ISP</th></tr>
+    <tr><td><b>BR</b></td><td class="mono small">177.70.93.86</td><td class="small muted">AS28241 VERO S.A</td></tr><tr><td><b>DE</b></td><td class="mono small">91.96.215.104</td><td class="small muted">AS9145 EWE TEL GmbH</td></tr><tr><td><b>ES</b></td><td class="mono small">89.128.160.83</td><td class="small muted">AS12479 Orange Espagne SA</td></tr><tr><td><b>FR</b></td><td class="mono small">109.208.252.133</td><td class="small muted">AS3215 Orange S.A.</td></tr><tr><td><b>GB</b></td><td class="mono small">88.97.220.40</td><td class="small muted">AS212655 YouFibre Limited</td></tr><tr><td><b>IN</b></td><td class="mono small">103.161.231.201</td><td class="small muted">AS153252 ELXIRE</td></tr><tr><td><b>JP</b></td><td class="mono small">130.62.0.104</td><td class="small muted">AS55391 INTERNET MULTIFEED CO.</td></tr><tr><td><b>NL</b></td><td class="mono small">77.250.182.66</td><td class="small muted">AS33915 Vodafone Libertel B.V.</td></tr><tr><td><b>TR</b></td><td class="mono small">91.93.236.89</td><td class="small muted">AS34984 Superonline Iletisim Hizmetleri A.S.</td></tr><tr><td><b>US</b></td><td class="mono small">69.243.69.221</td><td class="small muted">AS7922 Comcast Cable Communications, LLC</td></tr>
+  </table></div>
+  <p class="small muted">Language targeting observed in the page content itself:
+  <code>/kryptowallets.app/uniswap-dex-login/</code> is German
+  (&ldquo;Uniswap Login | Offizielle Website f&uuml;r Swaps&rdquo;) and
+  <code>/view/dplhzjdquwbtktmp/metamask-ja-jp/</code> is Japanese. The rest are English.</p>
+</div></section>
+
+<section id="download"><div class="wrap">
+  <h2>13 &middot; Download the evidence</h2>
+  <p class="sub">Everything needed to file an abuse report or check any claim on this page.</p>
+  <a class="dl" href="trezor-google-sites-phishing-evidence.zip" download>
+    <span class="dl-i">&darr;</span>
+    <span><b>trezor-google-sites-phishing-evidence.zip</b>
+      <span class="muted small">21.39 MB &middot; 256 files &middot;
+      15 pages &middot; 10 countries</span></span>
+  </a>
+  <p class="small mono muted">md5 f6030e18ba7c350b8a1ee946465a5c66<br>sha256 0b9e1f4608b12e716857b13638b176b995a31b9a47eba62ae11f9f75e5b0051c</p>
+  <div class="two">
+    <div class="panel">
+      <h3 style="margin-bottom:6px">What is inside</h3>
+      <ul class="small" style="margin-bottom:0">
+        <li>One folder per phishing page</li>
+        <li><code>page.source.txt</code> &mdash; the unmodified response bytes, with a sha256</li>
+        <li><code>page.headers.txt</code> &mdash; the HTTP response headers</li>
+        <li><code>payloadN.source.txt</code> &mdash; the second-stage page(s), unmodified</li>
+        <li>One screenshot per country probed</li>
+        <li><code>EVIDENCE.txt</code> &mdash; per-page summary sheet</li>
+        <li><code>INDICATORS.txt</code> &mdash; every URL, payload host, BTC address and campaign ID</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3 style="margin-bottom:6px">Why the sources end in .txt</h3>
+      <p class="small" style="margin-top:0">Each <code>.source.txt</code> is the original response
+      body byte for byte, with its sha256 recorded next to it. The extension is the only change. It
+      keeps the archive from being double-clicked into a working phishing kit while preserving the
+      evidence exactly &mdash; which is also what stops the archive itself being taken down.</p>
+      <p class="small muted" style="margin-bottom:0">Verify any file with
+      <code>sha256sum</code> against the value in its <code>EVIDENCE.txt</code>, or re-fetch the URL
+      and compare.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <h3 style="margin-bottom:6px">Reporting routes</h3>
+    <p style="margin:0" class="small">Google Sites abuse &mdash;
+    <a href="https://support.google.com/sites/answer/1651998">support.google.com/sites/answer/1651998</a>
+    &middot; Google Ads &mdash;
+    <a href="https://support.google.com/google-ads/contact/report_ad">report an ad</a>
+    &middot; Safe Browsing &mdash;
+    <a href="https://safebrowsing.google.com/safebrowsing/report_phish/">report a phishing page</a></p>
+  </div>
+</div></section>
+
 <section id="advertised"><div class="wrap">
-  <h2>10 · The URLs that were provably used for advertising</h2>
+  <h2>14 · The URLs that were provably used for advertising</h2>
   <p class="sub">Not inferred. Every URL below was captured by a public scanner with Google’s own
   ad-click parameters still attached to it.</p>
 
@@ -550,7 +749,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 </div></section>
 
 <section id="ledger"><div class="wrap">
-  <h2>11 · Is <span class="mono" style="font-size:.62em">sites.google.com/ledgerstart-web.com/ledger-live/home</span> being advertised?</h2>
+  <h2>15 · Is <span class="mono" style="font-size:.62em">sites.google.com/ledgerstart-web.com/ledger-live/home</span> being advertised?</h2>
   <div class="panel flag">
     <p style="margin-top:0"><b>Short answer: no evidence that it is — but that is not the same as
     proof it isn’t.</b></p>
@@ -570,7 +769,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 </div></section>
 
 <section id="pattern"><div class="wrap">
-  <h2>12 · This is not one page. It is a platform pattern.</h2>
+  <h2>16 · This is not one page. It is a platform pattern.</h2>
   <p class="sub">Searching every public scan of <code>sites.google.com</code> against ten wallet and
   exchange brands returns <b>185 distinct phishing URLs</b>, running
   continuously from <b>2020 to today</b>.</p>
@@ -661,8 +860,8 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
   </table></div>
 </div></section>
 
-<section id="geo"><div class="wrap">
-  <h2>13 · Multi-geo live check</h2>
+<section id="serpgeo"><div class="wrap">
+  <h2>17 · Multi-geo live SERP check</h2>
   <p class="sub">32 probes across 18 countries, each through a fresh residential exit in-country,
   driving a real Chrome profile. 20 rendered a genuine local SERP.</p>
   <div class="panel">
@@ -704,7 +903,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 </div></section>
 
 <section id="advertiser"><div class="wrap">
-  <h2>14 · Who the advertiser is — and why nobody can say</h2>
+  <h2>18 · Who the advertiser is — and why nobody can say</h2>
   <p class="sub">Google’s own advertiser-accountability record, queried directly through the RPC the
   site itself uses, across 20 regions.</p>
   <div class="panel flag">
@@ -758,7 +957,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 </div></section>
 
 <section id="response"><div class="wrap">
-  <h2>15 · The response, and the four-month-old warning</h2>
+  <h2>19 · The response, and the four-month-old warning</h2>
   <div class="panel">
     <h3 style="margin-bottom:6px">Trezor</h3>
     <p style="margin-top:0">The verified @Trezor account replied to the victim at
@@ -799,7 +998,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 </div></section>
 
 <section id="ioc"><div class="wrap">
-  <h2>16 · Indicators</h2>
+  <h2>20 · Indicators</h2>
   <div class="ioc">Phishing page   sites.google.com/view/start-trezor-suite   (unpublished as of 2026-08-09)
 Ad display URL  https://www.google.com          Ad advertiser name  "Trezor.io"
 Ad headline     Trezor Suite | Download Trezor App
@@ -823,7 +1022,7 @@ Prior hosting   start-trezor-suite-{faq,en,ai,us,dlv,cdn,download-io}.pages.dev
 </div></section>
 
 <section id="method"><div class="wrap">
-  <h2>17 · Method, and what could not be measured</h2>
+  <h2>21 · Method, and what could not be measured</h2>
   <p class="sub">Everything here is reproducible from the repository.</p>
   <table>
     <tr><th>Question</th><th>How it was answered</th></tr>

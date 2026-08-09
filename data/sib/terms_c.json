@@ -1,0 +1,98 @@
+[
+{
+"name": "page.domain:web.app AND page.title:\"Trezor\"",
+"q": "page.domain:web.app AND page.title:\"Trezor\""
+},
+{
+"name": "page.domain:web.app AND page.title:\"Ledger\"",
+"q": "page.domain:web.app AND page.title:\"Ledger\""
+},
+{
+"name": "page.domain:firebaseapp.com AND page.title:\"Trezor\"",
+"q": "page.domain:firebaseapp.com AND page.title:\"Trezor\""
+},
+{
+"name": "page.domain:firebaseapp.com AND page.title:\"Ledger\"",
+"q": "page.domain:firebaseapp.com AND page.title:\"Ledger\""
+},
+{
+"name": "page.domain:web.app AND page.title:\"Wallet\"",
+"q": "page.domain:web.app AND page.title:\"Wallet\""
+},
+{
+"name": "page.domain:firebaseapp.com AND page.title:\"Wallet\"",
+"q": "page.domain:firebaseapp.com AND page.title:\"Wallet\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Ledger\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Ledger\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Trezor\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Trezor\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Uniswap\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Uniswap\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Wallet\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Wallet\""
+},
+{
+"name": "page.domain:japanesetoenailfunguscode.com",
+"q": "page.domain:japanesetoenailfunguscode.com"
+},
+{
+"name": "task.url:\"ksf-webapp\"",
+"q": "task.url:\"ksf-webapp\""
+},
+{
+"name": "task.url:\"verify_human.php\"",
+"q": "task.url:\"verify_human.php\""
+},
+{
+"name": "page.domain:appspot.com AND page.title:\"Wallet\"",
+"q": "page.domain:appspot.com AND page.title:\"Wallet\""
+},
+{
+"name": "page.domain:pages.dev AND page.title:\"Trezor\"",
+"q": "page.domain:pages.dev AND page.title:\"Trezor\""
+},
+{
+"name": "page.domain:pages.dev AND page.title:\"Ledger\"",
+"q": "page.domain:pages.dev AND page.title:\"Ledger\""
+},
+{
+"name": "page.domain:web.app AND page.title:\"Exodus\"",
+"q": "page.domain:web.app AND page.title:\"Exodus\""
+},
+{
+"name": "page.domain:web.app AND page.title:\"Phantom\"",
+"q": "page.domain:web.app AND page.title:\"Phantom\""
+},
+{
+"name": "page.domain:web.app AND page.title:\"MetaMask\"",
+"q": "page.domain:web.app AND page.title:\"MetaMask\""
+},
+{
+"name": "page.domain:web.app AND page.title:\"Coinbase\"",
+"q": "page.domain:web.app AND page.title:\"Coinbase\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"MetaMask\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"MetaMask\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Exodus\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Exodus\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Phantom\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Phantom\""
+},
+{
+"name": "page.domain:storage.googleapis.com AND page.title:\"Coinbase\"",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Coinbase\""
+}
+]

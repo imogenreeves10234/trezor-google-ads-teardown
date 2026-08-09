@@ -1,0 +1,67 @@
+[okx] page.domain:sites.google.com AND task.url:"okx"
+    -> 3
+[bybit] page.domain:sites.google.com AND task.url:"bybit"
+    -> 0
+[bitget] page.domain:sites.google.com AND task.url:"bitget"
+    -> 0
+[kucoin] page.domain:sites.google.com AND task.url:"kucoin"
+    -> 1
+[gemini] page.domain:sites.google.com AND task.url:"gemini"
+    -> 11
+[crypto-com] page.domain:sites.google.com AND task.url:"crypto-com"
+    -> 10
+[cryptocom] page.domain:sites.google.com AND task.url:"cryptocom"
+    -> 9
+[trust-wallet] page.domain:sites.google.com AND task.url:"trust-wallet"
+    -> 7
+[trustwallet] page.domain:sites.google.com AND task.url:"trustwallet"
+    -> 5
+[safepal] page.domain:sites.google.com AND task.url:"safepal"
+    -> 0
+[keepkey] page.domain:sites.google.com AND task.url:"keepkey"
+    -> 0
+[bitbox] page.domain:sites.google.com AND task.url:"bitbox"
+    -> 0
+[tangem] page.domain:sites.google.com AND task.url:"tangem"
+    -> 0
+[atomic-wallet] page.domain:sites.google.com AND task.url:"atomic-wallet"
+    -> 0
+[atomicwallet] page.domain:sites.google.com AND task.url:"atomicwallet"
+    -> 0
+[rabby] page.domain:sites.google.com AND task.url:"rabby"
+    -> 2
+[argent] page.domain:sites.google.com AND task.url:"argent"
+    -> 0
+[zengo] page.domain:sites.google.com AND task.url:"zengo"
+    -> 0
+[guarda] page.domain:sites.google.com AND task.url:"guarda"
+    -> 99
+[myetherwallet] page.domain:sites.google.com AND task.url:"myetherwallet"
+    -> 0
+[solflare] page.domain:sites.google.com AND task.url:"solflare"
+    -> 0
+[backpack] page.domain:sites.google.com AND task.url:"backpack"
+    -> 0
+[coinomi] page.domain:sites.google.com AND task.url:"coinomi"
+    -> 0
+[jaxx] page.domain:sites.google.com AND task.url:"jaxx"
+    -> 0
+[electrum] page.domain:sites.google.com AND task.url:"electrum"
+    -> 0
+[sparrow] page.domain:sites.google.com AND task.url:"sparrow"
+    -> 1
+[bluewallet] page.domain:sites.google.com AND task.url:"bluewallet"
+    -> 0
+[bitpay] page.domain:sites.google.com AND task.url:"bitpay"
+    -> 0
+[mycelium] page.domain:sites.google.com AND task.url:"mycelium"
+    -> 0
+[edge-wallet] page.domain:sites.google.com AND task.url:"edge-wallet"
+    -> 0
+[tonkeeper] page.domain:sites.google.com AND task.url:"tonkeeper"
+    429, sleep 8s
+    429, sleep 16s
+    429, sleep 24s
+    429, sleep 32s
+    429, sleep 40s
+    429, sleep 48s

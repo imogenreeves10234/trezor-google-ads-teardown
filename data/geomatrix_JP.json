@@ -1,0 +1,285 @@
+[
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login/",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login/",
+    "state": "SERVED",
+    "title": "Uniswap Login | Offizielle Website f\u00fcr Swaps",
+    "text_len": 17952,
+    "text_hash": "61d9a0a95bc35ec4",
+    "signals": [
+      "private key",
+      "connect wallet",
+      "wiederherstellung"
+    ],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=104618800"
+    ],
+    "screenshot": "JP__kryptowallets-app-uniswap-dex-login.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+    "state": "SERVED",
+    "title": "Leder Live | Ledger Live App Crypto Wallet - Official\u00ae Site\u00ae",
+    "text_len": 6543,
+    "text_hash": "2bc66c80c2c5c126",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "frames": [],
+    "screenshot": "JP__ledgerstart-web-com-ledger-live-home.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/net7.net/coinbase/home",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/net7.net/coinbase/home",
+    "state": "SERVED",
+    "title": "home",
+    "text_len": 46,
+    "text_hash": "cfe2cb15938f0354",
+    "signals": [],
+    "frames": [
+      "https://1350268238-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=350165134"
+    ],
+    "screenshot": "JP__net7-net-coinbase-home.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+    "state": "SERVED",
+    "title": "uniswap",
+    "text_len": 35,
+    "text_hash": "a74f5c90f0a9731b",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=892832382"
+    ],
+    "screenshot": "JP__preloadcomubx-com-nsdh232-uniswap.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/app-ledger-com/home",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/app-ledger-com/home",
+    "state": "SERVED",
+    "title": "Ledger.com",
+    "text_len": 68,
+    "text_hash": "7eff71a940b14074",
+    "signals": [],
+    "frames": [
+      "https://398749235-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__",
+      "https://japanesetoenailfunguscode.com/ledger1/v5.html",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=595205498"
+    ],
+    "screenshot": "JP__view-app-ledger-com-home.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/app-ledger-wallet",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/app-ledger-wallet",
+    "state": "SERVED",
+    "title": "Ledger",
+    "text_len": 57,
+    "text_hash": "01d3aa933b7bb5fe",
+    "signals": [],
+    "frames": [
+      "https://storage.googleapis.com/ledg-leg1-20860/index.html",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=249119637"
+    ],
+    "screenshot": "JP__view-app-ledger-wallet.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap",
+    "state": "SERVED",
+    "title": "uniswap",
+    "text_len": 57,
+    "text_hash": "01d3aa933b7bb5fe",
+    "signals": [],
+    "frames": [
+      "https://storage.googleapis.com/app-uni-sww/index.html",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=800827545"
+    ],
+    "screenshot": "JP__view-app-uniswap-dashbroad-uniswap.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/",
+    "state": "SERVED",
+    "title": "\u30e1\u30bf\u30de\u30b9\u30af\u62e1\u5f35\u6a5f\u80fd\u306e\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u4eca\u3059\u3050\u5229\u7528\u3092\u958b\u59cb\u3057\u3088\u3046\u306f\u3053\u3061\u3089",
+    "text_len": 154,
+    "text_hash": "40e69269b7f549b0",
+    "signals": [],
+    "frames": [],
+    "screenshot": "JP__view-dplhzjdquwbtktmp-metamask-ja-jp.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/exodus-web3wallet-/home",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/exodus-web3wallet-/home",
+    "state": "SERVED",
+    "title": "Exodus\u00ae Web3 Wallet | Exodus\u00ae Browser Extension",
+    "text_len": 4178,
+    "text_hash": "291a74a218c5b294",
+    "signals": [
+      "recovery phrase",
+      "private key"
+    ],
+    "frames": [],
+    "screenshot": "JP__view-exodus-web3wallet-home.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/exodus-wlt/home",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/exodus-wlt/home",
+    "state": "SERVED",
+    "title": "Ex\u00f3dus\u00ae Web3 Wallet | Ex\u00f3dus\u00ae Browser Extension",
+    "text_len": 5497,
+    "text_hash": "7b82842918e4d34d",
+    "signals": [
+      "recovery phrase",
+      "private key",
+      "restore wallet"
+    ],
+    "frames": [],
+    "screenshot": "JP__view-exodus-wlt-home.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/exodwolt/home/exodus",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/exodwolt/home/exodus",
+    "state": "SERVED",
+    "title": "#Exodus",
+    "text_len": 57,
+    "text_hash": "01d3aa933b7bb5fe",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=813507895"
+    ],
+    "screenshot": "JP__view-exodwolt-home-exodus.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/konut2/okx-wallet",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/konut2/okx-wallet",
+    "state": "SERVED",
+    "title": "OKX Wallet",
+    "text_len": 57,
+    "text_hash": "01d3aa933b7bb5fe",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=22222369"
+    ],
+    "screenshot": "JP__view-konut2-okx-wallet.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/korkuevim/phantom",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/korkuevim/phantom",
+    "state": "SERVED",
+    "title": "Phantom",
+    "text_len": 57,
+    "text_hash": "01d3aa933b7bb5fe",
+    "signals": [],
+    "frames": [
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=685430761"
+    ],
+    "screenshot": "JP__view-korkuevim-phantom.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/view/start-trezor-suite",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/view/start-trezor-suite",
+    "state": "SERVED",
+    "title": "connect",
+    "text_len": 57,
+    "text_hash": "01d3aa933b7bb5fe",
+    "signals": [],
+    "frames": [
+      "about:srcdoc",
+      "https://ksf-webapp-080826.web.app/",
+      "https://www.gstatic.com/atari/embeds/8306a3600875750e6acc147fd93569bf/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ja.AX9XOoYj2BQ.O%2Fd%3D1%2Frs%3DAHpOoo_FPUVky6k_pijDlDM0KvKn4RbtgA%2Fm%3D__features__&r=46085634"
+    ],
+    "screenshot": "JP__view-start-trezor-suite.png"
+  },
+  {
+    "cc": "JP",
+    "url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+    "exit_ip": "130.62.0.104",
+    "exit_country": "JP",
+    "exit_org": "AS55391 INTERNET MULTIFEED CO.",
+    "http_status": 200,
+    "final_url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+    "state": "SERVED",
+    "title": "Ledger.com/start - Getting started with Ledger Live",
+    "text_len": 7599,
+    "text_hash": "39af0b2a0712ce7b",
+    "signals": [
+      "recovery phrase"
+    ],
+    "frames": [],
+    "screenshot": "JP__walletcryptoweb-com-ledger-com-start-home.png"
+  }
+]

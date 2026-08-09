@@ -1,0 +1,634 @@
+[
+{
+"name": "okx",
+"q": "page.domain:sites.google.com AND task.url:\"okx\""
+},
+{
+"name": "bybit",
+"q": "page.domain:sites.google.com AND task.url:\"bybit\""
+},
+{
+"name": "bitget",
+"q": "page.domain:sites.google.com AND task.url:\"bitget\""
+},
+{
+"name": "kucoin",
+"q": "page.domain:sites.google.com AND task.url:\"kucoin\""
+},
+{
+"name": "gemini",
+"q": "page.domain:sites.google.com AND task.url:\"gemini\""
+},
+{
+"name": "crypto-com",
+"q": "page.domain:sites.google.com AND task.url:\"crypto-com\""
+},
+{
+"name": "cryptocom",
+"q": "page.domain:sites.google.com AND task.url:\"cryptocom\""
+},
+{
+"name": "trust-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"trust-wallet\""
+},
+{
+"name": "trustwallet",
+"q": "page.domain:sites.google.com AND task.url:\"trustwallet\""
+},
+{
+"name": "safepal",
+"q": "page.domain:sites.google.com AND task.url:\"safepal\""
+},
+{
+"name": "keepkey",
+"q": "page.domain:sites.google.com AND task.url:\"keepkey\""
+},
+{
+"name": "bitbox",
+"q": "page.domain:sites.google.com AND task.url:\"bitbox\""
+},
+{
+"name": "tangem",
+"q": "page.domain:sites.google.com AND task.url:\"tangem\""
+},
+{
+"name": "atomic-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"atomic-wallet\""
+},
+{
+"name": "atomicwallet",
+"q": "page.domain:sites.google.com AND task.url:\"atomicwallet\""
+},
+{
+"name": "rabby",
+"q": "page.domain:sites.google.com AND task.url:\"rabby\""
+},
+{
+"name": "argent",
+"q": "page.domain:sites.google.com AND task.url:\"argent\""
+},
+{
+"name": "zengo",
+"q": "page.domain:sites.google.com AND task.url:\"zengo\""
+},
+{
+"name": "guarda",
+"q": "page.domain:sites.google.com AND task.url:\"guarda\""
+},
+{
+"name": "myetherwallet",
+"q": "page.domain:sites.google.com AND task.url:\"myetherwallet\""
+},
+{
+"name": "solflare",
+"q": "page.domain:sites.google.com AND task.url:\"solflare\""
+},
+{
+"name": "backpack",
+"q": "page.domain:sites.google.com AND task.url:\"backpack\""
+},
+{
+"name": "coinomi",
+"q": "page.domain:sites.google.com AND task.url:\"coinomi\""
+},
+{
+"name": "jaxx",
+"q": "page.domain:sites.google.com AND task.url:\"jaxx\""
+},
+{
+"name": "electrum",
+"q": "page.domain:sites.google.com AND task.url:\"electrum\""
+},
+{
+"name": "sparrow",
+"q": "page.domain:sites.google.com AND task.url:\"sparrow\""
+},
+{
+"name": "bluewallet",
+"q": "page.domain:sites.google.com AND task.url:\"bluewallet\""
+},
+{
+"name": "bitpay",
+"q": "page.domain:sites.google.com AND task.url:\"bitpay\""
+},
+{
+"name": "mycelium",
+"q": "page.domain:sites.google.com AND task.url:\"mycelium\""
+},
+{
+"name": "edge-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"edge-wallet\""
+},
+{
+"name": "tonkeeper",
+"q": "page.domain:sites.google.com AND task.url:\"tonkeeper\""
+},
+{
+"name": "xverse",
+"q": "page.domain:sites.google.com AND task.url:\"xverse\""
+},
+{
+"name": "leather",
+"q": "page.domain:sites.google.com AND task.url:\"leather\""
+},
+{
+"name": "unisat",
+"q": "page.domain:sites.google.com AND task.url:\"unisat\""
+},
+{
+"name": "okxwallet",
+"q": "page.domain:sites.google.com AND task.url:\"okxwallet\""
+},
+{
+"name": "imtoken",
+"q": "page.domain:sites.google.com AND task.url:\"imtoken\""
+},
+{
+"name": "tokenpocket",
+"q": "page.domain:sites.google.com AND task.url:\"tokenpocket\""
+},
+{
+"name": "math-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"math-wallet\""
+},
+{
+"name": "onekey",
+"q": "page.domain:sites.google.com AND task.url:\"onekey\""
+},
+{
+"name": "cool-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"cool-wallet\""
+},
+{
+"name": "coolwallet",
+"q": "page.domain:sites.google.com AND task.url:\"coolwallet\""
+},
+{
+"name": "ellipal",
+"q": "page.domain:sites.google.com AND task.url:\"ellipal\""
+},
+{
+"name": "ngrave",
+"q": "page.domain:sites.google.com AND task.url:\"ngrave\""
+},
+{
+"name": "cypherock",
+"q": "page.domain:sites.google.com AND task.url:\"cypherock\""
+},
+{
+"name": "gridplus",
+"q": "page.domain:sites.google.com AND task.url:\"gridplus\""
+},
+{
+"name": "foundation-passport",
+"q": "page.domain:sites.google.com AND task.url:\"foundation-passport\""
+},
+{
+"name": "blockstream-jade",
+"q": "page.domain:sites.google.com AND task.url:\"blockstream-jade\""
+},
+{
+"name": "seedsigner",
+"q": "page.domain:sites.google.com AND task.url:\"seedsigner\""
+},
+{
+"name": "coldcard",
+"q": "page.domain:sites.google.com AND task.url:\"coldcard\""
+},
+{
+"name": "binance-us",
+"q": "page.domain:sites.google.com AND task.url:\"binance-us\""
+},
+{
+"name": "bitfinex",
+"q": "page.domain:sites.google.com AND task.url:\"bitfinex\""
+},
+{
+"name": "bitstamp",
+"q": "page.domain:sites.google.com AND task.url:\"bitstamp\""
+},
+{
+"name": "htx",
+"q": "page.domain:sites.google.com AND task.url:\"htx\""
+},
+{
+"name": "huobi",
+"q": "page.domain:sites.google.com AND task.url:\"huobi\""
+},
+{
+"name": "mexc",
+"q": "page.domain:sites.google.com AND task.url:\"mexc\""
+},
+{
+"name": "gate-io",
+"q": "page.domain:sites.google.com AND task.url:\"gate-io\""
+},
+{
+"name": "gateio",
+"q": "page.domain:sites.google.com AND task.url:\"gateio\""
+},
+{
+"name": "bingx",
+"q": "page.domain:sites.google.com AND task.url:\"bingx\""
+},
+{
+"name": "bitmart",
+"q": "page.domain:sites.google.com AND task.url:\"bitmart\""
+},
+{
+"name": "poloniex",
+"q": "page.domain:sites.google.com AND task.url:\"poloniex\""
+},
+{
+"name": "upbit",
+"q": "page.domain:sites.google.com AND task.url:\"upbit\""
+},
+{
+"name": "bithumb",
+"q": "page.domain:sites.google.com AND task.url:\"bithumb\""
+},
+{
+"name": "coincheck",
+"q": "page.domain:sites.google.com AND task.url:\"coincheck\""
+},
+{
+"name": "bitflyer",
+"q": "page.domain:sites.google.com AND task.url:\"bitflyer\""
+},
+{
+"name": "luno",
+"q": "page.domain:sites.google.com AND task.url:\"luno\""
+},
+{
+"name": "bitso",
+"q": "page.domain:sites.google.com AND task.url:\"bitso\""
+},
+{
+"name": "wazirx",
+"q": "page.domain:sites.google.com AND task.url:\"wazirx\""
+},
+{
+"name": "coindcx",
+"q": "page.domain:sites.google.com AND task.url:\"coindcx\""
+},
+{
+"name": "coinspot",
+"q": "page.domain:sites.google.com AND task.url:\"coinspot\""
+},
+{
+"name": "swyftx",
+"q": "page.domain:sites.google.com AND task.url:\"swyftx\""
+},
+{
+"name": "kraken-pro",
+"q": "page.domain:sites.google.com AND task.url:\"kraken-pro\""
+},
+{
+"name": "robinhood",
+"q": "page.domain:sites.google.com AND task.url:\"robinhood\""
+},
+{
+"name": "etoro",
+"q": "page.domain:sites.google.com AND task.url:\"etoro\""
+},
+{
+"name": "webull",
+"q": "page.domain:sites.google.com AND task.url:\"webull\""
+},
+{
+"name": "paypal-crypto",
+"q": "page.domain:sites.google.com AND task.url:\"paypal-crypto\""
+},
+{
+"name": "cash-app",
+"q": "page.domain:sites.google.com AND task.url:\"cash-app\""
+},
+{
+"name": "venmo",
+"q": "page.domain:sites.google.com AND task.url:\"venmo\""
+},
+{
+"name": "pancakeswap",
+"q": "page.domain:sites.google.com AND task.url:\"pancakeswap\""
+},
+{
+"name": "sushiswap",
+"q": "page.domain:sites.google.com AND task.url:\"sushiswap\""
+},
+{
+"name": "curve-finance",
+"q": "page.domain:sites.google.com AND task.url:\"curve-finance\""
+},
+{
+"name": "aave",
+"q": "page.domain:sites.google.com AND task.url:\"aave\""
+},
+{
+"name": "compound-finance",
+"q": "page.domain:sites.google.com AND task.url:\"compound-finance\""
+},
+{
+"name": "lido",
+"q": "page.domain:sites.google.com AND task.url:\"lido\""
+},
+{
+"name": "rocketpool",
+"q": "page.domain:sites.google.com AND task.url:\"rocketpool\""
+},
+{
+"name": "1inch",
+"q": "page.domain:sites.google.com AND task.url:\"1inch\""
+},
+{
+"name": "dydx",
+"q": "page.domain:sites.google.com AND task.url:\"dydx\""
+},
+{
+"name": "gmx",
+"q": "page.domain:sites.google.com AND task.url:\"gmx\""
+},
+{
+"name": "jupiter-exchange",
+"q": "page.domain:sites.google.com AND task.url:\"jupiter-exchange\""
+},
+{
+"name": "raydium",
+"q": "page.domain:sites.google.com AND task.url:\"raydium\""
+},
+{
+"name": "orca-so",
+"q": "page.domain:sites.google.com AND task.url:\"orca-so\""
+},
+{
+"name": "stargate",
+"q": "page.domain:sites.google.com AND task.url:\"stargate\""
+},
+{
+"name": "across",
+"q": "page.domain:sites.google.com AND task.url:\"across\""
+},
+{
+"name": "hop-protocol",
+"q": "page.domain:sites.google.com AND task.url:\"hop-protocol\""
+},
+{
+"name": "opensea",
+"q": "page.domain:sites.google.com AND task.url:\"opensea\""
+},
+{
+"name": "blur-io",
+"q": "page.domain:sites.google.com AND task.url:\"blur-io\""
+},
+{
+"name": "magiceden",
+"q": "page.domain:sites.google.com AND task.url:\"magiceden\""
+},
+{
+"name": "rarible",
+"q": "page.domain:sites.google.com AND task.url:\"rarible\""
+},
+{
+"name": "looksrare",
+"q": "page.domain:sites.google.com AND task.url:\"looksrare\""
+},
+{
+"name": "walletconnect",
+"q": "page.domain:sites.google.com AND task.url:\"walletconnect\""
+},
+{
+"name": "wallet-connect",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-connect\""
+},
+{
+"name": "web3-login",
+"q": "page.domain:sites.google.com AND task.url:\"web3-login\""
+},
+{
+"name": "dapp-connect",
+"q": "page.domain:sites.google.com AND task.url:\"dapp-connect\""
+},
+{
+"name": "wallet-restore",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-restore\""
+},
+{
+"name": "seed-recovery",
+"q": "page.domain:sites.google.com AND task.url:\"seed-recovery\""
+},
+{
+"name": "recovery-phrase",
+"q": "page.domain:sites.google.com AND task.url:\"recovery-phrase\""
+},
+{
+"name": "restore-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"restore-wallet\""
+},
+{
+"name": "validate-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"validate-wallet\""
+},
+{
+"name": "wallet-validation",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-validation\""
+},
+{
+"name": "sync-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"sync-wallet\""
+},
+{
+"name": "wallet-sync",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-sync\""
+},
+{
+"name": "claim-airdrop",
+"q": "page.domain:sites.google.com AND task.url:\"claim-airdrop\""
+},
+{
+"name": "crypto-airdrop",
+"q": "page.domain:sites.google.com AND task.url:\"crypto-airdrop\""
+},
+{
+"name": "wallet-support",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-support\""
+},
+{
+"name": "crypto-support",
+"q": "page.domain:sites.google.com AND task.url:\"crypto-support\""
+},
+{
+"name": "ronin-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"ronin-wallet\""
+},
+{
+"name": "phantom-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"phantom-wallet\""
+},
+{
+"name": "glow-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"glow-wallet\""
+},
+{
+"name": "slope-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"slope-wallet\""
+},
+{
+"name": "brave-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"brave-wallet\""
+},
+{
+"name": "rainbow-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"rainbow-wallet\""
+},
+{
+"name": "coinbase-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"coinbase-wallet\""
+},
+{
+"name": "zerion",
+"q": "page.domain:sites.google.com AND task.url:\"zerion\""
+},
+{
+"name": "enkrypt",
+"q": "page.domain:sites.google.com AND task.url:\"enkrypt\""
+},
+{
+"name": "frame-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"frame-wallet\""
+},
+{
+"name": "taho",
+"q": "page.domain:sites.google.com AND task.url:\"taho\""
+},
+{
+"name": "core-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"core-wallet\""
+},
+{
+"name": "keplr",
+"q": "page.domain:sites.google.com AND task.url:\"keplr\""
+},
+{
+"name": "cosmostation",
+"q": "page.domain:sites.google.com AND task.url:\"cosmostation\""
+},
+{
+"name": "yoroi",
+"q": "page.domain:sites.google.com AND task.url:\"yoroi\""
+},
+{
+"name": "daedalus",
+"q": "page.domain:sites.google.com AND task.url:\"daedalus\""
+},
+{
+"name": "lace-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"lace-wallet\""
+},
+{
+"name": "eternl",
+"q": "page.domain:sites.google.com AND task.url:\"eternl\""
+},
+{
+"name": "nami-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"nami-wallet\""
+},
+{
+"name": "exodus-web3",
+"q": "page.domain:sites.google.com AND task.url:\"exodus-web3\""
+},
+{
+"name": "tronlink",
+"q": "page.domain:sites.google.com AND task.url:\"tronlink\""
+},
+{
+"name": "klever",
+"q": "page.domain:sites.google.com AND task.url:\"klever\""
+},
+{
+"name": "polkadot-js",
+"q": "page.domain:sites.google.com AND task.url:\"polkadot-js\""
+},
+{
+"name": "talisman",
+"q": "page.domain:sites.google.com AND task.url:\"talisman\""
+},
+{
+"name": "subwallet",
+"q": "page.domain:sites.google.com AND task.url:\"subwallet\""
+},
+{
+"name": "petra-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"petra-wallet\""
+},
+{
+"name": "martian-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"martian-wallet\""
+},
+{
+"name": "suiet",
+"q": "page.domain:sites.google.com AND task.url:\"suiet\""
+},
+{
+"name": "ethos-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"ethos-wallet\""
+},
+{
+"name": "stacks-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"stacks-wallet\""
+},
+{
+"name": "hiro-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"hiro-wallet\""
+},
+{
+"name": "freighter",
+"q": "page.domain:sites.google.com AND task.url:\"freighter\""
+},
+{
+"name": "albedo",
+"q": "page.domain:sites.google.com AND task.url:\"albedo\""
+},
+{
+"name": "lobstr",
+"q": "page.domain:sites.google.com AND task.url:\"lobstr\""
+},
+{
+"name": "rabet",
+"q": "page.domain:sites.google.com AND task.url:\"rabet\""
+},
+{
+"name": "xumm",
+"q": "page.domain:sites.google.com AND task.url:\"xumm\""
+},
+{
+"name": "xaman",
+"q": "page.domain:sites.google.com AND task.url:\"xaman\""
+},
+{
+"name": "bitkeep",
+"q": "page.domain:sites.google.com AND task.url:\"bitkeep\""
+},
+{
+"name": "safeheron",
+"q": "page.domain:sites.google.com AND task.url:\"safeheron\""
+},
+{
+"name": "fireblocks",
+"q": "page.domain:sites.google.com AND task.url:\"fireblocks\""
+},
+{
+"name": "casa-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"casa-wallet\""
+},
+{
+"name": "unchained-capital",
+"q": "page.domain:sites.google.com AND task.url:\"unchained-capital\""
+},
+{
+"name": "nunchuk",
+"q": "page.domain:sites.google.com AND task.url:\"nunchuk\""
+},
+{
+"name": "specter",
+"q": "page.domain:sites.google.com AND task.url:\"specter\""
+}
+]

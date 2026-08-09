@@ -1,0 +1,3 @@
+[okx]
+    429 -> sleep 70s
+    429 -> sleep 120s

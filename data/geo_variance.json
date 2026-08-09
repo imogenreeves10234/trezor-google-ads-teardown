@@ -1,0 +1,16 @@
+{
+  "geos": [
+    "BR",
+    "DE",
+    "FR",
+    "GB",
+    "IN",
+    "JP",
+    "US"
+  ],
+  "attacker_content_varies": [
+    "https://sites.google.com/view/exodwolt/home/exodus",
+    "https://sites.google.com/view/start-trezor-suite"
+  ],
+  "verdict": "no geo-cloaking detected at the Google Sites layer"
+}

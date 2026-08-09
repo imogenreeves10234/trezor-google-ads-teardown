@@ -1,0 +1,390 @@
+[
+{
+"name": "title:okx",
+"q": "page.domain:sites.google.com AND page.title:\"okx\""
+},
+{
+"name": "title:bybit",
+"q": "page.domain:sites.google.com AND page.title:\"bybit\""
+},
+{
+"name": "title:bitget",
+"q": "page.domain:sites.google.com AND page.title:\"bitget\""
+},
+{
+"name": "title:kucoin",
+"q": "page.domain:sites.google.com AND page.title:\"kucoin\""
+},
+{
+"name": "title:gemini",
+"q": "page.domain:sites.google.com AND page.title:\"gemini\""
+},
+{
+"name": "title:crypto.com",
+"q": "page.domain:sites.google.com AND page.title:\"crypto.com\""
+},
+{
+"name": "title:trust wallet",
+"q": "page.domain:sites.google.com AND page.title:\"trust wallet\""
+},
+{
+"name": "title:safepal",
+"q": "page.domain:sites.google.com AND page.title:\"safepal\""
+},
+{
+"name": "title:keepkey",
+"q": "page.domain:sites.google.com AND page.title:\"keepkey\""
+},
+{
+"name": "title:bitbox",
+"q": "page.domain:sites.google.com AND page.title:\"bitbox\""
+},
+{
+"name": "title:tangem",
+"q": "page.domain:sites.google.com AND page.title:\"tangem\""
+},
+{
+"name": "title:atomic wallet",
+"q": "page.domain:sites.google.com AND page.title:\"atomic wallet\""
+},
+{
+"name": "title:rabby",
+"q": "page.domain:sites.google.com AND page.title:\"rabby\""
+},
+{
+"name": "title:argent",
+"q": "page.domain:sites.google.com AND page.title:\"argent\""
+},
+{
+"name": "title:zengo",
+"q": "page.domain:sites.google.com AND page.title:\"zengo\""
+},
+{
+"name": "title:guarda",
+"q": "page.domain:sites.google.com AND page.title:\"guarda\""
+},
+{
+"name": "title:myetherwallet",
+"q": "page.domain:sites.google.com AND page.title:\"myetherwallet\""
+},
+{
+"name": "title:solflare",
+"q": "page.domain:sites.google.com AND page.title:\"solflare\""
+},
+{
+"name": "title:backpack",
+"q": "page.domain:sites.google.com AND page.title:\"backpack\""
+},
+{
+"name": "title:coinomi",
+"q": "page.domain:sites.google.com AND page.title:\"coinomi\""
+},
+{
+"name": "title:jaxx",
+"q": "page.domain:sites.google.com AND page.title:\"jaxx\""
+},
+{
+"name": "title:electrum",
+"q": "page.domain:sites.google.com AND page.title:\"electrum\""
+},
+{
+"name": "title:sparrow",
+"q": "page.domain:sites.google.com AND page.title:\"sparrow\""
+},
+{
+"name": "title:bluewallet",
+"q": "page.domain:sites.google.com AND page.title:\"bluewallet\""
+},
+{
+"name": "title:tonkeeper",
+"q": "page.domain:sites.google.com AND page.title:\"tonkeeper\""
+},
+{
+"name": "title:xverse",
+"q": "page.domain:sites.google.com AND page.title:\"xverse\""
+},
+{
+"name": "title:imtoken",
+"q": "page.domain:sites.google.com AND page.title:\"imtoken\""
+},
+{
+"name": "title:tokenpocket",
+"q": "page.domain:sites.google.com AND page.title:\"tokenpocket\""
+},
+{
+"name": "title:onekey",
+"q": "page.domain:sites.google.com AND page.title:\"onekey\""
+},
+{
+"name": "title:bitpay",
+"q": "page.domain:sites.google.com AND page.title:\"bitpay\""
+},
+{
+"name": "title:mexc",
+"q": "page.domain:sites.google.com AND page.title:\"mexc\""
+},
+{
+"name": "title:htx",
+"q": "page.domain:sites.google.com AND page.title:\"htx\""
+},
+{
+"name": "title:gate.io",
+"q": "page.domain:sites.google.com AND page.title:\"gate.io\""
+},
+{
+"name": "title:bingx",
+"q": "page.domain:sites.google.com AND page.title:\"bingx\""
+},
+{
+"name": "title:walletconnect",
+"q": "page.domain:sites.google.com AND page.title:\"walletconnect\""
+},
+{
+"name": "title:wallet connect",
+"q": "page.domain:sites.google.com AND page.title:\"wallet connect\""
+},
+{
+"name": "title:web3",
+"q": "page.domain:sites.google.com AND page.title:\"web3\""
+},
+{
+"name": "title:dapp",
+"q": "page.domain:sites.google.com AND page.title:\"dapp\""
+},
+{
+"name": "title:recovery phrase",
+"q": "page.domain:sites.google.com AND page.title:\"recovery phrase\""
+},
+{
+"name": "title:seed phrase",
+"q": "page.domain:sites.google.com AND page.title:\"seed phrase\""
+},
+{
+"name": "title:restore wallet",
+"q": "page.domain:sites.google.com AND page.title:\"restore wallet\""
+},
+{
+"name": "title:validate",
+"q": "page.domain:sites.google.com AND page.title:\"validate\""
+},
+{
+"name": "title:airdrop",
+"q": "page.domain:sites.google.com AND page.title:\"airdrop\""
+},
+{
+"name": "title:hardware wallet",
+"q": "page.domain:sites.google.com AND page.title:\"hardware wallet\""
+},
+{
+"name": "title:cold wallet",
+"q": "page.domain:sites.google.com AND page.title:\"cold wallet\""
+},
+{
+"name": "title:crypto wallet",
+"q": "page.domain:sites.google.com AND page.title:\"crypto wallet\""
+},
+{
+"name": "title:wallet login",
+"q": "page.domain:sites.google.com AND page.title:\"wallet login\""
+},
+{
+"name": "title:sign in wallet",
+"q": "page.domain:sites.google.com AND page.title:\"sign in wallet\""
+},
+{
+"name": "title:connect wallet",
+"q": "page.domain:sites.google.com AND page.title:\"connect wallet\""
+},
+{
+"name": "title:suite",
+"q": "page.domain:sites.google.com AND page.title:\"suite\""
+},
+{
+"name": "title:live login",
+"q": "page.domain:sites.google.com AND page.title:\"live login\""
+},
+{
+"name": "title:start",
+"q": "page.domain:sites.google.com AND page.title:\"start\""
+},
+{
+"name": "path:seed-phrase",
+"q": "page.domain:sites.google.com AND task.url:\"seed-phrase\""
+},
+{
+"name": "path:seedphrase",
+"q": "page.domain:sites.google.com AND task.url:\"seedphrase\""
+},
+{
+"name": "path:private-key",
+"q": "page.domain:sites.google.com AND task.url:\"private-key\""
+},
+{
+"name": "path:privatekey",
+"q": "page.domain:sites.google.com AND task.url:\"privatekey\""
+},
+{
+"name": "path:wallet-login",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-login\""
+},
+{
+"name": "path:walletlogin",
+"q": "page.domain:sites.google.com AND task.url:\"walletlogin\""
+},
+{
+"name": "path:crypto-login",
+"q": "page.domain:sites.google.com AND task.url:\"crypto-login\""
+},
+{
+"name": "path:cryptologin",
+"q": "page.domain:sites.google.com AND task.url:\"cryptologin\""
+},
+{
+"name": "path:wallet-recovery",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-recovery\""
+},
+{
+"name": "path:walletrecovery",
+"q": "page.domain:sites.google.com AND task.url:\"walletrecovery\""
+},
+{
+"name": "path:secure-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"secure-wallet\""
+},
+{
+"name": "path:wallet-verify",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-verify\""
+},
+{
+"name": "path:verify-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"verify-wallet\""
+},
+{
+"name": "path:wallet-unlock",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-unlock\""
+},
+{
+"name": "path:unlock-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"unlock-wallet\""
+},
+{
+"name": "path:hardware-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"hardware-wallet\""
+},
+{
+"name": "path:cold-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"cold-wallet\""
+},
+{
+"name": "path:wallet-app",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-app\""
+},
+{
+"name": "path:wallet-start",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-start\""
+},
+{
+"name": "path:start-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"start-wallet\""
+},
+{
+"name": "path:-suite",
+"q": "page.domain:sites.google.com AND task.url:\"-suite\""
+},
+{
+"name": "path:live-start",
+"q": "page.domain:sites.google.com AND task.url:\"live-start\""
+},
+{
+"name": "path:com-start",
+"q": "page.domain:sites.google.com AND task.url:\"com-start\""
+},
+{
+"name": "path:io-start",
+"q": "page.domain:sites.google.com AND task.url:\"io-start\""
+},
+{
+"name": "path:-bridge",
+"q": "page.domain:sites.google.com AND task.url:\"-bridge\""
+},
+{
+"name": "path:bridge-app",
+"q": "page.domain:sites.google.com AND task.url:\"bridge-app\""
+},
+{
+"name": "path:wallet-fix",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-fix\""
+},
+{
+"name": "path:fix-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"fix-wallet\""
+},
+{
+"name": "path:wallet-help",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-help\""
+},
+{
+"name": "path:wallet-desk",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-desk\""
+},
+{
+"name": "path:desk-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"desk-wallet\""
+},
+{
+"name": "path:wallet-assist",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-assist\""
+},
+{
+"name": "path:wallet-migrate",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-migrate\""
+},
+{
+"name": "path:migrate-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"migrate-wallet\""
+},
+{
+"name": "path:wallet-update",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-update\""
+},
+{
+"name": "path:update-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"update-wallet\""
+},
+{
+"name": "path:wallet-secure",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-secure\""
+},
+{
+"name": "path:account-recovery",
+"q": "page.domain:sites.google.com AND task.url:\"account-recovery\""
+},
+{
+"name": "path:wallet-connect",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-connect\""
+},
+{
+"name": "path:web3-connect",
+"q": "page.domain:sites.google.com AND task.url:\"web3-connect\""
+},
+{
+"name": "path:dapp-login",
+"q": "page.domain:sites.google.com AND task.url:\"dapp-login\""
+},
+{
+"name": "path:defi-login",
+"q": "page.domain:sites.google.com AND task.url:\"defi-login\""
+},
+{
+"name": "path:staking-login",
+"q": "page.domain:sites.google.com AND task.url:\"staking-login\""
+},
+{
+"name": "path:claim-wallet",
+"q": "page.domain:sites.google.com AND task.url:\"claim-wallet\""
+},
+{
+"name": "path:wallet-claim",
+"q": "page.domain:sites.google.com AND task.url:\"wallet-claim\""
+}
+]

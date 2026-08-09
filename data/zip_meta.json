@@ -1,0 +1,22 @@
+{
+  "file": "trezor-google-sites-phishing-evidence.zip",
+  "files": 256,
+  "bytes": 22424809,
+  "mb": 21.39,
+  "md5": "f6030e18ba7c350b8a1ee946465a5c66",
+  "sha256": "0b9e1f4608b12e716857b13638b176b995a31b9a47eba62ae11f9f75e5b0051c",
+  "pages": 15,
+  "geos": [
+    "BR",
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "IN",
+    "JP",
+    "NL",
+    "TR",
+    "US"
+  ],
+  "built": "2026-08-09T12:43:33Z"
+}

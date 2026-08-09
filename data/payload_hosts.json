@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://app-ex-odus.com/",
+    "http": "000",
+    "bytes": 0,
+    "curl_err": "curl: (6) Could not resolve host: app-ex-odus.com",
+    "state": "NXDOMAIN"
+  },
+  {
+    "url": "https://tersaze.com/",
+    "http": "000",
+    "bytes": 0,
+    "curl_err": "curl: (6) Could not resolve host: tersaze.com",
+    "state": "NXDOMAIN"
+  },
+  {
+    "url": "https://keystash.eu.com/",
+    "http": "522",
+    "bytes": 16,
+    "curl_err": "",
+    "state": "CF_522_ORIGIN_DOWN"
+  },
+  {
+    "url": "https://ksf-webapp-080826.web.app/",
+    "http": "200",
+    "bytes": 2376012,
+    "curl_err": "",
+    "title": "Trezor Suite App (Official) | Desktop &amp; Web Crypto Management | Trezor",
+    "signals": [
+      "private key",
+      "passphrase"
+    ],
+    "state": "LIVE"
+  },
+  {
+    "url": "https://japanesetoenailfunguscode.com/ledger1/v5.html",
+    "http": "200",
+    "bytes": 64625,
+    "curl_err": "",
+    "title": "Ledger Connect",
+    "signals": [
+      "recovery phrase",
+      "seed phrase",
+      "24 word",
+      "12 word",
+      "verify_human"
+    ],
+    "state": "LIVE"
+  },
+  {
+    "url": "https://storage.googleapis.com/ledg-leg1-20860/index.html",
+    "http": "404",
+    "bytes": 133,
+    "curl_err": "",
+    "state": "404"
+  },
+  {
+    "url": "https://storage.googleapis.com/app-uni-sww/index.html",
+    "http": "404",
+    "bytes": 133,
+    "curl_err": "",
+    "state": "404"
+  },
+  {
+    "url": "https://multichain-swap-interface-v4.co",
+    "http": "521",
+    "state": "CF_521_ORIGIN_DOWN",
+    "bytes": 16,
+    "title": "",
+    "signals": []
+  }
+]
