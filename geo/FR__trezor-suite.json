@@ -1,0 +1,67 @@
+{
+  "cc": "FR",
+  "query": "trezor suite",
+  "tld": "fr",
+  "hl": "fr",
+  "attempt": 5,
+  "ts": "2026-08-09T02:05:42Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_FR_s_417543OOQ_ttl_72h",
+  "exit": {
+    "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://ipinfo.io/json\nCall log:\n  - navigating to \"https://ipinfo.io/jso"
+  },
+  "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.fr/\nCall log:\n  - navigating to \"https://www.google.fr/\", waiting until \"domcontentloaded\"\n",
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.fr/\nCall log:\n  - navigating to \"https://www.google.fr/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.fr/\nCall log:\n  - navigating to \"https://www.google.fr/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.fr/\nCall log:\n  - navigating to \"https://www.google.fr/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.fr/\nCall log:\n  - navigating to \"https://www.google.fr/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.fr/\nCall log:\n  - navigating to \"https://www.google.fr/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

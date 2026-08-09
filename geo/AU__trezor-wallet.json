@@ -1,0 +1,67 @@
+{
+  "cc": "AU",
+  "query": "trezor wallet",
+  "tld": "com.au",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:11:09Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_AU_s_234872NZW_ttl_72h",
+  "exit": {
+    "error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://ipinfo.io/json\nCall log:\n  - navigating to \"https://ipinfo.io/"
+  },
+  "error": "Page.goto: Navigation to \"https://www.google.com.au/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.google.com.au/\", waiting until \"d",
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "1.123.73.199",
+      "org": "AS1221 Telstra Limited"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "1.42.114.254",
+      "org": "AS4804 Microplex PTY LTD"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "49.196.178.208",
+      "org": "AS4804 Microplex PTY LTD"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "194.223.89.11",
+      "org": "AS7545 TPG Telecom Limited"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: Navigation to \"https://www.google.com.au/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.google.com.au/\", waiting until \"d",
+      "ip": null,
+      "org": null
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

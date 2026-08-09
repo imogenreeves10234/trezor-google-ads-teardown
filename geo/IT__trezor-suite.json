@@ -1,0 +1,51 @@
+{
+  "cc": "IT",
+  "query": "trezor suite",
+  "tld": "it",
+  "hl": "it",
+  "attempt": 2,
+  "ts": "2026-08-09T02:08:49Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_IT_s_119068ISI_ttl_72h",
+  "exit": {
+    "ip": "151.20.34.239",
+    "city": "Milan",
+    "region": "Lombardy",
+    "country": "IT",
+    "loc": "45.4643,9.1895",
+    "org": "AS1267 WIND TRE S.P.A.",
+    "postal": "20121",
+    "timezone": "Europe/Rome",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&source=hp&ei=R-F3avaUNbqpi-gPp4Pe0QI&iflsig=ABILxe8AAAAAanfvV6dnYQYn5Pi0HU4LxQxTuDaDig9o&ved=0ahUKEwi21IvKu5KWAxW61AIHHaeBNyoQ4dUDCBw&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IvhNQHFiuDHABeACQAQCYAWSgAcQIqgEEMTEuMbgBA8gBAPgBAZgCDaAChgmoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAggQLhiABBixA8ICCxAuGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBiKBRiSAxi4BMICCxAAGIAEGIoFGJIDwgIOEAAYgAQYsQMYgwEYyQPCAggQLhixAxiABMICBRAuGIAEwgIOEC4YgAQYxwEYrwEYjgXCAhQQLhiABBixAxiDARjHARivARiYBZgDCfEFs2KbccM_Z6WSBwQxMS4yoAfjXrIHBDEwLjK4B_0IwgcFMC41LjjIBy-ACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Vai ai contenuti principali\nGuida per l'accessibilit\u00e0\nAccedi\nAI Mode\nTutti\nImmagini\nVideo\nNotizie\nProdotti\nVideo brevi\nAltro\nStrumenti\nRisultati di ricerca\nRisultato web con link ai siti\nTrezor Suite App (Official) | Desktop & Web Crypto ...\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\n\u00b7\nTraduci questa pagina\nThe Trezor Suite app makes it easy and secure to manage, buy, sell, and swap your crypto all in one place. Download for desktopContinue in\u00a0...\nDownload & verify Trezor Suite\nThe Trezor Suite desktop application (Linux, MacOS ...\n\nInstalling Trezor Suite on ...\nLearn how to install Trezor Suite on Windows with this simple ...\n\nTrezor Suite\nLearn about Trezor Suite on desktop and mobile. Manage ...\n\nInstalling Trezor Suite on MacOS\nLearn how to install Trezor Suite on macOS with this simple",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "87.19.70.172",
+      "org": "AS3269 Telecom Italia S.p.A."
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "151.20.34.239",
+      "org": "AS1267 WIND TRE S.P.A."
+    }
+  ],
+  "status": "OK"
+}

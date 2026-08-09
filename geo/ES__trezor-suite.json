@@ -1,0 +1,52 @@
+{
+  "cc": "ES",
+  "query": "trezor suite",
+  "tld": "es",
+  "hl": "es",
+  "attempt": 2,
+  "ts": "2026-08-09T02:07:55Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_ES_s_162950GFL_ttl_72h",
+  "exit": {
+    "ip": "185.182.127.94",
+    "hostname": "94.127.182.185.dynamic.electronicamartinez.es",
+    "city": "Cartagena",
+    "region": "Murcia",
+    "country": "ES",
+    "loc": "37.6020,-0.9840",
+    "org": "AS50564 CARTAGO TELECOM S. L.",
+    "postal": "30200",
+    "timezone": "Europe/Madrid",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&sxsrf=APpeQnsR80eduN-71wRQDa_8A3AbP7MQug%3A1786241294998&source=hp&ei=DuF3asORO-67i-gP7dfciAI&iflsig=ABILxe8AAAAAanfvHiJkaGO5-nokVi9rbLAeRr4QHS3I&ved=0ahUKEwjD0Pquu5KWAxXu3QIHHe0rFyEQ4dUDCBw&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKSMsWUC1YgQxwAXgAkAEBmAHdA6AB1w6qAQkwLjcuMC4xLjG4AQPIAQD4AQGYAgmgAq4LqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGI0GGLEDwgIIEAAYgAQYsQPCAhQQLhiABBiKBRiNBhixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEC4YgAQYsQMYgwHCAgsQABiABBiKBRiSA8ICCBAAGIAEGJIDwgIOEAAYgAQYsQMYgwEYyQPCAg4QLhiABBiKBRixAxiDAcICCxAuGIAEGMcBGK8BwgIIEC4YsQMYgATCAgUQLhiABMICDhAuGK8BGMcBGLEDGIAEwgIOEC4YgAQYxwEYrwEYjgWYAxDxBUwVkmznFxU_kgcHMS43LjAuMaAHzDuyBwcwLjcuMC4xuAeeC8IHBzAuMy41LjHIByiACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Saltar al contenido principal\nAyuda sobre la accesibilidad\nIniciar sesi\u00f3n\nModo IA\nTodo\nIm\u00e1genes\nV\u00eddeos\nProductos\nNoticias\nV\u00eddeos cortos\nM\u00e1s\nHerramientas\nEn Espa\u00f1ol\nDownload\n5\nGithub\nApp\nLatest version\nMac\nInstall\nResultados de la b\u00fasqueda\nResultados web\nApp Trezor Suite (Oficial) | Gesti\u00f3n Cripto en Escritorio y Web\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\nLa app Trezor Suite hace que gestionar, comprar, vender e intercambiar tus cripto sea f\u00e1cil y seguro, todo en un solo lugar. Descargar para computadoraContinuar\u00a0...\nTrezor Suite - Aplicaciones en Google Play\n\nGoogle Play\nhttps://play.google.com \u203a store \u203a apps \u203a details \u203a id=io.tr...\n22 jul 2026 \u2014 La app oficial gratuita de Trezor para Android. Gestiona tus criptomonedas con facilidad y confianza dondequiera que est\u00e9s. ... Tu Trezor manti",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "37.158.220.9",
+      "org": "AS3352 TELEFONICA DE ESPANA S.A.U."
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "185.182.127.94",
+      "org": "AS50564 CARTAGO TELECOM S. L."
+    }
+  ],
+  "status": "OK"
+}

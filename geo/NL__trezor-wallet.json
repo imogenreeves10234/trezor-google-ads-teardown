@@ -1,0 +1,79 @@
+{
+  "cc": "NL",
+  "query": "trezor wallet",
+  "tld": "nl",
+  "hl": "nl",
+  "attempt": 5,
+  "ts": "2026-08-09T02:05:48Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_NL_s_272804TIV_ttl_72h",
+  "exit": {
+    "ip": "212.120.126.64",
+    "hostname": "212-120-126-64.cable.dynamic.v4.ziggo.nl",
+    "city": "Haelen",
+    "region": "Limburg",
+    "country": "NL",
+    "loc": "51.2358,5.9569",
+    "org": "AS33915 Vodafone Libertel B.V.",
+    "postal": "6081",
+    "timezone": "Europe/Amsterdam",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtime%2Bnow%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3Df-B3aubpHJm4i-gPvI-TsQ0%26iflsig%3DABILxe8AAAAAanfuj0tdtP6_tNMw0nvZV82zZhyzti_u%26ved%3D0ahUKEwimpcTqupKWAxUZ3AIHHbzHJNYQ4dUDCBw%26uact%3D5%26oq%3Dtime%2Bnow%26gs_lp%3DEgdnd3Mtd2l6GgIYAiIIdGltZSBub3cyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESM4YUD9YhRNwAXgAkAEAmAH9BaABihyqAQ0xLjAuMi4xLjAuMy4xuAEDyAEA-AEBmAIJoALNHKgCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAgsQLhiABBixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgIOEAAYgAQYigUYsQMYgwHCAggQABiABBixA8ICFBAuGIAEGLEDGIMBGMcBGK8BGI4FwgIOEC4YgAQYxwEYrwEYjgXCAg4QLhiABBiKBRixAxiDAcICERAuGIAEGLEDGIMBGMcBGK8BwgIFEC4YgATCAggQLhiABBixA8ICCxAAGIAEGIoFGLEDwgILEC4YgAQYxwEYrwHCAhcQLhiABBjHARivARiOBRiLAximAxioA8ICCBAAGIAEGIsDwgIOEC4YgAQYiwMYqAMYmAPCAg4QABiABBiKBRixAxiLA5gDEPEFY1B_GZmKReKSBwsyLjAuMi4wLjMuMqAHq0myBwsxLjAuMi4wLjMuMrgHvRzCBwcwLjEuNi4yyAc0gAgB%26sclient%3Dgws-wiz%26sei%3DiuB3arOeEuuvi-gPm66V4AI&q=EgTUeH5AGI3B39MGIjDosu0STkBvXSqegkn1kc3hnyRv3fk9Gq356-1KmIvAAgQaZNlHGGe_LS3vVxgUGK0yAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.nl/\nCall log:\n  - navigating to \"https://www.google.nl/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.nl/\nCall log:\n  - navigating to \"https://www.google.nl/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.nl/\nCall log:\n  - navigating to \"https://www.google.nl/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.nl/\nCall log:\n  - navigating to \"https://www.google.nl/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "212.120.126.64",
+      "org": "AS33915 Vodafone Libertel B.V."
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

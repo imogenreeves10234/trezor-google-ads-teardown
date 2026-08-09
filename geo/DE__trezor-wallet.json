@@ -1,0 +1,67 @@
+{
+  "cc": "DE",
+  "query": "trezor wallet",
+  "tld": "de",
+  "hl": "de",
+  "attempt": 5,
+  "ts": "2026-08-09T02:05:12Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_DE_s_863303EWL_ttl_72h",
+  "exit": {
+    "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://ipinfo.io/json\nCall log:\n  - navigating to \"https://ipinfo.io/jso"
+  },
+  "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.de/\nCall log:\n  - navigating to \"https://www.google.de/\", waiting until \"domcontentloaded\"\n",
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "84.168.197.111",
+      "org": "AS3320 Deutsche Telekom AG"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.de/\nCall log:\n  - navigating to \"https://www.google.de/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.de/\nCall log:\n  - navigating to \"https://www.google.de/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.de/\nCall log:\n  - navigating to \"https://www.google.de/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.de/\nCall log:\n  - navigating to \"https://www.google.de/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

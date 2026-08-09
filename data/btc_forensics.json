@@ -1,0 +1,1191 @@
+{
+  "address": "bc1qrz33mr7tx8wrpcs2pxrvv83hqwpm907s9shkz4",
+  "generated": "2026-08-09T01:55:04Z",
+  "chain_stats": {
+    "funded_txo_count": 80,
+    "funded_txo_sum": 2404135820,
+    "spent_txo_count": 72,
+    "spent_txo_sum": 2400161923,
+    "tx_count": 80
+  },
+  "total_received_btc": 24.0413582,
+  "total_sent_btc": 24.00161923,
+  "balance_btc": 0.03973897,
+  "deposit_count": 73,
+  "sweep_count": 7,
+  "total_deposit_usd_at_receipt": 1349952.04,
+  "first_deposit": "2026-08-05 21:08:55 UTC",
+  "last_deposit": "2026-08-07 06:00:44 UTC",
+  "first_sweep": "2026-08-07 04:19:48 UTC",
+  "last_sweep": "2026-08-07 06:40:55 UTC",
+  "largest_deposit": {
+    "txid": "d6943da12fbdc83b8effefce10287de2fea4c39dacb861b1e259ca8ed0409087",
+    "time": 1786012522,
+    "height": 961280,
+    "sats": 250871264,
+    "btc": 2.50871264,
+    "senders": [
+      "3P8FVo9X2oWa3KgXD1JG2tYrytpvMB59Ug",
+      "bc1q00xyxtdeq3gk6jd0zrlcjcjnpl9lle2fas5cru",
+      "bc1q4uvge4q80fmn290s90rer926s0tqu2cr5ljud7",
+      "bc1qp7h7d44jkey2w3wel7are46g8wf7ltu5ptkese",
+      "bc1qy8fa4tuaz85cegva6pxmld3fgvmuq8awfk0zme"
+    ],
+    "btc_usd_at_time": 64623,
+    "usd": 162120.54
+  },
+  "top_counterparties": [
+    {
+      "address": "bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z",
+      "sats": 1054600000,
+      "btc": 10.546
+    },
+    {
+      "address": "bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs",
+      "sats": 739659000,
+      "btc": 7.39659
+    },
+    {
+      "address": "bc1qs7zptzqvl0ahaz8qpvlhz2qqtwdrsyhu3sf3rn",
+      "sats": 175800000,
+      "btc": 1.758
+    },
+    {
+      "address": "bc1qpx66w070d2x68pdv3899wksl9h9vtf7fhmkg92",
+      "sats": 119000000,
+      "btc": 1.19
+    }
+  ],
+  "deposits": [
+    {
+      "txid": "129d907401054583bfe77f6f38a9f0800cb0aafbc998533d9f7e7526fb49e1a8",
+      "time": 1785964135,
+      "height": 961205,
+      "sats": 700896,
+      "btc": 0.00700896,
+      "senders": [
+        "39hcWcaGhWZe6AdXqxBFJU1mWnVnqgQGks",
+        "3HJS5BCUy4SbMJVXgc6iCfzsAVn3q9aLQz"
+      ],
+      "btc_usd_at_time": 64786,
+      "usd": 454.08
+    },
+    {
+      "txid": "98966fb628465e63ec114c4b2188b9b52b8a6bdb8c19a1177676d90fb0485f63",
+      "time": 1785967953,
+      "height": 961214,
+      "sats": 310392,
+      "btc": 0.00310392,
+      "senders": [
+        "bc1quehut4eplwezczq85qevdw27h8c3q05dge4kj6"
+      ],
+      "btc_usd_at_time": 64679,
+      "usd": 200.76
+    },
+    {
+      "txid": "431d80ca6e8da80fa864e7ac7567eb461c74ef7b3771155f02d4e7f0a1ba9f1d",
+      "time": 1785967953,
+      "height": 961214,
+      "sats": 755569,
+      "btc": 0.00755569,
+      "senders": [
+        "bc1qm47d2h9wwasm7l3ctvde760ksd9cekke272am5"
+      ],
+      "btc_usd_at_time": 64679,
+      "usd": 488.69
+    },
+    {
+      "txid": "6973c8029bb330b68453e493e3e9609dd12c7954d907572bd875f2be5774de20",
+      "time": 1785973244,
+      "height": 961222,
+      "sats": 26091852,
+      "btc": 0.26091852,
+      "senders": [
+        "32kPwv6azCkdh2Vnm278vo59LfRxgobfCb",
+        "367cFRWmvetTGhjAUiwQf3qU5QzAMBYoci",
+        "bc1q34e23hkpjtup068470y334e3xjupkzh8mdw3w2",
+        "bc1qg4xfkg0fveyegftydww5kelyes8xrpkz2s0s5k",
+        "bc1qqwg3hedufaah3egcly0auy9z8wee0kpx0pfnla",
+        "bc1qsu25gfkar3cw6t2jfqrtwsuj6qcvr6wt4m8v2a",
+        "bc1qxxdcmu8cppf2ghev6w8tesx26n0paely06yfst"
+      ],
+      "btc_usd_at_time": 64590,
+      "usd": 16852.73
+    },
+    {
+      "txid": "621be59128abe0004a4edfb56272316541bfd1b17d4468ef7afb851dc397fd4e",
+      "time": 1785974931,
+      "height": 961223,
+      "sats": 18994966,
+      "btc": 0.18994966,
+      "senders": [
+        "bc1qwuhxc4jfnvug89au4c4u3srpc8el7mzumsphs4"
+      ],
+      "btc_usd_at_time": 64613,
+      "usd": 12273.22
+    },
+    {
+      "txid": "ee81bc6b130ee76e24da3baa05c33cec5340f1c60c5c6466cd6b20c0a2a1774b",
+      "time": 1785975982,
+      "height": 961225,
+      "sats": 601071,
+      "btc": 0.00601071,
+      "senders": [
+        "bc1qju3wymhuccew7hlsfmzezcu8csfgyjnqrn4m2r"
+      ],
+      "btc_usd_at_time": 64613,
+      "usd": 388.37
+    },
+    {
+      "txid": "84c30c86765506316877a51693e5f70103fadc8cd1ff108d9c124a04491a517f",
+      "time": 1785977990,
+      "height": 961226,
+      "sats": 103533,
+      "btc": 0.00103533,
+      "senders": [
+        "bc1qrqr5v9neel6xntcxwesy5rzza33kg57xe6a4t5"
+      ],
+      "btc_usd_at_time": 64613,
+      "usd": 66.9
+    },
+    {
+      "txid": "b407b82e6183958e91afa3d728e3df9f0fab0206cd9498ae68b8619acf2130d5",
+      "time": 1785977990,
+      "height": 961226,
+      "sats": 8395891,
+      "btc": 0.08395891,
+      "senders": [
+        "bc1qm387rrj88mv24zc87d3z8exmpdrtpklgteyy8c"
+      ],
+      "btc_usd_at_time": 64613,
+      "usd": 5424.84
+    },
+    {
+      "txid": "22a4fdc346dcc87184443a9e691a0c9f8b583d3047e44041f457fd1e761126e7",
+      "time": 1785979619,
+      "height": 961230,
+      "sats": 8175896,
+      "btc": 0.08175896,
+      "senders": [
+        "bc1qn2y7mkdxxn85sxf934hncnjztra0g5tvvnx7ay",
+        "bc1qndw5jvjck7ut6xg7v65yz4dcfcarhshrjcp8xq",
+        "bc1qr2cst05z07x63h7mrz0l23w9gmxfucs5kwl74l"
+      ],
+      "btc_usd_at_time": 64595,
+      "usd": 5281.22
+    },
+    {
+      "txid": "6f1ff88842b4388dc568fa392e983593e6a89e2de044891b28dd4a497cfd829c",
+      "time": 1785980570,
+      "height": 961232,
+      "sats": 82497869,
+      "btc": 0.82497869,
+      "senders": [
+        "bc1qg0ytyqvep9xmetjglmc4zlj4uatr3kjjvtd29a",
+        "bc1qpwl8vr4mpnrqfxpym7j8acfse6huf9fxatpkfa",
+        "bc1qqkcaeg4nx8csrga4mk66a7p280tx8k7lsxmk7p"
+      ],
+      "btc_usd_at_time": 64595,
+      "usd": 53289.5
+    },
+    {
+      "txid": "fe5a8e76f4419950a1f8d7044a599cac9c3ba71112b4ff9cc7e8151e15746330",
+      "time": 1785991232,
+      "height": 961247,
+      "sats": 126926342,
+      "btc": 1.26926342,
+      "senders": [
+        "bc1q65jll3a64gkjmmn95cgw5l8pt9uzkc0dsc6h3c",
+        "bc1qlphuk7xfmqn8r84xg9ns72gc76cvh84h2dree5",
+        "bc1qpgcsrcyj3acul4wxw0f3770aa4a9hhchps89ws",
+        "bc1qq3msywfj8xnq3vnzrd0cgy45fegcytq2razm0g",
+        "bc1qv3tc6zmzu3vw3pgrl5rv4e66ww0dw8slqsnqg8"
+      ],
+      "btc_usd_at_time": 64471,
+      "usd": 81830.68
+    },
+    {
+      "txid": "6f5037220d04937091f4bdf47507677dd0d2cc756bb5246e9e73f89de54a9b17",
+      "time": 1785993303,
+      "height": 961249,
+      "sats": 5816660,
+      "btc": 0.0581666,
+      "senders": [
+        "bc1qeyyql4p924g86xzj9w5zjcjkyqq5usefhduv5d",
+        "bc1qgdkvllf4c0huzkdn9h6dyn2qszfx5qdll7c73z",
+        "bc1qh0v9e3r5v82dt56r450ed5mdmxav59lfp8ux3l"
+      ],
+      "btc_usd_at_time": 64678,
+      "usd": 3762.1
+    },
+    {
+      "txid": "1df56fa84f9105de7f817d734f9d1520fedaaa18b48bad8b2e8c57c4b14e2110",
+      "time": 1785996986,
+      "height": 961257,
+      "sats": 7847,
+      "btc": 7.847e-05,
+      "senders": [
+        "bc1qvkzy0egjyhs5yv6xeqhrnhkggkd4alz5cv3f2n"
+      ],
+      "btc_usd_at_time": 64841,
+      "usd": 5.09
+    },
+    {
+      "txid": "561ac237e3063186f0b58251a075df139d56cd121285622d000ea99b4f758b5a",
+      "time": 1785998517,
+      "height": 961259,
+      "sats": 24989553,
+      "btc": 0.24989553,
+      "senders": [
+        "bc1qhwq4n9vl4e8uvcxy5xakxzp3clm3udnnyg2q0x",
+        "bc1qrc9xh60c4ks9x3mm5ktxvvyssgta7qruv0hfhl",
+        "bc1qy429jy07r3hwaw989jkytj2v3d0say6exfyew9"
+      ],
+      "btc_usd_at_time": 64841,
+      "usd": 16203.48
+    },
+    {
+      "txid": "c309c24afd65f437ac0ed735255ae6f4688772037e17bb45edd24b162809f3de",
+      "time": 1786000016,
+      "height": 961265,
+      "sats": 53260360,
+      "btc": 0.5326036,
+      "senders": [
+        "bc1q4r4h0pg5f6f343x2n2usp39rtjym8gfrqd7xef",
+        "bc1q67l5rg33w66ycs38463trkdlcekseahqguxjy7",
+        "bc1qjt36qh04nndc9tl8qarwfdjfmp2kex628ecta4",
+        "bc1qnmxzdw8d5660446qtf6ehlsujyyghh5565a9v8",
+        "bc1qyal7zh48ps39uggulunfqtf3lle48qskv3utwa"
+      ],
+      "btc_usd_at_time": 64800,
+      "usd": 34512.71
+    },
+    {
+      "txid": "67b55084f1566cc1f6328575da6c8201d3918677ac77000b893df60db9fbdeee",
+      "time": 1786000681,
+      "height": 961267,
+      "sats": 1504,
+      "btc": 1.504e-05,
+      "senders": [
+        "bc1qjcycelmx2yhcrwzp5h7nmf8hu63pd50aqgc266"
+      ],
+      "btc_usd_at_time": 64800,
+      "usd": 0.97
+    },
+    {
+      "txid": "85271c52f0ddfecabe536138527ac3805ccfebcab0d4c3f3ef5d2d053b860a62",
+      "time": 1786001213,
+      "height": 961268,
+      "sats": 1066710,
+      "btc": 0.0106671,
+      "senders": [
+        "bc1qn345hr2ehud5e3k4x40n3uefucvz7dv30ayryv"
+      ],
+      "btc_usd_at_time": 64800,
+      "usd": 691.23
+    },
+    {
+      "txid": "09c55bb17b5d92d24227ae60efc4754b27ade13183af583c9d86cf1a4d37bada",
+      "time": 1786002049,
+      "height": 961269,
+      "sats": 109455813,
+      "btc": 1.09455813,
+      "senders": [
+        "32sgcyE9HCnyjrdz4vXJnvnBQhP9p9wHoL",
+        "384NxEWvDA9p98eBbcqmCF7rWQEQWg4Roh",
+        "3GjmJceH1QqWbzDyiUdG78xiY7BiNu35Sx",
+        "3KtT92UEYj7F3zaL8TewUsZcxRwXVW3mRo",
+        "3LRCuPxzbtPmCGd3qUJqnK3qjzGv8VvnWt",
+        "3NYxgALW93cAvoCyDG5RuceoNkQNRg6eRs",
+        "3PtogXHnH8GShNKNrtkwfrex57YEnhur9j",
+        "3Q5CVVuXZEPYPrdPYfuCnmt7zSb44gNs6z"
+      ],
+      "btc_usd_at_time": 64800,
+      "usd": 70927.37
+    },
+    {
+      "txid": "da65cc0f0106f6ef4247e4154712bd6b286be86bdbf28c42d2302c6697c5f8dc",
+      "time": 1786002049,
+      "height": 961269,
+      "sats": 4472181,
+      "btc": 0.04472181,
+      "senders": [
+        "bc1qp3pute2hgs4rg28ws23sq3lddeef8w2w6dexps",
+        "bc1qqssmja7duytef4xhf6m2h95a9j80pln54pwpvc"
+      ],
+      "btc_usd_at_time": 64800,
+      "usd": 2897.97
+    },
+    {
+      "txid": "7ee31d2acf3256e15a7d591c21ce500b22902de61a47325578bd651f926e808d",
+      "time": 1786005515,
+      "height": 961274,
+      "sats": 60438157,
+      "btc": 0.60438157,
+      "senders": [
+        "bc1q2sumwj8x4gqntntmxrp5vxacs8nse88kjl6rfk",
+        "bc1q39utl2nhta4fehsn32kepr3je3jmj0z28usytr",
+        "bc1q4vvp2d5r4lddertyemuvge6zrqp4c4wzvsm4zc",
+        "bc1q87pyqrfl7gn39u8n7ejr79sl73wfx4u56jspah",
+        "bc1qf3n7tjt3n22x6r20paseuavhtsl9mhqyxee6h4",
+        "bc1qjk7wq0qhr0nsl5p5t70dtqq47w56swynsnl5js",
+        "bc1qn2n3flqk79zd7jsxmg6lmw897ymat0tvmng2jg",
+        "bc1qt4jn5f35h7w5v6lwvnsg3rgyx77cj9eyydlum6"
+      ],
+      "btc_usd_at_time": 64761,
+      "usd": 39140.35
+    },
+    {
+      "txid": "30549766accea8f9d8b3b28f3e1e6e274385d88794a3e6ef4ce1193573410ef4",
+      "time": 1786005515,
+      "height": 961274,
+      "sats": 10482441,
+      "btc": 0.10482441,
+      "senders": [
+        "bc1qszyaqclafhpg63er0zefrqfat0ujhqqm52muak"
+      ],
+      "btc_usd_at_time": 64761,
+      "usd": 6788.53
+    },
+    {
+      "txid": "571aa725b457984016c0c25861886a330af129401f2b4dff1bbc4467d49508bb",
+      "time": 1786006609,
+      "height": 961277,
+      "sats": 170697,
+      "btc": 0.00170697,
+      "senders": [
+        "bc1q9wnfspxey5svpjexkn25gp79ugeqlkcag3f9cu",
+        "bc1qgnjtx995nxww6s7nkldag8krj5kpct07xephla"
+      ],
+      "btc_usd_at_time": 64761,
+      "usd": 110.55
+    },
+    {
+      "txid": "d6943da12fbdc83b8effefce10287de2fea4c39dacb861b1e259ca8ed0409087",
+      "time": 1786012522,
+      "height": 961280,
+      "sats": 250871264,
+      "btc": 2.50871264,
+      "senders": [
+        "3P8FVo9X2oWa3KgXD1JG2tYrytpvMB59Ug",
+        "bc1q00xyxtdeq3gk6jd0zrlcjcjnpl9lle2fas5cru",
+        "bc1q4uvge4q80fmn290s90rer926s0tqu2cr5ljud7",
+        "bc1qp7h7d44jkey2w3wel7are46g8wf7ltu5ptkese",
+        "bc1qy8fa4tuaz85cegva6pxmld3fgvmuq8awfk0zme"
+      ],
+      "btc_usd_at_time": 64623,
+      "usd": 162120.54
+    },
+    {
+      "txid": "41fe7b472d9034ab060e0885df8517993cdb6b85ceb76fa6ba784a46266dd49c",
+      "time": 1786012522,
+      "height": 961280,
+      "sats": 78752688,
+      "btc": 0.78752688,
+      "senders": [
+        "bc1q6qyyyvuwvrm2kfvpktwsk4epk22kkqjkghn3cy",
+        "bc1qe0alypgukh59cul2m6xrdklc0ww64hqumzn90q",
+        "bc1qewfrqxpg2lq0t2676qd00ewrszrj3rr2sz0dw7",
+        "bc1qfq7rxz0538s3ufh28rzd8z2l7hde77dqxwqawu",
+        "bc1qmfx5csmh6j8hpzxmq942ru8z49psatfgcdwh70",
+        "bc1qmhe0avn7rgqdxd9ndpdwjdeajdmw78rnwgp8ha",
+        "bc1qmu7gggjldfq3mufda3sl3wrxflwxltem26m705",
+        "bc1qnhtch9hu45k36tcnuj76qd08cmkewv8zd3w240",
+        "bc1qz2e0qw5f46u2264t6sp2ss6pt6kyhn0qcdfwmg"
+      ],
+      "btc_usd_at_time": 64623,
+      "usd": 50892.35
+    },
+    {
+      "txid": "f2fd4cc035db3c9a5cc0669f6c5fe262877b6c1f2dce7c0efc83faaf434ca972",
+      "time": 1786012522,
+      "height": 961280,
+      "sats": 5956400,
+      "btc": 0.059564,
+      "senders": [
+        "bc1qcer8v5fwr5487r6n6w46ywzae2hrlsl4eut379"
+      ],
+      "btc_usd_at_time": 64623,
+      "usd": 3849.2
+    },
+    {
+      "txid": "318169c2463093fe23a54b3015c6228675e9b035d0b527b2ec75baf40a303481",
+      "time": 1786015275,
+      "height": 961282,
+      "sats": 43484680,
+      "btc": 0.4348468,
+      "senders": [
+        "bc1q0z0aa5jy9aa7q6m2nf2umh52p9tm7jfne6m5nx",
+        "bc1qmxsx0muew5sy84yuez92rp50wdu86m08g7ft48"
+      ],
+      "btc_usd_at_time": 64561,
+      "usd": 28074.14
+    },
+    {
+      "txid": "b566c554c77a66af55f5b586238f03141b3f72612d7e1715fb6dca5880daecd1",
+      "time": 1786016176,
+      "height": 961284,
+      "sats": 172419,
+      "btc": 0.00172419,
+      "senders": [
+        "bc1q2ggen5ugmhcexr73detw6l3nxfkh4kngteyhht"
+      ],
+      "btc_usd_at_time": 64561,
+      "usd": 111.32
+    },
+    {
+      "txid": "ec45883c887090775bcebd6002c4f2a6b38e6e63b25c843e0644d7013cab00b5",
+      "time": 1786021718,
+      "height": 961295,
+      "sats": 14998977,
+      "btc": 0.14998977,
+      "senders": [
+        "bc1qqsyvsgw7dkwx82j42xdz9jrt00tcuqxf2lhddm",
+        "bc1qv8vg5l729sydt3mtrhlh4wj40grmsnnxp4c9th"
+      ],
+      "btc_usd_at_time": 64360,
+      "usd": 9653.34
+    },
+    {
+      "txid": "cba63905d1a2efeed136c130a49d59b5e611e85a8239a699aaece34dbdfefcb4",
+      "time": 1786023148,
+      "height": 961296,
+      "sats": 58033547,
+      "btc": 0.58033547,
+      "senders": [
+        "3Dc4Qz6JTJrPQ2ZDD8k9a5qD5sqmfD8tDM",
+        "3N4T5MYs4mStJvTBdYWLCo1QfrxtXky4s1"
+      ],
+      "btc_usd_at_time": 64360,
+      "usd": 37350.39
+    },
+    {
+      "txid": "86f324532f128a99a05f8481e4d3ff04032f362f1b511d42e9fc921b78b19f83",
+      "time": 1786023148,
+      "height": 961296,
+      "sats": 67140517,
+      "btc": 0.67140517,
+      "senders": [
+        "bc1q8wzk7f0yg5fx8uz3kf9vdyckk6sa4c8n8u9da9",
+        "bc1qeednx779h25672l9hwercq9wgmvu8j2ugzgkz9"
+      ],
+      "btc_usd_at_time": 64360,
+      "usd": 43211.64
+    },
+    {
+      "txid": "06a4ba82ab59dd1a1f8e35a9d823137138776729deb2b5dada8eebcc2e4a1d42",
+      "time": 1786023745,
+      "height": 961298,
+      "sats": 31230316,
+      "btc": 0.31230316,
+      "senders": [
+        "bc1qferw45v3kmjwtvq6rm6kw7l3tpz59nwrfd8zqv",
+        "bc1qs6qs55z4ayrvmyvzchvggp7mx99s7gj5cenguv",
+        "bc1qunywmvx8chwdyq0qh4598h5umrcz8vak03k24r",
+        "bc1qwxrnlmxr5qpjupkra8phf34dzx2y7u392l5jd5",
+        "bc1qy9382zhkzdlq38qur8vaqjcz0s3sgc87da7l7z",
+        "bc1qzskrx73sgx3v7usgzyf6m9j5spaeqzwz2kd4ud"
+      ],
+      "btc_usd_at_time": 64360,
+      "usd": 20099.83
+    },
+    {
+      "txid": "0e54705d7a6fc9e7f65aa9ef0e7431bbff93ee36081e11ff4113a6a7578c0b39",
+      "time": 1786023745,
+      "height": 961298,
+      "sats": 2372527,
+      "btc": 0.02372527,
+      "senders": [
+        "bc1qul2pf8q7ecqdjvqgwf396ejz00plkk98ravccr"
+      ],
+      "btc_usd_at_time": 64360,
+      "usd": 1526.96
+    },
+    {
+      "txid": "e1a7d19bc78c33718b064a203f33ddebc3bd72b78836f5db39fc0f6e8d1d0e02",
+      "time": 1786025963,
+      "height": 961302,
+      "sats": 5228337,
+      "btc": 0.05228337,
+      "senders": [
+        "bc1q2g67a5d4jv3yv856rfs5ygxmk9a74enwwtewaa",
+        "bc1q3xt3xru57k67x3wscuksrzmq7phqx3vqkl859g",
+        "bc1qlng0l58m08ld7cntux7tffjuft7c3ddltcmszt",
+        "bc1qny8jswax2kyjj7knth8mr85h7l9906ackeney7",
+        "bc1qswsuguwl5u3lkm50mp76uwnv7x4hm0jeq3my72",
+        "bc1qtp808m29lvuu3v5p3mlg7uuj6vqz7x6c302n3f",
+        "bc1qtzax955gauypx3nxtkrztl777n6uny7vhp4vn8"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 3366.0
+    },
+    {
+      "txid": "0eb5bd3d353dfa36ee93bbbbe5d7bb66f6ea801d3d4036d5a702ca8ac31d9e4f",
+      "time": 1786026790,
+      "height": 961303,
+      "sats": 29379996,
+      "btc": 0.29379996,
+      "senders": [
+        "bc1q00z0layt4xrvl3k76rw37kezdx5vv75a90r4za",
+        "bc1q42y9m09pygzursrmpc64q3323jsm0d6k69kx2g",
+        "bc1q4yz9hfmc84hu674myfdzukj0znx2fwredqv5cn",
+        "bc1qee3lprr0tdxqt9d2er7203k2lsk7ktavzy8wns",
+        "bc1qheplwxyzfqwepyl46p7hzzd2zm8w9eaucscftl",
+        "bc1qjekmspsu9ly7d93tss5q8wtekacjqka6y9kltd",
+        "bc1qltgcd8upkecue2dzz9ckvmyk23evhdz050ny4l",
+        "bc1qmluu6ujn0a35d33xyny0hgrdpj7qtn4u3n7075"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 18914.84
+    },
+    {
+      "txid": "06d0afc825ddefcf24ef9b154860bb36b30a83afbff6d8fb24e92e17e81cd1d3",
+      "time": 1786026790,
+      "height": 961303,
+      "sats": 27074952,
+      "btc": 0.27074952,
+      "senders": [
+        "bc1q4fnhcjsh84frjmdvrlwduwlt6xzfu5aewxynpu",
+        "bc1qk5glafxpxf6ku9g6psrptywlmyllmajy3mh4ch",
+        "bc1qpm6303d6rrj292q54tqhvdjrcttkt67a489p5a"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 17430.85
+    },
+    {
+      "txid": "02d042c3af3aaaa49b974f98130c8c4d8ac125faca384c4377e4c843c6500b1c",
+      "time": 1786026790,
+      "height": 961303,
+      "sats": 278763,
+      "btc": 0.00278763,
+      "senders": [
+        "3Cxuowp7FVD7Rnq2drPUk8Fpe6x4QN5iux"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 179.47
+    },
+    {
+      "txid": "a3dd0339fbe0593cdd66db33bae6ecfd61954bfd14c2f5d14786b50755d7a060",
+      "time": 1786027690,
+      "height": 961307,
+      "sats": 5621626,
+      "btc": 0.05621626,
+      "senders": [
+        "bc1q24ganrqrmf0fxs3vsm6ezm0kuvw79vm2jy3hqw",
+        "bc1q2wn7t7a6t62tl65xj6gwfst7zf09hn4pt6fsdh",
+        "bc1q4dl3p7nhhru8rmnshxzkrajdz4ge0ndpkwwrnu",
+        "bc1q8ntxvtltduewfpwgqmh6l5c77ccppktv48jufy",
+        "bc1qlrym9h9am9urt2l3sqh27dw9954y9qlpjtx9e8",
+        "bc1qrn9mgskteguep9rmeyjy2xe0qva6ve29hhf0fa",
+        "bc1qwzgqawe2rkmx802g3yjmy72gs2u3tqgrdskulq",
+        "bc1qy760gvwzceax4xqn5zxcg27nck0sgu66guf3sw"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 3619.2
+    },
+    {
+      "txid": "be7aeaea492f59a01de924e253abd522eb2127dd95439c32d1fb37d76790d6ef",
+      "time": 1786027690,
+      "height": 961307,
+      "sats": 4809350,
+      "btc": 0.0480935,
+      "senders": [
+        "bc1q2pmp5eyvy0a4kg96aj9pnervcpgw66rhs5vt4q",
+        "bc1qdkyjr40zrmz55mn6wcwya4233frn6cakcz3ltn",
+        "bc1qv7h72astxade5nspl2h0q3zldwwl3wjzmgnfjf",
+        "bc1qzv74ys3nm3f38yl8n9mv37pq50x0c0jkz7hvdl"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 3096.26
+    },
+    {
+      "txid": "86f542c7a01eaaa2b326b3d6c9c6c323c5334afb383506269c918b1261b5c4e5",
+      "time": 1786028040,
+      "height": 961308,
+      "sats": 112826147,
+      "btc": 1.12826147,
+      "senders": [
+        "bc1qn5jmpra8usea743dua4qzt9grae4w46hxe6nax"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 72637.47
+    },
+    {
+      "txid": "aac68754de7db2b5c4eecabc7a7d70bc21afc8690973d882ac1a7a5e070bf32b",
+      "time": 1786028040,
+      "height": 961308,
+      "sats": 10200021,
+      "btc": 0.10200021,
+      "senders": [
+        "bc1q29l9fdy7n976p3axy6g07u06m2cu6ekx06fckm",
+        "bc1qqezy7lweqvjxer46uyzssl2hjgj8zvmfseq08g",
+        "bc1qwqc5yu054ep0tdtrnqcxryyfkmwfyfsq3evjzu"
+      ],
+      "btc_usd_at_time": 64380,
+      "usd": 6566.77
+    },
+    {
+      "txid": "3a354da1a6ae20a41395172645a5821ce64bddc1485d7f6ce10cd4029cc86ab4",
+      "time": 1786034762,
+      "height": 961319,
+      "sats": 360352,
+      "btc": 0.00360352,
+      "senders": [
+        "bc1qwmz5hhd5fp0ps982v6wya5mp79m47zsht73m73"
+      ],
+      "btc_usd_at_time": 64596,
+      "usd": 232.77
+    },
+    {
+      "txid": "ec4c068768af7689db49203e830bb13feba593de2140921ecfe7912a167d8c43",
+      "time": 1786036036,
+      "height": 961320,
+      "sats": 6370397,
+      "btc": 0.06370397,
+      "senders": [
+        "bc1q54aee7qfumgl3g8r60gwk8axll82t8398sc3py",
+        "bc1qc0tj83us5rpg78w7zcwm85gl6dm0f3uq0kcu6z",
+        "bc1qnd2zl5ezrrgxv3r00txge0wk690sltcejlkj7a"
+      ],
+      "btc_usd_at_time": 64714,
+      "usd": 4122.54
+    },
+    {
+      "txid": "a32c0e17f957c1f5226d7745582c64dedc9395a3dea2a98d804bbe71f725e716",
+      "time": 1786037759,
+      "height": 961322,
+      "sats": 101801119,
+      "btc": 1.01801119,
+      "senders": [
+        "bc1qdscgu8v8swdlmseugv672jy3x8qhhc429034lk",
+        "bc1qe8m6t2cefd2yzcjv3d6qn03w9q70hvwdxmp5fh"
+      ],
+      "btc_usd_at_time": 64714,
+      "usd": 65879.58
+    },
+    {
+      "txid": "277cb9dec1438242021dbe76b8063a81c0e70b0ca2af7e2a45ecad85b1851e93",
+      "time": 1786037759,
+      "height": 961322,
+      "sats": 1924028,
+      "btc": 0.01924028,
+      "senders": [
+        "bc1qfw7yjpr2577tqjflt0g6p7qsr2hf05zz98jq34",
+        "bc1qhgw0zl264kpfkcxfhquf9n38ljt3cstslaz6av",
+        "bc1qj4ssehmyrnmlzp7u4rzu9a87zdql9dmrs48ule"
+      ],
+      "btc_usd_at_time": 64714,
+      "usd": 1245.12
+    },
+    {
+      "txid": "89102dbfffe036cdd5e1e50d1ae24b06bab0a4faad0933a23c5135af0f27933f",
+      "time": 1786038461,
+      "height": 961323,
+      "sats": 6902345,
+      "btc": 0.06902345,
+      "senders": [
+        "33imkDi6X17utfykxRfSQxjKcKYNcPJ19z",
+        "3LhxtFp5Vj83gCS2GaADmV31SfQtcCLZC9",
+        "bc1q4hr57wh38nzx8t26kzhzz2g03wg5l0xuu8c6t4",
+        "bc1qzylyflnd3s4mynkmstc5rnq8qcgnyq0ajdkxlw"
+      ],
+      "btc_usd_at_time": 64714,
+      "usd": 4466.78
+    },
+    {
+      "txid": "c55de50e7b61d7bcea63fc98e73251f02d24a9961ff92326207e28e35d772681",
+      "time": 1786038461,
+      "height": 961323,
+      "sats": 207551,
+      "btc": 0.00207551,
+      "senders": [
+        "bc1qtuf2g9ugcnl62vx9r2pcme3j40u7awadaslr70"
+      ],
+      "btc_usd_at_time": 64714,
+      "usd": 134.31
+    },
+    {
+      "txid": "a43e837d9af1470821a254bd0bb40df5a92732e6b0651a977cf33be84c27234d",
+      "time": 1786040069,
+      "height": 961325,
+      "sats": 166230,
+      "btc": 0.0016623,
+      "senders": [
+        "3B15ok4XvJLeyQL86DKtTaXndHkCn5Gtfu",
+        "3Njm8N5ExGy2DnA6pg9cVjJ1wt1Pyystg6"
+      ],
+      "btc_usd_at_time": 64565,
+      "usd": 107.33
+    },
+    {
+      "txid": "927c2393a03197fd275cbce3a1bd9bd5a8928e482b77575bf8bdd754bc20aff2",
+      "time": 1786041071,
+      "height": 961327,
+      "sats": 380690,
+      "btc": 0.0038069,
+      "senders": [
+        "bc1q7e78g5h6eztd4kpz5dhqeem2wt4lqxkawqkf2u"
+      ],
+      "btc_usd_at_time": 64565,
+      "usd": 245.79
+    },
+    {
+      "txid": "3f030e675e6506f7f9ff6aac35cfc23818d4552a445e8ec805226ebe809dd9fc",
+      "time": 1786047245,
+      "height": 961330,
+      "sats": 6972461,
+      "btc": 0.06972461,
+      "senders": [
+        "3C9nvbwumDbXxprFTJiysTkXbtkxqe5mAr",
+        "3Cg1Xj3rjVDei4mnfW8aLwv3aijNpV8ctm",
+        "3Fj1Bi6Krv7zq79AUFgbhUFHT76rnLpgry",
+        "3G4CHYZY6fsR1HK1YJPMnivV9f3vrurE2p",
+        "3L7mgGXXtMnJdUVcrNqMV529nLwLRaAegy",
+        "3N4qbSK7yxXxS6jdCgUSG7kkecGpwMj77k",
+        "3NKYKdFEEJgcgYtY8jv2MapRDrow65YH1k",
+        "3Pq9KzizPUbfzboFk2xiFCj3rSeaVZBRtZ"
+      ],
+      "btc_usd_at_time": 64401,
+      "usd": 4490.33
+    },
+    {
+      "txid": "81533ec9136153fad4cf1ba9e909120b42420b05a353598414ea30792c07a1e8",
+      "time": 1786047245,
+      "height": 961330,
+      "sats": 1286688,
+      "btc": 0.01286688,
+      "senders": [
+        "3CZn4Pkm2BXn2t9c7GP1ScNkhvZYwoNjVg",
+        "3KrowPrpYPUKEVPrHPjUUHg2viX3SoGCF9",
+        "3QWeKbPb26dnW3Z56KfGBwjPJhVk4Tje6P"
+      ],
+      "btc_usd_at_time": 64401,
+      "usd": 828.64
+    },
+    {
+      "txid": "bd62bd941f9ce05ef96a891b1b3e8b1d1c1587f75cc24834969801af0b3701d3",
+      "time": 1786047245,
+      "height": 961330,
+      "sats": 8211207,
+      "btc": 0.08211207,
+      "senders": [
+        "bc1q70wh6zdv54hxe6wuyapp5vp28fys2h92qn2cku",
+        "bc1qdsqklme9qq7g7aqrmslq68rw62dvwr3e30z3wx",
+        "bc1qustk56060gpp98m8pr8mjls9uu4refgk8dmz6y"
+      ],
+      "btc_usd_at_time": 64401,
+      "usd": 5288.1
+    },
+    {
+      "txid": "79dc125836d781cc4d545d1135e604503da856f447164ec6376bb2fe04cc1e18",
+      "time": 1786047245,
+      "height": 961330,
+      "sats": 32450124,
+      "btc": 0.32450124,
+      "senders": [
+        "bc1q6hdds6n9m443qplsxf4c4d24xqg4s0z3ddfcng",
+        "bc1qehh3er9k62h86u5nsn9j7tedlsrxugf97u9rk8"
+      ],
+      "btc_usd_at_time": 64401,
+      "usd": 20898.2
+    },
+    {
+      "txid": "afc0c425c12c2b8c9c92ee71d57ce242b2a651e5e69ffad92e96744caebd4130",
+      "time": 1786048430,
+      "height": 961333,
+      "sats": 2001646,
+      "btc": 0.02001646,
+      "senders": [
+        "bc1q7gfze85m5r0vetgt4na5rr5v8tdrlgqfmdcsut"
+      ],
+      "btc_usd_at_time": 64401,
+      "usd": 1289.08
+    },
+    {
+      "txid": "861de1b30cfc9556d5d93e5a91bd3c155d44fcab0902df4cb556641d533cfeb3",
+      "time": 1786048827,
+      "height": 961335,
+      "sats": 12219144,
+      "btc": 0.12219144,
+      "senders": [
+        "bc1qnsz90fuvk66km23ruvs3wcv34ve38wtsjql72u"
+      ],
+      "btc_usd_at_time": 64401,
+      "usd": 7869.25
+    },
+    {
+      "txid": "c6d42d01efa1b000bc31a8872db9e366e7ce6b3922dd400e752c028950c79be9",
+      "time": 1786050449,
+      "height": 961337,
+      "sats": 777202,
+      "btc": 0.00777202,
+      "senders": [
+        "bc1qwnlsw7py4xwnza7w9j4sl4turut9lk36k45xrk"
+      ],
+      "btc_usd_at_time": 64392,
+      "usd": 500.46
+    },
+    {
+      "txid": "df774050de06b987bd3811cfe925bca146819fb5590b72c5b4ea4f337aa449fc",
+      "time": 1786052094,
+      "height": 961338,
+      "sats": 115193293,
+      "btc": 1.15193293,
+      "senders": [
+        "bc1qh578t8as0d2587w2j44ycjkrlw5d0mjca62um8"
+      ],
+      "btc_usd_at_time": 64392,
+      "usd": 74175.27
+    },
+    {
+      "txid": "ff92f8d21efe9efba1820e2be8e9dafcb57d8d0a0d2faccd9f2145a8a82f4221",
+      "time": 1786052094,
+      "height": 961338,
+      "sats": 50762763,
+      "btc": 0.50762763,
+      "senders": [
+        "bc1qwk7mz4fhnvh9efx94myjg05yep9utdnnvjf2qs"
+      ],
+      "btc_usd_at_time": 64392,
+      "usd": 32687.16
+    },
+    {
+      "txid": "d62ab31c135c4a96aa73e8e354a3819fa3cf97b21b0f051780f1f4818cd2ec40",
+      "time": 1786052183,
+      "height": 961340,
+      "sats": 11426342,
+      "btc": 0.11426342,
+      "senders": [
+        "bc1q3qtmhzd2530svwx9ff2j35snp7yy29k84gzt63",
+        "bc1q6t0d3u2vz9j0vwacx32hcjhdxr6jt86k02c2ym",
+        "bc1q8gntq5sma9yx85z8rn40d6nywtvwrqhpx2qw92",
+        "bc1qajvxj88vpd4vxvcxag9g5rqtr5h3fcxkjn2ce4",
+        "bc1qdw9ltqm4e222n7vf3ca8ukw5z3mk9wgxhqdvh5",
+        "bc1qe4smecss35y0askad9pqtuwuk3855e5aawu0gy",
+        "bc1qgqmfr82mna2030kghymt2mcnkh9af0dfx733jr",
+        "bc1qj7xsdmnwetykajgdrf4kckta6cdy5evazez5j7",
+        "bc1qjx02ac3x4ejhplfpd9dmwtrskwq2mvva89n6jn",
+        "bc1qkjxj3lt077cewf4z6lphupw2c2exs3vgtrrxny",
+        "bc1qlv4utkvmgt9j0q55pnpy6rhrasxu0d4wg54r7a",
+        "bc1qn55aarm8y0c9vlc6vyvlufta4cls7uqlmu0axn",
+        "bc1qnvp38rwgamt72hx3xjr0m9zk8tt5n2axklk5rr",
+        "bc1qp3ma77ry6z4e7fnrsp8dv46w6xllmftd98gxep",
+        "bc1qpvga0a9kjs2q0fdr4gz495efgwau8k8zjzdywc",
+        "bc1qru3ux79s8ugqw8yhtswk2l2vsjg2dnda5z279y",
+        "bc1qtf8k6nemejh9yaud364hp0suwqggcs8kkp2xyq",
+        "bc1qwrrq2ddy4fn2tnewt6m2dfufwu25chdve8pfgl",
+        "bc1qwztmnpq0p0j8cwvc79yr5te6ympd2gzjy8h06k",
+        "bc1qzk009dt2ll8gpk2ary7rw5re8wwwa9ls2ccnce"
+      ],
+      "btc_usd_at_time": 64392,
+      "usd": 7357.65
+    },
+    {
+      "txid": "001f34250ac5d58fb80ac592ae79df3061fec24b7975958655263a60009f83f4",
+      "time": 1786056658,
+      "height": 961343,
+      "sats": 3053285,
+      "btc": 0.03053285,
+      "senders": [
+        "bc1q9c289j4xrzxy7kpd4zm9wvt6zahmsd6tauxv48",
+        "bc1qy744u0n2ef83w2q4vegzhqnhpys4t6g84nac9t"
+      ],
+      "btc_usd_at_time": 64394,
+      "usd": 1966.13
+    },
+    {
+      "txid": "d86d5bf7e3014f6f880a999f651fa95cc6aa5558db6e8b73eb1361217269598c",
+      "time": 1786057071,
+      "height": 961344,
+      "sats": 21407694,
+      "btc": 0.21407694,
+      "senders": [
+        "3QUuCFHmKRZopdwcsjTUNmFfviTA7MuGgw"
+      ],
+      "btc_usd_at_time": 64394,
+      "usd": 13785.27
+    },
+    {
+      "txid": "1a2056330c194f039245216609458ea9520f53b3a9c7171b0f4c72bee95d3550",
+      "time": 1786060628,
+      "height": 961350,
+      "sats": 40174853,
+      "btc": 0.40174853,
+      "senders": [
+        "bc1q0s7d0lgkxmn8l5qs9yd7r5dky9r8wxh5kv9ukc",
+        "bc1q4dmjf6wz7k97lcjszgygsy5u37vlsdqv4lxmkt",
+        "bc1q5p84gpz5c0yj66nd80v3xg7rpv88paa795y2q3",
+        "bc1q82lc442vzxvppy4jhev9hlgth7saemjtyl4x5z",
+        "bc1qc8ldg0swf52m4mlh8l9rzrfam2pj92pk66j9gj",
+        "bc1qfglv8myrd6fytrexjtaegcf0aq5thqxaly9eaj",
+        "bc1qfqpl5ljkvj7q8tcv0pd2069zkktz70g47mlq8c",
+        "bc1qh3xlmuln8e8zmvm2fm39hztrwdjxn6rm8vd6jv",
+        "bc1qjrtuywxtj0j94y0rtgv0em045t6726e524fwv3",
+        "bc1qkhr556j4ac4k4s9zh570jegd5ca07gxuqxh6d3",
+        "bc1qpk88ecu7qgq7gudy2q0hqezwznfn77yarkg677",
+        "bc1qv9cqfsrh3csgfzp4h4tqeqk58qvrzj8ku8zu2c",
+        "bc1qwm6r5g0rfvhxap0na9hrw0g7xjr9m75qcaerq9"
+      ],
+      "btc_usd_at_time": 64300,
+      "usd": 25832.43
+    },
+    {
+      "txid": "a4406b9d8eeef7ba7825084c2bdef128ac25d45cae3338f4c4af3f645cbf22ee",
+      "time": 1786062652,
+      "height": 961351,
+      "sats": 43989960,
+      "btc": 0.4398996,
+      "senders": [
+        "bc1qrhwuclq6z25e3jlkq0vux93xly3wcfy2f2dzsc",
+        "bc1qytdf982p8z0h3cqddkuj892dad2798tm8t6scs",
+        "bc1qz2va7cx3j5mtldsapn6s27s65vlka936hhsx6h"
+      ],
+      "btc_usd_at_time": 64268,
+      "usd": 28271.47
+    },
+    {
+      "txid": "fb7d530cde750b02881d0168f4474fae037ccb53cf06af31ea54920c9d9fef71",
+      "time": 1786065007,
+      "height": 961355,
+      "sats": 9801522,
+      "btc": 0.09801522,
+      "senders": [
+        "35K7EMz7hM1J137rXoiwRNsVsfK8acWBZV",
+        "36pdZkzYvwUoDtrmQcA4vbEv1NUwx4mAwP",
+        "3BNdS2kouhpeJqQooqGhZeZnWeBFmqHHxW",
+        "3Lhv7AZVRhEGL1az4UabseH5mD7YzgWQXo"
+      ],
+      "btc_usd_at_time": 64278,
+      "usd": 6300.22
+    },
+    {
+      "txid": "6c9bee3af1f9219bcb8812c0d7f415f2fc161f18ae73fe41b1dcaca23bbbd18e",
+      "time": 1786065007,
+      "height": 961355,
+      "sats": 2100707,
+      "btc": 0.02100707,
+      "senders": [
+        "bc1q5rfcy6fmj94rlmgm9ayx85drs2p8tzl5u9wdev",
+        "bc1qjm3dc6uyvm9h0jyrcjqzgh8xmlxdj3nql0x39l"
+      ],
+      "btc_usd_at_time": 64278,
+      "usd": 1350.29
+    },
+    {
+      "txid": "fb97e4b18624763821320d3b366424b88f62e0f9287e5f87d8cabc7f2b462b70",
+      "time": 1786067022,
+      "height": 961363,
+      "sats": 34687,
+      "btc": 0.00034687,
+      "senders": [
+        "34uLgM9qQURcdFr8AZahHHfzAMxTK9A5QY"
+      ],
+      "btc_usd_at_time": 64278,
+      "usd": 22.3
+    },
+    {
+      "txid": "18f1074fc20c55b54c39b7cd910dc5025fdbdc9dde3fbf3f9a8becb20425ca28",
+      "time": 1786068534,
+      "height": 961365,
+      "sats": 77348319,
+      "btc": 0.77348319,
+      "senders": [
+        "bc1q4hrg8ja43vpyqr8r28rh6nytaly5zek32sp3pp",
+        "bc1q6vz5euvkp53ywyfazjfznm9nqp33zwmtwdc77s",
+        "bc1qagc9r36jwgfnnsj0789ehgzjqykfpncc2zh7c2",
+        "bc1qecwfxsvvvqer3fhr2pu9qv27m0k2dc5cpa4c8q",
+        "bc1qegxnndptlgp9y5unv8utdwg796ckwd6p8eapsz",
+        "bc1qfe4g0znrgce0nxdlm6zl6w2llw8khj24ka0uap",
+        "bc1qkm8qxln84hgt44q8fattjmcmemp04mzuenqmth",
+        "bc1qn40d6s822cssq3lg5z4fec9g66sqvrg25v50nq",
+        "bc1qn6x82lj0wwven54xc97dape4vjx06ttckmd6jq",
+        "bc1qnhqgejnl6yy87j0c6x7an7mzn8sfce55yhd0fc",
+        "bc1qp8auljuyd8l3tqtsy2svc00fr868yyrjvevllf",
+        "bc1qrwh4knlcu9pyeuwe26r73wf4edjqvs650kjlkc",
+        "bc1qvdzkze9a8g8eys8xmn9ge9dw0v5s00ur8xm405",
+        "bc1qyqlah653ans9gzququ9he65avuu63vrrc8ew2l"
+      ],
+      "btc_usd_at_time": 64368,
+      "usd": 49787.57
+    },
+    {
+      "txid": "42089ce92ecf277595bf94bbd19c903c760c1e6f9844be054253c451cc2d8842",
+      "time": 1786068534,
+      "height": 961365,
+      "sats": 13853726,
+      "btc": 0.13853726,
+      "senders": [
+        "bc1q3z46yf74lsye5ddkqlccryzg8k2jxyvlf079mz",
+        "bc1q7vm4tzsxsh9vt29z5y77svvmhuasw3c8u2zv5p",
+        "bc1q89kpqwym6qqx97r42yr8t2tkhcrwqxx8p8czrr",
+        "bc1qj2c5faygsef9hmr5877ptfe8ttycl4e8nyzv52",
+        "bc1qn45aqnmkmf83asf6w6j0p78d59nq8jr45fgk6g",
+        "bc1qu84ssfqgt0qntrurt0glgug2sgg7mfwwhsgw3s"
+      ],
+      "btc_usd_at_time": 64368,
+      "usd": 8917.37
+    },
+    {
+      "txid": "17689611585549d0a42468663d842ca280a2a670a2bd0c086f66b34031ea1291",
+      "time": 1786073533,
+      "height": 961367,
+      "sats": 6741478,
+      "btc": 0.06741478,
+      "senders": [
+        "bc1q70awsnz6xtluvjxjzk5mms9r4duu9sl0znghv4",
+        "bc1qp7fjrdsr9sceuahzsug69m4se6yngu9v4s674k",
+        "bc1qrj9t8gl0gyjyaarlx22h3ysm58rfqefd8mj9vq",
+        "bc1qsdwuke7uamglsk8u4w3tymz7p62pv7urwltqew",
+        "bc1qwp8znmej8x5h64ney7yfclaz30p4ut62qaqfx7"
+      ],
+      "btc_usd_at_time": 64356,
+      "usd": 4338.55
+    },
+    {
+      "txid": "fea633cc5e7817ca0760741396754e074ed59b4591ba468bbd140b2115e525dc",
+      "time": 1786073533,
+      "height": 961367,
+      "sats": 1457462,
+      "btc": 0.01457462,
+      "senders": [
+        "bc1qljhytyr5eyfxyz5xmm0yp2v0q2h5gw24j5sw9n"
+      ],
+      "btc_usd_at_time": 64356,
+      "usd": 937.96
+    },
+    {
+      "txid": "802eaf3612e5df02b886e7b619f511075c9f0596ccc120d343e14b7bd561f2ec",
+      "time": 1786078373,
+      "height": 961373,
+      "sats": 6993400,
+      "btc": 0.069934,
+      "senders": [
+        "bc1qgkafgehgwmqw0nhw2qw064h5058gyxw93mpjt3"
+      ],
+      "btc_usd_at_time": 64240,
+      "usd": 4492.56
+    },
+    {
+      "txid": "b3bb81b5d70bd2ecc623884a7fccb168e89e4453199873fe88576f22bd46a290",
+      "time": 1786079520,
+      "height": 961375,
+      "sats": 11361518,
+      "btc": 0.11361518,
+      "senders": [
+        "bc1q38ck9dvr4c6qrkqn9690rcefvgrw53hxxxln7j"
+      ],
+      "btc_usd_at_time": 64195,
+      "usd": 7293.53
+    },
+    {
+      "txid": "7342c8048b13f8445a375b635363a6930c9deb2d793469306281618464e064e3",
+      "time": 1786079520,
+      "height": 961375,
+      "sats": 201039847,
+      "btc": 2.01039847,
+      "senders": [
+        "bc1qgdpp6y44pyv8axy6922gr36q9ke69cp342q67c"
+      ],
+      "btc_usd_at_time": 64195,
+      "usd": 129057.53
+    },
+    {
+      "txid": "b860a65bbfdb88e624d6c77ecb0b623b2a01ce06291009daa1e00b97664b23f5",
+      "time": 1786082444,
+      "height": 961380,
+      "sats": 2315400,
+      "btc": 0.023154,
+      "senders": [
+        "bc1qdr0dq7ppnuakcc9k47lk7d90y9e07ks22l6kfe"
+      ],
+      "btc_usd_at_time": 64291,
+      "usd": 1488.59
+    }
+  ],
+  "sweeps": [
+    {
+      "txid": "ad58d2d6a508ebbc5b8cbca4ba14143ce3372ea5483a675cc7399b0b51378de1",
+      "time": 1786076388,
+      "height": 961371,
+      "sent_sats": 676169000,
+      "dests": [
+        [
+          "bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs",
+          676169000
+        ]
+      ]
+    },
+    {
+      "txid": "7b3a10168c78c360adcd8d98002d81994ebc61c4f9d3cc02b8d36ef45ee04feb",
+      "time": 1786078373,
+      "height": 961373,
+      "sent_sats": 112800000,
+      "dests": [
+        [
+          "bc1qs7zptzqvl0ahaz8qpvlhz2qqtwdrsyhu3sf3rn",
+          112800000
+        ]
+      ]
+    },
+    {
+      "txid": "53f06440bbf43246d0c2538d75b6dac6334cf96ee404d27da19d47b3993a1721",
+      "time": 1786078699,
+      "height": 961374,
+      "sent_sats": 970000000,
+      "dests": [
+        [
+          "bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z",
+          970000000
+        ]
+      ]
+    },
+    {
+      "txid": "1481d8cb108670739b7edab66687e810034f1f03dc360f22015890cf64267d19",
+      "time": 1786079520,
+      "height": 961375,
+      "sent_sats": 119000000,
+      "dests": [
+        [
+          "bc1qpx66w070d2x68pdv3899wksl9h9vtf7fhmkg92",
+          119000000
+        ]
+      ]
+    },
+    {
+      "txid": "81a8e9032684f19f5b50244b69b32e8ac889e8ce09da3fb477e34f8d742e6666",
+      "time": 1786081961,
+      "height": 961379,
+      "sent_sats": 63490000,
+      "dests": [
+        [
+          "bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs",
+          63490000
+        ]
+      ]
+    },
+    {
+      "txid": "6cb9ea2623566e42ca9303fcd22856d2a9e1e1b35b36b3ba2f0d8799a2e030bd",
+      "time": 1786082444,
+      "height": 961380,
+      "sent_sats": 84600000,
+      "dests": [
+        [
+          "bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z",
+          84600000
+        ]
+      ]
+    },
+    {
+      "txid": "eab8d564f5f07bbd355f112df9456020fb065b09130f6284f23f437db38a89cb",
+      "time": 1786084855,
+      "height": 961384,
+      "sent_sats": 63000000,
+      "dests": [
+        [
+          "bc1qs7zptzqvl0ahaz8qpvlhz2qqtwdrsyhu3sf3rn",
+          63000000
+        ]
+      ]
+    }
+  ]
+}

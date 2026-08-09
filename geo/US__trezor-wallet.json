@@ -1,0 +1,79 @@
+{
+  "cc": "US",
+  "query": "trezor wallet",
+  "tld": "com",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:04:26Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_US_s_658462XNJ_ttl_72h",
+  "exit": {
+    "ip": "24.190.187.229",
+    "hostname": "ool-18bebbe5.dyn.optonline.net",
+    "city": "Trenton",
+    "region": "New Jersey",
+    "country": "US",
+    "loc": "40.2171,-74.7429",
+    "org": "AS6128 Cablevision Systems Corp.",
+    "postal": "08609",
+    "timezone": "America/New_York",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dnews%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3DLeB3aq_DO6m0ptQP5Y3NkQk%26iflsig%3DABILxe8AAAAAanfuPo-Ha6SSfhnfWzhn9N1zJ6reW2-n%26ved%3D0ahUKEwjvjdbDupKWAxUpmokEHeVGM5IQ4dUDCCA%26uact%3D5%26oq%3Dnews%26gs_lp%3DEgdnd3Mtd2l6IgRuZXdzMg4QABiABBixAxiDARjJAzILEAAYgAQYsQMYgwEyERAuGIAEGLEDGIMBGMcBGNEDMgsQABiABBiKBRiSAzILEAAYgAQYigUYkgMyCxAuGIAEGMcBGK8BMgUQABiABDIREC4YgAQYsQMYgwEYxwEY0QMyCBAuGIAEGLEDMgUQABiABEjGD1AZWKsGcAF4AJABAZgBogagAbUTqgEHMC4xLjYtM7gBA8gBAPgBAZgCBKACqA2oAgrCAgoQLhgDGI8BGOoCwgIKEAAYAxiPARjqAsICCxAuGIAEGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg4QLhiABBiKBRixAxiDAcICCBAAGIAEGLEDwgIUEC4YgAQYsQMYgwEYxwEYrwEYjgXCAgUQLhiABMICERAuGIAEGLEDGMcBGK8BGI4FmAMI8QU4wQCCoq1OrZIHBzEuMS41LTKgB9k7sgcHMC4xLjUtMrgHnw3CBwUwLjIuMsgHEIAIAQ%26sclient%3Dgws-wiz%26sei%3DNOB3aqn5PI3cptQP0obs2QQ&q=EgQYvrvlGLXA39MGIjDbcbnv2wrtC6ucyxuVt-WTETgObFL75mzNNb5KisyQGLIX_vbzHwVbEecrGDidwNcyAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "99.163.178.66",
+      "org": "AS7018 AT&T Enterprises, LLC"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "73.163.19.213",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "173.70.250.187",
+      "org": "AS701 Verizon Business"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "76.124.104.122",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "24.190.187.229",
+      "org": "AS6128 Cablevision Systems Corp."
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

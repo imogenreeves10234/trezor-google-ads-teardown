@@ -1,0 +1,62 @@
+{
+  "cc": "GB",
+  "query": "car insurance",
+  "tld": "co.uk",
+  "hl": "en",
+  "attempt": 3,
+  "ts": "2026-08-09T02:07:02Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_GB_s_593500GLW_ttl_72h",
+  "exit": {
+    "ip": "109.146.139.170",
+    "hostname": "host109-146-139-170.range109-146.btcentralplus.com",
+    "city": "Ripon",
+    "region": "England",
+    "country": "GB",
+    "loc": "54.1358,-1.5283",
+    "org": "AS2856 British Telecommunications Limited",
+    "postal": "HG4",
+    "timezone": "Europe/London",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=car+insurance&sca_esv=4dc13bed5212d114&source=hp&ei=3eB3arjHMoyJkdUPn77u4AI&iflsig=ABILxe8AAAAAanfu7fYh1c_IaRCdBfuroz4ataM0fiUD&ved=0ahUKEwj4qcOXu5KWAxWMRKQEHR-fGywQ4dUDCB8&uact=5&oq=car+insurance&gs_lp=Egdnd3Mtd2l6Ig1jYXIgaW5zdXJhbmNlMgsQABiABBixAxjJAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzILEAAYgAQYigUYkgMyCxAAGIAEGIoFGJIDMgUQABiABDIFEAAYgAQyCBAAGIAEGLEDMggQABiABBixA0j4FlAfWMIOcAF4AJABAJgBywKgAa4LqgEHNy41LjAuMbgBA8gBAPgBAZgCDqAClgyoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICDhAuGIAEGIoFGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiDARixAxiABMICERAuGIAEGLEDGIMBGMcBGNEDwgIFEC4YgATCAgsQLhiABBixAxiDAcICERAuGIAEGIoFGI0GGLEDGIMBwgIIEC4YgAQYsQPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYyQOYAwrxBcTIm2Cd_J1SkgcHOC41LjAuMaAHxFuyBwc3LjUuMC4xuAeMDMIHBzAuMy45LjLIB0qACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nShopping\nImages\nShort videos\nProduct sites\nVideos\nMore\nTools\nSearch Results\nWeb results\nCar insurance | Get a quote in minutes\n\nAviva\nhttps://www.aviva.co.uk \u203a Insurance\nWe offer two types of cover, comprehensive and third party, fire and theft. No admin fees for making changes to your policy. You get 10% off when you add\u00a0...\n4.5(1,663)\nCompare Cheap Car Insurance Quotes | Save up to \u00a3485\n\nCompare the Market\nhttps://www.comparethemarket.com \u203a car-insurance\nCompare car insurance from 187 providers with the UK's preferred price comparison site. Choose car cover from comprehensive to third party, fire and theft.\n4.6(93,685)\nInsurance check - MIB\n\nMotor Insurers' Bureau\nhttps://enquiry.navigate.mib.org.uk\nPortal of NAVIGATE.\nCheap Car",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "2.102.158.178",
+      "org": "AS13285 TalkTalk Communications Limited"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "90.201.153.196",
+      "org": "AS5607 Sky UK Limited"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "109.146.139.170",
+      "org": "AS2856 British Telecommunications Limited"
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,82 @@
+{
+  "cc": "CZ",
+  "query": "trezor wallet",
+  "tld": "cz",
+  "hl": "cs",
+  "attempt": 5,
+  "ts": "2026-08-09T02:06:44Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_CZ_s_221040SJU_ttl_72h",
+  "exit": {
+    "ip": "85.160.79.222",
+    "hostname": "85-160-79-222.reb.o2.cz",
+    "city": "Ostrava",
+    "region": "Moravian-Silesian Region",
+    "country": "CZ",
+    "loc": "49.8347,18.2820",
+    "org": "AS5610 O2 Czech Republic, a.s.",
+    "postal": "710 00",
+    "timezone": "Europe/Prague",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=x-B3aoCTMa2O9u8Py-TNuQE&iflsig=ABILxe8AAAAAanfu122HMF78ET02mz73zUWGYtCLw2eO&ved=0ahUKEwjAkoONu5KWAxUth_0HHUtyMxcQ4dUDCB0&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjWIFBNWLIXcAF4AJABAZgBmgmgAbUzqgENMC41LjIuNS0yLjEuM7gBA8gBAPgBAZgCDaAC2iuoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAg4QABiABBiKBRixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgILEC4YgAQYsQMYgwHCAhEQLhiABBixAxiDARjHARjRA8ICCBAuGIAEGLEDwgIOEAAYgAQYigUYjQYYsQPCAgsQLhiDARixAxiABMICBRAuGIAEwgILEC4YgAQYxwEYrwHCAgQQLhgDmAMJ8QWeMC093MTrPJIHDzEuNS4yLjAuMS4xLjIuMaAHhViyBw8wLjUuMi4wLjEuMS4yLjG4B9ArwgcFMC40LjnIBy2ACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "P\u0159esko\u010dit na hlavn\u00ed obsah\nN\u00e1pov\u011bda k\u00a0p\u0159\u00edstupnosti\nP\u0159ihl\u00e1sit\nRe\u017eim AI\nV\u0161e\nProdukty\nProduktov\u00e9 weby\nObr\u00e1zky\nZpr\u00e1vy\nVidea\nV\u00edce\nN\u00e1stroje\nV\u00fdsledky hled\u00e1n\u00ed\nWebov\u00e9 v\u00fdsledky s\u00a0odkazy na podstr\u00e1nky\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\n\u00b7\nP\u0159elo\u017eit tuto str\u00e1nku\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nProtect your assets with advanced security & privacy features built ...\n\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nStart using your new Tr",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.cz/\nCall log:\n  - navigating to \"https://www.google.cz/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.google.cz/\nCall log:\n  - navigating to \"https://www.google.cz/\", waiting until \"domcontentloaded\"\n",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "84.19.77.129",
+      "org": "AS33943 Eri Internet s.r.o."
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "193.179.66.63",
+      "org": "AS13036 T-Mobile Czech Republic a.s."
+    },
+    {
+      "attempt": 5,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "85.160.79.222",
+      "org": "AS5610 O2 Czech Republic, a.s."
+    }
+  ],
+  "status": "OK"
+}

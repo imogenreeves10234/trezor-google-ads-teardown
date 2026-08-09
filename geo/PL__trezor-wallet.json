@@ -1,0 +1,62 @@
+{
+  "cc": "PL",
+  "query": "trezor wallet",
+  "tld": "pl",
+  "hl": "pl",
+  "attempt": 3,
+  "ts": "2026-08-09T02:07:08Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_PL_s_799674KLU_ttl_72h",
+  "exit": {
+    "ip": "217.119.78.94",
+    "hostname": "217-119-78-94.dynamic.play.pl",
+    "city": "Warsaw",
+    "region": "Mazovia",
+    "country": "PL",
+    "loc": "52.2298,21.0118",
+    "org": "AS9141 P4 Sp. z o.o.",
+    "postal": "00-002",
+    "timezone": "Europe/Warsaw",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=5OB3arqHMsaN7NYP--nZ4AQ&iflsig=ABILxe8AAAAAanfu9FndcPD2opVeq95J4v0rIxS-rLL6&ved=0ahUKEwi6ie6au5KWAxXGBtsEHft0FkwQ4dUDCB0&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkjZGFAbWK4OcAF4AJABAJgBygGgAeYOqgEGMC4xMi4xuAEDyAEA-AEBmAIOoAKnD6gCCsICChAuGAMYjwEY6gLCAgoQABgDGI8BGOoCwgIEEAAYA8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgIOEC4YgAQYxwEYrwEYjgXCAggQLhiABBixA8ICCxAuGIAEGMcBGK8BwgIOEAAYgAQYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICBRAuGIAEmAMK8QUhR4XgiuTNTpIHBjEuMTEuMqAHzVayBwYwLjExLjK4B5wPwgcHMC45LjQuMcgHLYAIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Przejd\u017a do g\u0142\u00f3wnej zawarto\u015bci\nU\u0142atwienia dost\u0119pu \u2013 pomoc\nZaloguj si\u0119\nTryb AI\nWszystko\nProdukty\nWitryny produkt\u00f3w\nGrafika\nWiadomo\u015bci\nWideo\nWi\u0119cej\nNarz\u0119dzia\nWyniki wyszukiwania\nWynik z\u00a0internetu z\u00a0linkami do strony\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\n\u00b7\nT\u0142umaczenie strony\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nSet up yo",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "109.243.69.15",
+      "org": "AS39603 P4 Sp. z o.o."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "185.186.39.216",
+      "org": "AS200918 Pavel Zizka"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "217.119.78.94",
+      "org": "AS9141 P4 Sp. z o.o."
+    }
+  ],
+  "status": "OK"
+}

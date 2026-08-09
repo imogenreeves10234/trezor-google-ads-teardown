@@ -1,0 +1,71 @@
+{
+  "cc": "ES",
+  "query": "trezor wallet",
+  "tld": "es",
+  "hl": "es",
+  "attempt": 3,
+  "ts": "2026-08-09T02:08:27Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_ES_s_229799SQZ_ttl_72h",
+  "exit": {
+    "ip": "188.26.218.54",
+    "hostname": "static-188-26-218-54.digimobil.es",
+    "city": "Madrid",
+    "region": "Madrid",
+    "country": "ES",
+    "loc": "40.4165,-3.7026",
+    "org": "AS57269 DIGI SPAIN TELECOM S.A",
+    "postal": "28004",
+    "timezone": "Europe/Madrid",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=LeF3atuYDqz_7_UPwPDpwAU&iflsig=ABILxe8AAAAAanfvPTKdh-4_h_tYyvsGAgaJySs5RTLq&ved=0ahUKEwib47G9u5KWAxWs_7sIHUB4GlgQ4dUDCBw&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5I1xFQIVi7C3ABeACQAQGYAeIDoAHaE6oBCTUuMy4xLjEuMrgBA8gBAPgBAZgCDKACsBCoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICDhAAGIAEGIoFGI0GGLEDwgIIEAAYgAQYsQPCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEAAYgAQYigUYkgPCAg4QABiABBixAxiDARjJA8ICDhAuGIAEGIoFGLEDGIMBwgIREC4YrwEYxwEYsQMYgAQYjgXCAggQLhixAxiABMICBRAuGIAEwgILEC4YgAQYxwEYrwGYAwnxBYMZzRMQWpa0kgcJNC4zLjMuMS4xoAftRbIHCTMuMy4zLjEuMbgHphDCBwUwLjUuN8gHKYAIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Saltar al contenido principal\nAyuda sobre la accesibilidad\nIniciar sesi\u00f3n\nModo IA\nTodo\nProductos\nIm\u00e1genes\nNoticias\nV\u00eddeos\nV\u00eddeos cortos\nM\u00e1s\nHerramientas\nLogin\nApp\nSoftware\nPagina oficial\nSafe 7\nDonde comprar\nTao\nAmazon\nResultados de la b\u00fasqueda\nGuadalajara\n\u00a0\u2219 Elegir zona\nResultado web con enlaces de sitio\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\n\u00b7\nTraducir esta p\u00e1gina\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nSet up your Trezor. Plug in your device and follow the steps to ...\n\nApp Tr",
+  "ads": [
+    {
+      "headline": "Hardware Wallet Trezor - Up To 20% Off Trezor Wallets",
+      "displayed_url": null,
+      "destination": null,
+      "href_head": "https://www.google.com/aclk?sa=L&ai=DChsSEwi7l9i_u5KWAxWpgIMHHQi0FsYYACICCAIQAxoCZWY&ae=2&co=1&ase=2&gclid=EAIaIQobChMIu5fYv7uSlgMVqYCDBx0ItBbGEAMYASADEgIMs_D_BwE&cce=2&category=acrcp_v1_71&sig=AOD64_0uaKCXCELvTTG9_yFoxwe3kMLOQg&q=&nis=4&ved=2ahUKEwi6mtO_u5KWAxV287sIHcMPEvAQh78CegQIXBAB&adurl=",
+      "block_text": "Hardware Wallet Trezor - Up To 20% Off Trezor Wallets\nTrezor.io\nhttps://www.trezor.io\nCelebrate Self-Custody Week with up to 20% off Trezor wallets and backups.\nAviso de uso de IA: anuncio creado o editado con IA\n\u200eWallet Apps & DApps \u00b7 \u200eRecover Wallet \u00b7 \u200eTrezor Suite \u00b7 \u200eRecover A Wallet \u00b7 \u200eProducts \u00b7 \u200eSupport Center\nDeal: Up to 20% off Trezor wallets \u00b7 Ends Aug 11",
+      "y": 2375
+    }
+  ],
+  "ad_count": 1,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "46.25.92.168",
+      "org": "AS12430 VODAFONE ESPANA S.A.U."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "88.18.157.76",
+      "org": "AS3352 TELEFONICA DE ESPANA S.A.U."
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 1,
+      "error": null,
+      "ip": "188.26.218.54",
+      "org": "AS57269 DIGI SPAIN TELECOM S.A"
+    }
+  ],
+  "status": "OK"
+}

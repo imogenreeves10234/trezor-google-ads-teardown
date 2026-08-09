@@ -1,0 +1,42 @@
+{
+  "cc": "IT",
+  "query": "trezor wallet",
+  "tld": "it",
+  "hl": "it",
+  "attempt": 1,
+  "ts": "2026-08-09T02:07:51Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_IT_s_652248HVH_ttl_72h",
+  "exit": {
+    "ip": "87.21.186.156",
+    "hostname": "host-87-21-186-156.retail.telecomitalia.it",
+    "city": "Pescara",
+    "region": "Abruzzo",
+    "country": "IT",
+    "loc": "42.4584,14.2028",
+    "org": "AS3269 Telecom Italia S.p.A.",
+    "postal": "65100",
+    "timezone": "Europe/Rome",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=C-F3aqCTNoiF9u8P7teEoA8&iflsig=ABILxe8AAAAAanfvG0ktGl0EdJBxKyI8-3lVnJ5PjCen&ved=0ahUKEwjgxL6tu5KWAxWIgv0HHe4rAfQQ4dUDCBw&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6GgIYAiINdHJlem9yIHdhbGxldDILEAAYgAQYsQMYgwEyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHkicFlAjWOYKcAF4AJABAJgBeqAB3AqqAQQxLjEyuAEDyAEA-AEBmAIOoAKkC6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIFEAAYgATCAg4QABiABBiKBRixAxiDAcICCBAuGIAEGLEDwgILEC4YgAQYsQMYgwHCAggQABiABBixA8ICDhAAGIAEGIoFGJIDGLgEwgILEAAYgAQYigUYkgPCAg4QABiABBixAxiDARjJA8ICCBAuGLEDGIAEwgIFEC4YgATCAhQQLhiABBixAxiDARjHARivARiYBcICCBAAGIAEGIsDwgIREAAYgAQYigUYsQMYgwEYiwPCAhEQLhiABBiLAxidAxioAxiiBZgDCvEF_wmqxTIBgYySBwQxLjEzoAfuX7IHBDAuMTO4B5oLwgcHMC4zLjkuMsgHNYAIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Vai ai contenuti principali\nGuida per l'accessibilit\u00e0\nAccedi\nAI Mode\nTutti\nProdotti\nSiti di prodotti\nImmagini\nNotizie\nVideo\nAltro\nStrumenti\nRisultati di ricerca\nRisultato web con link ai siti\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\n\u00b7\nTraduci questa pagina\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nSet up your Trezor. Plug in",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "87.21.186.156",
+      "org": "AS3269 Telecom Italia S.p.A."
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,67 @@
+{
+  "cc": "CA",
+  "query": "trezor wallet",
+  "tld": "ca",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:11:09Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_CA_s_182361QIG_ttl_72h",
+  "exit": {
+    "error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://ipinfo.io/json\nCall log:\n  - navigating to \"https://ipinfo.io/"
+  },
+  "error": "Page.goto: Navigation to \"https://www.google.ca/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.google.ca/\", waiting until \"domconten",
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "24.212.146.132",
+      "org": "AS5645 TekSavvy Solutions, Inc."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": "typing: Page.wait_for_selector: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea[name=q], input[name=q]\") to be visible\n    - waiting for\" https://",
+      "ip": "70.53.179.119",
+      "org": "AS577 Bell Canada"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "173.176.92.61",
+      "org": "AS5769 Videotron Ltee"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "174.94.85.72",
+      "org": "AS577 Bell Canada"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: Navigation to \"https://www.google.ca/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.google.ca/\", waiting until \"domconten",
+      "ip": null,
+      "org": null
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

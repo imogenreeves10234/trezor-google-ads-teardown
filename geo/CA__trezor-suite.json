@@ -1,0 +1,79 @@
+{
+  "cc": "CA",
+  "query": "trezor suite",
+  "tld": "ca",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:10:19Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_CA_s_368427ZMO_ttl_72h",
+  "exit": {
+    "ip": "98.143.67.64",
+    "hostname": "dyn98-143-67-64.hsia.mnsi.net",
+    "city": "Windsor",
+    "region": "Ontario",
+    "country": "CA",
+    "loc": "42.3001,-83.0165",
+    "org": "AS7057 Managed Network Systems Inc.",
+    "postal": "N8X",
+    "timezone": "America/Toronto",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtime%2Bnow%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3Dj-F3avffG5GTruEPt8iDkQ0%26iflsig%3DABILxe8AAAAAanfvn5hGwMx0pSDwThHY00uXnmDmaG4y%26ved%3D0ahUKEwi345zsu5KWAxWRiSsGHTfkINIQ4dUDCB4%26uact%3D5%26oq%3Dtime%2Bnow%26gs_lp%3DEgdnd3Mtd2l6Igh0aW1lIG5vdzIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIFEAAYgARInAtQCljeBXAAeACQAQCYAZQDoAGUA6oBAzQtMbgBA8gBAPgBAZgCAaACngOoAgCYAwCSBwM0LTGgB9IEsgcDNC0xuAeeA8IHAzItMcgHBoAIAQ%26sclient%3Dgws-wiz&q=EgRij0NAGKPD39MGIjB0kUOKMq-PrW0eTiINe_96CTFIf5dmW2IL2jF_86dryOKIRe_zzn-LoWhqm6f-7L0yAnJSWgFD",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "174.117.114.82",
+      "org": "AS812 Rogers Communications Canada Inc."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "99.229.51.154",
+      "org": "AS812 Rogers Communications Canada Inc."
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "142.114.249.173",
+      "org": "AS577 Bell Canada"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "99.237.6.52",
+      "org": "AS812 Rogers Communications Canada Inc."
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "98.143.67.64",
+      "org": "AS7057 Managed Network Systems Inc."
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

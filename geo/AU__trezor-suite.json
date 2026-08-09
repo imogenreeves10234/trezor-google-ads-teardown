@@ -1,0 +1,62 @@
+{
+  "cc": "AU",
+  "query": "trezor suite",
+  "tld": "com.au",
+  "hl": "en",
+  "attempt": 3,
+  "ts": "2026-08-09T02:10:19Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_AU_s_413838KSU_ttl_72h",
+  "exit": {
+    "ip": "101.182.181.189",
+    "hostname": "cpe-101-182-181-189.qb11.qld.asp.telstra.net",
+    "city": "Brisbane",
+    "region": "Queensland",
+    "country": "AU",
+    "loc": "-27.4679,153.0281",
+    "org": "AS1221 Telstra Limited",
+    "postal": "4000",
+    "timezone": "Australia/Brisbane",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&source=hp&ei=n-F3atLFFt6MseMP0prhCA&iflsig=ABILxe8AAAAAanfvr36t-YffGJc-shnkbLLkyCD4jPOW&ved=0ahUKEwiSkejzu5KWAxVeRmwGHVJNGAEQ4dUDCB4&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESLQUUBZYxAxwAXgAkAEAmAHABKABgCCqAQU0LTMuNbgBA8gBAPgBAZgCCaACryCoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QLhiABBjHARivARiOBZgDBfEFqABI--kiWwqSBwUxLjQtOKAH_yeyBwM0LTi4B6kgwgcHMC40LjQuMcgHJIAIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nImages\nShopping\nVideos\nNews\nForums\nMore\nTools\nSearch Results\nWeb result with site links\nTrezor Suite App (Official) | Desktop & Web Crypto ...\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\nThe Trezor Suite app makes it easy and secure to manage, buy, sell, and swap your crypto all in one place. Download for desktopContinue in\u00a0...\nDownload & verify Trezor Suite\nThe Trezor Suite desktop application (Linux, MacOS ...\n\nInstalling Trezor Suite on ...\nLearn how to install Trezor Suite on Windows with this simple ...\n\nTrezor Suite\nLearn about Trezor Suite on desktop and mobile. Manage ...\n\nInstalling Trezor Suite on MacOS\nLearn how to install Trezor Suite on macOS with this simple step ...\n\nUse Trezor Suite in your ...\nOpen Trezor Suite in yo",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "121.222.103.196",
+      "org": "AS1221 Telstra Limited"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "124.170.84.144",
+      "org": "AS7545 TPG Telecom Limited"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "101.182.181.189",
+      "org": "AS1221 Telstra Limited"
+    }
+  ],
+  "status": "OK"
+}

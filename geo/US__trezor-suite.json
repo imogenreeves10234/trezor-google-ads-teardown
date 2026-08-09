@@ -1,0 +1,78 @@
+{
+  "cc": "US",
+  "query": "trezor suite",
+  "tld": "com",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:04:32Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_US_s_394285RCH_ttl_72h",
+  "exit": {
+    "ip": "75.75.128.168",
+    "city": "Reading",
+    "region": "Pennsylvania",
+    "country": "US",
+    "loc": "40.3357,-75.9269",
+    "org": "AS7922 Comcast Cable Communications, LLC",
+    "postal": "19602",
+    "timezone": "America/New_York",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dnews%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3DN-B3aryZG9vX5NoPl-u5yQU%26iflsig%3DABILxe8AAAAAanfuR1IdUxbqPf3kttOz5GdrHPnkayeh%26ved%3D0ahUKEwj8kJjIupKWAxXbK1kFHZd1LlkQ4dUDCCA%26uact%3D5%26oq%3Dnews%26gs_lp%3DEgdnd3Mtd2l6IgRuZXdzMgsQABiABBixAxiDATIREC4YgAQYsQMYgwEYxwEY0QMyCxAuGIAEGLEDGIMBMgUQLhiABDILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMg4QLhiABBiKBRixAxiDATILEAAYgAQYsQMYgwEyCxAuGIAEGLEDGIMBMgsQLhiABBixAxiDAUj5CFAZWIsDcAF4AJABAJgB0QGgAe0EqgEDMi0zuAEDyAEA-AEBmAIEoAKKBagCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgIIEC4YgAQYsQPCAg4QABiABBiKBRixAxiDAcICBRAAGIAEwgIIEAAYgAQYsQPCAhQQLhiABBixAxiDARjHARivARiOBcICDhAuGIAEGLEDGMcBGNEDmAMI8QWAkJVlqnvR6ZIHBTEuMC4zoAe0K7IHAzItM7gHggXCBwMyLTTIBxaACAE%26sclient%3Dgws-wiz%26sei%3DPeB3asX5AtjU5NoP_uuEiQo&q=EgRLS4CoGL3A39MGIjA7tXrvWtfB7iC5qMs_vmdLgn0-H4iGdZBzER82wSpX2hHeV3TiivmzQFIHpxSkdu8yAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "98.192.92.74",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "38.43.0.67",
+      "org": "AS394449 FyberCom, LLC"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "72.220.55.29",
+      "org": "AS22773 Cox Communications Inc."
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "174.49.157.224",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "75.75.128.168",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

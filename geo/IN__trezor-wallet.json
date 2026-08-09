@@ -1,0 +1,41 @@
+{
+  "cc": "IN",
+  "query": "trezor wallet",
+  "tld": "co.in",
+  "hl": "en",
+  "attempt": 1,
+  "ts": "2026-08-09T02:10:54Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_IN_s_543886MRZ_ttl_72h",
+  "exit": {
+    "ip": "59.180.76.90",
+    "city": "Belagavi",
+    "region": "Karnataka",
+    "country": "IN",
+    "loc": "15.8521,74.5045",
+    "org": "AS9829 National Internet Backbone",
+    "postal": "590001",
+    "timezone": "Asia/Kolkata",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&sxsrf=APpeQntTTnTdqiZGpwFgsuEtBxs7caxAZQ%3A1786241472825&source=hp&ei=wOF3aqTvMP6rhvcPkMaA-Aw&iflsig=ABILxe8AAAAAanfv0P4O1-Zcn8xvwKskWnRUayHS51DW&ved=0ahUKEwikz-CDvJKWAxX-leEIHRAjAM8Q4dUDCB4&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEi6FlAhWP4KcAF4AJABAJgBywKgAc4gqgEEMy0xM7gBA8gBAPgBAZgCDqACliGoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgILEC4YgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAcICDhAuGIAEGIoFGLEDGIMBwgIIEC4YsQMYgATCAgUQLhiABMICCxAAGIAEGIoFGJIDwgILEAAYgAQYsQMYyQPCAggQLhiABBixA8ICCxAuGIAEGMcBGK8BwgIIEC4YgAQY5QSYAwrxBQDjImE1w73UkgcGMS4zLTEzoAeyX7IHBDMtMTO4B4shwgcHMC41LjguMcgHM4AIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nShopping\nImages\nNews\nVideos\nShort videos\nMore\nTools\nSearch Results\nBelagavi, Karnataka\n\u00a0\u2219 Choose area\nWeb result with site links\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nSet up your Trezor. Plug in your device and follow the",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "59.180.76.90",
+      "org": "AS9829 National Internet Backbone"
+    }
+  ],
+  "status": "OK"
+}

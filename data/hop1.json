@@ -1,0 +1,30 @@
+[
+  {
+    "address": "bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z",
+    "received_from_harvest_btc": 10.546,
+    "total_received_btc": 10.546,
+    "balance_btc": 0.0,
+    "tx_count": 4
+  },
+  {
+    "address": "bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs",
+    "received_from_harvest_btc": 7.39659,
+    "total_received_btc": 7.39659,
+    "balance_btc": 7.39659,
+    "tx_count": 2
+  },
+  {
+    "address": "bc1qs7zptzqvl0ahaz8qpvlhz2qqtwdrsyhu3sf3rn",
+    "received_from_harvest_btc": 1.758,
+    "total_received_btc": 3.51598972,
+    "balance_btc": 0.0,
+    "tx_count": 5
+  },
+  {
+    "address": "bc1qpx66w070d2x68pdv3899wksl9h9vtf7fhmkg92",
+    "received_from_harvest_btc": 1.19,
+    "total_received_btc": 1.19,
+    "balance_btc": 1.19,
+    "tx_count": 1
+  }
+]

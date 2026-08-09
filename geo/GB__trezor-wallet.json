@@ -1,0 +1,81 @@
+{
+  "cc": "GB",
+  "query": "trezor wallet",
+  "tld": "co.uk",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:04:36Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_GB_s_512674TBK_ttl_72h",
+  "exit": {
+    "ip": "84.65.167.46",
+    "city": "Manchester",
+    "region": "England",
+    "country": "GB",
+    "loc": "53.4809,-2.2374",
+    "org": "AS5378 Vodafone Limited",
+    "postal": "M1",
+    "timezone": "Europe/London",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=ROB3av_dF_iikdUPmaLx2Qs&iflsig=ABILxe8AAAAAanfuVKFYF4KZoXlxsYC4XsBeWzDpVHgI&ved=0ahUKEwj_j67OupKWAxV4UaQEHRlRPLsQ4dUDCBw&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiPFlAXWJwPcAF4AJABAJgB2gSgAcoMqgEIMTEuMS41LTG4AQPIAQD4AQGYAg6gAocNqAIKwgIKEC4YAxiPARjqAsICChAAGAMYjwEY6gLCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICCxAuGIAEGMcBGNEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAggQLhixAxiABMICBRAuGIAEwgIOEC4YgAQYxwEYrwEYmAWYAwfxBZ1srczpCbzkkgcIMTEuMi41LTGgB_NRsgcIMTAuMi41LTG4B_8MwgcGMC4xMC40yAcpgAgB&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nShopping\nImages\nNews\nVideos\nShort videos\nMore\nTools\nSearch Results\nWeb result with site links\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor.io Start\nSet up your Trezor. Plug in your device and follow the steps to ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nMore results from tr",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "81.158.195.129",
+      "org": "AS2856 British Telecommunications Limited"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "90.199.95.189",
+      "org": "AS5607 Sky UK Limited"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "86.24.107.217",
+      "org": "AS5089 Virgin Media Limited"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "80.176.172.43",
+      "org": "AS5378 Vodafone Limited"
+    },
+    {
+      "attempt": 5,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "84.65.167.46",
+      "org": "AS5378 Vodafone Limited"
+    }
+  ],
+  "status": "OK"
+}

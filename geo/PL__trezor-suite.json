@@ -1,0 +1,62 @@
+{
+  "cc": "PL",
+  "query": "trezor suite",
+  "tld": "pl",
+  "hl": "pl",
+  "attempt": 3,
+  "ts": "2026-08-09T02:07:55Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_PL_s_361535PGQ_ttl_72h",
+  "exit": {
+    "ip": "89.151.19.199",
+    "hostname": "089151019199.unknown.vectranet.pl",
+    "city": "Gdynia",
+    "region": "Pomerania",
+    "country": "PL",
+    "loc": "54.4763,18.5537",
+    "org": "AS29314 VECTRA S.A.",
+    "postal": "81-525",
+    "timezone": "Europe/Warsaw",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&source=hp&ei=DeF3auGZAvyDxc8P2v-IoAY&iflsig=ABILxe8AAAAAanfvHXQMMMbktjXsiAG40pn9GS0HnVr7&ved=0ahUKEwih1ISuu5KWAxX8QfEDHdo_AmQQ4dUDCB0&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgKSIgVUBxY9A5wAXgAkAEAmAHjBKAB5BSqAQs0LjQuMS4xLjAuMrgBA8gBAPgBAZgCDaACoBWoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICBBAAGAPCAggQABiABBixA8ICCxAuGIAEGMcBGNEDwgIOEC4YgAQYsQMYxwEY0QPCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYjQYYsQPCAggQLhiABBixA8ICCxAuGK8BGMcBGIAEwgIREC4YgAQYxwEYrwEYmAUYmQXCAgUQLhiABJgDCPEF1819yi049o-SBws0LjUuMS4xLjEuMaAHhUiyBwszLjUuMS4xLjEuMbgHlxXCBwUwLjYuN8gHLIAIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Przejd\u017a do g\u0142\u00f3wnej zawarto\u015bci\nU\u0142atwienia dost\u0119pu \u2013 pomoc\nZaloguj si\u0119\nTryb AI\nWszystko\nGrafika\nWideo\nWiadomo\u015bci\nProdukty\nKr\u00f3tkie filmy\nWi\u0119cej\nNarz\u0119dzia\nApp\nGithub\nOne download\nWyniki wyszukiwania\nWynik z\u00a0internetu z\u00a0linkami do strony\nTrezor Suite App (Official) | Desktop & Web Crypto ...\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\n\u00b7\nT\u0142umaczenie strony\nThe Trezor Suite app makes it easy and secure to manage, buy, sell, and swap your crypto all in one place. Download for desktopContinue in\u00a0...\nDownload & verify Trezor Suite\nThe Trezor Suite desktop application (Linux, MacOS ...\n\nInstalling Trezor Suite on ...\nLearn how to install Trezor Suite on Windows with this simple ...\n\nTrezor Suite\nLearn about Trezor Suite on desktop and mobile. Manage ...\n\nInstalling Trezor Suite on MacOS\nLearn how to ins",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "91.231.61.13",
+      "org": "AS198158 FIRMA USLUGOWO-HANDLOWA \"AG-net\" JOANNA MACZENSKA"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "91.225.240.155",
+      "org": "AS56597 FALCONN Falkowski Tomasz"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "89.151.19.199",
+      "org": "AS29314 VECTRA S.A."
+    }
+  ],
+  "status": "OK"
+}

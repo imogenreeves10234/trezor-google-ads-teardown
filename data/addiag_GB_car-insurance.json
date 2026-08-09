@@ -1,0 +1,24 @@
+{
+  "body_len": 3160,
+  "aclk_in_html": 1,
+  "googleadservices_in_html": 3,
+  "data_text_ad": 0,
+  "tads_container": true,
+  "label_hits": {
+    "Sponsored": 0,
+    "Ad": 0,
+    "Anzeige": 0,
+    "Annonce": 0,
+    "Gesponsert": 0,
+    "Publicidad": 0,
+    "Sponsorizzato": 0,
+    "Gesponsord": 0
+  },
+  "anchors_total": 57,
+  "sample_ad_html": "<div data-aqid=\"keF3aqqHO5ubovsPjoCveA\" id=\"tads\" data-ved=\"2ahUKEwiPj7Ltu5KWAxWjT6QEHTOoERUQGHoECAsQBA\"><div class=\"GUyUUb\" data-hb=\"t\" data-vcap=\"1\"><div></div></div><div class=\"GUyUUb\" data-hb=\"t\" data-vcap=\"1\"><div></div></div></div>",
+  "first_organic": "https://www.comparethemarket.com/car-insurance/",
+  "cc": "GB",
+  "query": "car insurance",
+  "url": "https://www.google.com/search?q=car+insurance&sca_esv=4dc13bed5212d114&source=hp&ei=iOF3asfUMJGMhbIP25qo2AU&iflsig=ABILxe8AAAAAanfvmMVxWFgwllON4RObnb_cvfG2-qrV&ved=0ahUKEwjHuIbpu5KWAxURRkEAHVsNClsQ4dUDCBw&uact=5&oq=car+insurance&gs_lp=Egdnd3Mtd2l6Ig1jYXIgaW5zdXJhbmNlMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgUQABiABEivFFAlWJ4McAF4AJABAJgBbqABuQmqAQQxMS4yuAEDyAEA-AEBmAIOoAKQCqgCCsICChAuGAMYjwEY6gLCAgoQABgDGI8BGOoCwgILEC4YgwEYsQMYgATCAg4QLhiABBiKBRixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgIREAAYgAQYigUYjQYYsQMYgwHCAhEQLhiABBixAxiDARjHARjRA8ICDhAAGIAEGIoFGI0GGLEDwgILEC4YgAQYsQMYgwHCAgUQLhiABMICCBAuGIAEGLEDwgIOEAAYgAQYigUYsQMYgwHCAgsQABiABBixAxiDAcICFBAuGIAEGIoFGI0GGLEDGMcBGNEDmAMP8QWP68CRavP1NpIHAzkuNaAH0VeyBwM4LjW4B4EKwgcHMC43LjYuMcgHNYAIAQ&sclient=gws-wiz&sei=keF3aoaiKbGpkdUPuc-hgQw",
+  "blocked": false
+}

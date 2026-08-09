@@ -1,0 +1,20 @@
+{
+  "finding": "Live SERP probing has a LOW ad-fill rate, so ads=0 is weak evidence; ads>0 is valid evidence",
+  "extractor_validated": true,
+  "extractor_proof": {
+    "geo": "ES",
+    "exit": "188.26.218.54 AS57269 DIGI SPAIN TELECOM S.A",
+    "query": "trezor wallet",
+    "captured_ad": "Hardware Wallet Trezor - Up To 20% Off Trezor Wallets | Trezor.io | https://www.trezor.io",
+    "note": "genuine first-party Trezor ad, captured with full text + aclk href -> the extractor is correct"
+  },
+  "empty_slot_evidence": {
+    "geo": "GB",
+    "query": "car insurance (always ad-carrying)",
+    "tads_container_present": true,
+    "tads_contents": "two EMPTY <div class=GUyUUb data-hb=t data-vcap=1> slots, no creative",
+    "interpretation": "Google reserved the ad slots but served no creative to that session"
+  },
+  "consequence": "A geo returning ads=0 must be reported as NOT MEASURED, never as 'no malicious ad running there'.",
+  "blocked_rate_note": "Most Gonzo residential exits receive Google's /sorry/ interstitial regardless of ISP (AT&T, Verizon, Charter, TalkTalk, Sky, BT, DIGI all observed); successful renders required 1-5 fresh exits per geo."
+}

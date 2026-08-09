@@ -1,0 +1,52 @@
+{
+  "cc": "CZ",
+  "query": "trezor suite",
+  "tld": "cz",
+  "hl": "cs",
+  "attempt": 2,
+  "ts": "2026-08-09T02:06:19Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_CZ_s_425205JML_ttl_72h",
+  "exit": {
+    "ip": "178.20.142.200",
+    "hostname": "gw28-nat-xpl-zl-jednota-1.avonet.cz",
+    "city": "Zl\u00edn",
+    "region": "Zl\u00edn",
+    "country": "CZ",
+    "loc": "49.2264,17.6706",
+    "org": "AS20723 AVONET, s.r.o.",
+    "postal": "760 01",
+    "timezone": "Europe/Prague",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&source=hp&ei=q-B3apD6O-iO9u8PzoSsmAY&iflsig=ABILxe8AAAAAanfuvJ1alZB5K9ELXzxyI0XUayMsPMpk&ved=0ahUKEwjQ--D_upKWAxVoh_0HHU4CC2MQ4dUDCB0&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESN8VUBhY2wpwAXgAkAEAmAFhoAHYB6oBAjEyuAEDyAEA-AEBmAINoAKZCKgCCsICChAuGAMYjwEY6gLCAgoQABgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjHARjRA8ICCBAAGIAEGLEDwgIOEC4YgAQYigUYsQMYgwHCAgsQLhiABBixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIOEC4YgwEYsQMYgAQYigXCAggQLhiABBixA8ICERAuGIAEGIoFGLEDGMcBGNEDwgILEC4YgwEYsQMYgATCAgUQLhiABMICBBAuGAPCAgsQLhivARjHARiABJgDCfEFVzFRHY3-Qy-SBwQxMi4xoAe5YbIHBDExLjG4B5AIwgcGMC4zLjEwyAcygAgB&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "P\u0159esko\u010dit na hlavn\u00ed obsah\nN\u00e1pov\u011bda k\u00a0p\u0159\u00edstupnosti\nP\u0159ihl\u00e1sit\nRe\u017eim AI\nV\u0161e\nObr\u00e1zky\nVidea\nZpr\u00e1vy\nProdukty\nKr\u00e1tk\u00e1 videa\nV\u00edce\nN\u00e1stroje\nV\u00fdsledky hled\u00e1n\u00ed\nWebov\u00e9 v\u00fdsledky\nAplikace Trezor Suite (ofici\u00e1ln\u00ed) | Spr\u00e1va krypta na po\u010d\u00edta\u010di i ...\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\nTrezor Suite je ofici\u00e1ln\u00ed aplikace pro spr\u00e1vu va\u0161\u00ed hardwarov\u00e9 pen\u011b\u017eenky Trezor. Na po\u010d\u00edta\u010di m\u016f\u017eete bezpe\u010dn\u011b kupovat, prod\u00e1vat, stakovat, sm\u011b\u0148ovat i odes\u00edlat\u00a0...\nAplikace Trezor Suite (ofici\u00e1ln\u00ed) | Gratulujeme k nov\u00e9 ...\n\nTrezor\nhttps://trezor.io \u203a start\nZa\u010dn\u011bte pou\u017e\u00edvat sv\u00e9 nov\u00e9 za\u0159\u00edzen\u00ed Trezor s aplikac\u00ed Trezor Suite. Nakupujte, obchodujte & odes\u00edlejte krypto v nejbezpe\u010dn\u011bj\u0161\u00edm ekosyst\u00e9mu.\nP\u0159ehled od AI\n+5\nDal\u0161\u00ed informace v\u010detn\u011b podrobnost\u00ed o\u00a0datech a\u00a0ochran\u011b soukrom\u00ed\nTrezor Suite je ofici\u00e1ln\u00ed desktopov\u00e1, webov\u00e1 a mobiln\u00ed ",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "109.164.52.217",
+      "org": "AS44489 STARNET, s.r.o."
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "178.20.142.200",
+      "org": "AS20723 AVONET, s.r.o."
+    }
+  ],
+  "status": "OK"
+}
