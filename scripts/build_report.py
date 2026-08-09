@@ -154,6 +154,34 @@ def legit_html():
 
 
 geo_rows, geo_ok, geo_tot = geo_html()
+eco = load("ecosystem.json", {})
+
+
+def eco_brand_html():
+    return "".join(
+        f'<tr><td>{E(b)}</td><td>{n}</td></tr>'
+        for b, n in (eco.get("brands") or {}).items())
+
+
+def eco_live_html():
+    rows = []
+    for l in eco.get("still_live", []):
+        rows.append(f'<tr><td>{E(l["brand"])}</td><td class="mono">{E(l["url"])}</td></tr>')
+    return "\n".join(rows)
+
+
+def eco_ads_html():
+    rows = []
+    for a in eco.get("ad_parameter_urls", [])[:16]:
+        rows.append(f'<tr><td>{E(a["time"])}</td><td>{E(a["brand"])}</td>'
+                    f'<td class="mono">{E(a["campaign_id"] or "—")}</td>'
+                    f'<td class="mono small">{E(a["url"][:78])}…</td></tr>')
+    return "\n".join(rows)
+
+
+def eco_dom_html():
+    ds = [d["domain"] for d in eco.get("attacker_domains", [])]
+    return ", ".join(f"<code>{E(d)}</code>" for d in ds)
 
 # --------------------------------------------------------------- research
 def research_block():
@@ -476,6 +504,67 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
     <tr><td class="mono">start-trezor-suite-cdn.gitbook.io</td><td>1</td><td>GitBook — earliest, Jan 2025</td></tr>
     <tr><td class="mono"><b>sites.google.com/view/start-trezor-suite</b></td><td>1</td>
         <td><b>Google Sites — the paid-ad campaign</b></td></tr>
+  </table></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>This is not one page. It is a platform pattern.</h2>
+  <p class="sub">Searching every public scan of <code>sites.google.com</code> against ten wallet and
+  exchange brands returns <b>{eco.get("unique_urls",0)} distinct phishing URLs</b>, running
+  continuously from <b>2020 to today</b>.</p>
+
+  <div class="stats" style="margin:0 0 26px">
+    <div class="stat"><b>{eco.get("unique_urls",0)}</b><span>unique sites.google.com phishing URLs</span></div>
+    <div class="stat"><b>10</b><span>crypto brands impersonated</span></div>
+    <div class="stat amber"><b>{eco.get("custom_domain_sites",0)}</b><span>use a Workspace custom domain</span></div>
+    <div class="stat red"><b>{len(eco.get("still_live",[]))}</b><span>still live when checked</span></div>
+  </div>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">Paid distribution, proven</h3>
+    <p style="margin-top:0">Sixteen of these URLs were captured <i>with Google Ads click parameters
+    still attached</i> — <code>gclid</code>, <code>gad_source=1</code>, <code>gbraid</code> and
+    <code>gad_campaignid</code>. Those parameters are appended by Google’s own ad click redirector,
+    so each one is a receipt that the page was reached through a paid Google ad. Ten distinct
+    campaign IDs survive in the URLs:</p>
+    <p class="mono small" style="margin-bottom:0">{E(", ".join(eco.get("campaign_ids",[])))}</p>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Scanned</th><th>Brand</th><th>Campaign ID</th><th>URL</th></tr>
+    {eco_ads_html()}
+  </table></div>
+
+  <div class="panel">
+    <h3 style="margin-bottom:6px">The upgrade: a lookalike domain <i>inside</i> a google.com URL</h3>
+    <p style="margin-top:0">{eco.get("custom_domain_sites",0)} of the
+    {eco.get("unique_urls",0)} sites do not use the anonymous <code>/view/</code> path. They read
+    <code>sites.google.com/<b>ledgercom-start.com</b>/ledger-live/home</code>. That form appears when a
+    Google Workspace account with a <i>verified</i> domain publishes a Site — so the attacker
+    registers a brand-lookalike domain, verifies it with Google, and receives a URL carrying both
+    the google.com hostname and the lookalike brand string. Google’s domain verification becomes part
+    of the disguise.</p>
+    <p style="margin-bottom:0" class="small muted">{len(eco.get("attacker_domains",[]))} attacker-verified
+    domains observed: {eco_dom_html()}</p>
+  </div>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">Still live</h3>
+    <p style="margin-top:0">Of 28 recent pages re-checked on
+    {time.strftime("%d %B %Y", time.gmtime())}, the five Trezor pages are gone — and
+    <b>{len(eco.get("still_live",[]))} others are still serving</b>. Two verified by hand:
+    <code>sites.google.com/ledgerstart-web.com/ledger-live/home</code> is titled
+    “<b>Leder Live</b> | Ledger Live App Crypto Wallet — Official® Site®” and
+    <code>sites.google.com/view/exodus-wlt/home</code> is titled “<b>Exódus®</b> Web3 Wallet”. Both
+    solicit a recovery phrase. The misspelling and the accented <i>ó</i> are deliberate — they read
+    correctly to a human and defeat exact-string brand matching.</p>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Brand</th><th>Live URL</th></tr>
+    {eco_live_html()}
+  </table></div>
+  <div class="scroll"><table>
+    <tr><th>Brand impersonated</th><th>Distinct Google Sites URLs</th></tr>
+    {eco_brand_html()}
   </table></div>
 </div></section>
 

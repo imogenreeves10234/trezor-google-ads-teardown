@@ -356,6 +356,89 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 </div></section>
 
 <section><div class="wrap">
+  <h2>This is not one page. It is a platform pattern.</h2>
+  <p class="sub">Searching every public scan of <code>sites.google.com</code> against ten wallet and
+  exchange brands returns <b>185 distinct phishing URLs</b>, running
+  continuously from <b>2020 to today</b>.</p>
+
+  <div class="stats" style="margin:0 0 26px">
+    <div class="stat"><b>185</b><span>unique sites.google.com phishing URLs</span></div>
+    <div class="stat"><b>10</b><span>crypto brands impersonated</span></div>
+    <div class="stat amber"><b>86</b><span>use a Workspace custom domain</span></div>
+    <div class="stat red"><b>10</b><span>still live when checked</span></div>
+  </div>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">Paid distribution, proven</h3>
+    <p style="margin-top:0">Sixteen of these URLs were captured <i>with Google Ads click parameters
+    still attached</i> — <code>gclid</code>, <code>gad_source=1</code>, <code>gbraid</code> and
+    <code>gad_campaignid</code>. Those parameters are appended by Google’s own ad click redirector,
+    so each one is a receipt that the page was reached through a paid Google ad. Ten distinct
+    campaign IDs survive in the URLs:</p>
+    <p class="mono small" style="margin-bottom:0">22745451246, 22757211581, 22897044940, 23016647039, 23083969841, 23118631869, 23340065278, 23343051284, 23362404856, 23755524198</p>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Scanned</th><th>Brand</th><th>Campaign ID</th><th>URL</th></tr>
+    <tr><td>2026-04-19</td><td>uniswap</td><td class="mono">23755524198</td><td class="mono small">https://sites.google.com/view/uniswap-v3-ads-929/?gad_source=1&amp;gad_campaignid=…</td></tr>
+<tr><td>2025-12-14</td><td>ledger</td><td class="mono">23362404856</td><td class="mono small">https://sites.google.com/view/ledger-com-app-ledgrer/live?gad_source=1&amp;gad_cam…</td></tr>
+<tr><td>2025-12-10</td><td>ledger</td><td class="mono">23343051284</td><td class="mono small">https://sites.google.com/view/vww-ledger-com-app-start/live?gad_source=1&amp;gad_c…</td></tr>
+<tr><td>2025-12-08</td><td>uniswap</td><td class="mono">23340065278</td><td class="mono small">https://sites.google.com/view/app-uniswap-dashbroad/uniswap?gclid=EAIaIQobChMI…</td></tr>
+<tr><td>2025-11-03</td><td>uniswap</td><td class="mono">—</td><td class="mono small">https://sites.google.com/view/unirpc/uniswap-app?gad_source=1…</td></tr>
+<tr><td>2025-10-28</td><td>exodus</td><td class="mono">23118631869</td><td class="mono small">https://sites.google.com/view/exodwolt/home/exodus?gad_source=1&amp;gad_campaignid…</td></tr>
+<tr><td>2025-10-16</td><td>exodus</td><td class="mono">23118631869</td><td class="mono small">https://sites.google.com/view/exodwolt/home/exodus?gad_source=1&amp;gad_campaignid…</td></tr>
+<tr><td>2025-10-04</td><td>uniswap</td><td class="mono">23083969841</td><td class="mono small">https://sites.google.com/view/uni-x-labs/uniswap-v4-app?gad_source=1&amp;gad_campa…</td></tr>
+<tr><td>2025-09-14</td><td>uniswap</td><td class="mono">23016647039</td><td class="mono small">https://sites.google.com/view/uniswapx/uniswap?gad_source=1&amp;gad_campaignid=230…</td></tr>
+<tr><td>2025-09-07</td><td>uniswap</td><td class="mono">22897044940</td><td class="mono small">https://sites.google.com/view/nfwn/uniswap?gad_source=1&amp;gad_campaignid=2289704…</td></tr>
+<tr><td>2025-08-31</td><td>uniswap</td><td class="mono">—</td><td class="mono small">https://sites.google.com/view/eeeffgbhhh/uniswap?gad_source=1…</td></tr>
+<tr><td>2025-08-26</td><td>uniswap</td><td class="mono">22897044940</td><td class="mono small">https://sites.google.com/view/jdsaiqpe/uniswap?gad_source=1&amp;gad_campaignid=228…</td></tr>
+<tr><td>2025-08-01</td><td>phantom</td><td class="mono">22757211581</td><td class="mono small">https://sites.google.com/view/korkuevim/phantom?gad_source=1&amp;gad_campaignid=22…</td></tr>
+<tr><td>2025-07-08</td><td>phantom</td><td class="mono">22745451246</td><td class="mono small">https://sites.google.com/view/phantom-web3/phantom-com?gad_source=1&amp;gad_campai…</td></tr>
+  </table></div>
+
+  <div class="panel">
+    <h3 style="margin-bottom:6px">The upgrade: a lookalike domain <i>inside</i> a google.com URL</h3>
+    <p style="margin-top:0">86 of the
+    185 sites do not use the anonymous <code>/view/</code> path. They read
+    <code>sites.google.com/<b>ledgercom-start.com</b>/ledger-live/home</code>. That form appears when a
+    Google Workspace account with a <i>verified</i> domain publishes a Site — so the attacker
+    registers a brand-lookalike domain, verifies it with Google, and receives a URL carrying both
+    the google.com hostname and the lookalike brand string. Google’s domain verification becomes part
+    of the disguise.</p>
+    <p style="margin-bottom:0" class="small muted">62 attacker-verified
+    domains observed: <code>metamask-ios.com</code>, <code>walletcryptoweb.com</code>, <code>uscoinlogin.com</code>, <code>coinslogins.com</code>, <code>coindesklogin.com</code>, <code>preloadcomubx.com</code>, <code>mortgagequote.ca</code>, <code>trzrio.com</code>, <code>1metamask-login.com</code>, <code>metmsklgin.com</code>, <code>phantom-extension.app</code>, <code>exodus-walleti.com</code>, <code>crypto-coinwallet.com</code>, <code>uscoinbaselogin.com</code>, <code>coinlogins.com</code>, <code>wallletcrypto.com</code>, <code>myweb3extensionwallet.com</code>, <code>criptowalletweb.com</code>, <code>trzario.com</code>, <code>startsuiteapp.com</code>, <code>trzorio.com</code>, <code>trajorstart.com</code>, <code>mywalletcrypto.com</code>, <code>trezoiostart.com</code>, <code>trzoreio.com</code>, <code>app-download-ledger.com</code>, <code>ledgercom-start.com</code>, <code>ledgerstart-web.com</code>, <code>ledgrstrt.com</code>, <code>metamaksio.com</code>, <code>walletcryptousa.com</code>, <code>metamaskis.com</code>, <code>metamask-ai.com</code>, <code>matamasklog.com</code>, <code>metamaskloginn.com</code>, <code>metamaskchrom.com</code>, <code>cryptocoinslogin.com</code>, <code>metamsklog.com</code>, <code>metmaskios.com</code>, <code>phantom-solana-wallet.com</code>, <code>phantomwalletus.com</code>, <code>phantomwalle.com</code>, <code>phantomm-wallet.com</code>, <code>phantomm-wallet.us</code>, <code>coinlogs.us</code>, <code>web-extension.com</code>, <code>cryptwallets.com</code>, <code>exodusstart.com</code>, <code>cryptowalleet.com</code>, <code>exoduss-wallet.com</code>, <code>cryptouswallets.com</code>, <code>tomsazure.com</code>, <code>coinswallett.com</code>, <code>net7.net</code>, <code>coinbasefree.com</code>, <code>wallcryp.com</code>, <code>coinlogi.com</code>, <code>coinbaseuslogin.com</code>, <code>99cryptocurrencies.com</code>, <code>helpcoinbaselogin.com</code>, <code>coinsloginx.com</code>, <code>kryptowallets.app</code></p>
+  </div>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">Still live</h3>
+    <p style="margin-top:0">Of 28 recent pages re-checked on
+    09 August 2026, the five Trezor pages are gone — and
+    <b>10 others are still serving</b>. Two verified by hand:
+    <code>sites.google.com/ledgerstart-web.com/ledger-live/home</code> is titled
+    “<b>Leder Live</b> | Ledger Live App Crypto Wallet — Official® Site®” and
+    <code>sites.google.com/view/exodus-wlt/home</code> is titled “<b>Exódus®</b> Web3 Wallet”. Both
+    solicit a recovery phrase. The misspelling and the accented <i>ó</i> are deliberate — they read
+    correctly to a human and defeat exact-string brand matching.</p>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Brand</th><th>Live URL</th></tr>
+    <tr><td>ledger</td><td class="mono">https://sites.google.com/view/app-ledger-wallet</td></tr>
+<tr><td>ledger</td><td class="mono">https://sites.google.com/view/app-ledger-com/home</td></tr>
+<tr><td>coinbase</td><td class="mono">https://sites.google.com/net7.net/coinbase/home</td></tr>
+<tr><td>exodus</td><td class="mono">https://sites.google.com/view/exodus-web3wallet-/home</td></tr>
+<tr><td>exodus</td><td class="mono">https://sites.google.com/view/exodus-wlt/home</td></tr>
+<tr><td>metamask</td><td class="mono">https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/</td></tr>
+<tr><td>uniswap</td><td class="mono">https://sites.google.com/preloadcomubx.com/nsdh232/uniswap</td></tr>
+<tr><td>ledger</td><td class="mono">https://sites.google.com/walletcryptoweb.com/ledger-com-start/home</td></tr>
+<tr><td>ledger</td><td class="mono">https://sites.google.com/ledgerstart-web.com/ledger-live/home</td></tr>
+<tr><td>uniswap</td><td class="mono">https://sites.google.com/kryptowallets.app/uniswap-dex-login/</td></tr>
+  </table></div>
+  <div class="scroll"><table>
+    <tr><th>Brand impersonated</th><th>Distinct Google Sites URLs</th></tr>
+    <tr><td>metamask</td><td>45</td></tr><tr><td>coinbase</td><td>29</td></tr><tr><td>exodus</td><td>24</td></tr><tr><td>uniswap</td><td>22</td></tr><tr><td>phantom</td><td>18</td></tr><tr><td>trezor</td><td>14</td></tr><tr><td>ledger</td><td>14</td></tr><tr><td>kraken</td><td>7</td></tr><tr><td>binance</td><td>6</td></tr><tr><td>blockchain</td><td>6</td></tr>
+  </table></div>
+</div></section>
+
+<section><div class="wrap">
   <h2>Multi-geo check</h2>
   <p class="sub">32 probes across 18 countries, each through a fresh residential exit in-country,
   driving a real Chrome profile. 20 rendered a genuine local SERP.</p>
