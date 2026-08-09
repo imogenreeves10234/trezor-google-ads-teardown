@@ -22,6 +22,24 @@ import time
 
 sys.path.insert(0, os.path.dirname(__file__))
 from serp_probe import CONSENT, gonzo, slug  # noqa: E402
+import string as _string
+
+_ZINY = None
+try:
+    _ZINY = json.load(open("/root/.config/ziny/creds.json"))
+except Exception:
+    _ZINY = None
+
+
+def get_proxy(cc):
+    """Prefer ziny (cleaner residential pool), fall back to Gonzo. Returns
+    (server, username, password) with a fresh session so each attempt is a new IP."""
+    if _ZINY:
+        r = _ZINY["residential"]; sess = "".join(random.choices(_string.ascii_letters + _string.digits, k=8))
+        pw = f"{r['proxy_key']}_country-{cc}_session-{sess}"
+        return (f"http://{r['endpoint']}:{r['http_port']}", _ZINY["username"], pw)
+    host, port, user, pwd = gonzo(cc).split(":")
+    return (f"http://{host}:{port}", user, pwd)
 from patchright.sync_api import sync_playwright  # noqa: E402
 
 ROOT = "/root/workspace/trezor-ads-teardown"
@@ -105,15 +123,14 @@ def fp_script(dev):
 
 def one_attempt(brand, cc, query, tld, hl, a):
     dev = random.choice(DEVICES)
-    proxy = gonzo(cc)
-    host, port, user, pw = proxy.split(":")
+    server, user, pw = get_proxy(cc)
     profile = f"/tmp/fp-{brand}-{cc}-{random.randint(10000,99999)}"
     os.makedirs(profile, exist_ok=True)
-    rec = {"attempt": a, "device": dev["name"], "exit_user": user}
+    rec = {"attempt": a, "device": dev["name"], "proxy": "ziny" if _ZINY else "gonzo"}
     with sync_playwright() as p:
         ctx = p.chromium.launch_persistent_context(
             user_data_dir=profile, channel="chrome", headless=False,
-            proxy={"server": f"http://{host}:{port}", "username": user, "password": pw},
+            proxy={"server": server, "username": user, "password": pw},
             locale=LOCALE.get(cc, "en-US"), timezone_id=TZ.get(cc, "UTC"),
             no_viewport=True,
             args=["--no-sandbox", "--disable-dev-shm-usage", "--start-maximized",

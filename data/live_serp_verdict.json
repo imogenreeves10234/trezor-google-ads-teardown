@@ -1,11 +1,22 @@
 {
   "live_phishing_ads": 0,
   "verdict": "NO",
-  "rendered_serps": 10,
-  "total_attempts": 49,
-  "blocked_attempts": 39,
+  "rendered_serps": 16,
+  "total_attempts": 103,
+  "blocked_attempts": 87,
   "shell_attempts": 0,
   "queries_with_a_render": [
+    {
+      "brand": "uniswap",
+      "cc": "GB",
+      "query": "uniswap app",
+      "exit_ip": "78.150.182.95",
+      "exit_org": "AS13285 TalkTalk Communications Limited",
+      "organic": 11,
+      "ads": 0,
+      "screenshot": "uniswap_GB_uniswap-app_a3.png",
+      "web_shot": "assets/live-serp/uniswap_GB_uniswap-app_a3.jpg"
+    },
     {
       "brand": "ledger",
       "cc": "FR",
@@ -16,6 +27,17 @@
       "ads": 0,
       "screenshot": "ledger_FR_ledger-live_a5.png",
       "web_shot": "assets/live-serp/ledger_FR_ledger-live_a5.jpg"
+    },
+    {
+      "brand": "ledger",
+      "cc": "IT",
+      "query": "ledger live",
+      "exit_ip": "158.47.221.111",
+      "exit_org": "AS202098 ENEL S.p.A",
+      "organic": 8,
+      "ads": 0,
+      "screenshot": "ledger_IT_ledger-live_a1.png",
+      "web_shot": "assets/live-serp/ledger_IT_ledger-live_a1.jpg"
     },
     {
       "brand": "ledger",
@@ -41,6 +63,17 @@
     },
     {
       "brand": "trezor",
+      "cc": "PL",
+      "query": "trezor suite",
+      "exit_ip": "46.205.200.55",
+      "exit_org": "AS12912 T-Mobile Polska S.A.",
+      "organic": 7,
+      "ads": 0,
+      "screenshot": "trezor_PL_trezor-suite_a1.png",
+      "web_shot": "assets/live-serp/trezor_PL_trezor-suite_a1.jpg"
+    },
+    {
+      "brand": "trezor",
       "cc": "GB",
       "query": "trezor suite",
       "exit_ip": "86.189.193.181",
@@ -49,6 +82,17 @@
       "ads": 0,
       "screenshot": "trezor_GB_trezor-suite_a1.png",
       "web_shot": "assets/live-serp/trezor_GB_trezor-suite_a1.jpg"
+    },
+    {
+      "brand": "coinbase",
+      "cc": "GB",
+      "query": "coinbase wallet",
+      "exit_ip": "91.201.162.58",
+      "exit_org": "AS24916 Orbital Net Ltd",
+      "organic": 11,
+      "ads": 0,
+      "screenshot": "coinbase_GB_coinbase-wallet_a4.png",
+      "web_shot": "assets/live-serp/coinbase_GB_coinbase-wallet_a4.jpg"
     },
     {
       "brand": "trezor",
@@ -84,6 +128,17 @@
       "web_shot": "assets/live-serp/ledger_GB_ledger-live_a1.jpg"
     },
     {
+      "brand": "trezor",
+      "cc": "ES",
+      "query": "trezor suite",
+      "exit_ip": "87.221.29.47",
+      "exit_org": "AS12479 Orange Espagne SA",
+      "organic": 6,
+      "ads": 0,
+      "screenshot": "trezor_ES_trezor-suite_a5.png",
+      "web_shot": "assets/live-serp/trezor_ES_trezor-suite_a5.jpg"
+    },
+    {
       "brand": "ledger",
       "cc": "TR",
       "query": "ledger live",
@@ -115,6 +170,17 @@
       "ads": 0,
       "screenshot": "exodus_BR_exodus-wallet_a3.png",
       "web_shot": "assets/live-serp/exodus_BR_exodus-wallet_a3.jpg"
+    },
+    {
+      "brand": "phantom",
+      "cc": "DE",
+      "query": "phantom wallet",
+      "exit_ip": "92.208.34.137",
+      "exit_org": "AS3209 Vodafone GmbH",
+      "organic": 7,
+      "ads": 0,
+      "screenshot": "phantom_DE_phantom-wallet_a2.png",
+      "web_shot": "assets/live-serp/phantom_DE_phantom-wallet_a2.jpg"
     }
   ],
   "live_ads": []
