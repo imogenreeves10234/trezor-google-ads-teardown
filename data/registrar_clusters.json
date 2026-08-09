@@ -1,0 +1,177 @@
+[
+  {
+    "registrar": "BigRock Solutions Ltd",
+    "country": "India",
+    "abuse": "abuse@bigrock.com",
+    "count": 4,
+    "domains": [
+      {
+        "domain": "ledgrliveus.com",
+        "registered": "2026-01-14"
+      },
+      {
+        "domain": "mycryptowalletus.com",
+        "registered": "2026-03-16"
+      },
+      {
+        "domain": "walletcryptohub.com",
+        "registered": "2025-12-20"
+      },
+      {
+        "domain": "web3walletapp.com",
+        "registered": "2025-12-31"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+    "country": "Malaysia",
+    "abuse": "compliance@web.cc / abuse@webnic.cc",
+    "count": 4,
+    "domains": [
+      {
+        "domain": "mywalletcryptous.com",
+        "registered": "2025-08-03"
+      },
+      {
+        "domain": "okx-wallet-extension.com",
+        "registered": "2025-08-03"
+      },
+      {
+        "domain": "phantom-solana-wallet.com",
+        "registered": "2025-08-03"
+      },
+      {
+        "domain": "walletcryptoextension.com",
+        "registered": "2025-08-03"
+      }
+    ],
+    "same_day_batch": true
+  },
+  {
+    "registrar": "NameCheap, Inc.",
+    "country": "USA",
+    "abuse": "abuse@namecheap.com",
+    "count": 2,
+    "domains": [
+      {
+        "domain": "crptoguide.com",
+        "registered": "2026-01-05"
+      },
+      {
+        "domain": "trzrio.com",
+        "registered": "2025-10-28"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "country": "Hong Kong",
+    "abuse": "abuse@nicenic.net",
+    "count": 2,
+    "domains": [
+      {
+        "domain": "kryptowallets.app",
+        "registered": "2026-03-05"
+      },
+      {
+        "domain": "phantom-wallet-extension.app",
+        "registered": "2026-02-10"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "MAT BAO CORPORATION",
+    "country": "Vietnam",
+    "abuse": "abuse@matbao.com",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "cryptowalletextensionus.com",
+        "registered": "2025-12-24"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "Paknic (Private) Limited",
+    "country": "Pakistan",
+    "abuse": "abuse@paknic.com",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "cryptowalletuk.com",
+        "registered": "2025-08-11"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "HOSTINGER operations, UAB",
+    "country": "Lithuania",
+    "abuse": "abuse@hostinger.com",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "homelazor.com",
+        "registered": "2026-04-09"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "Global Domain Group LLC",
+    "country": "USA",
+    "abuse": "abuse@globaldomaingroup.io",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "ledgerlive.cfd",
+        "registered": "2025-12-26"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "Squarespace Domains LLC",
+    "country": "USA",
+    "abuse": "abuse-tld@squarespace.com",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "metamaslogi.com",
+        "registered": "2026-07-07"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "country": "Netherlands",
+    "abuse": "abuse@registrar.eu",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "phantom-extension.app",
+        "registered": "2025-05-27"
+      }
+    ],
+    "same_day_batch": false
+  },
+  {
+    "registrar": "Internet Domain Service BS Corp",
+    "country": "Bahamas",
+    "abuse": "abuse@internetdomainservice.com",
+    "count": 1,
+    "domains": [
+      {
+        "domain": "trazor-start.com",
+        "registered": "2026-01-12"
+      }
+    ],
+    "same_day_batch": false
+  }
+]

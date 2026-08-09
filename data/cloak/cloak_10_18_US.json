@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://mycryptowalletus.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "71.47.37.109",
+      "hostname": "syn-071-047-037-109.res.spectrum.com",
+      "city": "Kissimmee",
+      "region": "Florida",
+      "country": "US",
+      "loc": "28.3047,-81.4167",
+      "org": "AS33363 Charter Communications, Inc",
+      "postal": "34741",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mycryptowalletus.com/?gclid=Cj0KCQZsgXNVTsaXmAFzojGtOIq8wj4bfvWHOgR7E71WOUSO3SunARbW"
+  },
+  {
+    "url": "https://mywalletcryptous.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "108.65.162.9",
+      "hostname": "108-65-162-9.lightspeed.jcvlfl.sbcglobal.net",
+      "city": "Jacksonville",
+      "region": "Florida",
+      "country": "US",
+      "loc": "30.3322,-81.6556",
+      "org": "AS7018 AT&T Enterprises, LLC",
+      "postal": "32202",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mywalletcryptous.com/?gclid=Cj0KCQVZ3zg4FsUsiCQAegelreUywtaAnVrHrplRCjJmCZHceFfa4f64"
+  },
+  {
+    "url": "https://okx-wallet-extension.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "72.93.128.127",
+      "hostname": "pool-72-93-128-127.bstnma.fios.verizon.net",
+      "city": "Lowell",
+      "region": "Massachusetts",
+      "country": "US",
+      "loc": "42.6334,-71.3162",
+      "org": "AS701 Verizon Business",
+      "postal": "01851",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://okx-wallet-extension.com/?gclid=Cj0KCQEsoV5JaySJf56qfVSnGTPHhNJrx3lAj38r1Mm9QCoLJHWl"
+  },
+  {
+    "url": "https://phantom-extension.app/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 3,
+    "exit": {
+      "ip": "73.57.199.146",
+      "city": "Miramar",
+      "region": "Florida",
+      "country": "US",
+      "loc": "25.9873,-80.2323",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "33023",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "http": 200,
+    "final_url": "https://phantom-extension.app/?gclid=Cj0KCQcTGJEfZ4ysckr2m6iWJMLcnxkl9PemmYPp1yxROzNKLddDd0ZBYWfFOFte0L&gad_source=1",
+    "title": "Beste online casino's in Nederland 2026",
+    "redirect_chain": [
+      {
+        "url": "https://phantom-extension.app/?gclid=Cj0KCQcTGJEfZ4ysckr2m6iWJMLcnxkl9PemmYPp1yxROzNKLddDd0ZBYWfFOFte0L&gad_source=1",
+        "status": 200
+      }
+    ],
+    "redirects_to_real_brand": false,
+    "drainer_signatures": [],
+    "payload_frames": [],
+    "external_scripts": [
+      "https://phantom-extension.app/assets/build/js/main.min.js",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+    ],
+    "xhr_fetch": [
+      "POST https://phantom-extension.app/cdn-cgi/rum"
+    ],
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "hex": 0
+    },
+    "ok": true,
+    "screenshot": "https---phantom-extension-app-_US.png"
+  },
+  {
+    "url": "https://phantom-solana-wallet.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "76.220.76.205",
+      "hostname": "76-220-76-205.lightspeed.sntcca.sbcglobal.net",
+      "city": "Bay Point",
+      "region": "California",
+      "country": "US",
+      "loc": "38.0291,-121.9616",
+      "org": "AS7018 AT&T Enterprises, LLC",
+      "postal": "94565",
+      "timezone": "America/Los_Angeles",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://phantom-solana-wallet.com/?gclid=Cj0KCQHGMzoqUnRXbrYyXiS8GGr36Uyad9khrEmNuhjeausequ5"
+  },
+  {
+    "url": "https://phantom-wallet-extension.app/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "68.97.174.56",
+      "hostname": "ip68-97-174-56.ok.ok.cox.net",
+      "city": "Oklahoma City",
+      "region": "Oklahoma",
+      "country": "US",
+      "loc": "35.4676,-97.5164",
+      "org": "AS22773 Cox Communications Inc.",
+      "postal": "73102",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://phantom-wallet-extension.app/?gclid=Cj0KCQqCLDYz6vnkOf0mlp98HwxN4LLpHBz9xqbWH0hrw4kR"
+  },
+  {
+    "url": "https://trazor-start.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "209.173.194.131",
+      "hostname": "209-173-194-131.metronet.net",
+      "city": "Fayetteville",
+      "region": "North Carolina",
+      "country": "US",
+      "loc": "35.0019,-78.9364",
+      "org": "AS30600 Metronet",
+      "postal": "28306",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://trazor-start.com/?gclid=Cj0KCQ6BWMdub1l2HqT5V4aovD6WRoHrP271AUDTUf1ouGa6kmtJ13bbCTvb"
+  },
+  {
+    "url": "https://trzrio.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "38.62.133.167",
+      "hostname": "ipv4-38.62.133.167.conexonconnect.com",
+      "city": "Camilla",
+      "region": "Georgia",
+      "country": "US",
+      "loc": "31.2313,-84.2105",
+      "org": "AS399898 Conexon Connect",
+      "postal": "31730",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://trzrio.com/?gclid=Cj0KCQmcqBgzUihGVFqyMjBeluTxSGExdT7aPwsFV1F4jPHQe3ST0iKmOGOc9Q4Mow"
+  }
+]

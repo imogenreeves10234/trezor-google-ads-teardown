@@ -1,0 +1,129 @@
+[
+  {
+    "url": "https://xn--leder-y1a.app/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 2,
+    "exit": {
+      "ip": "173.79.213.144",
+      "hostname": "pool-173-79-213-144.washdc.fios.verizon.net",
+      "city": "Arcola",
+      "region": "Virginia",
+      "country": "US",
+      "loc": "38.9518,-77.5342",
+      "org": "AS701 Verizon Business",
+      "postal": "20105",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "http": 200,
+    "final_url": "https://www.ledger.com/?gclid=Cj0KCQgcMd2YQwSy04J4Lfif3BHxBjh4j0B6xpGmRP2BMkahCLtJ9kCbD1Yy4EHiwG&gad_source=1",
+    "title": "Ledger Crypto Wallet - Security for DeFi & Web3",
+    "redirect_chain": [
+      {
+        "url": "https://xn--leder-y1a.app/?gclid=Cj0KCQgcMd2YQwSy04J4Lfif3BHxBjh4j0B6xpGmRP2BMkahCLtJ9kCbD1Yy4EHiwG&gad_source=1",
+        "status": 302
+      },
+      {
+        "url": "https://ledger.com/?gclid=Cj0KCQgcMd2YQwSy04J4Lfif3BHxBjh4j0B6xpGmRP2BMkahCLtJ9kCbD1Yy4EHiwG&gad_source=1",
+        "status": 301
+      },
+      {
+        "url": "https://www.ledger.com/?gclid=Cj0KCQgcMd2YQwSy04J4Lfif3BHxBjh4j0B6xpGmRP2BMkahCLtJ9kCbD1Yy4EHiwG&gad_source=1",
+        "status": 200
+      },
+      {
+        "url": "https://kin.ledger.com/_/service_worker/6830/sw_iframe.html?origin=https%3A%2F%2Fwww.ledger.com&1p=1",
+        "status": 200
+      },
+      {
+        "url": "https://insight.adsrvr.org/track/cei?advertiser_id=ybd3fwz&cookie_sync=1&upv=3.0.0&upid=x70jfyp&ref=https%3A%2F%2Fwww.ledger.com%2F%3Fgclid%3DCj0KCQgcMd2YQwSy04J4Lfif3BHxBjh4j0B6xp",
+        "status": 302
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cei?advertiser_id=ybd3fwz&cookie_sync=1&upv=3.0.0&upid=x70jfyp&ref=https%3a%2f%2fwww.ledger.com&redirect=1",
+        "status": 200
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3a%2f%2fmatch.adsrvr.org%2ftrack%2fcmf%2fappnexus%3fttd%3d1%26anid%3d%24UID&ttd_tdid=8bbcc031-3db6-412f-ade5-3c7fed2f02b3",
+        "status": 307
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=TheTradeDesk&google_cm&google_sc&google_hm=OGJiY2MwMzEtM2RiNi00MTJmLWFkZTUtM2M3ZmVkMmYwMmIz&gdpr=0&gdpr_consent=&ttd_tdid=8bbcc031-3db",
+        "status": 302
+      }
+    ],
+    "redirects_to_real_brand": true,
+    "drainer_signatures": [
+      "24 word",
+      "private key",
+      "recovery phrase",
+      "solana",
+      "web3"
+    ],
+    "payload_frames": [
+      "https://kin.ledger.com/_/service_worker/6830/sw_iframe.html?origin=https%3A%2F%2Fwww.ledger.com&1p=1",
+      "https://match.adsrvr.org/track/cei?advertiser_id=ybd3fwz&cookie_sync=1&upv=3.0.0&upid=x70jfyp&ref=https%3a%2f%2fwww.ledger.com&redirect=1",
+      "https://match.adsrvr.org/track/cmf/appnexus?ttd=1&anid=5413312847127665627&ttd_tdid=8bbcc031-3db6-412f-ade5-3c7fed2f02b3",
+      "https://match.adsrvr.org/track/cmf/google?g_uuid=&gdpr=0&gdpr_consent=&ttd_tdid=8bbcc031-3db6-412f-ade5-3c7fed2f02b3&google_gid=CAESEBZSCYsgiNWysG6oX9qgIOg&google_cver=1",
+      "https://match.adsrvr.org/track/cmf/rubicon?gdpr=0"
+    ],
+    "external_scripts": [
+      "https://2632.userly.net/cl.js",
+      "https://2632.userly.net/p/live_ov.js",
+      "https://analytics.tiktok.com/i18n/pixel/events.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/identify_ea043f1c.js",
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MWQwZTMxZTQ3MQ.js",
+      "https://bat.bing.com/bat.js",
+      "https://bat.bing.com/p/action/134633242.js",
+      "https://cdn.cookielaw.org/scripttemplates/202601.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "https://cdn.optimizely.com/js/30433690750.js",
+      "https://cdn.taboola.com/libtrc/unip/1893020/tfa.js",
+      "https://cdn.taboola.com/scripts/cds-pips.js",
+      "https://cdn.taboola.com/scripts/eid-ls-new.es5.js",
+      "https://cdn.taboola.com/scripts/eid.es5.js",
+      "https://cdn.taboola.com/scripts/firstid.es5.js"
+    ],
+    "xhr_fetch": [
+      "GET https://cdn.cookielaw.org/consent/5ff3ecce-44bd-4ef3-b746-ec81546bf82a/019c7002-3fbd-7a09-a29b-bb019fbfc2a1/en.json",
+      "GET https://cdn.cookielaw.org/consent/5ff3ecce-44bd-4ef3-b746-ec81546bf82a/5ff3ecce-44bd-4ef3-b746-ec81546bf82a.json",
+      "GET https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+      "GET https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/otCommonStyles.css",
+      "GET https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/otFloatingRounded.json",
+      "GET https://cdn.cookielaw.org/scripttemplates/202601.2.0/assets/v2/otPcTab.json",
+      "GET https://cds.taboola.com/",
+      "GET https://cm.teads.tv/v2/advertiser",
+      "GET https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "GET https://kin.ledger.com/g/collect",
+      "GET https://ledger-ecom-cdn-prod.s3-eu-west-1.amazonaws.com/website/assets/cryptoAssetsShortlist.json",
+      "GET https://p1.outbrain.com/v2/p/js/59051/PAGE_VIEW/"
+    ],
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "hex": 14
+    },
+    "ok": true,
+    "screenshot": "https---xn--leder-y1a-app-_US.png"
+  },
+  {
+    "url": "https://crptoguide.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "24.14.235.206",
+      "hostname": "c-24-14-235-206.hsd1.il.comcast.net",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "US",
+      "loc": "41.8500,-87.6500",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "60608",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://crptoguide.com/?gclid=Cj0KCQFva9CLfI0byt2vATkaEe4xGKRn4uYQ29tBuz3VxzEtEquA64CFxLl9XC"
+  }
+]

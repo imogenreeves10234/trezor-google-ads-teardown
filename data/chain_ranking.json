@@ -1,0 +1,709 @@
+[
+  {
+    "url": "https://sites.google.com/willet-suits.com/xodus-wolt/home",
+    "final_url": "https://sites.google.com/willet-suits.com/xodus-wolt/home",
+    "http": 200,
+    "title": "Exodus Web3 Wallet | Trusted Web3 Wallet for Everyone",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_00_https---sites-google-com-willet-suits-com-xo.png"
+  },
+  {
+    "url": "https://sites.google.com/cryptowalletuk.com/exodus-crypto-app/",
+    "final_url": "https://sites.google.com/cryptowalletuk.com/exodus-crypto-app/",
+    "http": 200,
+    "title": "Exodus Crypto App Download | Official Site",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "seed phrase",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_01_https---sites-google-com-cryptowalletuk-com-.png"
+  },
+  {
+    "url": "https://sites.google.com/logswallet.com/exodus-web3-wallet/home",
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&dsh=S740856176%3A1786315299456376&followup=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxv4oTwhsBeNU2J87f2QNWY3Y4Q4HgPHHvGAbV9704i-bn-IR5ak9SP_kS2pE4AaDYrQzC8iUA",
+    "http": 200,
+    "title": "Sign in - Google Accounts",
+    "redirected_offsite": true,
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&dsh=S740856176%3A1786315299456376&followup=https%3A%2F%2Fsites.google.com%2Flogswallet.com%2Fexodus-web3-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxv4oTwhsBeNU2J87f2QNWY3Y4Q4HgPHHvGAbV9704i-bn-IR5ak9SP_kS2pE4AaDYrQzC8iUA"
+    ],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://accounts.google.com/v3/signin/_/AccountsSignInUi/browserinfo",
+      "POST https://accounts.google.com/v3/signin/_/AccountsSignInUi/data/batchexecute"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "atob(",
+      "eval(",
+      "fromcharcode",
+      "web3"
+    ],
+    "has_seed_inputs": true,
+    "obfuscation": {
+      "eval": 4,
+      "atob": 2,
+      "fromCharCode": 4,
+      "hex_escape": 1214
+    },
+    "screenshot": "rank_02_https---sites-google-com-logswallet-com-exod.png"
+  },
+  {
+    "url": "https://sites.google.com/wallcrypus.com/coinbase-pro-login/home",
+    "final_url": "https://sites.google.com/wallcrypus.com/coinbase-pro-login/home",
+    "http": 200,
+    "title": "Coinbase Pro Login - Accessing the Global Wallet Platform",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_03_https---sites-google-com-wallcrypus-com-coin.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptoextension.com/ledger-wallet/",
+    "final_url": "https://sites.google.com/walletcryptoextension.com/ledger-wallet/",
+    "http": 200,
+    "title": "Ledger Live| Download App | Official Site",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "seed phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_04_https---sites-google-com-walletcryptoextensi.png"
+  },
+  {
+    "url": "https://sites.google.com/ledgrliveus.com/ledger-live/home/",
+    "final_url": "https://sites.google.com/ledgrliveus.com/ledger-live/home/",
+    "http": 200,
+    "title": "Ledger Live: Login - Download Crypto Wallet App | Ledger\u00ae",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "24 word",
+      "private key",
+      "recovery phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_05_https---sites-google-com-ledgrliveus-com-led.png"
+  },
+  {
+    "url": "https://sites.google.com/ledgerlive.cfd/ledger-wallet/",
+    "final_url": "https://sites.google.com/ledgerlive.cfd/ledger-wallet/",
+    "http": 200,
+    "title": "Ledger hardware wallet | Official Site | Log In",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_06_https---sites-google-com-ledgerlive-cfd-ledg.png"
+  },
+  {
+    "url": "https://sites.google.com/homelazor.com/ledgerstart/home",
+    "final_url": "https://sites.google.com/homelazor.com/ledgerstart/home",
+    "http": 200,
+    "title": "Ledger.com/start-Security for DeFi & Web3",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_07_https---sites-google-com-homelazor-com-ledge.png"
+  },
+  {
+    "url": "https://sites.google.com/ledgrliveus.com/ledgerlive/home/",
+    "final_url": "https://sites.google.com/ledgrliveus.com/ledgerlive/home/",
+    "http": 200,
+    "title": "Ledger Live | Ledger Live App Crypto Wallet - Ledger\u00ae",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_08_https---sites-google-com-ledgrliveus-com-led.png"
+  },
+  {
+    "url": "https://sites.google.com/metamaslogi.com/metamaskextension/home",
+    "final_url": "https://sites.google.com/metamaslogi.com/metamaskextension/home",
+    "http": 200,
+    "title": "MetaMask Wallet Extension - Official Website",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "seed phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_09_https---sites-google-com-metamaslogi-com-met.png"
+  },
+  {
+    "url": "https://sites.google.com/metamaslogi.com/metamask-extension/home",
+    "final_url": "https://sites.google.com/metamaslogi.com/metamask-extension/home",
+    "http": 200,
+    "title": "Download MetaMask Extension - Official Website",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [
+      "https://www.google-analytics.com/analytics.js"
+    ],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "12 word",
+      "private key",
+      "seed phrase",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_10_https---sites-google-com-metamaslogi-com-met.png"
+  },
+  {
+    "url": "https://sites.google.com/metamaslogi.com/metamask-login/home",
+    "final_url": "https://sites.google.com/metamaslogi.com/metamask-login/home",
+    "http": 200,
+    "title": "Metamask Login - Official Website | Sign in with Ethereum",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "seed phrase",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_11_https---sites-google-com-metamaslogi-com-met.png"
+  },
+  {
+    "url": "https://sites.google.com/crptoguide.com/metamaskwalletextension/home",
+    "final_url": "https://sites.google.com/crptoguide.com/metamaskwalletextension/home",
+    "http": 200,
+    "title": "Setting Up Metamask Extension for Chrome | Crypto Wallet Guides",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "seed phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_12_https---sites-google-com-crptoguide-com-meta.png"
+  },
+  {
+    "url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-extension/",
+    "final_url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-extension/",
+    "http": 200,
+    "title": "OKX Wallet | Download Extension | Crypto & NFT Wallet",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_13_https---sites-google-com-okx-wallet-extensio.png"
+  },
+  {
+    "url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-official-site/",
+    "final_url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet-official-site/",
+    "http": 200,
+    "title": "OKX Wallet | Official Site",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_14_https---sites-google-com-okx-wallet-extensio.png"
+  },
+  {
+    "url": "https://sites.google.com/web3walletapp.com/okx-wallet-extension/home",
+    "final_url": "https://sites.google.com/web3walletapp.com/okx-wallet-extension/home",
+    "http": 200,
+    "title": "OKX Wallet | Download Extension | Crypto DeFi & Multi-Chain",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_15_https---sites-google-com-web3walletapp-com-o.png"
+  },
+  {
+    "url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet/",
+    "final_url": "https://sites.google.com/okx-wallet-extension.com/okx-wallet/",
+    "http": 200,
+    "title": "OKX Wallet | Download Extension | Official Site",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "24 word",
+      "private key",
+      "recovery phrase",
+      "seed phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_16_https---sites-google-com-okx-wallet-extensio.png"
+  },
+  {
+    "url": "https://sites.google.com/cryptowalletextensionus.com/okx-login-web/",
+    "final_url": "https://sites.google.com/cryptowalletextensionus.com/okx-login-web/",
+    "http": 200,
+    "title": "Sign-in | OKX Login (Official Site)",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "passphrase",
+      "private key",
+      "seed phrase",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_17_https---sites-google-com-cryptowalletextensi.png"
+  },
+  {
+    "url": "https://sites.google.com/trzrio.com/trezor-hardware-wallet/home",
+    "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&dsh=S1679095704%3A1786315446615357&followup=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvwqunRusWGOF-uL9fimL0CvNPjxu9OhAPMIoAlbTT1maPKvMeef6vttU1C7pWLNjN1VP6vdw",
+    "http": 200,
+    "title": "Sign in - Google Accounts",
+    "redirected_offsite": true,
+    "payload_frames": [
+      "https://accounts.google.com/_/bscframe",
+      "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&dsh=S1679095704%3A1786315446615357&followup=https%3A%2F%2Fsites.google.com%2Ftrzrio.com%2Ftrezor-hardware-wallet%2Fhome&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvwqunRusWGOF-uL9fimL0CvNPjxu9OhAPMIoAlbTT1maPKvMeef6vttU1C7pWLNjN1VP6vdw"
+    ],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://accounts.google.com/v3/signin/_/AccountsSignInUi/browserinfo",
+      "POST https://accounts.google.com/v3/signin/_/AccountsSignInUi/data/batchexecute"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "atob(",
+      "eval(",
+      "fromcharcode"
+    ],
+    "has_seed_inputs": true,
+    "obfuscation": {
+      "eval": 4,
+      "atob": 2,
+      "fromCharCode": 4,
+      "hex_escape": 1214
+    },
+    "screenshot": "rank_18_https---sites-google-com-trzrio-com-trezor-h.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptoextension.com/trezor-wallet/home",
+    "final_url": "https://sites.google.com/walletcryptoextension.com/trezor-wallet/home",
+    "http": 200,
+    "title": "Trezor Hardware Wallet | Official Site",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "24 word",
+      "passphrase",
+      "private key",
+      "recovery phrase",
+      "seed phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_19_https---sites-google-com-walletcryptoextensi.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+    "final_url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+    "http": 200,
+    "title": "Trezor Suite (Official) | Download Trezor App \u2014 Desktop\u00ae",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "passphrase",
+      "private key",
+      "solana"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_20_https---sites-google-com-walletcryptohub-com.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptohub.com/trezoriostart/home/",
+    "final_url": "https://sites.google.com/walletcryptohub.com/trezoriostart/home/",
+    "http": 200,
+    "title": "Trezor.io/start \u2013 The #1 Most Advanced Hardware Wallet",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "24 word",
+      "passphrase",
+      "private key",
+      "seed phrase",
+      "solana",
+      "web3"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_21_https---sites-google-com-walletcryptohub-com.png"
+  },
+  {
+    "url": "https://sites.google.com/walletcryptohub.com/trezorhardwarewallet/home",
+    "final_url": "https://sites.google.com/walletcryptohub.com/trezorhardwarewallet/home",
+    "http": 200,
+    "title": "Trezor Hardware Wallet (Official) | Starting\u2122 Up Your Device",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "passphrase",
+      "private key",
+      "recovery phrase",
+      "seed phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_22_https---sites-google-com-walletcryptohub-com.png"
+  },
+  {
+    "url": "https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/",
+    "final_url": "https://sites.google.com/wallcrypus.com/trezorwalletlogin/home/",
+    "http": 200,
+    "title": "Trezor Wallet Login - Trezor Hardware Wallet | Official WebSite",
+    "redirected_offsite": false,
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://play.google.com/log",
+      "POST https://sites.google.com/_/view/naLogImpressions",
+      "POST https://www.google-analytics.com/g/collect"
+    ],
+    "form_actions": [],
+    "post_endpoints": [],
+    "drainer_signatures": [
+      "private key",
+      "recovery phrase",
+      "seed phrase"
+    ],
+    "has_seed_inputs": false,
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "fromCharCode": 0,
+      "hex_escape": 6
+    },
+    "screenshot": "rank_23_https---sites-google-com-wallcrypus-com-trez.png"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "url": "https://cryptowalletextensionus.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "75.70.28.150",
+      "hostname": "c-75-70-28-150.hsd1.co.comcast.net",
+      "city": "Colorado Springs",
+      "region": "Colorado",
+      "country": "US",
+      "loc": "38.8339,-104.8214",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "80903",
+      "timezone": "America/Denver",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cryptowalletextensionus.com/?gclid=Cj0KCQ7le6vaVyACE619VMQPUiVLefR28Zd2ywMkzytoN0Vp5"
+  },
+  {
+    "url": "https://cryptowalletuk.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "38.186.208.114",
+      "city": "Savannah",
+      "region": "Missouri",
+      "country": "US",
+      "loc": "39.9417,-94.8303",
+      "org": "AS393442 United Electric Cooperative",
+      "postal": "64485",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cryptowalletuk.com/?gclid=Cj0KCQJ9tYCRfWllApJfOV4iTJ4HbenQerDR6aWYuwLbFikyiIuvCTynKx"
+  },
+  {
+    "url": "https://homelazor.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 1,
+    "exit": {
+      "ip": "98.255.234.211",
+      "hostname": "c-98-255-234-211.hsd1.ca.comcast.net",
+      "city": "Modesto",
+      "region": "California",
+      "country": "US",
+      "loc": "37.6391,-120.9969",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "95351",
+      "timezone": "America/Los_Angeles",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "http": 200,
+    "final_url": "https://homelazor.com/?gclid=Cj0KCQiKIIX42zQyaqwgnEjmbWixiWX8DTnxw9e3hZQREU8vKJJwywN5kF5R9AzO8T&gad_source=1",
+    "title": "Parked Domain name on Hostinger DNS system",
+    "redirect_chain": [
+      {
+        "url": "https://homelazor.com/?gclid=Cj0KCQiKIIX42zQyaqwgnEjmbWixiWX8DTnxw9e3hZQREU8vKJJwywN5kF5R9AzO8T&gad_source=1",
+        "status": 200
+      }
+    ],
+    "redirects_to_real_brand": false,
+    "drainer_signatures": [],
+    "payload_frames": [],
+    "external_scripts": [],
+    "xhr_fetch": [
+      "POST https://analytics.google.com/g/collect"
+    ],
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "hex": 0
+    },
+    "ok": true,
+    "screenshot": "https---homelazor-com-_US.png"
+  },
+  {
+    "url": "https://kryptowallets.app/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "71.224.112.194",
+      "city": "Philadelphia",
+      "region": "Pennsylvania",
+      "country": "US",
+      "loc": "39.9524,-75.1636",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "19102",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kryptowallets.app/?gclid=Cj0KCQ8cDPfWygx9P5S2fUaAbPNUnwqEegg0dQP9T7OpZawhQcs2UMQenF2"
+  },
+  {
+    "url": "https://ledgerlive.cfd/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "70.170.133.13",
+      "hostname": "ipmapt-70-170-133-13.lv.lv.cox.net",
+      "city": "Las Vegas",
+      "region": "Nevada",
+      "country": "US",
+      "loc": "36.1750,-115.1372",
+      "org": "AS22773 Cox Communications Inc.",
+      "postal": "89158",
+      "timezone": "America/Los_Angeles",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://ledgerlive.cfd/?gclid=Cj0KCQvHIUaexphew71Uwa6acBycTA1ZAarRPKEryIGcpimsRBww1rXrjkKRON"
+  },
+  {
+    "url": "https://ledgrliveus.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "73.244.104.98",
+      "hostname": "c-73-244-104-98.hsd1.fl.comcast.net",
+      "city": "Miami",
+      "region": "Florida",
+      "country": "US",
+      "loc": "25.7743,-80.1937",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "33101",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://ledgrliveus.com/?gclid=Cj0KCQl8j4Yi19luU1gCRTb3FUJowCs8WXPgxJmCFulN52GxHbFPLACuVQjrN"
+  },
+  {
+    "url": "https://logswallet.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "76.157.93.91",
+      "city": "Homewood",
+      "region": "Illinois",
+      "country": "US",
+      "loc": "41.5573,-87.6656",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "60430",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://logswallet.com/?gclid=Cj0KCQLw0uIMdsr7AoaPqzvzWf1qmnALOzBQc9ChJEk3vewUttTb8x8mDEOBkM"
+  },
+  {
+    "url": "https://metamaslogi.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 1,
+    "exit": {
+      "ip": "75.66.250.39",
+      "city": "Tupelo",
+      "region": "Mississippi",
+      "country": "US",
+      "loc": "34.2581,-88.7046",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "38801",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "http": 200,
+    "final_url": "https://metamaslogi.com/?gclid=Cj0KCQ78bZKnznEiBQNTnvXRponcAKTX9iphVe0BqGmj3dhsBuDHX4e9lJCB0L8Dgk&gad_source=1",
+    "title": "Coming Soon",
+    "redirect_chain": [
+      {
+        "url": "https://metamaslogi.com/?gclid=Cj0KCQ78bZKnznEiBQNTnvXRponcAKTX9iphVe0BqGmj3dhsBuDHX4e9lJCB0L8Dgk&gad_source=1",
+        "status": 200
+      }
+    ],
+    "redirects_to_real_brand": false,
+    "drainer_signatures": [],
+    "payload_frames": [],
+    "external_scripts": [
+      "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+      "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-22bdf933fb74be0d-min.en-US.js",
+      "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-a5cfdec1ae227f33-min.en-US.js",
+      "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-83be3114c62b36ba-min.en-US.js",
+      "https://assets.squarespace.com/universal/scripts-compressed/parking-page-a97f1f8a9ef0463e-min.en-US.js"
+    ],
+    "xhr_fetch": [],
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "hex": 0
+    },
+    "ok": true,
+    "screenshot": "https---metamaslogi-com-_US.png"
+  }
+]

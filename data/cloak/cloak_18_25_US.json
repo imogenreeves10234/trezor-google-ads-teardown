@@ -1,0 +1,196 @@
+[
+  {
+    "url": "https://wallcrypus.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "72.200.76.189",
+      "hostname": "ip72-200-76-189.tc.ph.cox.net",
+      "city": "Phoenix",
+      "region": "Arizona",
+      "country": "US",
+      "loc": "33.4484,-112.0740",
+      "org": "AS22773 Cox Communications Inc.",
+      "postal": "85003",
+      "timezone": "America/Phoenix",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://wallcrypus.com/?gclid=Cj0KCQ2HxnXLqTAZ9ciwl6NQeyd8mwtPQ24DfjaY8hCfGmescGIoatOoX8dJ1v"
+  },
+  {
+    "url": "https://walletcryptoextension.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "172.15.206.120",
+      "hostname": "172-15-206-120.lightspeed.cicril.sbcglobal.net",
+      "city": "Joliet",
+      "region": "Illinois",
+      "country": "US",
+      "loc": "41.5252,-88.0834",
+      "org": "AS7018 AT&T Enterprises, LLC",
+      "postal": "60432",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://walletcryptoextension.com/?gclid=Cj0KCQnYkEeQUdrifRJ666ZBOydxm4InQ5bYlMXxn5rkYOWVdRo"
+  },
+  {
+    "url": "https://walletcryptohub.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "50.82.154.89",
+      "hostname": "50-82-154-89.client.mchsi.com",
+      "city": "Spring Grove",
+      "region": "Illinois",
+      "country": "US",
+      "loc": "42.4436,-88.2365",
+      "org": "AS30036 Mediacom Communications Corp",
+      "postal": "60081",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://walletcryptohub.com/?gclid=Cj0KCQ37lZhFz7QqpucH5uTfE8SZxxnERpyQwjxLHuZTgghFJxIyy5zTd"
+  },
+  {
+    "url": "https://web3walletapp.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "73.46.50.188",
+      "city": "Miami",
+      "region": "Florida",
+      "country": "US",
+      "loc": "25.7743,-80.1937",
+      "org": "AS7922 Comcast Cable Communications, LLC",
+      "postal": "33101",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://web3walletapp.com/?gclid=Cj0KCQ0ESbndGIQD7zYL2Ls9S1qDKIVKVxzUN8kMdO9h47EwzzUeVG2XFRx"
+  },
+  {
+    "url": "https://willet-suits.com/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 4,
+    "exit": {
+      "ip": "69.206.19.31",
+      "hostname": "syn-069-206-019-031.res.spectrum.com",
+      "city": "Inwood",
+      "region": "New York",
+      "country": "US",
+      "loc": "40.6221,-73.7468",
+      "org": "AS12271 Charter Communications Inc",
+      "postal": "11096",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://willet-suits.com/?gclid=Cj0KCQVKPJLVzUNhEeqcSJPy5Tq2a4eNrmTMNbWWKhyL7RO3jMScELvT9BZ1"
+  },
+  {
+    "url": "https://ksf-webapp-080826.web.app/",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 1,
+    "exit": {
+      "ip": "67.146.167.153",
+      "hostname": "dhcp-67-146-167-153.gobrightspeed.net",
+      "city": "Russellville",
+      "region": "Arkansas",
+      "country": "US",
+      "loc": "35.2784,-93.1338",
+      "org": "AS19901 Brightspeed",
+      "postal": "72801",
+      "timezone": "America/Chicago",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "http": 200,
+    "final_url": "https://ksf-webapp-080826.web.app/?gclid=Cj0KCQeOnz9hSFTkUlprDderSkBsJ4tNQPmaRG0FXVmjdeq2gZ7WRKkTA1KxeDvZeq&gad_source=1",
+    "title": "Trezor Suite App (Official) | Desktop & Web Crypto Management | Trezor",
+    "redirect_chain": [
+      {
+        "url": "https://ksf-webapp-080826.web.app/?gclid=Cj0KCQeOnz9hSFTkUlprDderSkBsJ4tNQPmaRG0FXVmjdeq2gZ7WRKkTA1KxeDvZeq&gad_source=1",
+        "status": 200
+      }
+    ],
+    "redirects_to_real_brand": false,
+    "drainer_signatures": [
+      "passphrase",
+      "private key",
+      "solana",
+      "walletconnect",
+      "web3"
+    ],
+    "payload_frames": [
+      "about:srcdoc"
+    ],
+    "external_scripts": [
+      "https://ksf-webapp-080826.web.app/currency-picker.js"
+    ],
+    "xhr_fetch": [],
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "hex": 0
+    },
+    "ok": true,
+    "screenshot": "https---ksf-webapp-080826-web-app-_US.png"
+  },
+  {
+    "url": "https://japanesetoenailfunguscode.com/ledger1/v5.html",
+    "cc": "US",
+    "mobile": false,
+    "attempt": 1,
+    "exit": {
+      "ip": "67.240.46.196",
+      "hostname": "syn-067-240-046-196.res.spectrum.com",
+      "city": "Troy",
+      "region": "New York",
+      "country": "US",
+      "loc": "42.7284,-73.6918",
+      "org": "AS11351 Charter Communications Inc",
+      "postal": "12180",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "http": 200,
+    "final_url": "https://japanesetoenailfunguscode.com/ledger1/v5.html?gclid=Cj0KCQ7T6yVyBTcnZzBmzCACHG5bJPioh0p86ftxgJKETQHrDW66wiwgNC6OQUELsW&gad_source=1",
+    "title": "Ledger Connect",
+    "redirect_chain": [
+      {
+        "url": "https://japanesetoenailfunguscode.com/ledger1/v5.html?gclid=Cj0KCQ7T6yVyBTcnZzBmzCACHG5bJPioh0p86ftxgJKETQHrDW66wiwgNC6OQUELsW&gad_source=1",
+        "status": 200
+      }
+    ],
+    "redirects_to_real_brand": false,
+    "drainer_signatures": [
+      "12 word",
+      "24 word",
+      "recovery phrase",
+      "seed phrase",
+      "verify_human"
+    ],
+    "payload_frames": [],
+    "external_scripts": [
+      "https://japanesetoenailfunguscode.com/ledger1/v5_files/anti_bot.js.download",
+      "https://japanesetoenailfunguscode.com/ledger1/v5_files/forge.min.js.download"
+    ],
+    "xhr_fetch": [
+      "GET https://japanesetoenailfunguscode.com/ledger1/bip39-english.txt",
+      "POST https://japanesetoenailfunguscode.com/verify_human.php"
+    ],
+    "obfuscation": {
+      "eval": 0,
+      "atob": 0,
+      "hex": 0
+    },
+    "ok": true,
+    "screenshot": "https---japanesetoenailfunguscode-com-le_US.png"
+  }
+]
