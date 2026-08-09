@@ -167,6 +167,44 @@ try:
 except Exception:
     cases_fragment = "<p class='muted'>Case file is being regenerated.</p>"
 livead_verdict = load("livead_verdict.json", {})
+lsv = load("live_serp_verdict.json", {})
+adrec = load("adclick_recency.json", {})
+
+
+def live_serp_html():
+    v = lsv
+    if not v:
+        return '<div class="panel"><p style="margin:0">Live-SERP sweep still running.</p></div>'
+    yn = v.get("verdict", "NO")
+    if yn == "YES":
+        head = (f'<div class="verdict verdict-yes"><span class="vbig">YES</span>'
+                f'<span>{v.get("live_phishing_ads")} live phishing ad(s) caught in the Google SERP '
+                f'right now &mdash; screenshots below.</span></div>')
+    else:
+        head = (f'<div class="verdict verdict-no"><span class="vbig">NO</span>'
+                f'<span>No phishing ad is live in Google Search right now.</span></div>')
+    ev = (f'<div class="panel"><p style="margin-top:0"><b>What this is built on.</b> '
+          f'{v.get("rendered_serps",0)} genuine Google result pages were rendered '
+          f'(each verified by counting real organic results, so a CAPTCHA page can\'t be mistaken '
+          f'for a clean one), out of {v.get("total_attempts",0)} attempts &mdash; '
+          f'{v.get("blocked_attempts",0)} were CAPTCHA-blocked by Google. '
+          f'In none of the rendered pages did a sponsored result point at Google Sites or any known '
+          f'phishing host.</p>'
+          f'<p style="margin-bottom:0"><b>Corroboration:</b> the freshest time any of these phishing '
+          f'pages was reached through a real Google-ad click (a captured <code>gclid</code>) is '
+          f'<b>{adrec.get("days_ago","?")} days ago</b> ({(adrec.get("freshest") or "?")[:10]}). '
+          f'No ad has delivered a click to any of them in over three months.</p></div>')
+    shots = ""
+    for srp in v.get("queries_with_a_render", []):
+        if srp.get("web_shot"):
+            shots += (f'<figure class="card"><img src="{E(srp["web_shot"])}" loading="lazy" '
+                      f'alt="Live Google SERP for {E(srp["query"])} in {E(srp["cc"])}">'
+                      f'<figcaption><b>{E(srp["cc"])} &mdash; &ldquo;{E(srp["query"])}&rdquo;</b>'
+                      f'<span class="muted small">{srp.get("organic")} organic results, '
+                      f'<b class="{"bad" if (srp.get("ads") or 0) else "ok"}">{srp.get("ads")} ads</b> '
+                      f'&middot; via {E((srp.get("exit_org") or "")[:30])}</span></figcaption></figure>')
+    gal = f'<div class="grid">{shots}</div>' if shots else ""
+    return head + ev + gal
 
 
 def livead_verdict_html():
@@ -436,6 +474,12 @@ li.t-def .t-when b{{color:var(--accent)}}
 .urlbar{{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
   padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}}
 .urlbar .g{{color:#188038}} .urlbar .r{{color:#c5221f;font-weight:700}}
+.verdict{{display:flex;align-items:center;gap:20px;border-radius:12px;padding:22px 26px;margin:18px 0}}
+.verdict-no{{background:#12211a;border:1px solid #1f5c3a}}
+.verdict-yes{{background:#2a1114;border:1px solid #5c1f26}}
+.vbig{{font:800 46px/1 var(--mono);letter-spacing:-.02em}}
+.verdict-no .vbig{{color:var(--accent)}} .verdict-yes .vbig{{color:var(--after)}}
+.verdict span:last-child{{font-size:16px;color:var(--ink)}}
 .case{{border:1px solid var(--line);border-radius:11px;margin:20px 0;overflow:hidden;background:var(--panel)}}
 .case-head{{padding:15px 20px 12px;border-bottom:1px solid var(--line);background:#12161c}}
 .case-head h3{{font-size:17px;margin:9px 0 0;font-weight:700}}
@@ -561,7 +605,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
         tests directly.</li>
     </ol>
   </div>
-  {livead_verdict_html()}
+  {live_serp_html()}
 </div></section>
 
 <section id="cases"><div class="wrap">

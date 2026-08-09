@@ -1,0 +1,121 @@
+{
+  "live_phishing_ads": 0,
+  "verdict": "NO",
+  "rendered_serps": 10,
+  "total_attempts": 49,
+  "blocked_attempts": 39,
+  "shell_attempts": 0,
+  "queries_with_a_render": [
+    {
+      "brand": "ledger",
+      "cc": "FR",
+      "query": "ledger live",
+      "exit_ip": "5.50.184.250",
+      "exit_org": "AS5410 Bouygues Telecom SA",
+      "organic": 11,
+      "ads": 0,
+      "screenshot": "ledger_FR_ledger-live_a5.png",
+      "web_shot": "assets/live-serp/ledger_FR_ledger-live_a5.jpg"
+    },
+    {
+      "brand": "ledger",
+      "cc": "DE",
+      "query": "ledger live download",
+      "exit_ip": "87.165.169.193",
+      "exit_org": "AS3320 Deutsche Telekom AG",
+      "organic": 15,
+      "ads": 0,
+      "screenshot": "ledger_DE_ledger-live-download_a1.png",
+      "web_shot": "assets/live-serp/ledger_DE_ledger-live-download_a1.jpg"
+    },
+    {
+      "brand": "trezor",
+      "cc": "TR",
+      "query": "trezor suite",
+      "exit_ip": "176.240.248.87",
+      "exit_org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.",
+      "organic": 8,
+      "ads": 0,
+      "screenshot": "trezor_TR_trezor-suite_a3.png",
+      "web_shot": "assets/live-serp/trezor_TR_trezor-suite_a3.jpg"
+    },
+    {
+      "brand": "trezor",
+      "cc": "GB",
+      "query": "trezor suite",
+      "exit_ip": "86.189.193.181",
+      "exit_org": "AS2856 British Telecommunications Limited",
+      "organic": 7,
+      "ads": 0,
+      "screenshot": "trezor_GB_trezor-suite_a1.png",
+      "web_shot": "assets/live-serp/trezor_GB_trezor-suite_a1.jpg"
+    },
+    {
+      "brand": "trezor",
+      "cc": "DE",
+      "query": "trezor suite",
+      "exit_ip": "82.180.97.159",
+      "exit_org": "AS51978 WEMACOM Telekommunikation GmbH",
+      "organic": 12,
+      "ads": 0,
+      "screenshot": "trezor_DE_trezor-suite_a1.png",
+      "web_shot": "assets/live-serp/trezor_DE_trezor-suite_a1.jpg"
+    },
+    {
+      "brand": "trezor",
+      "cc": "NL",
+      "query": "trezor suite",
+      "exit_ip": "83.81.235.110",
+      "exit_org": "AS33915 Vodafone Libertel B.V.",
+      "organic": 13,
+      "ads": 0,
+      "screenshot": "trezor_NL_trezor-suite_a3.png",
+      "web_shot": "assets/live-serp/trezor_NL_trezor-suite_a3.jpg"
+    },
+    {
+      "brand": "ledger",
+      "cc": "GB",
+      "query": "ledger live",
+      "exit_ip": "92.19.24.147",
+      "exit_org": "AS13285 TalkTalk Communications Limited",
+      "organic": 9,
+      "ads": 0,
+      "screenshot": "ledger_GB_ledger-live_a1.png",
+      "web_shot": "assets/live-serp/ledger_GB_ledger-live_a1.jpg"
+    },
+    {
+      "brand": "ledger",
+      "cc": "TR",
+      "query": "ledger live",
+      "exit_ip": "46.1.252.4",
+      "exit_org": "AS34296 Millenicom Telekomunikasyon Hizmetleri Anonim Sirketi",
+      "organic": 9,
+      "ads": 0,
+      "screenshot": "ledger_TR_ledger-live_a4.png",
+      "web_shot": "assets/live-serp/ledger_TR_ledger-live_a4.jpg"
+    },
+    {
+      "brand": "uniswap",
+      "cc": "DE",
+      "query": "uniswap app",
+      "exit_ip": "93.219.94.93",
+      "exit_org": "AS3320 Deutsche Telekom AG",
+      "organic": 14,
+      "ads": 0,
+      "screenshot": "uniswap_DE_uniswap-app_a1.png",
+      "web_shot": "assets/live-serp/uniswap_DE_uniswap-app_a1.jpg"
+    },
+    {
+      "brand": "exodus",
+      "cc": "BR",
+      "query": "exodus wallet",
+      "exit_ip": "177.52.215.49",
+      "exit_org": "AS52800 OS CONNECT INFORMATICA EIRELI - EPP",
+      "organic": 9,
+      "ads": 0,
+      "screenshot": "exodus_BR_exodus-wallet_a3.png",
+      "web_shot": "assets/live-serp/exodus_BR_exodus-wallet_a3.jpg"
+    }
+  ],
+  "live_ads": []
+}

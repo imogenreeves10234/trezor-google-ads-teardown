@@ -1,0 +1,14 @@
+[
+ {"brand":"trezor","cc":"GB","query":"trezor suite","tld":"co.uk","hl":"en"},
+ {"brand":"trezor","cc":"DE","query":"trezor suite","tld":"de","hl":"de"},
+ {"brand":"ledger","cc":"GB","query":"ledger live","tld":"co.uk","hl":"en"},
+ {"brand":"ledger","cc":"TR","query":"ledger live","tld":"com.tr","hl":"tr"},
+ {"brand":"trezor","cc":"TR","query":"trezor suite","tld":"com.tr","hl":"tr"},
+ {"brand":"ledger","cc":"DE","query":"ledger live download","tld":"de","hl":"de"},
+ {"brand":"uniswap","cc":"DE","query":"uniswap app","tld":"de","hl":"de"},
+ {"brand":"phantom","cc":"TR","query":"phantom wallet","tld":"com.tr","hl":"tr"},
+ {"brand":"exodus","cc":"BR","query":"exodus wallet","tld":"com.br","hl":"pt"},
+ {"brand":"metamask","cc":"JP","query":"メタマスク","tld":"co.jp","hl":"ja"},
+ {"brand":"ledger","cc":"FR","query":"ledger live","tld":"fr","hl":"fr"},
+ {"brand":"trezor","cc":"NL","query":"trezor suite","tld":"nl","hl":"nl"}
+]
