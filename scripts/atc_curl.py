@@ -18,6 +18,7 @@ import atc  # noqa: E402
 _orig_post = atc._post
 LAST_CALL = [0.0]
 MIN_GAP = 1.2  # be polite: ~1s between calls
+PROXY = None   # "host:port:user:pass" -> route through a residential exit
 
 
 def _curl_post(endpoint, payload, proxy=None, timeout=45, retries=3):
@@ -36,6 +37,10 @@ def _curl_post(endpoint, payload, proxy=None, timeout=45, retries=3):
         "-w", "\n__HTTP__%{http_code}",
         "--data-urlencode", body,
     ]
+    px = proxy or PROXY
+    if px:
+        h, pt, u, pw = px.split(":")
+        cmd[2:2] = ["--proxy", f"http://{u}:{pw}@{h}:{pt}"]
     last = None
     for attempt in range(retries):
         LAST_CALL[0] = time.time()

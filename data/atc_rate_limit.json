@@ -1,0 +1,11 @@
+{
+  "finding": "The Ads Transparency Center RPC rate-limits to HTTP 429 under sustained querying",
+  "observed": "2026-08-09 ~02:30 UTC, after roughly 500 SearchCreatives calls across 12 concurrent region agents plus a 62-domain sweep",
+  "error": "HTTP 429 Too Many Requests (HTML interstitial, not JSON)",
+  "consequence": "Any ATC negative gathered while 429s are firing is worthless. This is exactly why every sweep in this project runs a trezor.io positive control: a negative is only reportable when the control passed in the same run.",
+  "verified_before_rate_limit": {
+    "trezor.io_US": "40 creatives, Trezor Company s.r.o., AR07426507167890407425",
+    "sites.google.com_US": "0 creatives",
+    "trezor_suggestions_20_regions": "legitimate businesses only, no impersonator"
+  }
+}

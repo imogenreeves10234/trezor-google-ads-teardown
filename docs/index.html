@@ -108,10 +108,10 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
     <ol style="margin:0;padding-left:19px">
       <li>The attacker put the phishing page on <b>Google Sites</b> —
         <code>sites.google.com/view/start-trezor-suite</code>.</li>
-      <li>Because a search ad’s visible URL is derived from its final URL, the ad rendered its
-        display URL as <b><code>https://www.google.com</code></b>. The display URL matched the
-        landing domain, so it did <i>not</i> trip Google’s destination-mismatch rule — the exact rule
-        that exists to stop this deception.</li>
+      <li>Google requires an ad’s display URL to share a domain with its final URL. Because the
+        final URL was on <code>sites.google.com</code>, a display URL of
+        <b><code>https://www.google.com</code></b> <i>satisfied</i> that requirement. The rule written
+        to stop exactly this deception was the rule that permitted it.</li>
       <li>The advertiser set its public name to <b>Trezor.io</b> and bought sitelinks, so the ad
         rendered above the genuine Trezor ad.</li>
       <li>The landing page cloned trezor.io and asked for the <b>BIP-39 recovery phrase</b> in
@@ -145,16 +145,21 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 <section><div class="wrap">
   <h2>The mechanic: why it said google.com</h2>
   <p class="sub">This is the part that generalises beyond Trezor.</p>
-  <p>A Google search ad has two URLs. The <b>final URL</b> is where the click lands. The
-  <b>display URL</b> is what the user reads, and Google derives its domain from the final URL rather
-  than letting the advertiser type it freely. Google’s <i>Destination mismatch</i> policy exists to
-  enforce that relationship; its own worked example of a violation is a display URL of
-  <code>google.com</code> pointing at a final URL of <code>example.com</code>.</p>
+  <p>A Google search ad carries two URLs. The <b>final URL</b> is where the click lands; the
+  <b>display URL</b> is the one the user reads. The advertiser supplies both, but Google constrains
+  the pair. Its <i>Destination mismatch</i> policy defines the violation as
+  <i>“The domain or domain extension in the display URL doesn’t match the final and mobile URLs where
+  users are taken to,”</i> and instructs advertisers to <i>“Make sure the domain of your display URL
+  exactly matches the domain of your final URL.”</i></p>
+  <p>The policy page’s own worked example of a violation is, verbatim:
+  <i>“Display URL: google.com and Final URL: example.com”.</i></p>
   <div class="panel flag">
-    <p style="margin:0"><b>The inversion.</b> By hosting the page <i>on Google’s own domain</i>, the
-    attacker made display URL and final URL genuinely identical. The ad was not evading the
-    destination rule — it was <b>complying</b> with it. The safeguard returned the most trusted
-    string on the internet and printed it under a phishing page.</p>
+    <p style="margin:0"><b>The inversion.</b> Google’s example forbids <code>google.com</code> over
+    <code>example.com</code>. The attacker satisfied it by moving the landing page <i>onto</i>
+    google.com. Display domain and final domain became genuinely identical, so the ad was not evading
+    the destination rule — it was <b>complying</b> with it. A safeguard written to guarantee the URL
+    tells the truth printed the most trusted string on the internet under a phishing page, and the
+    guarantee held: the click really did go to google.com.</p>
   </div>
   <p>Any Google-operated host that lets a stranger publish a page will do the same job:
   Google Sites, Looker Studio, Google Groups, Blogger, Apps Script, Firebase
@@ -493,6 +498,11 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
     <p style="margin-bottom:0">Sweeping the term <i>trezor</i> across 20 regions returns only genuine
     businesses. The advertiser that took $1,349,952 is absent from the transparency tool.</p>
   </div>
+  <p class="small muted">Caveat recorded rather than buried: sustained querying eventually returns
+  <b>HTTP 429</b> from the ATC endpoint. Every negative above was collected in a run whose
+  <code>trezor.io</code> positive control returned 40 creatives in the same pass — a negative taken
+  during a 429 storm would be worthless, and none are reported here.</p>
+
   <p><b>Do not mistake these for impostors.</b> <i>Trezor</i> means “safe” or “vault” in Czech,
   Polish, Slovak, Hungarian and Serbian, so a long tail of legitimate safe manufacturers, locksmiths
   and one hotel advertise under the name:</p>
