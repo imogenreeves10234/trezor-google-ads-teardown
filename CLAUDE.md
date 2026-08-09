@@ -1,0 +1,83 @@
+# trezor-ads-teardown — Google Sites phishing ad postmortem
+
+**Status: DELIVERED 2026-08-09.** Report LIVE (noindex) at
+**https://imogenreeves10234.github.io/trezor-google-ads-teardown/**
+Repo: `imogenreeves10234/trezor-google-ads-teardown` (Pages from `/docs`, public repo, **no team
+collaborators** — sensitive security research stays on the isolated account, same rule as
+`lunaya-cloaking-teardown` and `ad-cloak-teardown`).
+
+## What this was
+
+Bob sent `x.com/BitcoinNewsCom/status/2085734257784139900` and asked for a complete teardown: what
+happened, how the attackers positioned a **google.com** domain, similar ads across geos via
+residential proxies, and which advertiser ran them. Everything on git, no fluff.
+
+## The answer, in one line
+
+A Google Search sponsored ad showed display URL **`https://www.google.com`** and advertiser name
+**Trezor.io**, landing on a trezor.io clone at `sites.google.com/view/start-trezor-suite` that
+harvested BIP-39 phrases. **73 wallets, 20.93 BTC, $1,349,952, in 32.9 hours.**
+
+## Findings that matter
+
+- **⭐ It was an ENFORCEMENT FAILURE, not a loophole.** Google's destination-mismatch policy lists as
+  a violation: *"Failing to use a subdomain to clearly identify a site from all other sites hosted on
+  that domain or from the parent domain."* Google Sites identifies by **path**, never subdomain, so
+  that clause is **unsatisfiable** there — the ad was already prohibited in writing and ran anyway.
+  🛑 **Do NOT repeat the popular explanation** ("sites.google.com and ads.google.com share the
+  google.com root so the display URL is legitimate") — it was tested against the live policy in every
+  formulation and **refuted 0-3**. I published that version first and had to correct it.
+- **$439,226 (33%) was stolen in the 10 hours AFTER** the victim publicly named the URL and address.
+  Trezor replied 15h02m later — **4h17m after the last drain and the final sweep**.
+- **Treasury `bc1qhluxs8yfper7sxnmpgpjy9e38dx4qxpuhen5cs` holds 27.31 BTC unspent**, with receipts
+  predating this campaign → shared across multiple campaigns. Two more wallets hold 8.59 BTC unspent.
+- **18-month kit lineage**: GitBook (2025-01-23, typo *"Get strat your trezor"*) → 8 Cloudflare Pages
+  subdomains → **Cloudflare blocked it 2026-07-27 as "Suspected Phishing"** → Google Sites 9 days
+  later, not blocked. Cloudflare caught what Google hosted.
+- **Platform pattern: 185 distinct `sites.google.com` phishing URLs, 10 crypto brands, 2020→2026.**
+  **16 captured with Google Ads click params still attached → 10 campaign IDs recovered.**
+  **86 use Workspace-verified lookalike domains** (`sites.google.com/ledgercom-start.com/…`) — 62
+  attacker domains. **10 were still live on 2026-08-09** (Ledger, Exodus, Uniswap, Coinbase, MetaMask);
+  captured "Leder Live … Official® Site®" and "Exódus®" — misspellings/homoglyphs beat brand matching.
+- **The advertiser is NOT identified** and cannot be: ATC holds **zero** record. Verified with a
+  passing `trezor.io` positive control (40 creatives) in the same run.
+- **Source credibility**: the reporting account was **16m15s old** when it posted. "Life savings" and
+  "top sponsored" are claim-only; the SERP screenshots are **@BitcoinNewsCom's, not the victim's**
+  (victim's post had no media) and show a different query. The money and the page are the evidence.
+- SEAL documented the same class 13–30 Mar 2026: 351–356 blocked ad URLs, $810,929 confirmed /
+  $1,274,259 total.
+
+## Tooling built (reusable)
+
+- **`scripts/atc.py`** — Ads Transparency Center RPC client. Endpoints + field map reverse-engineered
+  by capturing the live SPA's own traffic. `SearchCreatives` payload:
+  `{"2":40,"3":{"8":[<geoId>],"12":{"1":"<domain>","2":true}},"7":{"1":1,"2":0,"3":-1}}`.
+  Response: `1`=advertiser AR-id, `2`=creative CR-id, `4`=format, `6.1`/`7.1`=first/last shown epoch,
+  `12`=advertiser name, `14`=verified domain. ⚠ **429s under sustained use** — always run the
+  `trezor.io` positive control in the same pass or a negative is worthless.
+- **`scripts/serp_probe.py`** — the only config that gets past Google's bot wall from this box:
+  **patchright + `channel="chrome"` + `launch_persistent_context` + `no_viewport` + a benign warm-up
+  search**, through a fresh Gonzo residential exit, retrying on `/sorry/`. Plain Playwright/headless
+  is refused 100%. Even so ~60-75% of residential exits get `/sorry/` regardless of ISP.
+- **`scripts/btc_forensics.py`**, `fleet.py`, `ad_diag.py`, `build_report.py`.
+
+## ⚠ Traps hit (don't repeat)
+
+- **A hand-typed epoch was a day out** and silently put all 73 drains in the "before warning" bucket.
+  Compute epochs, assert them. `build_report.py` now does.
+- **`ads=0` from a SERP probe is NOT "no ads".** Control query "car insurance" (UK) rendered an
+  `#tads` container with **two empty slots** — Google reserves slots and declines to fill them for
+  these sessions. The extractor is fine (it caught the genuine Trezor ad in ES). Report *not measured*.
+- urlscan **full results are login-gated** (`/api/v1/result/` → 403) but
+  **`/screenshots/<uuid>.png` is still open** — that's how the live phishing page was recovered.
+- X is 402 to WebFetch; **`api.fxtwitter.com` / `api.vxtwitter.com` work** and return quoted-tweet
+  media lists (that's how the screenshot provenance error was caught).
+
+## Open
+
+- Advertiser of record, takedown latency, geo-targeting pattern, cloaking specifics for this URL — all
+  unestablished and labelled as such on the page. 17 of 25 tested claims were killed in verification.
+- The 12-region ATC sweep (workflow `wf_fb20b673-306`) was still finishing at hand-off; whatever passes
+  its positive control gets folded in. My own 20-region sweep already found **no impostor advertiser**.
+
+See memory [[trezor-google-sites-ad-teardown]], [[google-sites-phishing-pattern]].
