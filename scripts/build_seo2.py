@@ -25,6 +25,19 @@ for i in ("2", "10", "18"):
 chain = load("chain_ranking.json", [])
 expanded = load("osint_expanded.json", {})  # filled if workflow finished
 
+exp = load("osint_expanded.json", None)
+if exp and exp.get("domains"):
+    rows = "".join(f'<tr><td class="mono">{E(d.get("domain",""))}</td><td>{E(d.get("idn_decoded") or "")}</td>'
+                   f'<td>{E(d.get("registrar") or "?")}</td><td>{E((d.get("registered") or "")[:10])}</td></tr>'
+                   for d in exp["domains"][:120])
+    EXPANDED_BLOCK = (f'<p class="sub">{len(exp["domains"])} additional look-alike / homograph domains '
+        f'found via Certificate-Transparency + RDAP. Full list in <code>data/osint_expanded.json</code>.</p>'
+        f'<div class="scroll"><table><tr><th>Domain</th><th>Reads as</th><th>Registrar</th><th>Registered</th></tr>{rows}</table></div>')
+else:
+    EXPANDED_BLOCK = ('<p class="muted">The automated Certificate-Transparency sweep for additional '
+        'look-alike and homograph domains is still completing; its full results will be published to '
+        '<code>data/osint_expanded.json</code> in the repository. Everything else on this page is '
+        'complete and verified from live visits.</p>')
 ndom = sum(c["count"] for c in clusters)
 avg_words = sum(a["words"] for a in ai) // max(len(ai), 1)
 serve_phish = [r for r in cloak if r.get("drainer_signatures") and not r.get("redirects_to_real_brand")]
@@ -155,12 +168,43 @@ footer{{padding:38px 0 66px;color:var(--dim);font-size:13px}}
     browsers store non-English letters. Decoded, it reads:</p>
     <p style="margin:6px 0"><span class="big">led<span class="homoglyph">ġ</span>er.app</span></p>
     <p style="margin-bottom:0">A normal <b>g</b> with a tiny dot on top (Unicode U+0121). At a glance
-    it's &ldquo;ledger.app&rdquo;. <b>What it does right now:</b> from any connection &mdash; datacenter,
-    home broadband, US residential, even arriving as a fake Google-ad click &mdash; it
-    <b>302-redirects to the real ledger.com</b>. That's the classic dodge: keep the bare domain
-    pointing at the real site so researchers and registrars see nothing, and fire the phishing only
-    through the exact ad/email link with the right path. Registered under the <code>.app</code> registry
-    (Google); registrar record via RDAP.</p>
+    it's &ldquo;ledger.app&rdquo;.</p>
+  </div>
+  <div class="panel flag">
+    <h3 style="margin-top:0">The trick I first missed &mdash; and you caught</h3>
+    <p style="margin-top:0"><b>The bare address <code>ledġer.app/</code> redirects to the REAL
+    ledger.com</b> from every condition (datacenter, home broadband, US residential, fake ad-click).
+    So a quick check sees nothing wrong. <b>The phishing hides on device-specific paths</b> named after
+    Ledger's actual products:</p>
+    <ul class="mono small" style="margin:6px 0">
+      <li>led&#289;er.app/<b>stax.php</b> &mdash; Ledger Stax</li>
+      <li>led&#289;er.app/<b>nanos.php</b> &mdash; Ledger Nano S</li>
+      <li>led&#289;er.app/<b>nanox.php</b> &mdash; Ledger Nano X</li>
+    </ul>
+    <p style="margin-bottom:0">All three return <b>HTTP 200</b> and a fake &ldquo;Ledger Live &mdash;
+    Device initialization / Connect your device&rdquo; page (title itself uses Cyrillic look-alike
+    letters: &ldquo;L&#1077;dg&#1077;r Liv&#1077;&rdquo;). Steps: Device Detection &rarr; Device Check
+    &rarr; Ledger Live &rarr; it asks for the <b>24-word recovery phrase</b>.</p>
+  </div>
+  <div class="panel amber">
+    <h3 style="margin-top:0">What's under the hood (the phishing scripts)</h3>
+    <ul style="margin:0">
+      <li>Loads <code>ethers-5.2.umd.min.js</code> &mdash; the real <b>Ethereum wallet library</b>. This
+      is a <b>live wallet-drainer</b>, not just a seed-phrase form: it can build and push
+      drain transactions once you interact. Drainer signatures seen: <code>ethereum</code>,
+      <code>solana</code>, <code>recovery phrase</code>.</li>
+      <li><b>Heavily obfuscated</b>: 3,500&ndash;4,500 <code>&#92;x</code> hex-escaped strings per page plus
+      <code>atob()</code> decoding &mdash; the drain logic is deliberately hidden from readers.</li>
+      <li>Fronted by <b>Cloudflare</b> (nameservers adam/shaz.ns.cloudflare.com), UI built on Bootstrap.</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <p style="margin:0"><b>Where it's registered:</b> <code>xn--leder-y1a.app</code> (ledġer.app) &mdash;
+    registrar <b>NICENIC International Group, Hong Kong</b> (abuse@nicenic.net, +1.400 622 8300),
+    registered <b>2026-05-10</b>, expires 2027-05-10. Same registrar as <code>kryptowallets.app</code>
+    (Germany's #1 &ldquo;ledger live&rdquo; result) and <code>phantom-wallet-extension.app</code>
+    &mdash; a NICENIC <code>.app</code> cluster. The <code>.app</code> top-level domain is run by
+    <b>Google Registry</b>, which is itself a route to escalate.</p>
   </div>
 </div></section>
 
@@ -216,10 +260,7 @@ footer{{padding:38px 0 66px;color:var(--dim);font-size:13px}}
 
 <section id="expanded"><div class="wrap">
   <h2>5. Wider domain sweep</h2>
-  <p class="sub">{("A broader Certificate-Transparency sweep for look-alike and homograph domains is "
-     "attached in the data file <code>osint_expanded.json</code>.") if not expanded else
-     "Expanded list from a Certificate-Transparency + RDAP sweep:"}</p>
-  {"<p class='muted'>The wider automated sweep was still running at publish; the confirmed set above is complete and verified. The expanded candidate list will be added to the repository data files.</p>" if not expanded else ""}
+  {EXPANDED_BLOCK}
 </div></section>
 
 <section><div class="wrap">

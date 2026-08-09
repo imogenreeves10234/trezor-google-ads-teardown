@@ -1,0 +1,91 @@
+[
+  {
+    "url": "https://xn--leder-y1a.app/stax.php",
+    "attempt": 1,
+    "exit": "137.118.185.171",
+    "http": 200,
+    "final_url": "https://xn--leder-y1a.app/stax.php?gclid=Cj0KCQtest123",
+    "title": "L\u0435dg\u0435r Liv\u0435: \u041c\u043est \u0422rust\u0435d & S\u0435\u0441ur\u0435",
+    "drainer": [
+      "ethereum",
+      "solana"
+    ],
+    "seed_inputs": 0,
+    "post_endpoints": [],
+    "external_scripts": [
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+      "https://xn--leder-y1a.app/js/ethers-5.2.umd.min.js"
+    ],
+    "xhr": [
+      "POST https://xn--leder-y1a.app/cdn-cgi/rum"
+    ],
+    "telegram": false,
+    "obf": {
+      "eval": 0,
+      "atob": 1,
+      "hex": 4573
+    },
+    "screenshot": "https---xn--leder-y1a-app-stax-php.png",
+    "ok": true
+  },
+  {
+    "url": "https://xn--leder-y1a.app/nanox.php",
+    "attempt": 1,
+    "exit": "68.50.223.20",
+    "http": 200,
+    "final_url": "https://xn--leder-y1a.app/nanox.php?gclid=Cj0KCQtest123",
+    "title": "L\u0435dg\u0435r Liv\u0435: \u041c\u043est \u0422rust\u0435d & S\u0435\u0441ur\u0435",
+    "drainer": [
+      "ethereum",
+      "recovery phrase",
+      "solana"
+    ],
+    "seed_inputs": 0,
+    "post_endpoints": [],
+    "external_scripts": [
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+      "https://xn--leder-y1a.app/js/ethers-5.2.umd.min.js"
+    ],
+    "xhr": [
+      "POST https://xn--leder-y1a.app/cdn-cgi/rum"
+    ],
+    "telegram": false,
+    "obf": {
+      "eval": 0,
+      "atob": 1,
+      "hex": 3526
+    },
+    "screenshot": "https---xn--leder-y1a-app-nanox-php.png",
+    "ok": true
+  },
+  {
+    "url": "https://xn--leder-y1a.app/nanos.php",
+    "attempt": 1,
+    "exit": "174.168.85.81",
+    "http": 200,
+    "final_url": "https://xn--leder-y1a.app/nanos.php?gclid=Cj0KCQtest123",
+    "title": "L\u0435dg\u0435r Liv\u0435: \u041c\u043est \u0422rust\u0435d & S\u0435\u0441ur\u0435",
+    "drainer": [
+      "ethereum",
+      "recovery phrase",
+      "solana"
+    ],
+    "seed_inputs": 0,
+    "post_endpoints": [],
+    "external_scripts": [
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+      "https://xn--leder-y1a.app/js/ethers-5.2.umd.min.js"
+    ],
+    "xhr": [
+      "POST https://xn--leder-y1a.app/cdn-cgi/rum"
+    ],
+    "telegram": false,
+    "obf": {
+      "eval": 0,
+      "atob": 1,
+      "hex": 111
+    },
+    "screenshot": "https---xn--leder-y1a-app-nanos-php.png",
+    "ok": true
+  }
+]
