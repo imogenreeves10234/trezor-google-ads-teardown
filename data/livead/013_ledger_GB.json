@@ -1,0 +1,30 @@
+{
+  "cc": "GB",
+  "query": "ledger live",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_970250BUV_ttl_72h",
+      "exit": {
+        "ip": "81.100.91.92",
+        "hostname": "dund-17-b2-v4wan-169666-cust2907.vm6.cable.virginm.net",
+        "city": "Swansea",
+        "region": "Wales",
+        "country": "GB",
+        "loc": "51.6208,-3.9432",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "SA1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_GB_ledger-live_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

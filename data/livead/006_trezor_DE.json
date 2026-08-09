@@ -1,0 +1,44 @@
+{
+  "cc": "DE",
+  "query": "trezor wallet",
+  "brand": "trezor",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_105503EKC_ttl_72h",
+      "exit": {
+        "ip": "78.42.74.240",
+        "hostname": "ip-078-042-074-240.um17.pools.vodafone-ip.de",
+        "city": "Mannheim",
+        "region": "Baden-Wurttemberg",
+        "country": "DE",
+        "loc": "49.4891,8.4669",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "68159",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 1,
+      "painted": true,
+      "screenshot": "trezor_DE_trezor-wallet_1.png"
+    }
+  ],
+  "ads": [
+    {
+      "headline": "Trezor Hardware Wallet (Official)",
+      "displayed_url": null,
+      "destination": null,
+      "href": "https://www.google.com/aclk?sa=L&ai=DChsSEwjZ2M3f35OWAxUvT0ECHWqvAjQYACICCAIQAhoCd3M&ae=2&co=1&ase=2&gclid=EAIaIQobChMI2djN39-TlgMVL09BAh1qrwI0EAMYASACEgLlLvD_BwE&cce=2&category=acrcp_v1_71&sig=AOD64_2ohx0PNywJdquvylpX7Ne6n-hD6g&nis=4&ved=2ahUKEwizgcbf35OWAxUx1QIHHTHkH9sQgtsBegQIbxAf&adurl=",
+      "block_text": "Trezor Hardware Wallet (Official)\nTrezor.io\nhttps://www.trezor.io\nManage and protect thousands of digital assets on the go with wireless freedom. A Trezor hardware wallet keeps your digital assets offline where hackers can\u2019t reach them.\nHinweis zu KI-Inhalten: Diese Anzeige wurde mit KI erstellt oder bearbeitet\n Bewertung f\u00fcr trezor.io: 4,9 - 22 Rezensionen\n\u200eTrezor Suite \u00b7 \u200eTrezor Suite For Web \u00b7 \u200eProducts \u00b7 \u200eTrezor \u00b7 \u200eBitcoin Wallet von Trezor \u00b7 \u200eSuite\nDeal: Up to 20% off Trezor wallets \u00b7 Ends Aug 11",
+      "suspicious": false,
+      "cc": "DE",
+      "query": "trezor wallet",
+      "brand": "trezor",
+      "attempt": 1,
+      "screenshot": "trezor_DE_trezor-wallet_1.png"
+    }
+  ],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

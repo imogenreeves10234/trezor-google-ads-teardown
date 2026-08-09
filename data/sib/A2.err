@@ -1,3 +1,7 @@
 [okx]
     429 -> sleep 70s
     429 -> sleep 120s
+    429 -> sleep 170s
+    429 -> sleep 220s
+    429 -> sleep 270s
+    429 -> sleep 320s

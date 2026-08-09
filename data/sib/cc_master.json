@@ -77,6 +77,17 @@
   "seg1": "365cryptocurrencies.com"
  },
  {
+  "url": "https://sites.google.com/365cryptocurrencies.com/phantomwalletextension/home",
+  "brands": [
+   "phantomwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516233358",
+  "seg1": "365cryptocurrencies.com"
+ },
+ {
   "url": "https://sites.google.com/365cryptocurrencies.com/plasmawalletextension",
   "brands": [
    "plasmawallet"
@@ -107,6 +118,17 @@
    "cc30"
   ],
   "cc_last_seen": "20260715150340",
+  "seg1": "99cryptocurrencies.com"
+ },
+ {
+  "url": "https://sites.google.com/99cryptocurrencies.com/metamask-login",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521124026",
   "seg1": "99cryptocurrencies.com"
  },
  {
@@ -168,6 +190,17 @@
   "seg1": "abcrypt.com"
  },
  {
+  "url": "https://sites.google.com/allisonsmith.com/prefabshop/engraved-labels",
+  "brands": [
+   "ngrave"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513111011",
+  "seg1": "allisonsmith.com"
+ },
+ {
   "url": "https://sites.google.com/alllogin.info/metamaskexetension/home",
   "brands": [
    "metamask"
@@ -179,6 +212,28 @@
   "seg1": "alllogin.info"
  },
  {
+  "url": "https://sites.google.com/berkeley.edu/thevanguardatberkeley/home",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512184044",
+  "seg1": "berkeley.edu"
+ },
+ {
+  "url": "https://sites.google.com/bitcoin.eco/bitcoin-eco/community-outreach/blockchain-stampede",
+  "brands": [
+   "blockchain"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510023700",
+  "seg1": "bitcoin.eco"
+ },
+ {
   "url": "https://sites.google.com/bitlogins.com/cryptocomlogin/cryptocom-wallet",
   "brands": [
    "cryptocom"
@@ -188,6 +243,39 @@
   ],
   "cc_last_seen": "20260712130241",
   "seg1": "bitlogins.com"
+ },
+ {
+  "url": "https://sites.google.com/bitslogin.com/metamaskkhromeextension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521000651",
+  "seg1": "bitslogin.com"
+ },
+ {
+  "url": "https://sites.google.com/bitstamlogi.com/bitkeep-wallet/home",
+  "brands": [
+   "bitkeep"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510114949",
+  "seg1": "bitstamlogi.com"
+ },
+ {
+  "url": "https://sites.google.com/bitstamlogi.com/bitstamp-login/home",
+  "brands": [
+   "bitstamp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509235503",
+  "seg1": "bitstamlogi.com"
  },
  {
   "url": "https://sites.google.com/cashapplogs.com/cashapp-loginus/home",
@@ -212,6 +300,28 @@
   "seg1": "ccoinbaselogin.com"
  },
  {
+  "url": "https://sites.google.com/chula.ac.th/gemini/projects/bma-live-2025",
+  "brands": [
+   "gemini"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516094714",
+  "seg1": "chula.ac.th"
+ },
+ {
+  "url": "https://sites.google.com/chula.ac.th/gemini/projects/obec-live-2025",
+  "brands": [
+   "gemini"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510001817",
+  "seg1": "chula.ac.th"
+ },
+ {
   "url": "https://sites.google.com/chula.ac.th/gemini/projects/obec-live-2025/course-materials/1-4-google-gemini-ai",
   "brands": [
    "gemini"
@@ -220,6 +330,17 @@
    "cc25"
   ],
   "cc_last_seen": "20260607171620",
+  "seg1": "chula.ac.th"
+ },
+ {
+  "url": "https://sites.google.com/chula.ac.th/gemini/projects/obec-live-2025/course-materials/2-1-quiz-runner-game",
+  "brands": [
+   "gemini"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516123453",
   "seg1": "chula.ac.th"
  },
  {
@@ -234,6 +355,17 @@
   "seg1": "codeacti.com"
  },
  {
+  "url": "https://sites.google.com/codeacti.com/metamask-extension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511132754",
+  "seg1": "codeacti.com"
+ },
+ {
   "url": "https://sites.google.com/coiinnb.com/download-coinbase/home",
   "brands": [
    "coinbase"
@@ -243,6 +375,17 @@
   ],
   "cc_last_seen": "20260712215615",
   "seg1": "coiinnb.com"
+ },
+ {
+  "url": "https://sites.google.com/coiinsb.com/coinbase-extension/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512051304",
+  "seg1": "coiinsb.com"
  },
  {
   "url": "https://sites.google.com/coiinsb.com/metamask-extension/home",
@@ -289,6 +432,17 @@
   "seg1": "coinbaselogiin.com"
  },
  {
+  "url": "https://sites.google.com/coinbaseloginn.com/coinbase-login/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260515025921",
+  "seg1": "coinbaseloginn.com"
+ },
+ {
   "url": "https://sites.google.com/coinbaseloginus.com/coinbaselogini",
   "brands": [
    "coinbase"
@@ -298,6 +452,28 @@
   ],
   "cc_last_seen": "20260615124440",
   "seg1": "coinbaseloginus.com"
+ },
+ {
+  "url": "https://sites.google.com/coinbaseuslogin.com/coinbasewallett/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260515175701",
+  "seg1": "coinbaseuslogin.com"
+ },
+ {
+  "url": "https://sites.google.com/coinbaswallet.com/coinbasegiftcard/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513055451",
+  "seg1": "coinbaswallet.com"
  },
  {
   "url": "https://sites.google.com/coinbaswallet.com/coinbasestaking/home",
@@ -377,6 +553,17 @@
   "seg1": "coinbselogs.com"
  },
  {
+  "url": "https://sites.google.com/coindesklogin.com/coinbasewallet/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514204747",
+  "seg1": "coindesklogin.com"
+ },
+ {
   "url": "https://sites.google.com/coinlogi.com/coinbaseapp/home",
   "brands": [
    "coinbase"
@@ -408,6 +595,17 @@
   ],
   "cc_last_seen": "20260719074003",
   "seg1": "coinlogi.com"
+ },
+ {
+  "url": "https://sites.google.com/coinloginn.com/coinbasepro/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514092521",
+  "seg1": "coinloginn.com"
  },
  {
   "url": "https://sites.google.com/coinloginn.com/metamaskcromeextension/home",
@@ -454,6 +652,39 @@
   "seg1": "coinlogins.com"
  },
  {
+  "url": "https://sites.google.com/coinlogins.com/phantomwallet/home",
+  "brands": [
+   "phantomwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510175503",
+  "seg1": "coinlogins.com"
+ },
+ {
+  "url": "https://sites.google.com/coinlogn.com/coinbase-login/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517150749",
+  "seg1": "coinlogn.com"
+ },
+ {
+  "url": "https://sites.google.com/coinsextension.com/trezorbridge/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513113021",
+  "seg1": "coinsextension.com"
+ },
+ {
   "url": "https://sites.google.com/coinslogi.com/Coinbasepro-login/home",
   "brands": [
    "coinbase"
@@ -465,11 +696,23 @@
   "seg1": "coinslogi.com"
  },
  {
+  "url": "https://sites.google.com/coinsloginn.com/coinbaseprime/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508122325",
+  "seg1": "coinsloginn.com"
+ },
+ {
   "url": "https://sites.google.com/coinslogins.com/metamask-login",
   "brands": [
    "metamask"
   ],
   "src": [
+   "cc21",
    "cc25"
   ],
   "cc_last_seen": "20260613232952",
@@ -531,6 +774,17 @@
   "seg1": "coinslogus.com"
  },
  {
+  "url": "https://sites.google.com/coinslogus.com/metamask-chromie/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510231920",
+  "seg1": "coinslogus.com"
+ },
+ {
   "url": "https://sites.google.com/coinslogus.com/walletconnect/home",
   "brands": [
    "walletconnect"
@@ -564,6 +818,17 @@
   "seg1": "coinsmarkete.com"
  },
  {
+  "url": "https://sites.google.com/coinswalletes.com/coinbase-wallet/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510230140",
+  "seg1": "coinswalletes.com"
+ },
+ {
   "url": "https://sites.google.com/coinswalletes.com/coinbasewallet/home",
   "brands": [
    "coinbase"
@@ -580,6 +845,7 @@
    "coinbase"
   ],
   "src": [
+   "cc21",
    "cc30"
   ],
   "cc_last_seen": "20260720045329",
@@ -608,6 +874,17 @@
   "seg1": "coinswallett.com"
  },
  {
+  "url": "https://sites.google.com/coinswallett.com/metamask-wallet/metamask-login-with-password",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510212146",
+  "seg1": "coinswallett.com"
+ },
+ {
   "url": "https://sites.google.com/coinswallett.com/metamaskwallet",
   "brands": [
    "metamask"
@@ -630,6 +907,39 @@
   "seg1": "coinswallett.com"
  },
  {
+  "url": "https://sites.google.com/coinswallett.com/walletconnectt/home",
+  "brands": [
+   "walletconnect"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511012734",
+  "seg1": "coinswallett.com"
+ },
+ {
+  "url": "https://sites.google.com/coinswallett.de/trezor-wallet/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510091649",
+  "seg1": "coinswallett.de"
+ },
+ {
+  "url": "https://sites.google.com/criptowalets.com/bridge-trezor/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510120354",
+  "seg1": "criptowalets.com"
+ },
+ {
   "url": "https://sites.google.com/criptowalets.com/trezor-bridge/home",
   "brands": [
    "trezor"
@@ -650,6 +960,29 @@
   ],
   "cc_last_seen": "20260712163312",
   "seg1": "criptowalletweb.com"
+ },
+ {
+  "url": "https://sites.google.com/crptowebwallet.com/trezor-hardwere-wallet/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510023117",
+  "seg1": "crptowebwallet.com"
+ },
+ {
+  "url": "https://sites.google.com/crptowebwallet.com/trezor-suite-app/home",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514181642",
+  "seg1": "crptowebwallet.com"
  },
  {
   "url": "https://sites.google.com/cryptissues.com/cryptocomlogin/home",
@@ -675,6 +1008,28 @@
   "seg1": "crypto-coinexchange.com"
  },
  {
+  "url": "https://sites.google.com/crypto-coinexchange.com/krakenexchange/home",
+  "brands": [
+   "crypto"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512111246",
+  "seg1": "crypto-coinexchange.com"
+ },
+ {
+  "url": "https://sites.google.com/crypto-coinexchange.com/uniswap-exchange/home",
+  "brands": [
+   "uniswap"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511074001",
+  "seg1": "crypto-coinexchange.com"
+ },
+ {
   "url": "https://sites.google.com/crypto-coinexchange.com/uniswapexchange/home",
   "brands": [
    "uniswap"
@@ -695,6 +1050,28 @@
   ],
   "cc_last_seen": "20260607055951",
   "seg1": "crypto-coinwallet.com"
+ },
+ {
+  "url": "https://sites.google.com/crypto-coinwallet.com/trezorwallett/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518200837",
+  "seg1": "crypto-coinwallet.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptobitwallets.com/coinbasesignin/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508160453",
+  "seg1": "cryptobitwallets.com"
  },
  {
   "url": "https://sites.google.com/cryptocoinbasewallet.com/geminilogin",
@@ -752,6 +1129,17 @@
   "seg1": "cryptocoinsusa.com"
  },
  {
+  "url": "https://sites.google.com/cryptocoinsusa.com/coinbasewalletextension/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520113445",
+  "seg1": "cryptocoinsusa.com"
+ },
+ {
   "url": "https://sites.google.com/cryptocoinsusa.com/guarda-wallet/home",
   "brands": [
    "guarda"
@@ -761,6 +1149,28 @@
   ],
   "cc_last_seen": "20260711080108",
   "seg1": "cryptocoinsusa.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptocomsignin.com/cryptocomsignins/home",
+  "brands": [
+   "cryptocom"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509214352",
+  "seg1": "cryptocomsignin.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptoerr.com/cryptologinerror/home",
+  "brands": [
+   "cryptologin"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516161923",
+  "seg1": "cryptoerr.com"
  },
  {
   "url": "https://sites.google.com/cryptoexchangeu.com/bybit-login/home",
@@ -774,6 +1184,17 @@
   "seg1": "cryptoexchangeu.com"
  },
  {
+  "url": "https://sites.google.com/cryptologn.com/metamask-extension",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518172306",
+  "seg1": "cryptologn.com"
+ },
+ {
   "url": "https://sites.google.com/cryptouswallet.com/exoduswallet",
   "brands": [
    "exoduswallet"
@@ -782,6 +1203,17 @@
    "cc25"
   ],
   "cc_last_seen": "20260613131932",
+  "seg1": "cryptouswallet.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptouswallet.com/metamasklogin/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521151226",
   "seg1": "cryptouswallet.com"
  },
  {
@@ -812,6 +1244,7 @@
    "rainbow"
   ],
   "src": [
+   "cc21",
    "cc25"
   ],
   "cc_last_seen": "20260617173150",
@@ -841,6 +1274,28 @@
   "seg1": "cryptowalletal.com"
  },
  {
+  "url": "https://sites.google.com/cryptowalletbit.com/blockfi-credit-card/home%22%3EBlockfi",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512004031",
+  "seg1": "cryptowalletbit.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletbit.com/krakenwallet/home%22%3EKraken",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514015322",
+  "seg1": "cryptowalletbit.com"
+ },
+ {
   "url": "https://sites.google.com/cryptowalletbit.com/uphold-wallet/home",
   "brands": [
    "cryptowallet"
@@ -864,6 +1319,29 @@
   "seg1": "cryptowalletc.com"
  },
  {
+  "url": "https://sites.google.com/cryptowalletc.com/trezor-bridge/home",
+  "brands": [
+   "cryptowallet",
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516214212",
+  "seg1": "cryptowalletc.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletextensionus.com/polymarket",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513200252",
+  "seg1": "cryptowalletextensionus.com"
+ },
+ {
   "url": "https://sites.google.com/cryptowalletit.com/trezoriostart/home",
   "brands": [
    "cryptowallet",
@@ -876,6 +1354,18 @@
   "seg1": "cryptowalletit.com"
  },
  {
+  "url": "https://sites.google.com/cryptowallets.es/ledgerlivewallet/home",
+  "brands": [
+   "cryptowallet",
+   "ledgerlive"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521114801",
+  "seg1": "cryptowallets.es"
+ },
+ {
   "url": "https://sites.google.com/cryptowalletts.com/cexio-login/home",
   "brands": [
    "cryptowallet"
@@ -884,6 +1374,18 @@
    "cc25"
   ],
   "cc_last_seen": "20260618161319",
+  "seg1": "cryptowalletts.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletts.com/coinbase-exchange/home",
+  "brands": [
+   "coinbase",
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521140656",
   "seg1": "cryptowalletts.com"
  },
  {
@@ -910,6 +1412,29 @@
   "seg1": "cryptowalletts.com"
  },
  {
+  "url": "https://sites.google.com/cryptowalletts.com/yoroi-wallet/home",
+  "brands": [
+   "cryptowallet",
+   "yoroi"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510100224",
+  "seg1": "cryptowalletts.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/basescan",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521002505",
+  "seg1": "cryptowalletuk.com"
+ },
+ {
   "url": "https://sites.google.com/cryptowalletuk.com/chaingpt/home",
   "brands": [
    "cryptowallet"
@@ -932,6 +1457,17 @@
   "seg1": "cryptowalletuk.com"
  },
  {
+  "url": "https://sites.google.com/cryptowalletuk.com/etherscan",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514023333",
+  "seg1": "cryptowalletuk.com"
+ },
+ {
   "url": "https://sites.google.com/cryptowalletuk.com/ledgercomstart/home",
   "brands": [
    "cryptowallet"
@@ -940,6 +1476,18 @@
    "cc30"
   ],
   "cc_last_seen": "20260712030917",
+  "seg1": "cryptowalletuk.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/ledgerlivewallet/home",
+  "brands": [
+   "cryptowallet",
+   "ledgerlive"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520205715",
   "seg1": "cryptowalletuk.com"
  },
  {
@@ -976,6 +1524,17 @@
   ],
   "cc_last_seen": "20260722121804",
   "seg1": "cryptowalletuk.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletus.com/ledger-com-start/home",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518220910",
+  "seg1": "cryptowalletus.com"
  },
  {
   "url": "https://sites.google.com/cryptowalletus.com/ledgercomstart/home",
@@ -1111,6 +1670,17 @@
   ],
   "cc_last_seen": "20260715212931",
   "seg1": "cryptwalle.com"
+ },
+ {
+  "url": "https://sites.google.com/cryptwalleto.com/atomicwallet/home",
+  "brands": [
+   "atomicwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512142518",
+  "seg1": "cryptwalleto.com"
  },
  {
   "url": "https://sites.google.com/cryptwalleto.com/walletconnect/home",
@@ -1289,6 +1859,50 @@
   "seg1": "krakenlogins.com"
  },
  {
+  "url": "https://sites.google.com/kryptowallets.app/1inch-dex-login/home",
+  "brands": [
+   "1inch"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260519014112",
+  "seg1": "kryptowallets.app"
+ },
+ {
+  "url": "https://sites.google.com/kryptowallets.app/pancakeswap-dex-login",
+  "brands": [
+   "pancakeswap"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520234344",
+  "seg1": "kryptowallets.app"
+ },
+ {
+  "url": "https://sites.google.com/kryptowallets.app/phantom-wallet-extension-app",
+  "brands": [
+   "phantomwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508092037",
+  "seg1": "kryptowallets.app"
+ },
+ {
+  "url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login",
+  "brands": [
+   "uniswap"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517073902",
+  "seg1": "kryptowallets.app"
+ },
+ {
   "url": "https://sites.google.com/kucoin-log.com/kucoinloginin/home",
   "brands": [
    "kucoin"
@@ -1355,6 +1969,17 @@
   "seg1": "ledgercom-start.com"
  },
  {
+  "url": "https://sites.google.com/ledgercomstart.com/ledger-com-start/home",
+  "brands": [
+   "ledger"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520054201",
+  "seg1": "ledgercomstart.com"
+ },
+ {
   "url": "https://sites.google.com/ledgerlivestart.com/ledgercomstart/home",
   "brands": [
    "ledgerlive"
@@ -1364,6 +1989,29 @@
   ],
   "cc_last_seen": "20260618030852",
   "seg1": "ledgerlivestart.com"
+ },
+ {
+  "url": "https://sites.google.com/ledgrliveus.com/ledgerliveapp/home",
+  "brands": [
+   "ledgerlive"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513112938",
+  "seg1": "ledgrliveus.com"
+ },
+ {
+  "url": "https://sites.google.com/logswallet.com/trezor-suite-app/home",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511185134",
+  "seg1": "logswallet.com"
  },
  {
   "url": "https://sites.google.com/logwallets.com/exodus-web3-wallet/home",
@@ -1410,6 +2058,17 @@
   "seg1": "magic-edenlogi.com"
  },
  {
+  "url": "https://sites.google.com/matamasklog.com/metamasklogin/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510054241",
+  "seg1": "matamasklog.com"
+ },
+ {
   "url": "https://sites.google.com/matmusk.com/metamaskwalletextension/home",
   "brands": [
    "metamask"
@@ -1421,6 +2080,17 @@
   "seg1": "matmusk.com"
  },
  {
+  "url": "https://sites.google.com/mcryptologin.com/binanceuslogin/home%22%3EBinance.us",
+  "brands": [
+   "binance"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511154052",
+  "seg1": "mcryptologin.com"
+ },
+ {
   "url": "https://sites.google.com/mcryptologin.com/coinbase-pro-login/home",
   "brands": [
    "coinbase"
@@ -1429,6 +2099,17 @@
    "cc25"
   ],
   "cc_last_seen": "20260613041518",
+  "seg1": "mcryptologin.com"
+ },
+ {
+  "url": "https://sites.google.com/mcryptologin.com/coinbase-pro-login/home%22%3ECoinbase",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512191945",
   "seg1": "mcryptologin.com"
  },
  {
@@ -1509,6 +2190,17 @@
   "seg1": "metamaklog.com"
  },
  {
+  "url": "https://sites.google.com/metamasclog.com/metamaskcrome-extension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511000128",
+  "seg1": "metamasclog.com"
+ },
+ {
   "url": "https://sites.google.com/metamasclog.com/metamaskextension/home",
   "brands": [
    "metamask"
@@ -1542,6 +2234,72 @@
   "seg1": "metamask-ios.com"
  },
  {
+  "url": "https://sites.google.com/metamask-ios.com/metamaskchrromeextension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513105218",
+  "seg1": "metamask-ios.com"
+ },
+ {
+  "url": "https://sites.google.com/metamask-ios.com/metamaskloginin/home%22%3Emetamask",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510231726",
+  "seg1": "metamask-ios.com"
+ },
+ {
+  "url": "https://sites.google.com/metamask-ios.com/metamaskwallets/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510230520",
+  "seg1": "metamask-ios.com"
+ },
+ {
+  "url": "https://sites.google.com/metamask-log.com/metamask-login/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510095652",
+  "seg1": "metamask-log.com"
+ },
+ {
+  "url": "https://sites.google.com/metamask-log.com/metamaskextension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513142051",
+  "seg1": "metamask-log.com"
+ },
+ {
+  "url": "https://sites.google.com/metamask-logi.com/metamasklogin/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510070136",
+  "seg1": "metamask-logi.com"
+ },
+ {
   "url": "https://sites.google.com/metamask-logi.com/metamaskloginn/home",
   "brands": [
    "metamask"
@@ -1564,6 +2322,39 @@
   "seg1": "metamaskchrme.com"
  },
  {
+  "url": "https://sites.google.com/metamaskchrme.com/metamaskcromeextensionn/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513060900",
+  "seg1": "metamaskchrme.com"
+ },
+ {
+  "url": "https://sites.google.com/metamaskgo.com/metamaskcrome-",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511000241",
+  "seg1": "metamaskgo.com"
+ },
+ {
+  "url": "https://sites.google.com/metamaskgo.com/metamaskcrome-extension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510234318",
+  "seg1": "metamaskgo.com"
+ },
+ {
   "url": "https://sites.google.com/metamaskgo.com/metamaskextension/home",
   "brands": [
    "metamask"
@@ -1573,6 +2364,28 @@
   ],
   "cc_last_seen": "20260717202937",
   "seg1": "metamaskgo.com"
+ },
+ {
+  "url": "https://sites.google.com/metamaskius.com/metamaskportfolio/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511002824",
+  "seg1": "metamaskius.com"
+ },
+ {
+  "url": "https://sites.google.com/metamaskius.com/metamasksignin/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512032347",
+  "seg1": "metamaskius.com"
  },
  {
   "url": "https://sites.google.com/metamasklog.us/metamask-extension/home",
@@ -1718,6 +2531,28 @@
   "seg1": "metamsklog.com"
  },
  {
+  "url": "https://sites.google.com/metamsklog.com/metamaskcromeextension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514090957",
+  "seg1": "metamsklog.com"
+ },
+ {
+  "url": "https://sites.google.com/metamsklogi.com/metamask-extension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510230440",
+  "seg1": "metamsklogi.com"
+ },
+ {
   "url": "https://sites.google.com/metamsklogi.com/metamaskweb3wallet/home",
   "brands": [
    "metamask"
@@ -1773,6 +2608,17 @@
   "seg1": "metamsklogs.com"
  },
  {
+  "url": "https://sites.google.com/metanimasklogin.com/metamasksignin/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514050609",
+  "seg1": "metanimasklogin.com"
+ },
+ {
   "url": "https://sites.google.com/metemaskonline.com/metamaskchrme-extension/home",
   "brands": [
    "metamask"
@@ -1793,6 +2639,28 @@
   ],
   "cc_last_seen": "20260715085535",
   "seg1": "metmaskios.com"
+ },
+ {
+  "url": "https://sites.google.com/metmsk-logi.com/metamasksignin/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517035923",
+  "seg1": "metmsk-logi.com"
+ },
+ {
+  "url": "https://sites.google.com/metmsklgin.com/metamask-extension/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509184224",
+  "seg1": "metmsklgin.com"
  },
  {
   "url": "https://sites.google.com/metmsklgin.com/metamask-sign-in/home",
@@ -1828,6 +2696,17 @@
   "seg1": "mycoinwallet.xyz"
  },
  {
+  "url": "https://sites.google.com/mycrptox.com/crypto-login-exchange/home",
+  "brands": [
+   "crypto"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516154456",
+  "seg1": "mycrptox.com"
+ },
+ {
   "url": "https://sites.google.com/mycryptowallet.us.com/phantomextension/home",
   "brands": [
    "cryptowallet"
@@ -1850,6 +2729,28 @@
   "seg1": "mycryptowalletus.com"
  },
  {
+  "url": "https://sites.google.com/mycryptowalletus.com/ethereumblockchainexplorer",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521214650",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/explore-solana-blockchain",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517133704",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
   "url": "https://sites.google.com/mycryptowalletus.com/hyperliquiddexofficialsite",
   "brands": [
    "cryptowallet"
@@ -1858,6 +2759,41 @@
    "cc25"
   ],
   "cc_last_seen": "20260617052603",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/jupiter-instant-official-site",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511214710",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/metamask-wallet-login",
+  "brands": [
+   "cryptowallet",
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518043258",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/metamask-walletapp-extension",
+  "brands": [
+   "cryptowallet",
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509203926",
   "seg1": "mycryptowalletus.com"
  },
  {
@@ -1870,6 +2806,30 @@
    "cc30"
   ],
   "cc_last_seen": "20260714201340",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/phantom-walletapp-extension",
+  "brands": [
+   "cryptowallet",
+   "phantomwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509192325",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/phantomwalletapp-extension",
+  "brands": [
+   "cryptowallet",
+   "phantomwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518025443",
   "seg1": "mycryptowalletus.com"
  },
  {
@@ -1894,6 +2854,40 @@
    "cc25"
   ],
   "cc_last_seen": "20260607102431",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/pumploginofficialsite",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520125026",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/solscan-create-account",
+  "brands": [
+   "cryptowallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520181852",
+  "seg1": "mycryptowalletus.com"
+ },
+ {
+  "url": "https://sites.google.com/mycryptowalletus.com/trustwallet-for-web3",
+  "brands": [
+   "cryptowallet",
+   "trustwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517192932",
   "seg1": "mycryptowalletus.com"
  },
  {
@@ -1938,6 +2932,17 @@
    "cc30"
   ],
   "cc_last_seen": "20260722153825",
+  "seg1": "myextensionwallet.com"
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/opensea-nft/home",
+  "brands": [
+   "opensea"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513220547",
   "seg1": "myextensionwallet.com"
  },
  {
@@ -2006,6 +3011,17 @@
    "cc30"
   ],
   "cc_last_seen": "20260712104408",
+  "seg1": "mywalletcryptous.com"
+ },
+ {
+  "url": "https://sites.google.com/mywalletcryptous.com/rabby-wallet",
+  "brands": [
+   "rabby"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510001944",
   "seg1": "mywalletcryptous.com"
  },
  {
@@ -2109,6 +3125,17 @@
   "seg1": "phantom-solana-wallet.com"
  },
  {
+  "url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet-extension",
+  "brands": [
+   "phantomwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508101449",
+  "seg1": "phantom-solana-wallet.com"
+ },
+ {
   "url": "https://sites.google.com/phantomm-extension.com/phantomextension/home",
   "brands": [
    "phantom"
@@ -2140,6 +3167,17 @@
   ],
   "cc_last_seen": "20260722084057",
   "seg1": "phantomm-wallet.com"
+ },
+ {
+  "url": "https://sites.google.com/phantomm-wallet.us/phantom-extension/home",
+  "brands": [
+   "phantom"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510125350",
+  "seg1": "phantomm-wallet.us"
  },
  {
   "url": "https://sites.google.com/phantomwalletus.com/phantom-chrom/home",
@@ -2219,11 +3257,23 @@
   "seg1": "rabby-wallet-extension.com"
  },
  {
+  "url": "https://sites.google.com/site/agilityforjersey/rainbow-bridge",
+  "brands": [
+   "rainbow"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513082130",
+  "seg1": "site"
+ },
+ {
   "url": "https://sites.google.com/site/areasnaturalesyguardaparques",
   "brands": [
    "guarda"
   ],
   "src": [
+   "cc21",
    "cc25",
    "cc30"
   ],
@@ -2239,6 +3289,28 @@
    "cc25"
   ],
   "cc_last_seen": "20260617045913",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/Documentos/--areas-naturales-protegidas-e-hidrocarburos",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513072516",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/Documentos/anps-argentina",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511161120",
   "seg1": "site"
  },
  {
@@ -2272,6 +3344,17 @@
    "cc30"
   ],
   "cc_last_seen": "20260714114021",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/Documentos/mapas-anps",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514001012",
   "seg1": "site"
  },
  {
@@ -2341,6 +3424,17 @@
   "seg1": "site"
  },
  {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/guardaparques/congreso-mundial-2023",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511130204",
+  "seg1": "site"
+ },
+ {
   "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/guardaparques/control-y-fiscalizacion",
   "brands": [
    "guarda"
@@ -2349,6 +3443,28 @@
    "cc25"
   ],
   "cc_last_seen": "20260607122106",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/guardaparques/memorial/caidos-en-servicio",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510004246",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/guardaparques/militancia-ambiental",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513105653",
   "seg1": "site"
  },
  {
@@ -2374,6 +3490,17 @@
   "seg1": "site"
  },
  {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/guardaparques/videos",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517192059",
+  "seg1": "site"
+ },
+ {
   "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/trabajadores",
   "brands": [
    "guarda"
@@ -2382,6 +3509,17 @@
    "cc30"
   ],
   "cc_last_seen": "20260715121803",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/areasnaturalesyguardaparques/home/trabajadores/judicializaci%C3%B3n-del-trabajo",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511042754",
   "seg1": "site"
  },
  {
@@ -2572,6 +3710,39 @@
   "seg1": "site"
  },
  {
+  "url": "https://sites.google.com/site/psmartinsite/Home/bridge-articles/2001-cap-gemini---session-1---board-17",
+  "brands": [
+   "gemini"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511002122",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/site/wilsonrogelioenciso/historias-guardadas",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510065305",
+  "seg1": "site"
+ },
+ {
+  "url": "https://sites.google.com/sl.glow.scot/sasb/school-life/glow-login",
+  "brands": [
+   "glow"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513224044",
+  "seg1": "sl.glow.scot"
+ },
+ {
   "url": "https://sites.google.com/solflare-wallet.com/solflare-wallet-download",
   "brands": [
    "solflare"
@@ -2581,6 +3752,17 @@
   ],
   "cc_last_seen": "20260714201020",
   "seg1": "solflare-wallet.com"
+ },
+ {
+  "url": "https://sites.google.com/startledger.us/ledgerlive-notrecognizing/home",
+  "brands": [
+   "ledgerlive"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513231756",
+  "seg1": "startledger.us"
  },
  {
   "url": "https://sites.google.com/sutetrezor.us/trezorsuite/home",
@@ -2634,6 +3816,7 @@
    "trezor"
   ],
   "src": [
+   "cc21",
    "cc25"
   ],
   "cc_last_seen": "20260611022732",
@@ -2682,6 +3865,28 @@
   ],
   "cc_last_seen": "20260713041715",
   "seg1": "trazor-start.com"
+ },
+ {
+  "url": "https://sites.google.com/trazorio.com/trezor-io-start/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517190226",
+  "seg1": "trazorio.com"
+ },
+ {
+  "url": "https://sites.google.com/trazrsuite.com/trezorio/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260519201141",
+  "seg1": "trazrsuite.com"
  },
  {
   "url": "https://sites.google.com/trazrsuite.com/trezoriostart/home",
@@ -2796,6 +4001,29 @@
   "seg1": "trustwalle.us"
  },
  {
+  "url": "https://sites.google.com/trzario.com/trezor-suite-app/home",
+  "brands": [
+   "trezor",
+   "trezorsuite"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511001528",
+  "seg1": "trzario.com"
+ },
+ {
+  "url": "https://sites.google.com/trzario.com/trezorlogin/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514173935",
+  "seg1": "trzario.com"
+ },
+ {
   "url": "https://sites.google.com/trzoreio.com/trezoriostart/home",
   "brands": [
    "trezor"
@@ -2862,6 +4090,50 @@
   ],
   "cc_last_seen": "20260617145140",
   "seg1": "umich.edu"
+ },
+ {
+  "url": "https://sites.google.com/usacoinhelp.com/coinbasecom/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510120504",
+  "seg1": "usacoinhelp.com"
+ },
+ {
+  "url": "https://sites.google.com/usacoinlogin.com/coinbaselogin/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513132650",
+  "seg1": "usacoinlogin.com"
+ },
+ {
+  "url": "https://sites.google.com/usacoinlogin.com/coinbaseprologin/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514020240",
+  "seg1": "usacoinlogin.com"
+ },
+ {
+  "url": "https://sites.google.com/uscoinbaselogin.com/procoinbasecom/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260515181330",
+  "seg1": "uscoinbaselogin.com"
  },
  {
   "url": "https://sites.google.com/uscryptocomlogin.com/cryptocomlogin/home",
@@ -2931,6 +4203,28 @@
   "seg1": "valletlogis.com"
  },
  {
+  "url": "https://sites.google.com/view/activate-my-cashapp-card/home",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520172210",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/ae-time-frame/home/connect",
+  "brands": [
+   "frame"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260519140547",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/app-ledger-live/home",
   "brands": [
    "ledgerlive"
@@ -2980,6 +4274,7 @@
    "binance"
   ],
   "src": [
+   "cc21",
    "cc30"
   ],
   "cc_last_seen": "20260712021138",
@@ -3063,6 +4358,39 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/cash-app-deposits-pending/cash-app-direct-deposit-pending",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260517131746",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-deposits-pending/what-time-does-cash-app-direct-deposit-hit",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509142438",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-directdepositpending",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513115654",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/cash-app-loginn",
   "brands": [
    "cashapp"
@@ -3094,6 +4422,39 @@
    "cc30"
   ],
   "cc_last_seen": "20260711161613",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-return-policy/home",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260515233050",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-transactionfailed/home",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512100930",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-transferfailed/home",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512015328",
   "seg1": "view"
  },
  {
@@ -3182,6 +4543,28 @@
    "cc25"
   ],
   "cc_last_seen": "20260614151227",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapploginiusa",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513113906",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/cashapploginnow",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509153258",
   "seg1": "view"
  },
  {
@@ -3405,6 +4788,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/coinbase-wallet-com/home",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260520205011",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/coinbase-wallet-getting/home",
   "brands": [
    "coinbase"
@@ -3537,6 +4931,28 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/coinspotloginau",
+  "brands": [
+   "coinspot"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510183510",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/coinspotloginn",
+  "brands": [
+   "coinspot"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510232832",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/commetamask-en/home",
   "brands": [
    "metamask"
@@ -3556,6 +4972,28 @@
    "cc25"
   ],
   "cc_last_seen": "20260611110551",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/core-app",
+  "brands": [
+   "core"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513013930",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/crypto-com-log-in",
+  "brands": [
+   "cryptocom"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510005407",
   "seg1": "view"
  },
  {
@@ -3630,10 +5068,22 @@
    "ngrave"
   ],
   "src": [
+   "cc21",
    "cc25",
    "cc30"
   ],
   "cc_last_seen": "20260716053105",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/flyingravensart/home",
+  "brands": [
+   "ngrave"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511124656",
   "seg1": "view"
  },
  {
@@ -3670,6 +5120,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/guardacivilmunicipalgcmpm/p%C3%A1gina-inicial",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521000012",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/guardaraia/add",
   "brands": [
    "guarda"
@@ -3703,11 +5164,23 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/guardaraia/forma%C3%A7%C3%A3o",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514132025",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/guardaraia/home",
   "brands": [
    "guarda"
   ],
   "src": [
+   "cc21",
    "cc25",
    "cc30"
   ],
@@ -3793,6 +5266,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/jlstuff/7k-coins/coin-drops-misc/thor-red-core-200",
+  "brands": [
+   "core"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511163041",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/jp-metamask-hqprcutyaqnvgyzmnm/home",
   "brands": [
    "metamask"
@@ -3848,6 +5332,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/market-intelligence-report/categories/ict/blockchain-technology-market-to-grow-12016-2-million-by-2027-at-68-6",
+  "brands": [
+   "blockchain"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510061217",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/metamask-extension-download-oa/chrome",
   "brands": [
    "metamask"
@@ -3892,11 +5387,34 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/metamask-wallet-apps/metamask",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260516130051",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/metamaskextensione/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510171528",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/metamasklog-in",
   "brands": [
    "metamask"
   ],
   "src": [
+   "cc21",
    "cc30"
   ],
   "cc_last_seen": "20260717091602",
@@ -3925,6 +5443,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/pancake-swap-exchange/home",
+  "brands": [
+   "pancakeswap"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514151446",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/pandemia-bellaguarda",
   "brands": [
    "guarda"
@@ -3933,6 +5462,17 @@
    "cc25"
   ],
   "cc_last_seen": "20260615060514",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/phantom-extension/home",
+  "brands": [
+   "phantom"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260513112852",
   "seg1": "view"
  },
  {
@@ -4124,6 +5664,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/pre-seminarioguarda",
+  "brands": [
+   "guarda"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510032643",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/raydium-wallet/home",
   "brands": [
    "raydium"
@@ -4132,6 +5683,50 @@
    "cc25"
   ],
   "cc_last_seen": "20260608214645",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/refundcashapppolicy",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260519212149",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/revoke-cash-approvals/verify",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511032448",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/homepage",
+  "brands": [
+   "klever"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509222145",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/rrg-kleverland-ev/homepagerobots.txt",
+  "brands": [
+   "klever"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509222145",
   "seg1": "view"
  },
  {
@@ -4278,6 +5873,28 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/tokenpocket1/%E9%A6%96%E9%A1%B5",
+  "brands": [
+   "tokenpocket"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511130857",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/traffnews/partnerki-crypto",
+  "brands": [
+   "crypto"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260519230257",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/transferfailedcashapp/home",
   "brands": [
    "cashapp"
@@ -4399,6 +6016,17 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/trezoriostartt",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508161710",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/trezorlogiin/home",
   "brands": [
    "trezor"
@@ -4419,6 +6047,17 @@
    "cc30"
   ],
   "cc_last_seen": "20260712040010",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/trustwalletcn",
+  "brands": [
+   "trustwallet"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260514120336",
   "seg1": "view"
  },
  {
@@ -4444,15 +6083,38 @@
   "seg1": "view"
  },
  {
+  "url": "https://sites.google.com/view/usa-binance-login",
+  "brands": [
+   "binance"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511061854",
+  "seg1": "view"
+ },
+ {
   "url": "https://sites.google.com/view/victoria-spiegl-2028-guard/awards-recognition",
   "brands": [
    "guarda"
   ],
   "src": [
+   "cc21",
    "cc25",
    "cc30"
   ],
   "cc_last_seen": "20260715023552",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/vrneked/the-psychology-of-chance-in-new-crypto-casino",
+  "brands": [
+   "crypto"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260512131945",
   "seg1": "view"
  },
  {
@@ -4486,6 +6148,18 @@
    "cc25"
   ],
   "cc_last_seen": "20260612092215",
+  "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/view/webstore-detail-asdkjkg/download-metamask-extension-secure-crypto-wallet-setup-guide",
+  "brands": [
+   "cryptowallet",
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260521024704",
   "seg1": "view"
  },
  {
@@ -4531,6 +6205,28 @@
   ],
   "cc_last_seen": "20260722212025",
   "seg1": "view"
+ },
+ {
+  "url": "https://sites.google.com/wallcryp.com/cashapplogin/home",
+  "brands": [
+   "cashapp"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508123731",
+  "seg1": "wallcryp.com"
+ },
+ {
+  "url": "https://sites.google.com/wallcrypus.com/metamask-chrom/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518220217",
+  "seg1": "wallcrypus.com"
  },
  {
   "url": "https://sites.google.com/wallcrypus.com/phantomwalletextension/home",
@@ -4589,6 +6285,17 @@
   "seg1": "walletcryptohub.com"
  },
  {
+  "url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+  "brands": [
+   "ledger"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260511213338",
+  "seg1": "walletcryptoweb.com"
+ },
+ {
   "url": "https://sites.google.com/walletcrytptrade.xyz/coinbaselogin",
   "brands": [
    "coinbase"
@@ -4598,6 +6305,28 @@
   ],
   "cc_last_seen": "20260712021827",
   "seg1": "walletcrytptrade.xyz"
+ },
+ {
+  "url": "https://sites.google.com/walletcrytptrade.xyz/coinbaseloginn",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510182550",
+  "seg1": "walletcrytptrade.xyz"
+ },
+ {
+  "url": "https://sites.google.com/walletlogins.com/coinbasepro-login",
+  "brands": [
+   "coinbase"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260518031301",
+  "seg1": "walletlogins.com"
  },
  {
   "url": "https://sites.google.com/walletlogs.com/cashapploginn/home",
@@ -4620,6 +6349,17 @@
   ],
   "cc_last_seen": "20260719202714",
   "seg1": "walletslog.com"
+ },
+ {
+  "url": "https://sites.google.com/walletslogs.com/metamaskextention",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260508154623",
+  "seg1": "walletslogs.com"
  },
  {
   "url": "https://sites.google.com/wallletcrypto.com/atomic-wallet/home",
@@ -4687,6 +6427,7 @@
    "trustwallet"
   ],
   "src": [
+   "cc21",
    "cc30"
   ],
   "cc_last_seen": "20260715083759",
@@ -4724,6 +6465,29 @@
   ],
   "cc_last_seen": "20260720174754",
   "seg1": "web3walletextension.com"
+ },
+ {
+  "url": "https://sites.google.com/webwalletcrypto.com/rabby-wallet-official/home",
+  "brands": [
+   "cryptocom",
+   "rabby"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510085034",
+  "seg1": "webwalletcrypto.com"
+ },
+ {
+  "url": "https://sites.google.com/welcometrezor.com/trezor-iostart/home",
+  "brands": [
+   "trezor"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260509153238",
+  "seg1": "welcometrezor.com"
  },
  {
   "url": "https://www.sites.google.com/crypto-coinexchange.com/uniswapexchange/home",
@@ -4767,6 +6531,28 @@
    "cc25"
   ],
   "cc_last_seen": "20260611225602",
+  "seg1": "view"
+ },
+ {
+  "url": "https://www.sites.google.com/view/coinspotloginau",
+  "brands": [
+   "coinspot"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510183510",
+  "seg1": "view"
+ },
+ {
+  "url": "https://www.sites.google.com/view/metamaskextensione/home",
+  "brands": [
+   "metamask"
+  ],
+  "src": [
+   "cc21"
+  ],
+  "cc_last_seen": "20260510171528",
   "seg1": "view"
  },
  {

@@ -1,0 +1,1184 @@
+[
+ {
+  "domain": "1metamask-login.com",
+  "n": 6,
+  "err": null,
+  "urls": [
+   {
+    "url": "https://sites.google.com/1metamask-login.com/metamask-chrom/home",
+    "ts": "20240528195256",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/1metamask-login.com/metamask-extension/home",
+    "ts": "20240412170022",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/1metamask-login.com/metamaskchrom/home",
+    "ts": "20240528201210",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/1metamask-login.com/metamaskextension/home",
+    "ts": "20240412203348",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/1metamask-login.com/metamaskwallet-extension/home",
+    "ts": "20240502221011",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/1metamask-login.com/metamaskwalletextension/home",
+    "ts": "20240502220814",
+    "status": "200"
+   }
+  ]
+ },
+ {
+  "domain": "365cryptocurrencies.com",
+  "n": 102,
+  "err": null,
+  "urls": [
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/anzlogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/anzlogin/home",
+    "ts": "20230225212103",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/argentxwallet/",
+    "ts": "20240429015228",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/argentxwalletextension/",
+    "ts": "20230330085446",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/atomic-wallet/",
+    "ts": "20221222094144",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/atomicdex-wallet/home",
+    "ts": "20230424115941",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/atomicdexwallet/home",
+    "ts": "20240324222749",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/atomicwallet/",
+    "ts": "20221222090913",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/atomicwalletextension/",
+    "ts": "20230321134021",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/atomicwalletextension/home",
+    "ts": "20230425144156",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/bankofamericalogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/bankofamericalogin/home",
+    "ts": "20230225212103",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/bankwestlogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/bankwestlogin/home",
+    "ts": "20230225212103",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/bitkeepwallet/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/bitkeepwalletextension/",
+    "ts": "20230319082106",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/blockchain-login/home",
+    "ts": "20220607050834",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/blockchain-wallet-login/home",
+    "ts": "20220826024350",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/blockchaincom-login/home",
+    "ts": "20220607050819",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/blockwalletextension/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/braavoswallet/",
+    "ts": "20240429015226",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/capitalonelogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/capitalonelogin/home",
+    "ts": "20230225212103",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/cashapp-login/home",
+    "ts": "20240324220417",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/cashapplogin/0,%200,%200",
+    "ts": "20250207151942",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/cashapplogin/0,%20204,%200",
+    "ts": "20250207151942",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/cashapplogin/897606708560-a63d8ia0t9dhtpdt4i3djab2m42see7o.apps.googleusercontent.com",
+    "ts": "20250207151943",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/cashapplogin/editors.sites-viewer-frontend_20250128.02_p0",
+    "ts": "20250207151943",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/cashapplogin/home",
+    "ts": "20231121231625",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/chasebanklogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/chasebanklogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/citibanklogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/citibanklogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/coinbase-wallet-extension/home",
+    "ts": "20220606115157",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/coinbasewallet/home",
+    "ts": "20220606115157",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/coinbasewalletlogin/",
+    "ts": "20230214023745",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/coinbasewalletlogin/home",
+    "ts": "20220606115224",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/coinomiwallet/",
+    "ts": "20230319173535",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/enkryptwallet/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/enkryptwallet/home",
+    "ts": "20230225212103",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/guardawallet/",
+    "ts": "20230314095856",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/hashpackwallet/",
+    "ts": "20221222144444",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/hirowalletextension/home",
+    "ts": "20240324193842",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/itrustcapitallogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/itrustcapitallogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/keplrwallet/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/keplrwalletextension/",
+    "ts": "20230407140229",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/kucoin-logi/",
+    "ts": "20220603085738",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/kucoin-login/",
+    "ts": "20220603085742",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/kucoinlogin/",
+    "ts": "20220603085739",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/kucoinloginin/",
+    "ts": "20220603085743",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/kucoinucentersignin/",
+    "ts": "20220603085741",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/kucoinwallet/home",
+    "ts": "20240313194204",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/leapcosmoswallet/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/lilicowallet/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/lobstrwallet/",
+    "ts": "20230228011516",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/lobstrwallet/%22%3ELobstr",
+    "ts": "20230228011455",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/lobstrwalletlogin/",
+    "ts": "20230320083246",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/martianwalletextension/",
+    "ts": "20230320073004",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/metamaskextension/home",
+    "ts": "20240424010018",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/metamaskwalletextension/",
+    "ts": "20230214023741",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/morphiswallet/home",
+    "ts": "20240324193842",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/petra-aptos-wallet/",
+    "ts": "20230228011516",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/petra-aptos-wallet/%22%3E%3Cimg%20src=",
+    "ts": "20230228011454",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/petra-aptos-wallet/%22%3E%3Cimg%20src%5Cu003d",
+    "ts": "20230228011459",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/phantom-wallet/home",
+    "ts": "20220604091912",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/phantomwallet-login/home",
+    "ts": "20220604091912",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/phantomwallet/home",
+    "ts": "20220604091910",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/phantomwalletextension/home",
+    "ts": "20220604091906",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/phantomwalletextensions/home",
+    "ts": "20230508110110",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/plasmawalletextension/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/pontemaptoswallet/",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/robinhoodwallet/home",
+    "ts": "20240313194203",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/spotwalletextension/",
+    "ts": "20230225211806",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/stgeorgebanklogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/stgeorgebanklogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/suietwalletextension/home",
+    "ts": "20230705021242",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/suiwalletextension/home",
+    "ts": "20230705021639",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/tahowalletextension/home",
+    "ts": "20240313194205",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/tdbanklogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/tdbanklogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/tradestationlogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/tradestationlogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/tronlinkwalletextension/home",
+    "ts": "20230718111817",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/truistbanklogin/",
+    "ts": "20230225211818",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/trustwalletextension/",
+    "ts": "20230214023739",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/uniswapwallet/home",
+    "ts": "20230424120434",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/venmologin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/venmologin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/wealthsimple-login/home",
+    "ts": "20230228191001",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/wealthsimplelogin/home",
+    "ts": "20220608154808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/wellsfargologin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/wellsfargologin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/westpaclogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/westpaclogin/home",
+    "ts": "20230225212101",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/wiselogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/wiselogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/xoomlogin/",
+    "ts": "20230225211818",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/xoomlogin/home",
+    "ts": "20230225212102",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/xversewalletextension/home",
+    "ts": "20240416165220",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/zilpaywallet/home",
+    "ts": "20240324193842",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/365cryptocurrencies.com/zilpaywalletextension/home",
+    "ts": "20240324193842",
+    "status": "200"
+   }
+  ]
+ },
+ {
+  "domain": "99cryptocurrencies.com",
+  "n": 51,
+  "err": null,
+  "urls": [
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/bi",
+    "ts": "20220331005653",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/bin",
+    "ts": "20220314092547",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binance-us-login/home",
+    "ts": "20230225211814",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binancecom-login/home",
+    "ts": "20230225211814",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binancecomlogin/",
+    "ts": "20220522022852",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binancecomloginus/",
+    "ts": "20211102094318",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binancecomloginus/home",
+    "ts": "20230225211813",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binanceus-login",
+    "ts": "20230226182759",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binanceuslogin",
+    "ts": "20230225211714",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binanceuslogini/",
+    "ts": "20220522235217",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/binanceusloginn/",
+    "ts": "20211028101315",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/blockfi-login/home",
+    "ts": "20220206112310",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/blockfilogin/",
+    "ts": "20211117090949",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbase-login/",
+    "ts": "20220523080815",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbasecom-login/",
+    "ts": "20230225211813",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbasecomlogin",
+    "ts": "20230225211814",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbasecomlogin/home",
+    "ts": "20230225211737",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbasecomloginn/",
+    "ts": "20211028105724",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbasecomloginn/home",
+    "ts": "20230228184908",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbaselogin",
+    "ts": "20230225211814",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbaseloginn/",
+    "ts": "20211028112929",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbasepro-login/",
+    "ts": "20211030054811",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbaseprologin/",
+    "ts": "20211029083424",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbaseprologin/home",
+    "ts": "20230225211813",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinbaseprologinn",
+    "ts": "20230225211814",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/coinspot-login/home",
+    "ts": "20230225211807",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/crypto-com-login/home",
+    "ts": "20220120005941",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/crypto-com-login/home|",
+    "ts": "20220314092553",
+    "status": "404"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/crypto-login/",
+    "ts": "20211113055133",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/cryptocomlogin/",
+    "ts": "20230225211813",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/cryptocomloginn/home",
+    "ts": "20220308031845",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/99cryptocurrencies.com/et",
+    "ts": "20251206023607",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/etoro-login/",
+    "ts": "20211102102157",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/etorologin",
+    "ts": "20230225211714",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/etorologinn/",
+    "ts": "20220824034122",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/exoduswallet/home",
+    "ts": "20220608060116",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/gemini-login/home",
+    "ts": "20220209075153",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/geminilogin/",
+    "ts": "20211111073059",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/geminilogin/home",
+    "ts": "20230225211813",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/kucoin-login/home",
+    "ts": "20220302023459",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/kucoinlogin/home",
+    "ts": "20220324214721",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/ledger-wallet/home",
+    "ts": "20230225211807",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/ledgercomstart/home",
+    "ts": "20240605050807",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/metamask-login/",
+    "ts": "20230225211818",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/metamaskextension/home",
+    "ts": "20240605162709",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/metamaskloginn",
+    "ts": "20230225211807",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/metamaskloginn&gt;MetaMask",
+    "ts": "20251127113403",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/metamaskloginn/home",
+    "ts": "20230226212432",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/trezoriostart/home",
+    "ts": "20240605061917",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/upholdlogin/",
+    "ts": "20211117081307",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptocurrencies.com/upholdlogin/home",
+    "ts": "20230225211813",
+    "status": "-"
+   }
+  ]
+ },
+ {
+  "domain": "99cryptowallet.com",
+  "n": 34,
+  "err": null,
+  "urls": [
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/atomicwalletlogin/",
+    "ts": "20240324110539",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/binancewalletextension/",
+    "ts": "20240324110538",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/bitgetwalletextension/",
+    "ts": "20231213200455",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/bladewalletextension/",
+    "ts": "20231213200458",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/boredapeyachtclubnft/",
+    "ts": "20240115012129",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/coinbasewalletextension/",
+    "ts": "20240324110539",
+    "status": "302"
+   },
+   {
+    "url": "http://sites.google.com/99cryptowallet.com/coinbasewalletextension/home",
+    "ts": "20241219131231",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/corewalletextension/",
+    "ts": "20240324110538",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/99cryptowallet.com/exoduswalletextension/",
+    "ts": "20241219131223",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/hashpackwalletextension/",
+    "ts": "20250105062101",
+    "status": "302"
+   },
+   {
+    "url": "http://sites.google.com/99cryptowallet.com/hashpackwalletextension/home",
+    "ts": "20241219131207",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/ledgerwalletextension/",
+    "ts": "20240429040925",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/lido-finance-staking/home",
+    "ts": "20240325190237",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/mathwalletextension/",
+    "ts": "20240324110531",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/metamaskextension/",
+    "ts": "20240324110540",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/metamaskwalletextension/",
+    "ts": "20240324110542",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/99cryptowallet.com/metamaskwalletextension/home",
+    "ts": "20241219131647",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/okxwalletextension/",
+    "ts": "20240324110528",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomextension/",
+    "ts": "20240324110532",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomextension/home",
+    "ts": "20240325190231",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextension/",
+    "ts": "20240324110540",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextension/home",
+    "ts": "20240325190237",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextensionau/home",
+    "ts": "20240325190234",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextensionca/home",
+    "ts": "20240325190235",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextensionuk/home",
+    "ts": "20240325190240",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/phantomwalletextensionus/home",
+    "ts": "20240325190239",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/subwalletextension/",
+    "ts": "20240324110528",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/tonkeeperextension/home",
+    "ts": "20260209065008",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/tronlinkwalletextension/",
+    "ts": "20240324110541",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/99cryptowallet.com/tronlinkwalletextension/home",
+    "ts": "20241219131252",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/trustwalletextension/",
+    "ts": "20240324110539",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/xversewalletextension/",
+    "ts": "20240324110533",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/zilpaywalletextension/",
+    "ts": "20231213200501",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/99cryptowallet.com/zilpaywalletextension/home",
+    "ts": "20260413123658",
+    "status": "200"
+   }
+  ]
+ },
+ {
+  "domain": "abcrypt.com",
+  "n": 16,
+  "err": null,
+  "urls": [
+   {
+    "url": "https://sites.google.com/abcrypt.com/atomicdex-wallet/home",
+    "ts": "20240709190053",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/bladewalletextension/home",
+    "ts": "20240913164853",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/capitalone-login/home",
+    "ts": "20240412224856",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/capitaloneslogin/home",
+    "ts": "20240311221949",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/coin98wallet/home",
+    "ts": "20240903055309",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/abcrypt.com/cryptocom-sign",
+    "ts": "20241221061244",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/cryptocom-signin/home",
+    "ts": "20231012030422",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/abcrypt.com/cryptocomlogin",
+    "ts": "20241221060210",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/cryptocomlogin/home",
+    "ts": "20231012030430",
+    "status": "302"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/infinitywalletextension/home",
+    "ts": "20240913154649",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/polygon-staking/home",
+    "ts": "20230923203515",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/polygonstaking/home",
+    "ts": "20230923203512",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/saitamask/home",
+    "ts": "20240707132445",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/tronlinkwalletextension/home",
+    "ts": "20240903071227",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/uniswap-wallet/",
+    "ts": "20240415231412",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/abcrypt.com/uniswapwallet",
+    "ts": "20231202190355",
+    "status": "200"
+   }
+  ]
+ },
+ {
+  "domain": "alllogin.info",
+  "n": 19,
+  "err": null,
+  "urls": [
+   {
+    "url": "https://sites.google.com/alllogin.info/americanexpresslogin/american-express-credit-card",
+    "ts": "20230225212058",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/alllogin.info/americanexpresslogin/home",
+    "ts": "20230114093542",
+    "status": "301"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/aolmail",
+    "ts": "20260418045555",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/aolmail/home",
+    "ts": "20230114064338",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/alllogin.info/bankofamericalogin/home",
+    "ts": "20230214023844",
+    "status": "-"
+   },
+   {
+    "url": "http://sites.google.com/alllogin.info/cashapplogin",
+    "ts": "20230225211556",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/cashapplogin/home",
+    "ts": "20230113163110",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/coinbasecomadvancedtrade/home",
+    "ts": "20230225211808",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/coinbasecomadvancetrade/home/",
+    "ts": "20230104010509",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/coinbaseprologin/home",
+    "ts": "20230225211819",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/coinbasesignin/home",
+    "ts": "20230112103145",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/coinbasewallet/home",
+    "ts": "20230112104821",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/metamaskexetension/home",
+    "ts": "20230113160550",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/metamasksignin/home",
+    "ts": "20230225211819",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/metamaskwallet/home",
+    "ts": "20230114065142",
+    "status": "200"
+   },
+   {
+    "url": "http://sites.google.com/alllogin.info/paypallogin/home",
+    "ts": "20230214023725",
+    "status": "-"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/robinhoodlogin/home/",
+    "ts": "20230103062735",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/wellsfargocomlogin/home",
+    "ts": "20230109095133",
+    "status": "200"
+   },
+   {
+    "url": "https://sites.google.com/alllogin.info/wellsfargologin/home",
+    "ts": "20230225211819",
+    "status": "200"
+   }
+  ]
+ }
+]

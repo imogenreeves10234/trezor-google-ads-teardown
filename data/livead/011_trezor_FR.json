@@ -1,0 +1,29 @@
+{
+  "cc": "FR",
+  "query": "trezor login",
+  "brand": "trezor",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_FR_s_841350UYV_ttl_72h",
+      "exit": {
+        "ip": "147.78.41.9",
+        "city": "Bitche",
+        "region": "Grand Est",
+        "country": "FR",
+        "loc": "49.0523,7.4299",
+        "org": "AS208574 Communaute de Communes du Pays de Bitche",
+        "postal": "57230",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "trezor_FR_trezor-login_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

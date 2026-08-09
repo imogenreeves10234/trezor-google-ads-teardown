@@ -1,0 +1,123 @@
+{
+  "ledgerstart-web.com": {
+    "registered": "2026-01-07T06:54:44Z",
+    "expires": "2027-01-07T06:54:44Z",
+    "registrar": "Eranet International Limited",
+    "ns": [
+      "NS1.ERANET-DNS.COM",
+      "NS2.ERANET-DNS.COM"
+    ]
+  },
+  "walletcryptoweb.com": {
+    "registered": "2025-05-25T18:29:19Z",
+    "expires": "2027-05-25T18:29:19Z",
+    "registrar": "BigRock Solutions Ltd",
+    "ns": [
+      "DNS1.BIGROCK.IN",
+      "DNS2.BIGROCK.IN",
+      "DNS3.BIGROCK.IN",
+      "DNS4.BIGROCK.IN"
+    ]
+  },
+  "kryptowallets.app": {
+    "registered": "2026-03-05T21:27:10.388Z",
+    "expires": "2027-03-05T21:27:10.388Z",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "ns": [
+      "a.dnspod.com",
+      "c.dnspod.com"
+    ]
+  },
+  "net7.net": {
+    "registered": "2010-12-19T19:45:39Z",
+    "expires": "2032-12-19T19:45:39Z",
+    "registrar": "Dynadot Inc",
+    "ns": [
+      "NS1.DYNA-NS.NET",
+      "NS2.DYNA-NS.NET"
+    ]
+  },
+  "preloadcomubx.com": {
+    "registered": "2026-06-13T17:08:37Z",
+    "expires": "2027-06-13T17:08:37Z",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "ns": [
+      "FRIDA.NS.CLOUDFLARE.COM",
+      "LEX.NS.CLOUDFLARE.COM"
+    ]
+  },
+  "japanesetoenailfunguscode.com": {
+    "registered": "2016-05-12T10:22:37Z",
+    "expires": "2027-05-12T10:22:37Z",
+    "registrar": "Moniker Online Services LLC",
+    "ns": [
+      "NS1.MYSECURECLOUDHOST.COM",
+      "NS2.MYSECURECLOUDHOST.COM",
+      "NS3.MYSECURECLOUDHOST.COM",
+      "NS4.MYSECURECLOUDHOST.COM"
+    ]
+  },
+  "ledger-com-app.co": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "app-ex-odus.com": {
+    "registered": "2025-10-13T19:18:46Z",
+    "expires": "2026-10-13T19:18:46Z",
+    "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+    "ns": [
+      "GEORGE.NS.CLOUDFLARE.COM",
+      "LINDSEY.NS.CLOUDFLARE.COM"
+    ]
+  },
+  "tersaze.com": {
+    "registered": "2026-01-02T16:52:59Z",
+    "expires": "2027-01-02T16:52:59Z",
+    "registrar": "eNom, LLC",
+    "ns": [
+      "NS1.AMSTERDAM-HOSTING.TO",
+      "NS2.AMSTERDAM-HOSTING.TO"
+    ]
+  },
+  "keystash.eu.com": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "multichain-swap-interface-v4.co": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "apiverificationcloud.com": {
+    "registered": "2026-05-20T10:01:22Z",
+    "expires": "2027-05-20T10:01:22Z",
+    "registrar": "Global Domain Group LLC",
+    "ns": [
+      "ETIENNE.NS.CLOUDFLARE.COM",
+      "MAXINE.NS.CLOUDFLARE.COM"
+    ]
+  },
+  "walletcryptoextension.com": {
+    "registered": "2025-08-03T13:38:33Z",
+    "expires": "2027-08-03T13:38:33Z",
+    "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+    "ns": [
+      "A.DNSPOD.COM",
+      "C.DNSPOD.COM"
+    ]
+  },
+  "trzrio.com": {
+    "registered": "2025-10-28T05:18:58Z",
+    "expires": "2026-10-28T05:18:58Z",
+    "registrar": "NameCheap, Inc.",
+    "ns": [
+      "DNS1.REGISTRAR-SERVERS.COM",
+      "DNS2.REGISTRAR-SERVERS.COM"
+    ]
+  },
+  "ledgercom-start.com": {
+    "registered": "2025-07-31T07:22:45Z",
+    "expires": "2027-07-31T07:22:45Z",
+    "registrar": "BigRock Solutions Ltd",
+    "ns": [
+      "DNS11.PARKPAGE.FOUNDATIONAPI.COM",
+      "DNS12.PARKPAGE.FOUNDATIONAPI.COM"
+    ]
+  }
+}

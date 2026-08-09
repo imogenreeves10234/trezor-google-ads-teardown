@@ -1,0 +1,475 @@
+[
+ {
+  "domain": "apiverificationcloud.com",
+  "registered": "2026-05-20",
+  "expires": "2027-05-20",
+  "changed": "2026-05-20",
+  "registrar": "Global Domain Group LLC",
+  "ns": [
+   "etienne.ns.cloudflare.com",
+   "maxine.ns.cloudflare.com"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "app-ex-odus.com",
+  "registered": "2025-10-13",
+  "expires": "2026-10-13",
+  "changed": "2025-10-17",
+  "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+  "ns": [
+   "george.ns.cloudflare.com",
+   "lindsey.ns.cloudflare.com"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "blockchain-faq.xyz",
+  "registered": "2023-08-09",
+  "expires": "2027-08-09",
+  "changed": "2026-07-29",
+  "registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
+  "ns": [
+   "01.dnsv.jp",
+   "02.dnsv.jp",
+   "03.dnsv.jp",
+   "04.dnsv.jp"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "criptowalletweb.com",
+  "registered": "2025-09-25",
+  "expires": "2026-09-25",
+  "changed": "2025-09-25",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "cryptissues.com",
+  "registered": "2025-09-04",
+  "expires": "2026-09-04",
+  "changed": "2025-10-08",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "cryptocoinsusa.com",
+  "registered": "2026-03-16",
+  "expires": "2027-03-16",
+  "changed": "2026-03-16",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "cryptowallatus.com",
+  "registered": "2026-02-02",
+  "expires": "2027-02-02",
+  "changed": "2026-02-02",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "cryptowalletuk.com",
+  "registered": "2025-08-11",
+  "expires": "2026-08-11",
+  "changed": "2025-08-24",
+  "registrar": "Paknic (Private) Limited",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "cryptowallitt.com",
+  "registered": "2026-03-14",
+  "expires": "2027-03-14",
+  "changed": "2026-03-14",
+  "registrar": "Eranet International Limited",
+  "ns": [
+   "byte.dns-parking.com",
+   "pixel.dns-parking.com"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "cryptowalllets.com",
+  "registered": "2026-04-09",
+  "expires": "2027-04-09",
+  "changed": "2026-04-09",
+  "registrar": "HOSTINGER operations, UAB",
+  "ns": [
+   "apollo.dns-parking.com",
+   "athena.dns-parking.com"
+  ],
+  "status": "OK"
+ },
+ {
+  "domain": "crytostaking.com",
+  "status": "OK",
+  "registered": "2026-05-27",
+  "expires": "2027-05-27",
+  "changed": "2026-05-27",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ]
+ },
+ {
+  "domain": "fgrunarc.com",
+  "status": "OK",
+  "registered": "2026-06-13",
+  "expires": "2027-06-13",
+  "changed": "2026-06-13",
+  "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+  "ns": [
+   "joselyn.ns.cloudflare.com",
+   "syeef.ns.cloudflare.com"
+  ]
+ },
+ {
+  "domain": "flosyr.com",
+  "status": "OK",
+  "registered": "2026-05-30",
+  "expires": "2027-05-30",
+  "changed": "2026-05-30",
+  "registrar": "Spaceship, Inc.",
+  "ns": [
+   "demi.ns.cloudflare.com",
+   "ethan.ns.cloudflare.com"
+  ]
+ },
+ {
+  "domain": "fraucodec.com",
+  "status": "OK",
+  "registered": "2026-06-13",
+  "expires": "2027-06-13",
+  "changed": "2026-06-13",
+  "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+  "ns": [
+   "aurora.ns.cloudflare.com",
+   "yisroel.ns.cloudflare.com"
+  ]
+ },
+ {
+  "domain": "homelazor.com",
+  "status": "OK",
+  "registered": "2026-04-09",
+  "expires": "2027-04-09",
+  "changed": "2026-04-09",
+  "registrar": "HOSTINGER operations, UAB",
+  "ns": [
+   "atlas.dns-parking.com",
+   "hyperion.dns-parking.com"
+  ]
+ },
+ {
+  "domain": "japanesetoenailfunguscode.com",
+  "status": "OK",
+  "registered": "2016-05-12",
+  "expires": "2027-05-12",
+  "changed": "2026-05-12",
+  "registrar": "Moniker Online Services LLC",
+  "ns": [
+   "ns1.mysecurecloudhost.com",
+   "ns2.mysecurecloudhost.com",
+   "ns3.mysecurecloudhost.com",
+   "ns4.mysecurecloudhost.com"
+  ]
+ },
+ {
+  "domain": "keystash.eu.com",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "kryptowallets.app",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "ledger-com-app.co",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "ledgercom-start.com",
+  "status": "OK",
+  "registered": "2025-07-31",
+  "expires": "2027-07-31",
+  "changed": "2026-08-01",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns11.parkpage.foundationapi.com",
+   "dns12.parkpage.foundationapi.com"
+  ]
+ },
+ {
+  "domain": "ledgerstart-web.com",
+  "status": "OK",
+  "registered": "2026-01-07",
+  "expires": "2027-01-07",
+  "changed": "2026-01-07",
+  "registrar": "Eranet International Limited",
+  "ns": [
+   "ns1.eranet-dns.com",
+   "ns2.eranet-dns.com"
+  ]
+ },
+ {
+  "domain": "ledggdr.gd",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "ledgrliveus.com",
+  "status": "OK",
+  "registered": "2026-01-14",
+  "expires": "2027-01-14",
+  "changed": "2026-01-14",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ]
+ },
+ {
+  "domain": "marketsphantom.com",
+  "status": "OK",
+  "registered": "2025-02-16",
+  "expires": "2027-02-16",
+  "changed": "2026-02-16",
+  "registrar": "Key-Systems GmbH",
+  "ns": [
+   "heidi.ns.cloudflare.com",
+   "weston.ns.cloudflare.com"
+  ]
+ },
+ {
+  "domain": "matmusk.com",
+  "status": "OK",
+  "registered": "2026-04-09",
+  "expires": "2027-04-09",
+  "changed": "2026-04-09",
+  "registrar": "HOSTINGER operations, UAB",
+  "ns": [
+   "apollo.dns-parking.com",
+   "athena.dns-parking.com"
+  ]
+ },
+ {
+  "domain": "merlingift.com",
+  "status": "OK",
+  "registered": "2024-04-19",
+  "expires": "2027-04-19",
+  "changed": "2026-04-19",
+  "registrar": "NameCheap, Inc.",
+  "ns": [
+   "dns1.registrar-servers.com",
+   "dns2.registrar-servers.com"
+  ]
+ },
+ {
+  "domain": "metamaksio.com",
+  "status": "OK",
+  "registered": "2025-09-05",
+  "expires": "2026-09-05",
+  "changed": "2025-10-08",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ]
+ },
+ {
+  "domain": "multichain-swap-interface-v4.co",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "myextensionwallet.com",
+  "status": "OK",
+  "registered": "2026-04-23",
+  "expires": "2027-04-23",
+  "changed": "2026-04-23",
+  "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ]
+ },
+ {
+  "domain": "myweb3extensionwallet.com",
+  "status": "OK",
+  "registered": "2026-04-23",
+  "expires": "2027-04-23",
+  "changed": "2026-04-23",
+  "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ]
+ },
+ {
+  "domain": "net7.net",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "phantom-extension.app",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "phantom-solana-wallet.com",
+  "status": "OK",
+  "registered": "2025-08-03",
+  "expires": "2027-08-03",
+  "changed": "2026-07-29",
+  "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ]
+ },
+ {
+  "domain": "preloadcomubx.com",
+  "status": "OK",
+  "registered": "2026-06-13",
+  "expires": "2027-06-13",
+  "changed": "2026-06-13",
+  "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+  "ns": [
+   "frida.ns.cloudflare.com",
+   "lex.ns.cloudflare.com"
+  ]
+ },
+ {
+  "domain": "solflare-wallet.com",
+  "status": "OK",
+  "registered": "2025-08-03",
+  "expires": "2027-08-03",
+  "changed": "2026-07-29",
+  "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ]
+ },
+ {
+  "domain": "trazor-start.com",
+  "status": "OK",
+  "registered": "2026-01-12",
+  "expires": "2027-01-12",
+  "changed": "2026-01-12",
+  "registrar": "Internet Domain Service BS Corp",
+  "ns": [
+   "ns-canada.topdns.com",
+   "ns-uk.topdns.com",
+   "ns-usa.topdns.com"
+  ]
+ },
+ {
+  "domain": "wallcrypus.com",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "walletcryptoextension.com",
+  "status": "OK",
+  "registered": "2025-08-03",
+  "expires": "2027-08-03",
+  "changed": "2026-07-29",
+  "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ]
+ },
+ {
+  "domain": "walletcryptohub.com",
+  "status": "OK",
+  "registered": "2025-12-20",
+  "expires": "2026-12-20",
+  "changed": "2025-12-20",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ]
+ },
+ {
+  "domain": "walletcryptoweb.com",
+  "status": "OK",
+  "registered": "2025-05-25",
+  "expires": "2027-05-25",
+  "changed": "2026-05-17",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ]
+ },
+ {
+  "domain": "wallletcrypto.com",
+  "status": "OK",
+  "registered": "2026-04-23",
+  "expires": "2027-04-23",
+  "changed": "2026-04-23",
+  "registrar": "BigRock Solutions Ltd",
+  "ns": [
+   "dns1.bigrock.in",
+   "dns2.bigrock.in",
+   "dns3.bigrock.in",
+   "dns4.bigrock.in"
+  ]
+ },
+ {
+  "domain": "web-phantom.at",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "web-sys.at",
+  "status": "NOT_FOUND"
+ },
+ {
+  "domain": "web3walletextension.com",
+  "status": "OK",
+  "registered": "2026-04-23",
+  "expires": "2027-04-23",
+  "changed": "2026-04-23",
+  "registrar": "Key-Systems GmbH",
+  "ns": [
+   "a.dnspod.com",
+   "c.dnspod.com"
+  ]
+ }
+]

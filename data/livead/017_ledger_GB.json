@@ -1,0 +1,61 @@
+{
+  "cc": "GB",
+  "query": "ledger live download",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_849885NRJ_ttl_72h",
+      "exit": {
+        "ip": "176.252.229.192",
+        "city": "Musselburgh",
+        "region": "Scotland",
+        "country": "GB",
+        "loc": "55.9417,-3.0499",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "EH21",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_GB_s_111523OXI_ttl_72h",
+      "exit": {
+        "ip": "90.211.191.41",
+        "city": "Bradford",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.7939,-1.7521",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "BD1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_GB_s_926889QDW_ttl_72h",
+      "exit": {
+        "ip": "90.198.242.225",
+        "city": "Poole",
+        "region": "England",
+        "country": "GB",
+        "loc": "50.7143,-1.9846",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "BH15",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_GB_ledger-live-download_3.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

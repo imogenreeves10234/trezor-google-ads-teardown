@@ -38,24 +38,29 @@ def check(url):
             r["status"] = "LIVE"
         else:
             r["status"] = "HTTP" + code
-        # secondary payload frames
-        srcs = re.findall(r'(?:src|data-src)=["\'](https?://[^"\']+)', body)
+        # secondary payload frames.
+        # NOTE: Google Sites HTML-escapes the embed URL inside its JSON blob, so the raw
+        # body contains ...v5.html&quot; not ...v5.html".  Unescape first or every
+        # custom-embed payload is missed.  Also: storage.googleapis.com / *.web.app /
+        # firebaseapp.com / appspot.com are Google-OWNED but ATTACKER-CONTROLLED here,
+        # so they must NOT be filtered out with the rest of Google's infrastructure.
+        import html as _html
+        plain = _html.unescape(body)
+        BENIGN = ("googleusercontent.com", "gstatic.com", "google.com", "ggpht.com",
+                  "youtube.com", "youtu.be", "schema.org", "w3.org", "googleblog.com",
+                  "googletagmanager.com", "google-analytics.com", "googlesyndication.com",
+                  "googleadservices.com", "goo.gl", "withgoogle.com", "chromewebstore.google.com")
         ext = []
-        for s in srcs:
-            host = s.split("/")[2]
-            if host.endswith(("googleusercontent.com", "gstatic.com", "google.com",
-                              "googleapis.com", "ggpht.com", "youtube.com")):
+        for m in re.findall(r'https?://[A-Za-z0-9._~:/?#\[\]@!$&*+,;=%\-]{6,300}', plain):
+            m = m.rstrip('\\"\'<>).,')
+            try:
+                host = m.split("/")[2].lower()
+            except IndexError:
                 continue
-            ext.append(s)
-        # also grab urls buried in the Sites JSON blob
-        for m in re.findall(r'"(https?://[^"\\]{10,300})"', body):
-            host = m.split("/")[2]
-            if host.endswith(("googleusercontent.com", "gstatic.com", "google.com",
-                              "googleapis.com", "ggpht.com", "youtube.com", "schema.org",
-                              "w3.org", "youtu.be", "googleblog.com")):
+            if host.endswith(BENIGN):
                 continue
             ext.append(m)
-        r["external"] = sorted(set(ext))[:25]
+        r["external"] = sorted(set(ext))[:40]
     except Exception as e:
         r["status"] = "ERROR"
         r["err"] = str(e)[:120]

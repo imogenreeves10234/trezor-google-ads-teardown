@@ -1,0 +1,162 @@
+{
+  "target": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+  "captured": "2026-08-09T14:23:44Z",
+  "assets": [
+    {
+      "url": "chrome-extension://fignfifoniblkonapihmkfakmlgkbkcf/tts_extension.js",
+      "file": "ff9f0dfbb6e818.js",
+      "bytes": 10118,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/ss/k=atari.vw.JGPT-YPrdpM.L.W.O/am=ECACHAAE/d=1/rs=AGEqA5mux6KhIM9TAvXEDP4sKG7a-jsVWg",
+      "file": "17a881c844a972.css",
+      "bytes": 1658194,
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+      "file": "6b03240f69c446.css",
+      "bytes": 4955,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400%2C600%2C900&display=swap",
+      "file": "d8d41308f11a79.css",
+      "bytes": 13258,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500,700|Source+Code+Pro:400,700&display=swap",
+      "file": "6f66d43c6ecffd.css",
+      "bytes": 48984,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://apis.google.com/js/client.js?onload=gapiLoaded",
+      "file": "e1d04155406b65.js",
+      "bytes": 14581,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/sitesv/AG8ngQV6_U5qeDkLYRqAXpl8RsiRi1SI9Zp1ChKII76YbWWq9uMUPsZj3bnzYIm2Uet9FKNrhnX8b2-nmKbiX8cIv9Qf378zxMNKnes0yHTb_XU5rEOqzhPvnAHejR4lwldM5KbhwjEOLAvSIvAGOxp7MmVURbcabFkjfHn2y2qSrCU_N49fOP2t4kjkzT4fito=w16383",
+      "file": "2e4bce454f7035.png",
+      "bytes": 525,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXg.woff2",
+      "file": "1ceff43a2cddfa.woff2",
+      "bytes": 23580,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/sitesv/AG8ngQUXuaZUmr3Hbpi4pPtWCo-x5OupPgY-8YJmpAGk4fUht405R23q3SrqrWQoKtS-9CpUYNpDv0Q3cL5ZRZZIr0oh2rmK2nQf7dnAoBOK9wUGKOsASDlKPrMirLHMXQTNwPdxVfCi88GcwipekddjdxB46AZK0uPIpuz2JPuQRhLzhXDO4qHClDp6-SVmPbA_77HLs8vuokEeOiGu780w8caMJX3bhvCfWMY1FXtocBk=w1280",
+      "file": "5d4e8bb740536a.png",
+      "bytes": 283693,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwiPGQ.woff2",
+      "file": "c64659368a9521.woff2",
+      "bytes": 23236,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "file": "cb43c05529e9d7.woff2",
+      "bytes": 43136,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/merriweather/v33/u-4e0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiSeqqJ-k.woff2",
+      "file": "920604aefa08ab.woff2",
+      "bytes": 97548,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=1/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=view",
+      "file": "4d1982ae8a181c.js",
+      "bytes": 515557,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2",
+      "file": "d3124adc0d8d35.woff2",
+      "bytes": 35968,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.9vdPKhB0RUg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo97anj7zZ432JcN58tqJJp_A6WeOw/cb=gapi.loaded_0?le=scs",
+      "file": "7ed1b73e321230.js",
+      "bytes": 326104,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=sy48,sy49,sy47,FoQBg",
+      "file": "f45fd4f81317b3.js",
+      "bytes": 41866,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=sy65,TRvtze",
+      "file": "0c9a306d6f2645.js",
+      "bytes": 852,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=LLHPdb,sy2u,ws9Tlc,cEt90b,sy76,KUM7Z,MpJwZc,n73qwf,A4UTCb,sy2t,L1AAkb,aW3pY,RyvaUb,sy2p,sy35,owcnme,sy36,sy37,O6y8ed,mzzZzc,CHCSlb,qAKInc,sy3j,YXyON,sy3o,sy3n,iTeaXe,sy67,abQiW,sy12,sy11,sy10,syv,syu,sy38,pxq3x,sy39,syo,sy3a,sy3t,syw,sy27,sy3b,sy4n,sy66,EGNJFf,V3dDOb,sy2s,ENNBBf,syh,syf,syd,syn,syc,sy3e,yf2Bs,sy1g,sy1n,sy1c,sy1a,sy1d,sy1l,sy1i,sy1m,sy1f,sy1b,sy1h,sy1j,sy1k,sy1e,syr,sy33,fmklff,TGYpv,XVMNvd,sy73,yxTchf,sy74,sy75,xQtZb,iSvg6e,N5Lqpc,sy3r,sy3s,sy3p,sy3q,sy3m,sy3u,sy3v,pc62j,qEW1W,oNFsLb,syi,syl,sym,sy3f,sy3g,iwfZq,m9oV,sy2w,RAnnUd,i5dxUd,sy2v,sy2x,sy2y,sy2z,sy2c,etBPYb,i5H9N,SU9Rsf,sy30,sy31,sy32,sy2a,sy2d,PHUIyb,qNG0Fc,sys,syt,syx,qTnoBf,NJ1rfe,ywOR5c,sy34,sye,wg1P6b,EcW08c,sy3c,sy3d,t8tqF,qddgKe,sy69,SM1lmd,eEDsnd,syy,syz,syq,RRzQxe,sya,sy9,sy15,sy1z,yyxWAc,sy0,sy1,sy7,sy2b,sy6,sy29,sy2e,sy28,sy26,sy2f,sy2g,sy1r,sy4u,syp,sy17,sy1y,sy61,syb,sy4g,sy5u,sy16,fNFZH,sy68,sy3l,sy4m,sy2h,i16Xfc,sy4a,zJMuOc,RrXLpc,sy3z,sy41,sy44,sy4b,sy4c,sy4d,tCGzVe,Ej8J2c,odWSx,cgRV2c,sy1x,sy3k,sy52,o1L5Wb,X4BaPc,vVEdxc,sy4,sy5,sy3h,sy4f,RQOkef,sy23,sy22,sy24,sy8,sy14,sy1t,sy1u,sy21,gaMBzf,sy5v,sy25,fVuHhf,sy5z,j1RDQb,syg,sy4i,sy4q,sy4p,sy4k,sy4h,sy4l,sy1q,sy43,sy4e,sy4j,sy4o,Md9ENb",
+      "file": "7a444432247344.js",
+      "bytes": 382300,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=sy1p,eFZtfd,sy1o,sy1w,Ae65rd,rCcCxc,sy62,gJzDyc,uu7UOe,CuaHnc,sy6b,uY3Nvd,sy6a,soHxf,mxS5xe,sy5p,HYv29e",
+      "file": "75f885ce0ea20a.js",
+      "bytes": 80732,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js",
+      "file": "086965513ea5c6.js",
+      "bytes": 128442,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=sy3y,sy40,fuVYe,sy45,sy46,CG0Qwb",
+      "file": "d0dad393965858.js",
+      "bytes": 37916,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=IZT63,YYmHzb,vfuNJf,sy6q,sy6v,sy6x,sy79,sy77,sy78,siKnQd,sy42,sy6p,sy6w,sy6y,YNjGDd,sy6z,PrPYRd,iFQyKf,hc6Ubd,sy7a,SpsfSb,sy6s,sy6u,wR5FRb,pXdRYb,dIoSBb,zbML3c",
+      "file": "ea570a4a3ba01a.js",
+      "bytes": 32195,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "file": "656ce75725cc92.bin",
+      "bytes": 131,
+      "content_type": "text/plain; charset=UTF-8"
+    },
+    {
+      "url": "https://sites.google.com/_/view/naLogImpressions?authuser=0",
+      "file": "a4acc254948d33.json",
+      "bytes": 16,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/sitesv/AG8ngQWzvw6wuBSuFrvl4tvXCJzCen2PKNHl22PRptO34XFjw6ErmHSzkxfo-RlfWGavi_Od9CDOJlwcrXqWen2AIPEKgR5f95uQShCTFq-a_q7TU39vzm6J5SyMAYLAMKPt7lLfjN2J-C1l7SK1L_tvn_anNVnlqVJGdkWakkXj6phB7WsLOHpo2B4xlya-Mdk89VP76ilxKkyMdC-t5aV6otSwsA",
+      "file": "1e5570781dc559.png",
+      "bytes": 435,
+      "content_type": "image/png"
+    }
+  ],
+  "payload_frames": [],
+  "http_status": 200,
+  "title": "Leder Live | Ledger Live App Crypto Wallet - Official\u00ae Site\u00ae",
+  "final_url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+  "asset_count": 25,
+  "index_bytes": 197527
+}

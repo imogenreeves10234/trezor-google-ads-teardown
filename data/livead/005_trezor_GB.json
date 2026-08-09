@@ -1,0 +1,80 @@
+{
+  "cc": "GB",
+  "query": "trezor wallet",
+  "brand": "trezor",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_711814IYK_ttl_72h",
+      "exit": {
+        "ip": "78.149.203.252",
+        "hostname": "host-78-149-203-252.as13285.net",
+        "city": "Newcastle upon Tyne",
+        "region": "England",
+        "country": "GB",
+        "loc": "54.9733,-1.6140",
+        "org": "AS13285 TalkTalk Communications Limited",
+        "postal": "NE1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_GB_s_302074IFD_ttl_72h",
+      "exit": {
+        "ip": "194.233.156.48",
+        "hostname": "194-233-156-48.customer.gigaclear.net",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5094,-0.0590",
+        "org": "AS56329 Gigaclear Limited",
+        "postal": "E1W",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_GB_s_111020LJN_ttl_72h",
+      "exit": {
+        "ip": "82.31.0.238",
+        "hostname": "cpc89154-stok18-2-0-cust237.1-4.cable.virginm.net",
+        "city": "Stoke-on-Trent",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.0042,-2.1854",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "ST4",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_GB_s_321525BDQ_ttl_72h",
+      "exit": {
+        "ip": "90.208.126.36",
+        "city": "Birmingham",
+        "region": "England",
+        "country": "GB",
+        "loc": "52.4814,-1.8998",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "B1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "trezor_GB_trezor-wallet_4.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

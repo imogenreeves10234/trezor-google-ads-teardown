@@ -1,0 +1,366 @@
+[
+  {
+    "brand": "trezor",
+    "cc": "US",
+    "query": "trezor suite",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "trezor",
+    "cc": "GB",
+    "query": "trezor suite",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "trezor",
+    "cc": "DE",
+    "query": "trezor suite",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "trezor",
+    "cc": "FR",
+    "query": "trezor suite",
+    "tld": "fr",
+    "hl": "fr"
+  },
+  {
+    "brand": "trezor",
+    "cc": "US",
+    "query": "trezor wallet",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "trezor",
+    "cc": "GB",
+    "query": "trezor wallet",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "trezor",
+    "cc": "DE",
+    "query": "trezor wallet",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "trezor",
+    "cc": "FR",
+    "query": "trezor wallet",
+    "tld": "fr",
+    "hl": "fr"
+  },
+  {
+    "brand": "trezor",
+    "cc": "US",
+    "query": "trezor login",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "trezor",
+    "cc": "GB",
+    "query": "trezor login",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "trezor",
+    "cc": "DE",
+    "query": "trezor login",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "trezor",
+    "cc": "FR",
+    "query": "trezor login",
+    "tld": "fr",
+    "hl": "fr"
+  },
+  {
+    "brand": "ledger",
+    "cc": "US",
+    "query": "ledger live",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "ledger",
+    "cc": "GB",
+    "query": "ledger live",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "ledger",
+    "cc": "DE",
+    "query": "ledger live",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "ledger",
+    "cc": "TR",
+    "query": "ledger live",
+    "tld": "com.tr",
+    "hl": "tr"
+  },
+  {
+    "brand": "ledger",
+    "cc": "US",
+    "query": "ledger live download",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "ledger",
+    "cc": "GB",
+    "query": "ledger live download",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "ledger",
+    "cc": "DE",
+    "query": "ledger live download",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "ledger",
+    "cc": "TR",
+    "query": "ledger live download",
+    "tld": "com.tr",
+    "hl": "tr"
+  },
+  {
+    "brand": "ledger",
+    "cc": "US",
+    "query": "ledger.com start",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "ledger",
+    "cc": "GB",
+    "query": "ledger.com start",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "ledger",
+    "cc": "DE",
+    "query": "ledger.com start",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "ledger",
+    "cc": "TR",
+    "query": "ledger.com start",
+    "tld": "com.tr",
+    "hl": "tr"
+  },
+  {
+    "brand": "exodus",
+    "cc": "US",
+    "query": "exodus wallet",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "exodus",
+    "cc": "GB",
+    "query": "exodus wallet",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "exodus",
+    "cc": "BR",
+    "query": "exodus wallet",
+    "tld": "com.br",
+    "hl": "pt"
+  },
+  {
+    "brand": "exodus",
+    "cc": "US",
+    "query": "exodus web3 wallet",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "exodus",
+    "cc": "GB",
+    "query": "exodus web3 wallet",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "exodus",
+    "cc": "BR",
+    "query": "exodus web3 wallet",
+    "tld": "com.br",
+    "hl": "pt"
+  },
+  {
+    "brand": "phantom",
+    "cc": "US",
+    "query": "phantom wallet",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "phantom",
+    "cc": "TR",
+    "query": "phantom wallet",
+    "tld": "com.tr",
+    "hl": "tr"
+  },
+  {
+    "brand": "phantom",
+    "cc": "FR",
+    "query": "phantom wallet",
+    "tld": "fr",
+    "hl": "fr"
+  },
+  {
+    "brand": "phantom",
+    "cc": "US",
+    "query": "phantom extension",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "phantom",
+    "cc": "TR",
+    "query": "phantom extension",
+    "tld": "com.tr",
+    "hl": "tr"
+  },
+  {
+    "brand": "phantom",
+    "cc": "FR",
+    "query": "phantom extension",
+    "tld": "fr",
+    "hl": "fr"
+  },
+  {
+    "brand": "metamask",
+    "cc": "US",
+    "query": "metamask download",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "metamask",
+    "cc": "JP",
+    "query": "metamask download",
+    "tld": "co.jp",
+    "hl": "ja"
+  },
+  {
+    "brand": "metamask",
+    "cc": "US",
+    "query": "\u30e1\u30bf\u30de\u30b9\u30af \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "metamask",
+    "cc": "JP",
+    "query": "\u30e1\u30bf\u30de\u30b9\u30af \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9",
+    "tld": "co.jp",
+    "hl": "ja"
+  },
+  {
+    "brand": "uniswap",
+    "cc": "US",
+    "query": "uniswap app",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "uniswap",
+    "cc": "DE",
+    "query": "uniswap app",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "uniswap",
+    "cc": "GB",
+    "query": "uniswap app",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "uniswap",
+    "cc": "US",
+    "query": "uniswap login",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "uniswap",
+    "cc": "DE",
+    "query": "uniswap login",
+    "tld": "de",
+    "hl": "de"
+  },
+  {
+    "brand": "uniswap",
+    "cc": "GB",
+    "query": "uniswap login",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "coinbase",
+    "cc": "US",
+    "query": "coinbase login",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "coinbase",
+    "cc": "GB",
+    "query": "coinbase login",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "coinbase",
+    "cc": "US",
+    "query": "coinbase wallet",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "coinbase",
+    "cc": "GB",
+    "query": "coinbase wallet",
+    "tld": "co.uk",
+    "hl": "en"
+  },
+  {
+    "brand": "okx",
+    "cc": "US",
+    "query": "okx wallet",
+    "tld": "com",
+    "hl": "en"
+  },
+  {
+    "brand": "okx",
+    "cc": "TR",
+    "query": "okx wallet",
+    "tld": "com.tr",
+    "hl": "tr"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "cc": "TR",
+  "query": "ledger live",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_TR_s_660809KAP_ttl_72h",
+      "exit": {
+        "ip": "24.133.78.85",
+        "city": "Eski\u015fehir",
+        "region": "Eski\u015fehir",
+        "country": "TR",
+        "loc": "39.7767,30.5206",
+        "org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.",
+        "postal": "26010",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_TR_ledger-live_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

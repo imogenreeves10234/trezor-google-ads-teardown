@@ -1,0 +1,47 @@
+{
+  "cc": "DE",
+  "query": "ledger live",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_519143OMF_ttl_72h",
+      "exit": {
+        "ip": "92.209.208.82",
+        "hostname": "ipservice-092-209-208-082.092.209.pools.vodafone-ip.de",
+        "city": "Stuttgart",
+        "region": "Baden-Wurttemberg",
+        "country": "DE",
+        "loc": "48.7823,9.1770",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "70173",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_DE_s_106511UFJ_ttl_72h",
+      "exit": {
+        "ip": "84.169.113.62",
+        "hostname": "p54a9713e.dip0.t-ipconnect.de",
+        "city": "Krefeld",
+        "region": "North Rhine-Westphalia",
+        "country": "DE",
+        "loc": "51.3364,6.5538",
+        "org": "AS3320 Deutsche Telekom AG",
+        "postal": "47798",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_DE_ledger-live_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

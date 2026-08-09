@@ -1,0 +1,30 @@
+{
+  "cc": "DE",
+  "query": "ledger live download",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_415522OYP_ttl_72h",
+      "exit": {
+        "ip": "77.21.121.186",
+        "hostname": "ip4d1579ba.dynamic.kabel-deutschland.de",
+        "city": "Hannover",
+        "region": "Lower Saxony",
+        "country": "DE",
+        "loc": "52.3705,9.7332",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "30159",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_DE_ledger-live-download_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

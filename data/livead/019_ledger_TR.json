@@ -1,0 +1,46 @@
+{
+  "cc": "TR",
+  "query": "ledger live download",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_TR_s_411446PGT_ttl_72h",
+      "exit": {
+        "ip": "95.70.130.129",
+        "hostname": "129.130.70.95.dsl.dynamic.turk.net",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS12735 TurkNet Iletisim Hizmetleri A.S.",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_TR_s_565483QYC_ttl_72h",
+      "exit": {
+        "ip": "94.54.112.189",
+        "city": "Ankara",
+        "region": "Ankara",
+        "country": "TR",
+        "loc": "39.9199,32.8543",
+        "org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.",
+        "postal": "06420",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_TR_ledger-live-download_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

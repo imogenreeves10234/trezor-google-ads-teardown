@@ -1,0 +1,47 @@
+{
+  "cc": "DE",
+  "query": "trezor suite",
+  "brand": "trezor",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_709213CPA_ttl_72h",
+      "exit": {
+        "ip": "91.59.74.81",
+        "hostname": "p5b3b4a51.dip0.t-ipconnect.de",
+        "city": "Memmingen",
+        "region": "Bavaria",
+        "country": "DE",
+        "loc": "47.9837,10.1853",
+        "org": "AS3320 Deutsche Telekom AG",
+        "postal": "87700",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_DE_s_449377XZZ_ttl_72h",
+      "exit": {
+        "ip": "185.17.205.248",
+        "hostname": "aftr-185-17-205-248.dynamic.mnet-online.de",
+        "city": "Erlensee",
+        "region": "Hesse",
+        "country": "DE",
+        "loc": "50.1630,8.9782",
+        "org": "AS8767 M-net Telekommunikations GmbH",
+        "postal": "63526",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "trezor_DE_trezor-suite_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

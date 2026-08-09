@@ -1,0 +1,41 @@
+[kit_japanese]
+    429 -> sleep 70s
+    -> 0 err=None
+[kit_ksf]
+    -> 0 err=None
+[fb_trezor]
+    -> 42 err=None
+[fb_ledger]
+    -> 140 err=None
+[pay_exodus]
+    -> 5 err=None
+[pay_lca]
+    -> 26 err=None
+[pay_merlin]
+    -> 0 err=None
+[pay_apiver]
+    -> 0 err=None
+[pay_frau]
+    -> 0 err=None
+[gcs_ledger]
+    -> 0 err=None
+[title_connect]
+    -> 141 err=None
+[gs_okx]
+    -> 3 err=None
+[gs_bybit]
+    -> 0 err=None
+[gs_tangem]
+    -> 0 err=None
+[gs_solflare]
+    -> 0 err=None
+[gs_bitget]
+    -> 0 err=None
+[gs_safepal]
+    -> 0 err=None
+[gs_keepkey]
+    -> 0 err=None
+[gs_tonkeeper]
+    -> 0 err=None
+[gs_seedphrase]
+    -> 0 err=None

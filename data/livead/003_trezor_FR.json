@@ -1,0 +1,30 @@
+{
+  "cc": "FR",
+  "query": "trezor suite",
+  "brand": "trezor",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_FR_s_392517MMG_ttl_72h",
+      "exit": {
+        "ip": "109.208.106.226",
+        "hostname": "lfbn-mar-1-556-226.w109-208.abo.wanadoo.fr",
+        "city": "Marseille",
+        "region": "Provence-Alpes-C\u00f4te d'Azur",
+        "country": "FR",
+        "loc": "43.2970,5.3811",
+        "org": "AS3215 Orange S.A.",
+        "postal": "13000",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "trezor_FR_trezor-suite_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

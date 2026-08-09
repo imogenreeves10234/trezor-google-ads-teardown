@@ -1,0 +1,81 @@
+{
+  "cc": "US",
+  "query": "ledger live",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_448319OOO_ttl_72h",
+      "exit": {
+        "ip": "68.207.134.165",
+        "hostname": "syn-068-207-134-165.res.spectrum.com",
+        "city": "Millbrook",
+        "region": "Alabama",
+        "country": "US",
+        "loc": "32.4799,-86.3619",
+        "org": "AS33363 Charter Communications, Inc",
+        "postal": "36054",
+        "timezone": "America/Chicago",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_218001KGJ_ttl_72h",
+      "exit": {
+        "ip": "38.162.183.122",
+        "hostname": "dhcp-38-162-183.cust.empireaccess.net",
+        "city": "Scranton",
+        "region": "Pennsylvania",
+        "country": "US",
+        "loc": "41.4092,-75.6649",
+        "org": "AS40545 Empire Access",
+        "postal": "18503",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "ledger_US_ledger-live_2.png"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_157639DPF_ttl_72h",
+      "exit": {
+        "ip": "24.45.119.83",
+        "hostname": "ool-182d7753.dyn.optonline.net",
+        "city": "New York City",
+        "region": "New York",
+        "country": "US",
+        "loc": "40.7143,-74.0060",
+        "org": "AS6128 Cablevision Systems Corp.",
+        "postal": "10004",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_871925KPS_ttl_72h",
+      "exit": {
+        "ip": "70.160.59.68",
+        "hostname": "ip70-160-59-68.hr.hr.cox.net",
+        "city": "Norfolk",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "36.8468,-76.2852",
+        "org": "AS22773 Cox Communications Inc.",
+        "postal": "23510",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

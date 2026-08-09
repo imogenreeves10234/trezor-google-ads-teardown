@@ -78,6 +78,19 @@ li.t-def .t-when b{color:var(--accent)}
 .urlbar{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
   padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}
 .urlbar .g{color:#188038} .urlbar .r{color:#c5221f;font-weight:700}
+.case{border:1px solid var(--line);border-radius:11px;margin:20px 0;overflow:hidden;background:var(--panel)}
+.case-head{padding:15px 20px 12px;border-bottom:1px solid var(--line);background:#12161c}
+.case-head h3{font-size:17px;margin:9px 0 0;font-weight:700}
+.case-head h3 .mono{font-size:13px;color:var(--dim);word-break:break-all}
+.case-body{padding:16px 20px 20px}
+table.kv{width:100%;border-collapse:collapse;margin:0 0 14px}
+table.kv td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;font-size:13.5px}
+table.kv td:first-child{color:var(--dim);width:220px;font-size:12.5px}
+.case-journey{background:#12171d;border-left:3px solid var(--after);border-radius:0 8px 8px 0;
+  padding:12px 16px;font-size:14px;color:var(--text)}
+.case-shot{margin:16px 0 0}
+.case-shot img{width:100%;max-width:560px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.case-shot figcaption{color:var(--dim);font-size:12.5px;margin-top:7px}
 .tag{display:inline-block;align-self:flex-start;font:700 10px/1 var(--mono);letter-spacing:.09em;
   padding:5px 8px;border-radius:4px;text-transform:uppercase}
 .tag-active{background:#3a1418;color:#ff8b8b;border:1px solid #5c1f26}
@@ -136,7 +149,7 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
 
 <nav class="toc"><div class="wrap">
   <b>Contents</b>
-  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#live">10 Live pages</a><a href="#chain">11 Payload chain</a><a href="#geo">12 Where they serve</a><a href="#download">13 Download evidence</a><a href="#advertised">14 Advertised URLs</a><a href="#ledger">15 The Ledger domain</a><a href="#pattern">16 Platform pattern</a><a href="#serpgeo">17 Multi-geo SERP</a><a href="#advertiser">18 The advertiser</a><a href="#response">19 Response</a><a href="#ioc">20 Indicators</a><a href="#method">21 Method</a>
+  <a href="#livead">A Live ads?</a><a href="#cases">B Case file</a><a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#live">10 Live pages</a><a href="#chain">11 Payload chain</a><a href="#geo">12 Where they serve</a><a href="#download">13 Download evidence</a><a href="#advertised">14 Advertised URLs</a><a href="#ledger">15 The Ledger domain</a><a href="#pattern">16 Platform pattern</a><a href="#serpgeo">17 Multi-geo SERP</a><a href="#advertiser">18 The advertiser</a><a href="#response">19 Response</a><a href="#ioc">20 Indicators</a><a href="#method">21 Method</a>
 </div></nav>
 
 <section id="answers"><div class="wrap">
@@ -171,6 +184,368 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
       each drain's own block time. <b>$439,226</b> of it after the victim publicly warned
       people. <a href="#money">§7</a></div>
   </div>
+</div></section>
+
+<section id="livead"><div class="wrap">
+  <h2>A &middot; Are the ads live right now?</h2>
+  <p class="sub">The question that kept getting muddled, answered on its own.</p>
+  <div class="panel">
+    <p style="margin-top:0">There are <b>three different things</b> the word &ldquo;live&rdquo; can
+    mean here, and they have different answers. Keeping them apart is the whole point:</p>
+    <ol style="margin-bottom:0">
+      <li><b>Are the phishing pages live?</b> <span class="bad">Yes.</span> 15 confirmed serving in
+        all [{'cc': 'AE', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS5384 Emirates Internet', 'exit_ip': '151.253.67.178', 'tries': 1, 'organic_trezor_io': True}, {'cc': 'AE', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS5384 Emirates Internet', 'exit_ip': '2.50.193.198', 'tries': 1, 'organic_trezor_io': True}, {'cc': 'AU', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS1221 Telstra Limited', 'exit_ip': '101.182.181.189', 'tries': 3, 'organic_trezor_io': True}, {'cc': 'AU', 'query': 'trezor wallet', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': None, 'exit_org': None, 'exit_ip': None, 'tries': 5, 'organic_trezor_io': None}, {'cc': 'BR', 'query': 'trezor suite', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': 0, 'exit_org': 'AS263569 DIRECT INTERNET LTDA', 'exit_ip': '168.232.218.152', 'tries': 5, 'organic_trezor_io': None}, {'cc': 'BR', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS26599 TELEFÔNICA BRASIL S.A', 'exit_ip': '179.225.252.119', 'tries': 3, 'organic_trezor_io': True}, {'cc': 'CA', 'query': 'trezor suite', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': 0, 'exit_org': 'AS7057 Managed Network Systems Inc.', 'exit_ip': '98.143.67.64', 'tries': 5, 'organic_trezor_io': None}, {'cc': 'CA', 'query': 'trezor wallet', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': None, 'exit_org': None, 'exit_ip': None, 'tries': 5, 'organic_trezor_io': None}, {'cc': 'CZ', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS20723 AVONET, s.r.o.', 'exit_ip': '178.20.142.200', 'tries': 2, 'organic_trezor_io': True}, {'cc': 'CZ', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS5610 O2 Czech Republic, a.s.', 'exit_ip': '85.160.79.222', 'tries': 5, 'organic_trezor_io': True}, {'cc': 'DE', 'query': 'trezor suite', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': None, 'exit_org': None, 'exit_ip': None, 'tries': 5, 'organic_trezor_io': None}, {'cc': 'DE', 'query': 'trezor wallet', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': None, 'exit_org': None, 'exit_ip': None, 'tries': 5, 'organic_trezor_io': None}, {'cc': 'ES', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS50564 CARTAGO TELECOM S. L.', 'exit_ip': '185.182.127.94', 'tries': 2, 'organic_trezor_io': True}, {'cc': 'ES', 'query': 'trezor wallet', 'status': 'OK', 'ads': 1, 'exit_org': 'AS57269 DIGI SPAIN TELECOM S.A', 'exit_ip': '188.26.218.54', 'tries': 3, 'organic_trezor_io': True}, {'cc': 'FR', 'query': 'trezor suite', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': None, 'exit_org': None, 'exit_ip': None, 'tries': 5, 'organic_trezor_io': None}, {'cc': 'FR', 'query': 'trezor wallet', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': None, 'exit_org': None, 'exit_ip': None, 'tries': 5, 'organic_trezor_io': None}, {'cc': 'GB', 'query': 'car insurance', 'status': 'OK', 'ads': 0, 'exit_org': 'AS2856 British Telecommunications Limited', 'exit_ip': '109.146.139.170', 'tries': 3, 'organic_trezor_io': False}, {'cc': 'GB', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS5378 Vodafone Limited', 'exit_ip': '90.242.250.134', 'tries': 3, 'organic_trezor_io': True}, {'cc': 'GB', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS5378 Vodafone Limited', 'exit_ip': '84.65.167.46', 'tries': 5, 'organic_trezor_io': True}, {'cc': 'IN', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS17465 Cable ISP in India', 'exit_ip': '116.68.99.121', 'tries': 1, 'organic_trezor_io': True}, {'cc': 'IN', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS9829 National Internet Backbone', 'exit_ip': '59.180.76.90', 'tries': 1, 'organic_trezor_io': True}, {'cc': 'IT', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS1267 WIND TRE S.P.A.', 'exit_ip': '151.20.34.239', 'tries': 2, 'organic_trezor_io': True}, {'cc': 'IT', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS3269 Telecom Italia S.p.A.', 'exit_ip': '87.21.186.156', 'tries': 1, 'organic_trezor_io': True}, {'cc': 'NL', 'query': 'trezor suite', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': 0, 'exit_org': 'AS50266 Odido Netherlands B.V.', 'exit_ip': '85.146.149.49', 'tries': 5, 'organic_trezor_io': None}, {'cc': 'NL', 'query': 'trezor wallet', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': 0, 'exit_org': 'AS33915 Vodafone Libertel B.V.', 'exit_ip': '212.120.126.64', 'tries': 5, 'organic_trezor_io': None}, {'cc': 'PL', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS29314 VECTRA S.A.', 'exit_ip': '89.151.19.199', 'tries': 3, 'organic_trezor_io': True}, {'cc': 'PL', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS9141 P4 Sp. z o.o.', 'exit_ip': '217.119.78.94', 'tries': 3, 'organic_trezor_io': True}, {'cc': 'SG', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS9506 Singtel Fibre Broadband', 'exit_ip': '14.100.29.34', 'tries': 1, 'organic_trezor_io': True}, {'cc': 'TR', 'query': 'trezor suite', 'status': 'OK', 'ads': 0, 'exit_org': 'AS9121 Turk Telekomunikasyon Anonim Sirketi', 'exit_ip': '78.190.217.144', 'tries': 2, 'organic_trezor_io': True}, {'cc': 'TR', 'query': 'trezor wallet', 'status': 'OK', 'ads': 0, 'exit_org': 'AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.', 'exit_ip': '94.54.24.35', 'tries': 2, 'organic_trezor_io': True}, {'cc': 'US', 'query': 'trezor suite', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': 0, 'exit_org': 'AS7922 Comcast Cable Communications, LLC', 'exit_ip': '75.75.128.168', 'tries': 5, 'organic_trezor_io': None}, {'cc': 'US', 'query': 'trezor wallet', 'status': 'UNVERIFIED_EXIT_BLOCKED', 'ads': 0, 'exit_org': 'AS6128 Cablevision Systems Corp.', 'exit_ip': '24.190.187.229', 'tries': 5, 'organic_trezor_io': None}] countries probed today (&sect;12), 7 still actively harvesting (&sect;10).</li>
+      <li><b>Were they distributed by paid Google ads?</b> <span class="amber">Yes, provably</span>
+        &mdash; 16 URLs captured with Google&rsquo;s own click parameters, 11 campaign IDs
+        (&sect;14). Most recent such capture: April 2026.</li>
+      <li><b>Is a paid ad running <i>at this moment</i>?</b> &mdash; that is what the sweep below
+        tests directly.</li>
+    </ol>
+  </div>
+  <div class="panel"><p style="margin:0">The live-ad SERP sweep is still running; this section updates when it completes.</p></div>
+</div></section>
+
+<section id="cases"><div class="wrap">
+  <h2>B &middot; Case file &mdash; every live page, one block each</h2>
+  <p class="sub">One entry per live phishing page, in the format you asked for: the google.com URL, the
+  payload domain behind it, registration dates, where it serves, its advertising status, and the
+  victim&rsquo;s journey. Full source, headers and screenshots for each are in the
+  <a href="#download">evidence ZIP</a>.</p>
+  <div class="legend" style="margin-bottom:20px">
+    <span><i class="sw" style="background:#ff8b8b"></i>ACTIVE HARVESTER &mdash; asking for seed phrases now</span>
+    <span><i class="sw" style="background:#f0c078"></i>BROKEN SHELL &mdash; live page, payload host dead</span>
+    <span><i class="sw" style="background:#9ec5e8"></i>BRAND IMPERSONATION &mdash; no live harvest seen</span>
+  </div>
+  <div class="case" id="case1">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>1. Exodus &mdash; <span class="mono">/view/exodus-web3wallet-/home</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/exodus-web3wallet-/home</td></tr>
+          <tr><td>Page title</td><td>Exodus® Web3 Wallet | Exodus® Browser Extension</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_exodus_web3wallet_home/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Exodus and clicks a result whose visible URL is <b>google.com</b>. It lands on this page, hosted on Google Sites, cloned to look like Exodus. The page itself asks for the wallet <b>recovery phrase</b>; the 24 words are sent to the operator, who then empties the wallet.</div>
+        <figure class=case-shot><img src="assets/live/view-exodus-web3wallet-home.jpg" loading="lazy" alt="Landing page of Exodus phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case2">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>2. Exodus &mdash; <span class="mono">/view/exodus-wlt/home</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/exodus-wlt/home</td></tr>
+          <tr><td>Page title</td><td>Exódus® Web3 Wallet | Exódus® Browser Extension</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_exodus_wlt_home/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Exodus and clicks a result whose visible URL is <b>google.com</b>. It lands on this page, hosted on Google Sites, cloned to look like Exodus. The page itself asks for the wallet <b>recovery phrase</b>; the 24 words are sent to the operator, who then empties the wallet.</div>
+        <figure class=case-shot><img src="assets/live/view-exodus-wlt-home.jpg" loading="lazy" alt="Landing page of Exodus phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case3">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>3. Ledger &mdash; <span class="mono">/ledgerstart-web.com/ledger-live/home</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          <tr><td>Workspace domain in the URL</td><td class="mono">ledgerstart-web.com <span class="muted small">registered 2026-01-07, Eranet International Limited</span></td></tr>
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/ledgerstart-web.com/ledger-live/home</td></tr>
+          <tr><td>Page title</td><td>Leder Live | Ledger Live App Crypto Wallet - Official® Site®</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_ledgerstart_web_com_ledger_live_home/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Ledger and clicks a result whose visible URL is <b>google.com</b>. It lands on this page, hosted on Google Sites, cloned to look like Ledger. The page itself asks for the wallet <b>recovery phrase</b>; the 24 words are sent to the operator, who then empties the wallet.</div>
+        <figure class=case-shot><img src="assets/live/ledgerstart-web-com-ledger-live-home.jpg" loading="lazy" alt="Landing page of Ledger phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case4">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>4. Ledger &mdash; <span class="mono">/view/app-ledger-com/home</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/app-ledger-com/home</td></tr>
+          <tr><td>Page title</td><td>Ledger.com</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">japanesetoenailfunguscode.com <span class="bad">[LIVE]</span><span class="muted small"> &middot; registered 2016-05-12, Moniker Online Services LLC</span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_app_ledger_com_home/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Ledger and clicks a result showing <b>google.com</b>. The Google Sites page loads <code>japanesetoenailfunguscode.com</code> inside an iframe — that second page (still framed under the google.com address) is the Ledger clone that asks for the recovery phrase. This payload host is <b>live now</b>.</div>
+        <figure class=case-shot><img src="assets/live/view-app-ledger-com-home.jpg" loading="lazy" alt="Landing page of Ledger phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case5">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>5. Ledger &mdash; <span class="mono">/walletcryptoweb.com/ledger-com-start/home</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          <tr><td>Workspace domain in the URL</td><td class="mono">walletcryptoweb.com <span class="muted small">registered 2025-05-25, BigRock Solutions Ltd</span></td></tr>
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/walletcryptoweb.com/ledger-com-start/home</td></tr>
+          <tr><td>Page title</td><td>Ledger.com/start - Getting started with Ledger Live</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_walletcryptoweb_com_ledger_com_start_home/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Ledger and clicks a result whose visible URL is <b>google.com</b>. It lands on this page, hosted on Google Sites, cloned to look like Ledger. The page itself asks for the wallet <b>recovery phrase</b>; the 24 words are sent to the operator, who then empties the wallet.</div>
+        <figure class=case-shot><img src="assets/live/walletcryptoweb-com-ledger-com-start-home.jpg" loading="lazy" alt="Landing page of Ledger phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case6">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>6. Trezor &mdash; <span class="mono">/view/start-trezor-suite</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/start-trezor-suite</td></tr>
+          <tr><td>Page title</td><td>connect</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">ksf-webapp-080826.web.app <span class="bad">[LIVE]</span><span class="muted small"></span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_start_trezor_suite/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Trezor and clicks a result showing <b>google.com</b>. The Google Sites page loads <code>ksf-webapp-080826.web.app</code> inside an iframe — that second page (still framed under the google.com address) is the Trezor clone that asks for the recovery phrase. This payload host is <b>live now</b>.</div>
+        <figure class=case-shot><img src="assets/live/view-start-trezor-suite.jpg" loading="lazy" alt="Landing page of Trezor phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case7">
+      <div class="case-head">
+        <span class="tag tag-active">ACTIVE HARVESTER</span>
+        <h3>7. Uniswap &mdash; <span class="mono">/kryptowallets.app/uniswap-dex-login/</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          <tr><td>Workspace domain in the URL</td><td class="mono">kryptowallets.app <span class="muted small">registered 2026-03-05, NICENIC INTERNATIONAL GROUP CO., LIMITED</span></td></tr>
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/kryptowallets.app/uniswap-dex-login/</td></tr>
+          <tr><td>Page title</td><td>Uniswap Login | Offizielle Website für Swaps</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_kryptowallets_app_uniswap_dex_login/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A user searches for Uniswap and clicks a result whose visible URL is <b>google.com</b>. It lands on this page, hosted on Google Sites, cloned to look like Uniswap. The page itself asks for the wallet <b>recovery phrase</b>; the 24 words are sent to the operator, who then empties the wallet.</div>
+        <figure class=case-shot><img src="assets/live/kryptowallets-app-uniswap-dex-login.jpg" loading="lazy" alt="Landing page of Uniswap phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case8">
+      <div class="case-head">
+        <span class="tag tag-broken">BROKEN SHELL — payload dead</span>
+        <h3>8. Exodus &mdash; <span class="mono">/view/exodwolt/home/exodus</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/exodwolt/home/exodus</td></tr>
+          <tr><td>Page title</td><td>#Exodus</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">app-ex-odus.com <span class="muted">[NXDOMAIN]</span><span class="muted small"> &middot; registered 2025-10-13, Web Commerce Communications Limited dba WebNic.cc</span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="amber">Was advertised — Google Ads campaign 23118631869, last seen 2025-10-28</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_exodwolt_home_exodus/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> Same structure as the live cases: a Google Sites page framing a payload from <code>app-ex-odus.com</code>. That payload host is currently <b>dead (NXDOMAIN)</b>, so the page renders blank right now — but it is still a live Exodus impersonation on a google.com URL, and the operator can repoint the frame at a new payload at any time without touching the Google Sites page.</div>
+        <figure class=case-shot><img src="assets/live/view-exodwolt-home-exodus.jpg" loading="lazy" alt="Landing page of Exodus phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case9">
+      <div class="case-head">
+        <span class="tag tag-broken">BROKEN SHELL — payload dead</span>
+        <h3>9. Ledger &mdash; <span class="mono">/view/app-ledger-wallet</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/app-ledger-wallet</td></tr>
+          <tr><td>Page title</td><td>Ledger</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">storage.googleapis.com <span class="muted">[404]</span><span class="muted small"></span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_app_ledger_wallet/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> Same structure as the live cases: a Google Sites page framing a payload from <code>storage.googleapis.com</code>. That payload host is currently <b>dead (404)</b>, so the page renders blank right now — but it is still a live Ledger impersonation on a google.com URL, and the operator can repoint the frame at a new payload at any time without touching the Google Sites page.</div>
+        <figure class=case-shot><img src="assets/live/view-app-ledger-wallet.jpg" loading="lazy" alt="Landing page of Ledger phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case10">
+      <div class="case-head">
+        <span class="tag tag-broken">BROKEN SHELL — payload dead</span>
+        <h3>10. OKX &mdash; <span class="mono">/view/konut2/okx-wallet</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/konut2/okx-wallet</td></tr>
+          <tr><td>Page title</td><td>OKX Wallet</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">tersaze.com <span class="muted">[NXDOMAIN]</span><span class="muted small"> &middot; registered 2026-01-02, eNom, LLC</span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="amber">Was advertised — Google Ads campaign 23375232952, last seen 2026-01-02</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_konut2_okx_wallet/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> Same structure as the live cases: a Google Sites page framing a payload from <code>tersaze.com</code>. That payload host is currently <b>dead (NXDOMAIN)</b>, so the page renders blank right now — but it is still a live OKX impersonation on a google.com URL, and the operator can repoint the frame at a new payload at any time without touching the Google Sites page.</div>
+        <figure class=case-shot><img src="assets/live/view-konut2-okx-wallet.jpg" loading="lazy" alt="Landing page of OKX phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case11">
+      <div class="case-head">
+        <span class="tag tag-broken">BROKEN SHELL — payload dead</span>
+        <h3>11. Phantom &mdash; <span class="mono">/view/korkuevim/phantom</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/korkuevim/phantom</td></tr>
+          <tr><td>Page title</td><td>Phantom</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">keystash.eu.com <span class="muted">[CF_522_ORIGIN_DOWN]</span><span class="muted small"></span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="amber">Was advertised — Google Ads campaign 22757211581, last seen 2025-08-01</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_korkuevim_phantom/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> Same structure as the live cases: a Google Sites page framing a payload from <code>keystash.eu.com</code>. That payload host is currently <b>dead (CF_522_ORIGIN_DOWN)</b>, so the page renders blank right now — but it is still a live Phantom impersonation on a google.com URL, and the operator can repoint the frame at a new payload at any time without touching the Google Sites page.</div>
+        <figure class=case-shot><img src="assets/live/view-korkuevim-phantom.jpg" loading="lazy" alt="Landing page of Phantom phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case12">
+      <div class="case-head">
+        <span class="tag tag-broken">BROKEN SHELL — payload dead</span>
+        <h3>12. Uniswap &mdash; <span class="mono">/preloadcomubx.com/nsdh232/uniswap</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          <tr><td>Workspace domain in the URL</td><td class="mono">preloadcomubx.com <span class="muted small">registered 2026-06-13, PDR Ltd. d/b/a PublicDomainRegistry.com</span></td></tr>
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/preloadcomubx.com/nsdh232/uniswap</td></tr>
+          <tr><td>Page title</td><td>uniswap</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">multichain-swap-interface-v4.co <span class="muted">[CF_521_ORIGIN_DOWN]</span><span class="muted small"></span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_preloadcomubx_com_nsdh232_uniswap/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> Same structure as the live cases: a Google Sites page framing a payload from <code>multichain-swap-interface-v4.co</code>. That payload host is currently <b>dead (CF_521_ORIGIN_DOWN)</b>, so the page renders blank right now — but it is still a live Uniswap impersonation on a google.com URL, and the operator can repoint the frame at a new payload at any time without touching the Google Sites page.</div>
+        <figure class=case-shot><img src="assets/live/preloadcomubx-com-nsdh232-uniswap.jpg" loading="lazy" alt="Landing page of Uniswap phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case13">
+      <div class="case-head">
+        <span class="tag tag-broken">BROKEN SHELL — payload dead</span>
+        <h3>13. Uniswap &mdash; <span class="mono">/view/app-uniswap-dashbroad/uniswap</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/app-uniswap-dashbroad/uniswap</td></tr>
+          <tr><td>Page title</td><td>uniswap</td></tr>
+          <tr><td>Payload / real phishing host behind it</td><td class="mono">storage.googleapis.com <span class="muted">[404]</span><span class="muted small"></span></td></tr>
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="amber">Was advertised — Google Ads campaign 23340065278, last seen 2026-01-04</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_app_uniswap_dashbroad_uniswap/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> Same structure as the live cases: a Google Sites page framing a payload from <code>storage.googleapis.com</code>. That payload host is currently <b>dead (404)</b>, so the page renders blank right now — but it is still a live Uniswap impersonation on a google.com URL, and the operator can repoint the frame at a new payload at any time without touching the Google Sites page.</div>
+        <figure class=case-shot><img src="assets/live/view-app-uniswap-dashbroad-uniswap.jpg" loading="lazy" alt="Landing page of Uniswap phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case14">
+      <div class="case-head">
+        <span class="tag tag-brand">BRAND IMPERSONATION</span>
+        <h3>14. Coinbase &mdash; <span class="mono">/net7.net/coinbase/home</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          <tr><td>Workspace domain in the URL</td><td class="mono">net7.net <span class="muted small">registered 2010-12-19, Dynadot Inc</span></td></tr>
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/net7.net/coinbase/home</td></tr>
+          <tr><td>Page title</td><td>home</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_net7_net_coinbase_home/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A Coinbase-branded page on Google Sites. At probe time no active recovery-phrase harvesting was captured; it is a brand-impersonation shell on a google.com URL.</div>
+        <figure class=case-shot><img src="assets/live/net7-net-coinbase-home.jpg" loading="lazy" alt="Landing page of Coinbase phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
+<div class="case" id="case15">
+      <div class="case-head">
+        <span class="tag tag-brand">BRAND IMPERSONATION</span>
+        <h3>15. MetaMask &mdash; <span class="mono">/view/dplhzjdquwbtktmp/metamask-ja-jp/</span></h3>
+      </div>
+      <div class="case-body">
+        <table class="kv">
+          <tr><td>Landing domain (what the URL shows)</td><td class="mono">google.com &mdash; via sites.google.com</td></tr>
+          
+          <tr><td>Full landing URL</td><td class="mono">https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp/</td></tr>
+          <tr><td>Page title</td><td>メタマスク拡張機能のダウンロード今すぐ利用を開始しようはこちら</td></tr>
+          
+          <tr><td>Serves in</td><td>all 10 countries probed
+              (BR, DE, ES, FR, GB, IN, JP, NL, TR, US)</td></tr>
+          <tr><td>Advertising status</td><td><span class="muted">No ad-click capture on record for this exact URL</span></td></tr>
+          <tr><td>Evidence in the ZIP</td><td class="mono small">evidence/sites_google_com_view_dplhzjdquwbtktmp_metamask_ja_jp/
+              &mdash; page source, headers, 10 screenshots</td></tr>
+        </table>
+        <div class="case-journey"><b>User journey.</b> A MetaMask-branded page on Google Sites. At probe time no active recovery-phrase harvesting was captured; it is a brand-impersonation shell on a google.com URL.</div>
+        <figure class=case-shot><img src="assets/live/view-dplhzjdquwbtktmp-metamask-ja-jp.jpg" loading="lazy" alt="Landing page of MetaMask phishing case"><figcaption>Landing page as served (one of 10 country captures)</figcaption></figure>
+      </div>
+    </div>
 </div></section>
 
 <section id="happened"><div class="wrap">

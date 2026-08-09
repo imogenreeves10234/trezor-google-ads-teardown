@@ -1,0 +1,162 @@
+{
+  "target": "https://sites.google.com/net7.net/coinbase/home",
+  "captured": "2026-08-09T14:24:09Z",
+  "assets": [
+    {
+      "url": "chrome-extension://fignfifoniblkonapihmkfakmlgkbkcf/tts_extension.js",
+      "file": "ff9f0dfbb6e818.js",
+      "bytes": 10118,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500,700|Source+Code+Pro:400,700&display=swap",
+      "file": "6f66d43c6ecffd.css",
+      "bytes": 48984,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/ss/k=atari.vw.JGPT-YPrdpM.L.W.O/am=ECACHAAE/d=1/rs=AGEqA5mux6KhIM9TAvXEDP4sKG7a-jsVWg",
+      "file": "17a881c844a972.css",
+      "bytes": 1658194,
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+      "file": "6b03240f69c446.css",
+      "bytes": 4955,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://apis.google.com/js/client.js?onload=gapiLoaded",
+      "file": "e1d04155406b65.js",
+      "bytes": 14581,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=1/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=view",
+      "file": "4d1982ae8a181c.js",
+      "bytes": 515557,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.9vdPKhB0RUg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo97anj7zZ432JcN58tqJJp_A6WeOw/cb=gapi.loaded_0?le=scs",
+      "file": "7ed1b73e321230.js",
+      "bytes": 326104,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "file": "cb43c05529e9d7.woff2",
+      "bytes": 43136,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2",
+      "file": "d3124adc0d8d35.woff2",
+      "bytes": 35968,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=sy65,TRvtze",
+      "file": "0c9a306d6f2645.js",
+      "bytes": 852,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=sy48,sy49,sy47,FoQBg",
+      "file": "f45fd4f81317b3.js",
+      "bytes": 41866,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=rCcCxc,sy62,gJzDyc,uu7UOe,sy6b,uY3Nvd,sy6a,soHxf,HYv29e",
+      "file": "466575c84c4b8a.js",
+      "bytes": 72795,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://sites.google.com/_/view/naLogImpressions?authuser=0",
+      "file": "a4acc254948d33.json",
+      "bytes": 16,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "file": "656ce75725cc92.bin",
+      "bytes": 131,
+      "content_type": "text/plain; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=LLHPdb,sy2u,ws9Tlc,cEt90b,sy76,KUM7Z,MpJwZc,n73qwf,A4UTCb,sy2t,L1AAkb,aW3pY,RyvaUb,sy2p,sy35,owcnme,sy36,sy37,O6y8ed,mzzZzc,CHCSlb,qAKInc,sy3j,YXyON,sy3w,X85Uvc,sy3o,sy3n,iTeaXe,sy67,abQiW,W26a5e,hJUyqe,sy12,sy11,sy10,syv,syu,sy38,pxq3x,sy39,syo,sy3a,sy3t,syw,sy27,sy3b,sy4n,sy66,EGNJFf,V3dDOb,sy2s,ENNBBf,syh,syf,syd,syn,syc,sy3e,yf2Bs,sy1g,sy1n,sy1c,sy1a,sy1d,sy1l,sy1i,sy1m,sy1f,sy1b,sy1h,sy1j,sy1k,sy1e,syr,sy33,fmklff,TGYpv,XVMNvd,sy3y,sy3z,sy40,fuVYe,sy73,yxTchf,sy74,sy75,xQtZb,iSvg6e,N5Lqpc,XDKZTc,sy3x,qkPXAf,sy3r,sy3s,sy3p,sy3q,sy3m,sy3u,sy3v,pc62j,qEW1W,oNFsLb,m9oV,sy2w,RAnnUd,i5dxUd,sy2v,sy2x,sy2y,sy2z,sy2c,etBPYb,i5H9N,SU9Rsf,sy30,sy31,sy32,sy2a,sy2d,PHUIyb,qNG0Fc,sys,syt,syx,qTnoBf,NJ1rfe,ywOR5c,sy34,sye,wg1P6b,EcW08c,sy3c,sy3d,t8tqF,qddgKe,sy69,SM1lmd,syy,syz,syq,RRzQxe,sya,sy9,sy15,sy1z,yyxWAc,zZvHmd,sy0,sy1,sy7,sy2b,syi,sy6,sy29,sy2e,sy28,sy26,sy2f,sy2g,sy1r,sy4u,syp,sy17,sy1y,sy61,syl,syb,sy4g,sy5u,sy16,fNFZH,sy68,sym,sy3l,sy4m,sy2h,i16Xfc,sy4a,zJMuOc,RrXLpc,sy41,sy44,sy4b,sy4c,sy4d,tCGzVe,Ej8J2c,odWSx,cgRV2c,sy1x,sy3k,sy52,o1L5Wb,X4BaPc,vVEdxc,sy4s,sy4t,sy23,sy2l,syg,sy3g,sy4i,sy4q,sy4p,sy4r,sy2r,sy13,sy18,sy3i,sy45,sy4h,Eb0cbd,vQfDHb,Ko0sOe,lC95Hd,WHVP1b,sy4w,sy4y,sy4z,sy50,sy51,sy4x,sy53,sy4v,sy5l,sy5m,sy55,sy5b,sy5c,sy5g,sy5a,oy3iwb,sy4k,sy59,sy5k,sy5h,sy5f,AQnEY,heobjb,sy54,sy4l,sy58,sy57,sy5i,sy5j,sy2o,sy5n,sy5q,sy5s,G5ZZUb,sy56,sy4j,zmwrxd,Ik1vNd,sy5d,sy5e,dBhIIb,sy5o,sy5p,nzrWYb,sy5r,MYyMDe,sy5t,sy5y,sy5v,a9i3ec,CmOog,qYIcH,zTt0Rb,ap0X9d,KgeHHc,NzVYMd,RU5sC,pmbBwd,paqebc,uUwMBf,zRiL5c,jhxjge,ZV9ZUe,Tc7Qif,R4KMEc,KlrXId,yU4RTb,XPQ9Mb,Cr89I,AU7jXb,dW2dhc,sy5w,sy5x,sy5z,UYjpC,sy22,sy24,sy3h,sy8,sy14,sy1t,sy1u,sy21,gaMBzf,sy25,fVuHhf,j1RDQb,sy3f,sy4,iwfZq,sy5,eEDsnd,sy4f,sy1q,sy43,sy4e,RQOkef,sy4o,Md9ENb,sy42,sy46,CG0Qwb,syj,VYKRW,RZ9OZ,N0NZx,szRU7e",
+      "file": "36824f0e101694.js",
+      "bytes": 1920675,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.9vdPKhB0RUg.O/m=gapi_rpc/exm=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo97anj7zZ432JcN58tqJJp_A6WeOw/cb=gapi.loaded_1?le=scs,fedcm_migration_mod",
+      "file": "c19d7988944478.js",
+      "bytes": 261,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.sWNb999apkI.O/am=ECACHAAE/d=0/rs=AGEqA5lTYSMHAXUeBP-Kqc0m2dsEr37Cbw/m=IZT63,YYmHzb,vfuNJf,sy6q,sy6v,sy6x,sy79,sy77,sy78,siKnQd,sy6p,sy6w,sy6y,YNjGDd,sy6z,PrPYRd,iFQyKf,hc6Ubd,sy7a,SpsfSb,sy6s,sy6u,wR5FRb,pXdRYb,dIoSBb,zbML3c",
+      "file": "d74b8dcda0de38.js",
+      "bytes": 30981,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js",
+      "file": "086965513ea5c6.js",
+      "bytes": 128442,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://www.gstatic.com/images/branding/productlogos/sites_2026/v3/ico/sites_2026_16dp.ico",
+      "file": "e94a1d9762aab0.ico",
+      "bytes": 308,
+      "content_type": "image/x-icon"
+    },
+    {
+      "url": "https://apis.google.com/js/api.js?checkCookie=1",
+      "file": "03f4dc6be387f8.js",
+      "bytes": 14576,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.9vdPKhB0RUg.O/m=gapi_rpc/rt=j/sv=1/d=1/ed=1/rs=AHpOoo97anj7zZ432JcN58tqJJp_A6WeOw/cb=gapi.loaded_0?le=scs,fedcm_migration_mod",
+      "file": "d40224bfca3f48.js",
+      "bytes": 55477,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@200;300;400&display=swap",
+      "file": "8b71be43bd3c25.css",
+      "bytes": 9448,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4g.woff2",
+      "file": "35841fe72fb8ba.woff2",
+      "bytes": 26576,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+      "file": "2fed1d1b2e1901.woff2",
+      "bytes": 37640,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDD-iNM8.woff2",
+      "file": "dccf20a47d3388.woff2",
+      "bytes": 22484,
+      "content_type": "font/woff2"
+    }
+  ],
+  "payload_frames": [],
+  "http_status": 200,
+  "title": "home",
+  "final_url": "https://sites.google.com/net7.net/coinbase/home",
+  "asset_count": 25,
+  "index_bytes": 107179
+}

@@ -1,0 +1,82 @@
+[
+{
+"name": "kit_japanese",
+"q": "task.url:\"japanesetoenailfunguscode\""
+},
+{
+"name": "kit_ksf",
+"q": "task.url:\"ksf-webapp\""
+},
+{
+"name": "fb_trezor",
+"q": "page.domain:web.app AND page.title:\"Trezor\""
+},
+{
+"name": "fb_ledger",
+"q": "page.domain:web.app AND page.title:\"Ledger\""
+},
+{
+"name": "pay_exodus",
+"q": "task.url:\"app-ex-odus\""
+},
+{
+"name": "pay_lca",
+"q": "task.url:\"ledger-com-app\""
+},
+{
+"name": "pay_merlin",
+"q": "task.url:\"merlingift\""
+},
+{
+"name": "pay_apiver",
+"q": "task.url:\"apiverificationcloud\""
+},
+{
+"name": "pay_frau",
+"q": "task.url:\"fraucodec\" OR task.url:\"fgrunarc\""
+},
+{
+"name": "gcs_ledger",
+"q": "page.domain:storage.googleapis.com AND page.title:\"Ledger\""
+},
+{
+"name": "title_connect",
+"q": "page.domain:sites.google.com AND page.title:\"connect\""
+},
+{
+"name": "gs_okx",
+"q": "page.domain:sites.google.com AND task.url:\"okx\""
+},
+{
+"name": "gs_bybit",
+"q": "page.domain:sites.google.com AND task.url:\"bybit\""
+},
+{
+"name": "gs_tangem",
+"q": "page.domain:sites.google.com AND task.url:\"tangem\""
+},
+{
+"name": "gs_solflare",
+"q": "page.domain:sites.google.com AND task.url:\"solflare\""
+},
+{
+"name": "gs_bitget",
+"q": "page.domain:sites.google.com AND task.url:\"bitget\""
+},
+{
+"name": "gs_safepal",
+"q": "page.domain:sites.google.com AND task.url:\"safepal\""
+},
+{
+"name": "gs_keepkey",
+"q": "page.domain:sites.google.com AND task.url:\"keepkey\""
+},
+{
+"name": "gs_tonkeeper",
+"q": "page.domain:sites.google.com AND task.url:\"tonkeeper\""
+},
+{
+"name": "gs_seedphrase",
+"q": "page.domain:sites.google.com AND task.url:\"seed-phrase\""
+}
+]

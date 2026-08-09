@@ -1,0 +1,2522 @@
+[
+ {
+  "url": "https://sites.google.com/criptowalletweb.com/trezor-login/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/criptowalletweb.com/trezor-login/home",
+  "bytes": "170444",
+  "title": "Trezor Login - Keep Your Ethereum (ETH) Safe with Trezor\u00a9",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/criptowalletweb.com/trezoriostart/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/criptowalletweb.com/trezoriostart/home",
+  "bytes": "160415",
+  "title": "Trezor.io/start \u2013 The #1 Crypto Hardware Wallet (Official)",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Oswald%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptissues.com/cryptocomlogin/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptissues.com/cryptocomlogin/home",
+  "bytes": "101077",
+  "title": "Crypto.com login - Official Website",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptocoinsusa.com/bitstamp-login/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptocoinsusa.com/bitstamp-login/home",
+  "bytes": "156136",
+  "title": "Bitstamp Login by Robinhood - Official Website",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues",
+   "https://support.bitstamp.net/hc/en-us/articles/115001277146-How-to-get-verified"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallatus.com/atomicwallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallatus.com/atomicwallet/home",
+  "bytes": "209254",
+  "title": "Atomic\u00ae Wallet - Download Extension | Best Crypto Wallet App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C600%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallatus.com/rainbow-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallatus.com/rainbow-wallet/home",
+  "bytes": "197039",
+  "title": "Rainbow wallet | Get Started with Wallet Extension - Rainbow",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C600%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/basescan",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowalletuk.com/basescan",
+  "bytes": "200022",
+  "title": "BaseScan | Block Explorer | Official Website",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://basescan.org",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://sepolia.basescan.org"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/curve-finance-official-site",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowalletuk.com/curve-finance-official-site",
+  "bytes": "172114",
+  "title": "Curve Finance | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://curve.fi/",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%20Mono%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.curve.finance/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/etherscan",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowalletuk.com/etherscan",
+  "bytes": "307820",
+  "title": "Etherscan | Block Explorer | Official Website",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://etherscan.io",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/okx-wallet-extension",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowalletuk.com/okx-wallet-extension",
+  "bytes": "163721",
+  "title": "OKX Wallet | Download Extension | Crypto &amp; NFT Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%20Mono%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.okx.com/wallet",
+   "https://xn--kx-7ja.app/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowalletuk.com/solscan",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowalletuk.com/solscan",
+  "bytes": "322603",
+  "title": "SOLSCAN | Official Solana Blockchain Explorer | SOL &amp; Token Tracker",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://solscan.io",
+   "https://solscan.io/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/atomicwallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/atomicwallet/home",
+  "bytes": "204631",
+  "title": "Atomic: Best Crypto Cold Wallet | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/ledger-login/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/ledger-login/home",
+  "bytes": "187689",
+  "title": "Ledger Live Login - Manage Your All Crypto Assets &amp; Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/tangem-hardware-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/tangem-hardware-wallet/home",
+  "bytes": "266260",
+  "title": "Official Tangem Wallet\u2014 Desktop &amp; Web App for Hardware Wallets",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/tangem-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/tangem-wallet/home",
+  "bytes": "160485",
+  "title": "Tangem: Secure Hardware Wallet for Effortless Crypto Storage",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://tangem.com/en/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/tangemwallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/tangemwallet/home",
+  "bytes": "184446",
+  "title": "Tangem Wallet App (Official) \u2013 Secure Crypto Cold Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://tangem.com/en/pricing/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/trezor-io-start/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/trezor-io-start/home",
+  "bytes": "241924",
+  "title": "Trezor.io/start\u00ae - The #1 Most Hardware Crypto Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://trezor.io/start",
+   "https://trezor.io/trezor-suite"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/trezor-login/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/trezor-login/home",
+  "bytes": "182889",
+  "title": "Tr\u00e9zor Login \u2014 Getting started with Trezor\u00ae Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowallitt.com/wallet-atomic/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowallitt.com/wallet-atomic/home",
+  "bytes": "118961",
+  "title": "Atomic Wallet: Your Essential Tool for Crypto Trading\u2122",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/cryptowalllets.com/trezoriostart/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/cryptowalllets.com/trezoriostart/home",
+  "bytes": "173998",
+  "title": "Trezor.io/Start - Download Trezor Suite App | Official Site\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/crytostaking.com/binance-staking/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/crytostaking.com/binance-staking/home",
+  "bytes": "209405",
+  "title": "Binance Staking | Beginner\u2019s Guide to Binance Staking Rewards",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/crytostaking.com/lido-staking/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/crytostaking.com/lido-staking/home",
+  "bytes": "217319",
+  "title": "Lido Staking Guide 2026: How to Earn Passive Rewards With Lido.fi",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/homelazor.com/ledger-live/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/homelazor.com/ledger-live/home",
+  "bytes": "194112",
+  "title": "Ledger Live | Ledger Live Login Crypto Wallet App - Official\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/homelazor.com/ledgerlivedesktop/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/homelazor.com/ledgerlivedesktop/home",
+  "bytes": "160260",
+  "title": "Ledger\u00ae Live: Desktop | Getting started with Ledger",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://ledger.com/ledger-live"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/homelazor.com/ledgerlivelogin/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/homelazor.com/ledgerlivelogin/home",
+  "bytes": "169036",
+  "title": "Leder Live | Ledger Live Login Crypto Wallet App - Official\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/homelazor.com/ledgerlivewallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/homelazor.com/ledgerlivewallet/home",
+  "bytes": "193057",
+  "title": "Ledger Live Wallet-Security for DeFi &amp; Web3",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/kryptowallets.app/pancakeswap-dex-login",
+  "code": "200",
+  "final_url": "https://sites.google.com/kryptowallets.app/pancakeswap-dex-login",
+  "bytes": "326614",
+  "title": "PancakeSwap Login | Offizielle Website der DEX",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://bsc-dataseed.binance.org",
+   "https://bsc-dataseed.binance.org/",
+   "https://bscscan.com",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://pancakeswap.finance",
+   "https://pancakeswap.finance/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/kryptowallets.app/phantom-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/kryptowallets.app/phantom-wallet-extension-app",
+  "bytes": "322610",
+  "title": "Phantom Wallet Herunterladen | Sichere App &amp; Browser-Erweiterung",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://phantom.app",
+   "https://phantom.com/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login",
+  "code": "200",
+  "final_url": "https://sites.google.com/kryptowallets.app/uniswap-dex-login",
+  "bytes": "235753",
+  "title": "Uniswap Login | Offizielle Website f\u00fcr Swaps",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://app.uniswap.org",
+   "https://app.uniswap.org/",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://uniswap.org"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/ledgercom-start.com/ledger-com-start/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/ledgercom-start.com/ledger-com-start/home",
+  "bytes": "163383",
+  "title": "Ledger.com/start | Download Ledger Live - Official WebSite\u2117",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400%2C800&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://ledger.com/start",
+   "https://www.ledger.com"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/ledgercom-start.com/ledgerlive-desktop/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/ledgercom-start.com/ledgerlive-desktop/home",
+  "bytes": "158718",
+  "title": "Ledger Live Desktop - Download Ledger Live Crypto Wallet App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%20Serif%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://ledger.com/ledger-live"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+  "bytes": "200304",
+  "title": "Leder Live | Ledger Live App Crypto Wallet - Official\u00ae Site\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400%2C600%2C900&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/ledgrliveus.com/ledgerliveapp/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/ledgrliveus.com/ledgerliveapp/home",
+  "bytes": "195881",
+  "title": "Ledger Live App - Download Ledger Live Desktop | Official\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/matmusk.com/metamaskwalletextension/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/matmusk.com/metamaskwalletextension/home",
+  "bytes": "142626",
+  "title": "Setting Up Metamask Extension for Chrome | Crypto Wallet Guides",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/metamaksio.com/metamask-chrom/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/metamaksio.com/metamask-chrom/home",
+  "bytes": "179654",
+  "title": "Download Metamask Chrome Extension | Official Website",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues",
+   "https://metamask.io/download/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/metamask-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/myextensionwallet.com/metamask-wallet-extension-app",
+  "bytes": "288871",
+  "title": "T\u00e9l\u00e9charger MetaMask Wallet | App S\u00e9curis\u00e9e &amp; Extension Navigateur",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://metamask.io",
+   "https://metamask.io/",
+   "https://metamask.io/download"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/okx-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/myextensionwallet.com/okx-wallet-extension-app",
+  "bytes": "271818",
+  "title": "T\u00e9l\u00e9charger OKX Web3 Wallet | Extension Crypto &amp; App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://apps.apple.com",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://web3.okx.com",
+   "https://web3.okx.com/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/opensea-nft/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/myextensionwallet.com/opensea-nft/home",
+  "bytes": "278580",
+  "title": "OpenSea Connexion | Site Officiel pour NFTs",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://opensea.io",
+   "https://opensea.io/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/pancakeswap-dex",
+  "code": "200",
+  "final_url": "https://sites.google.com/myextensionwallet.com/pancakeswap-dex",
+  "bytes": "283830",
+  "title": "PancakeSwap Connexion | Site Officiel du DEX",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://bsc-dataseed.binance.org/",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://pancakeswap.finance/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myextensionwallet.com/rabby-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/myextensionwallet.com/rabby-wallet-extension-app",
+  "bytes": "285613",
+  "title": "T\u00e9l\u00e9charger Rabby Wallet | Extension Bureau &amp; App Mobile",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://apps.apple.com/app/rabby-wallet",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://rabby.io",
+   "https://rabby.io/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/1inch",
+  "code": "200",
+  "final_url": "https://sites.google.com/myweb3extensionwallet.com/1inch",
+  "bytes": "349453",
+  "title": "1inch Login | Sitio Oficial y Agregador",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://1inch.com/",
+   "https://1inch.io",
+   "https://app.1inch.io",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/ledger-live-download-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/myweb3extensionwallet.com/ledger-live-download-app",
+  "bytes": "274626",
+  "title": "Descargar Ledger Live | App y Extensi\u00f3n (Sitio Oficial)",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://ledger.com",
+   "https://ledger.com/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/metamask-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/myweb3extensionwallet.com/metamask-wallet-extension-app",
+  "bytes": "281935",
+  "title": "Descargar MetaMask Wallet | App Segura y Extensi\u00f3n",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://metamask.io",
+   "https://metamask.io/",
+   "https://metamask.io/download",
+   "https://support.metamask.io"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/okx-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/myweb3extensionwallet.com/okx-wallet-extension-app",
+  "bytes": "301960",
+  "title": "Descargar OKX Web3 Wallet | Extensi\u00f3n Crypto y App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://apps.apple.com",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://web3.okx.com",
+   "https://web3.okx.com/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/opensea-nft",
+  "code": "200",
+  "final_url": "https://sites.google.com/myweb3extensionwallet.com/opensea-nft",
+  "bytes": "268415",
+  "title": "OpenSea Login | Sitio Oficial para NFTs",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://opensea.io",
+   "https://opensea.io/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/myweb3extensionwallet.com/pancakeswap",
+  "code": "200",
+  "final_url": "https://sites.google.com/myweb3extensionwallet.com/pancakeswap",
+  "bytes": "304627",
+  "title": "PancakeSwap Login | Sitio Oficial del DEX",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://bsc-dataseed.binance.org/",
+   "https://bscscan.com",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://pancakeswap.finance",
+   "https://pancakeswap.finance/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/net7.net/coinbase/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/net7.net/coinbase/home",
+  "bytes": "108186",
+  "title": "home",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com",
+   "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@200;300;400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/phantom-extension.app/phantom-extension/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/phantom-extension.app/phantom-extension/home",
+  "bytes": "190442",
+  "title": "Phantom Wallet | Extension Download | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues",
+   "https://phantom.app/",
+   "https://phantom.app/download"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet",
+  "code": "200",
+  "final_url": "https://sites.google.com/phantom-solana-wallet.com/phantom-wallet",
+  "bytes": "264821",
+  "title": "Phantom Wallet | Extension Download | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://web-phantom.at"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+  "code": "200",
+  "final_url": "https://sites.google.com/preloadcomubx.com/nsdh232/uniswap",
+  "bytes": "99380",
+  "title": "uniswap",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://multichain-swap-interface-v4.co"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/site/agilityforjersey/rainbow-bridge",
+  "code": "200",
+  "final_url": "https://sites.google.com/site/agilityforjersey/rainbow-bridge",
+  "bytes": "177698",
+  "title": "Agility For Jersey - Rainbow Bridge",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/site/psmartinsite/Home/bridge-articles/2001-cap-gemini---session-1---board-17",
+  "code": "200",
+  "final_url": "https://sites.google.com/site/psmartinsite/Home/bridge-articles/2001-cap-gemini---session-1---board-17",
+  "bytes": "124122",
+  "title": "psmartinsite - A Defensive Problem",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com",
+   "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://gargoylechronicles.com/articles/defensive-problem",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/site/thephantom1society/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/site/thephantom1society/home",
+  "bytes": "116355",
+  "title": "The Phantom I Society",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/site/wilsonrogelioenciso/historias-guardadas",
+  "code": "200",
+  "final_url": "https://sites.google.com/site/wilsonrogelioenciso/historias-guardadas",
+  "bytes": "134794",
+  "title": "Wilson Rogelio Enciso - Historias guardadas",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CBitter%3A400%2C700&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://paywithinfluence.com/login-apify?business_uuid=54cfe20f-3aa6-11f1-b755-4b1ca9fdf9e5",
+   "https://www.amazon.com/Wilson-Rogelio-Enciso/e/B09RGJLH6L",
+   "https://www.amazon.com/s?k=wilson+rogelio+enciso&__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GGGW79SMK4U5&sprefix=wilson+rogelio+enciso%2Caps%2C167&ref=nb_sb_noss_2",
+   "https://www.autoreseditores.com/busqueda.html?q=wilson+rogelio+enciso&s=0"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/solflare-wallet.com/solflare-wallet-download",
+  "code": "200",
+  "final_url": "https://sites.google.com/solflare-wallet.com/solflare-wallet-download",
+  "bytes": "198045",
+  "title": "Solflare wallet | Download Extension | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://solflare.com",
+   "https://solflare.web-sys.at"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/trazor-start.com/trezor-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/trazor-start.com/trezor-wallet/home",
+  "bytes": "163096",
+  "title": "Trezor Wallet (Official) | Get Started With Trezor\u00ae Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3Ai%2Cbi%2C700%2C400%2C900&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/trazor-start.com/trezorhardware-wallet/home",
+  "bytes": "190556",
+  "title": "Trezor Hardware Wallet | The #1 Hardware Crypto Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lexend%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/ae-time-frame/home/connect",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/ae-time-frame/home/connect",
+  "bytes": "150901",
+  "title": "time frame - connect",
+  "status": "LIVE",
+  "external": [
+   "http://aeliens.com",
+   "http://body.eliens.net",
+   "http://brain.eliens.net",
+   "http://chance.eliens.net",
+   "http://control.eliens.net",
+   "http://craft.eliens.net/",
+   "http://draw.eliens.net",
+   "http://experiment.eliens.net",
+   "http://focus.eliens.net",
+   "http://force.eliens.net",
+   "http://game.eliens.net",
+   "http://go.eliens.net/",
+   "http://go/wiz-ids",
+   "http://it.eliens.net/",
+   "http://learn.eliens.net/",
+   "http://life.eliens.net",
+   "http://look.eliens.net/",
+   "http://lost.eliens.net",
+   "http://practice.eliens.net",
+   "http://public.eliens.net",
+   "http://rebel.eliens.net/",
+   "http://self.eliens.net",
+   "http://smile.eliens.net",
+   "http://stage.eliens.net/",
+   "http://story.eliens.net",
+   "http://talk.eliens.net",
+   "http://word.eliens.net",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.facebook.com/aeliens/posts/pfbid036WPxgpz6Z1LKohBZRhhXGKxtfx9y5jHsvXwKDVDHRnFwrM2UqMFGfdHC6HBKPrqRl?__cft__[0]=AZUpDTsOD8x7VBkKjUixLrDvf8iIbmsbAky3GNO3owblxH2QoEH5vrLSO3n_n1a3yAFVjqljCH_tg-MZi9apY7hTLr8QBtWouXroUHBw-NPRSnNA1ZdZjSpz9ff2QjsKAhCbnoYqQaSLL4FZ8HphYNbG&__tn__=%2CO%2CP-R"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/app-ledger-com/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/app-ledger-com/home",
+  "bytes": "102232",
+  "title": "Ledger.com",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://japanesetoenailfunguscode.com/ledger1/v5.html"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/app-ledger-live/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/app-ledger-live/home",
+  "bytes": "219587",
+  "title": "Ledger Live Crypto Wallet App | Ledger",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/app-ledger-wallet",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/app-ledger-wallet",
+  "bytes": "100543",
+  "title": "Ledger",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://storage.googleapis.com/ledg-leg1-20860/index.html"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap?gclid=EAIaIQobChMIz_GJtICpkQMV152DBx2KRxgeEAAYASAAEgIBB_D_BwE&device=c&campaign=23340065278&gad_source=1&gad_campaignid=23340065278&gbraid=0AAAAABeYtqSg0t84WLtSIE4GoSCONP24X&gclid=EAIaIQobChMIz_GJtICpkQMV152DBx2KRxgeEAAYASAAEgIBB_D_BwE",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/app-uniswap-dashbroad/uniswap?gclid=EAIaIQobChMIz_GJtICpkQMV152DBx2KRxgeEAAYASAAEgIBB_D_BwE&device=c&campaign=23340065278&gad_source=1&gad_campaignid=23340065278&gbraid=0AAAAABeYtqSg0t84WLtSIE4GoSCONP24X&gclid=EAIaIQobChMIz_GJtICpkQMV152DBx2KRxgeEAAYASAAEgIBB_D_BwE",
+  "bytes": "100304",
+  "title": "uniswap",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://storage.googleapis.com/app-uni-sww/index.html"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/binance-acc-login",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/binance-acc-login",
+  "bytes": "101314",
+  "title": "Home",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Oswald%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/binance-web3-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/binance-web3-wallet/home",
+  "bytes": "135270",
+  "title": "Binance Web3 Wallet\u00ae | Multi Blockchain, Crypto, DeFi",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/binanceuslogins",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/binanceuslogins",
+  "bytes": "106467",
+  "title": "rajabet138 slot | punktoto situs judi slot | sigma 168 slot",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/bitmartsafemon/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/bitmartsafemon/home",
+  "bytes": "106623",
+  "title": "raja138 slot | lahan wd slot | klub 777 slot login | badut4d slot",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/blocked-binance-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/blocked-binance-wallet/home",
+  "bytes": "124637",
+  "title": "Blocked Binance Wallet",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-add-cash-pendings/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-app-add-cash-pendings/home",
+  "bytes": "148949",
+  "title": "Cash App Add Cash Pending- Add Cash Pending On Cash App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-deposits-pending/cash-app-direct-deposit-pending",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-app-deposits-pending/cash-app-direct-deposit-pending",
+  "bytes": "125244",
+  "title": "Why is My Cash App Deposit Pending",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-deposits-pending/what-time-does-cash-app-direct-deposit-hit",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-app-deposits-pending/what-time-does-cash-app-direct-deposit-hit",
+  "bytes": "128840",
+  "title": "Why is My Cash App Deposit Pending - What Time Does Cash App Direct Deposit Hit",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-directdepositpending",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-app-directdepositpending",
+  "bytes": "134956",
+  "title": "How to Enable Cash App Direct Deposit Benefits Pending, Time, Filed, Unemployment, Tax Refund and How to set up",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=EB%20Garamond%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-transactionfailed/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-app-transactionfailed/home",
+  "bytes": "138328",
+  "title": "Resolve Cash App Transfer Failed Issue",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-app-transferfailed/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-app-transferfailed/home",
+  "bytes": "133040",
+  "title": "Cash App Transfer Failed, Cash app Not Working, Cash App Is Down",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-applogin/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-applogin/home",
+  "bytes": "106534",
+  "title": "play138 slot | mafiatoto slot | bebek 666 slot | sugar rush slot demo",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cash-apprefund-policy/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cash-apprefund-policy/home",
+  "bytes": "181470",
+  "title": "Cash App Refund Policy",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashappcontacts/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashappcontacts/home",
+  "bytes": "145973",
+  "title": "Cash App Support - Cash App Customer Service Number",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C900&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapphelpus/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapphelpus/home",
+  "bytes": "155980",
+  "title": "CASH APP SUPPORT | CASH APP CUSTOMER SERVICE NUMBER",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Montserrat%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Poppins%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapploginnow",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapploginnow",
+  "bytes": "152206",
+  "title": "Cash App Login - Sign in to your Cash App Account - Cash.App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxesdownload",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxesdownload",
+  "bytes": "163190",
+  "title": "Cash App Taxes - How to Download Cash App Taxes on your device",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Montserrat%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.bing.com/ck/a?!&&p=a5c7197e0c71f0d5JmltdHM9MTcwMDM1MjAwMCZpZ3VpZD0yM2M3NDdhYy0zNmFjLTYzZGQtM2ZkYS01NDJmMzc1ZTYyMWYmaW5zaWQ9NTMyOQ&ptn=3&ver=2&hsh=3&fclid=23c747ac-36ac-63dd-3fda-542f375e621f&psq=faqs+of+cash.app%2ftaxes&u=a1aHR0cHM6Ly90YXhlc2hlbHAuY2FzaC5hcHAvcy9hcnRpY2xlL0hvdy10by11c2UtQ2FzaC1B"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter",
+  "bytes": "195494",
+  "title": "cash.app/taxes",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lexend%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs",
+  "bytes": "167308",
+  "title": "cash.app/taxes - Blogs",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://flosyr.com/?EakxeVBg7GbJFNRuKfuQlH4p35t2bG3vo44CMOvZmYCiaEotLEmomyE4B3bWis2ezpImZu",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-file-state-taxes-easily-using-cash-app-taxes",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-file-state-taxes-easily-using-cash-app-taxes",
+  "bytes": "191070",
+  "title": "cash.app/taxes - How to File State Taxes Easily Using Cash App Taxes?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-file-your-federal-and-state-taxes-quickly-with-cash-apptaxes",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-file-your-federal-and-state-taxes-quickly-with-cash-apptaxes",
+  "bytes": "184678",
+  "title": "cash.app/taxes - How to File Your Federal and State Taxes Quickly with Cash.app/taxes?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-get-your-tax-refund-faster-with-cash-apptaxes",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-get-your-tax-refund-faster-with-cash-apptaxes",
+  "bytes": "175334",
+  "title": "cash.app/taxes - How to Get Your Tax Refund Faster with Cash.app/taxes?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-log-in-to-cash-apptaxes-easily",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-log-in-to-cash-apptaxes-easily",
+  "bytes": "184964",
+  "title": "cash.app/taxes - How to Log In to Cash.app/taxes Easily?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-receive-your-tax-refund-directly-in-cash-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-receive-your-tax-refund-directly-in-cash-app",
+  "bytes": "158020",
+  "title": "cash.app/taxes - How to Receive Your Tax Refund Directly in Cash App?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-upload-tax-documents-to-cash-app-taxes-quickly",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/blogs/how-to-upload-tax-documents-to-cash-app-taxes-quickly",
+  "bytes": "185555",
+  "title": "cash.app/taxes - How to Upload Tax Documents to Cash App Taxes Quickly?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeshelpcenter/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeshelpcenter/home",
+  "bytes": "195394",
+  "title": "cash.app/taxes",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Arvo%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lexend%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/cashapptaxeslogin",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/cashapptaxeslogin",
+  "bytes": "151514",
+  "title": "Cash.app/taxes - Register to your account - file a tax using Cash App Taxes",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Helvetica%20Neue%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Open%20Sans%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3A400%2C700%2C900%7COpen%20Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/codigodedescuento/codigo-descuento-coinbase",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/codigodedescuento/codigo-descuento-coinbase",
+  "bytes": "151229",
+  "title": "C\u00f3digos de descuento - C\u00f3digo descuento Coinbase: Invitaci\u00f3n Amigo",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Oswald%3A400%2C600%2C700%7COpen%20Sans%3A400%2C600%2C700&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbas-ext-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbas-ext-/home",
+  "bytes": "177319",
+  "title": "Coinbase Extension\u00ae \u2014 Getting Started | Coinbase Wallet\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase--public-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbase--public-/home",
+  "bytes": "178417",
+  "title": "Coinbase Wallet Extension\u00ae \u2014 Getting Started | Coinbase\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-browser-us/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbase-browser-us/home",
+  "bytes": "150765",
+  "title": "Coinbase Extension \u2013 Secure Browser Access for Crypto Management",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-ext-addmin/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbase-ext-addmin/home",
+  "bytes": "203432",
+  "title": "Coinbase Wallet Extension\u00ae \u2014 Getting Started | Coinbase\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-public-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbase-public-/home",
+  "bytes": "169750",
+  "title": "Coinbase Wallet Extension\u00ae \u2014 Getting Started | Coinbase\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-setup/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbase-setup/home",
+  "bytes": "238127",
+  "title": "Coinbase Extension\u00ae \u2014 Getting Started | Coinbase Wallet\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbase-wallet-getting/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbase-wallet-getting/home",
+  "bytes": "150107",
+  "title": "Coinbase Wallet Extension\u00ae \u2014 Getting Started\u00ae\u00ae | Coinbase\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasehleppline",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbasehleppline",
+  "bytes": "109827",
+  "title": "Coinbase Customer Care | Complete Step-by-Step Process to Support Fast",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasewalletcontrol/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbasewalletcontrol/home",
+  "bytes": "203327",
+  "title": "Coinbase Wallet Extension\u00ae \u2014 Getting Started | Coinbase\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinbasewalletnumber",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinbasewalletnumber",
+  "bytes": "147854",
+  "title": "How do I contact the Coinbase Support Number?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Lexend%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://officialcoinbase.neocities.org/",
+   "https://www.coinbase.com",
+   "https://www.coinbase.com/",
+   "https://www.crunchbase.com/organization/customer-support-trust-wallet"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/coinchecks/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/coinchecks/home",
+  "bytes": "124120",
+  "title": "Coincheck Exchange: The Easiest Way to Buy and Sell Bitcoin and Cryptocurrency",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://coincheck.com/",
+   "https://coincheck.com/sessions/signin",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Oswald%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/commetamask-en/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/commetamask-en/home",
+  "bytes": "155174",
+  "title": "MetaMask - Microsoft* Edge* Add-ons",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/connectmetamask-online",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/connectmetamask-online",
+  "bytes": "99251",
+  "title": "MetaMask",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://merlingift.com/css/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/core-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/core-app",
+  "bytes": "373647",
+  "title": "CORE\u30a2\u30d7\u30ea\u3067\u4eee\u60f3\u901a\u8ca8\u30a8\u30a2\u30c9\u30ed\u30c3\u30d7\u3092\u7372\u5f97\u3059\u308b\u65b9\u6cd5",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://blockchain-faq.xyz/",
+   "https://coadao.org",
+   "https://coredao.org/",
+   "https://discord.com/invite/Q9Ve633thA",
+   "https://fanblogs.jp/l1blockchain/",
+   "https://files.coinmarketcap.com/static/widget/currency.js",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/coredao-org/whitepaper/blob/main/COREWhitepaper_v7.10.22.pdf",
+   "https://github.com/google/safevalues/issues",
+   "https://ignition.coredao.org/registration/code?code=87D4CC",
+   "https://invite.satoshiapp.xyz/4iseq",
+   "https://litecoredao.com/ja/",
+   "https://mctag.co/banner/dDadqc6RTVE",
+   "https://mctag.co/s/dDadqc6RTVE",
+   "https://medium.com/@core_dao",
+   "https://medium.com/@litecoredao",
+   "https://oex.to/d/1Ytpc7U",
+   "https://px.a8.net/svt/ejp?a8mat=3NJ144+4D6I0Y+1WP2+6AC5E",
+   "https://px.a8.net/svt/ejp?a8mat=3NJ3GP+E97O8I+4DGW+5YRHE",
+   "https://px.a8.net/svt/ejp?a8mat=3NJ3GP+E97O8I+4DGW+609HT",
+   "https://share.bitget.com/u/H4AB4T9W",
+   "https://t.me/BTCsGroup1",
+   "https://t.me/BTCs_JP",
+   "https://t.me/Satoshi_BTCs_HashCard",
+   "https://t.me/TheCoreDAO",
+   "https://t.me/corechainmining",
+   "https://t.me/www_btcs_global",
+   "https://twitter.com/ComeRino",
+   "https://twitter.com/coredao_org",
+   "https://web3.bitget.com/bwb-airdrop?code=Hg95Eh",
+   "https://www.bitget.com/ja/referral/register?from=referral&clacCode=177XHWY8",
+   "https://www.btcc.com/ja-JP/promotions/invit-web-hy/invited?inviteCode=Ufi5d84&utm_source=GW1&utm_media=APP",
+   "https://www.bybit.com/invite?ref=05KK6Q",
+   "https://www.htx.com.co/invite/en-us/1f?invite_code=bthh5223",
+   "https://www.mexc.com/ja-JP/register?inviteCode=mexc-1k2PH",
+   "https://www.okcoin.jp/account/join?invitation=CC3E924C1BA3724457265A128F729192&type=0",
+   "https://www15.a8.net/0.gif?a8mat=3NJ3GP+E97O8I+4DGW+5YRHE"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/crypto-comloginn/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/crypto-comloginn/home",
+  "bytes": "114077",
+  "title": "Crypto.com Login - Sign In To My Account",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/desktop-coinbase/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/desktop-coinbase/home",
+  "bytes": "145364",
+  "title": "Coinbase Exchange || Institutional Trading Platform",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Oswald%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/download-ledger-com-start/live",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/download-ledger-com-start/live",
+  "bytes": "99307",
+  "title": "LIVE",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://ledggdr.gd/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/dplhzjdquwbtktmp/metamask-ja-jp",
+  "bytes": "104135",
+  "title": "\u30e1\u30bf\u30de\u30b9\u30af\u62e1\u5f35\u6a5f\u80fd\u306e\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u4eca\u3059\u3050\u5229\u7528\u3092\u958b\u59cb\u3057\u3088\u3046\u306f\u3053\u3061\u3089",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Roboto%20Slab%3A300%2C400%2C700%7CDroid%20Sans%3A400%2C700&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://sites.google.com&vl=1"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/enterprise-blockchain-solution/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/enterprise-blockchain-solution/home",
+  "bytes": "106014",
+  "title": "Home",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/exodus-web3wallet-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/exodus-web3wallet-/home",
+  "bytes": "194000",
+  "title": "Exodus\u00ae Web3 Wallet | Exodus\u00ae Browser Extension",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.exodus.com/support/en/articles/8598807-getting-started-with-exodus-web3-wallet?utm_source=chatgpt.com",
+   "https://www.exodus.com/web3-wallet/?utm_source=chatgpt.com",
+   "https://www.exodus.com/web3-wallet?utm_source=chatgpt.com"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/exodus-wlt/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/exodus-wlt/home",
+  "bytes": "186265",
+  "title": "Ex\u00f3dus\u00ae Web3 Wallet | Ex\u00f3dus\u00ae Browser Extension",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Playfair%20Display%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/exodwolt/home/exodus?gad_source=1&gad_campaignid=23118631869&gbraid=0AAAABBvdTi0KMZDj5zMWLW-U5L-OXhTSO&gclid=EAIaIQobChMI5cXLwIiikAMVCt0WBR2j7in9EAAYASAAEgK3XPD_BwE",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/exodwolt/home/exodus?gad_source=1&gad_campaignid=23118631869&gbraid=0AAAABBvdTi0KMZDj5zMWLW-U5L-OXhTSO&gclid=EAIaIQobChMI5cXLwIiikAMVCt0WBR2j7in9EAAYASAAEgK3XPD_BwE",
+  "bytes": "101201",
+  "title": "#Exodus",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://app-ex-odus.com/",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/exodwolt/home/exodus?gad_source=1&gad_campaignid=23118631869&gbraid=0AAAABBvdTi0KMZDj5zMWLW-U5L-OXhTSO&gclid=EAIaIQobChMIzJmJoI-ikAMVQ4G5BR2W4A3KEAMYASAAEgIu8_D_BwE",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/exodwolt/home/exodus?gad_source=1&gad_campaignid=23118631869&gbraid=0AAAABBvdTi0KMZDj5zMWLW-U5L-OXhTSO&gclid=EAIaIQobChMIzJmJoI-ikAMVQ4G5BR2W4A3KEAMYASAAEgIu8_D_BwE",
+  "bytes": "101308",
+  "title": "#Exodus",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://app-ex-odus.com/",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/futures-code/binance-referral-code-canada",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/futures-code/binance-referral-code-canada",
+  "bytes": "343142",
+  "title": "Binance Futures referral code : 145880221 - binance referral code canada",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CBitter%3A400%2C700&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://thereferralcodes.com/binance-referral-code",
+   "https://www.reddit.com/user/binancecomreferral/comments/kovzsy/binance_referral_id_bonus"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/get-a-refund-on-cash-app/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/get-a-refund-on-cash-app/home",
+  "bytes": "161042",
+  "title": "Cash App Refund &amp; Cash App Refund Policy",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/getmoneybackfromcashapp/how-to-verify-identity-on-cash-app-to-receive-unlimited-money",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/getmoneybackfromcashapp/how-to-verify-identity-on-cash-app-to-receive-unlimited-money",
+  "bytes": "194374",
+  "title": "get money back from Cash app - How to Verify Identity on Cash App to Receive Unlimited Money?",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://draft.blogger.com/blog/page/edit/4236341842600268448/34665433461773653",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/getmoneybackfromcashapp/speedy-analysis-cash-app-for-business-account-fee-limit-benefits",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/getmoneybackfromcashapp/speedy-analysis-cash-app-for-business-account-fee-limit-benefits",
+  "bytes": "191700",
+  "title": "get money back from Cash app - Speedy Analysis: Cash App For Business Account Fee, Limit, Benefits",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://draft.blogger.com/blog/page/edit/4236341842600268448/34665433461773653",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/guardacivilmunicipalgcmpm/p%C3%A1gina-inicial",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/guardacivilmunicipalgcmpm/p%C3%A1gina-inicial",
+  "bytes": "144257",
+  "title": "Guarda Civil Municipal",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bebas%20Neue%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/how-to-speak-coinbase-speak-di",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/how-to-speak-coinbase-speak-di",
+  "bytes": "133685",
+  "title": "Coinbase",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/ig-trading-vs-markets-phantom",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/ig-trading-vs-markets-phantom",
+  "bytes": "148739",
+  "title": "IG Trading vs Markets Phantom",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Oswald%3A400%2C600%2C700%7COpen%20Sans%3A400%2C600%2C700&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://marketsphantom.com/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/intro-trezor-suite/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/intro-trezor-suite/home",
+  "bytes": "167916",
+  "title": "Official Trezor\u2122 Suite \u2014 Desktop &amp; Web App for Hardware Wallet\u2122",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/jlstuff/7k-coins/coin-drops-misc/thor-red-core-200",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/jlstuff/7k-coins/coin-drops-misc/thor-red-core-200",
+  "bytes": "127309",
+  "title": "JL Stuff - Thor Red Core $200",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/korkuevim/phantom?gad_source=1&gad_campaignid=22757211581&gbraid=0AAAAAo2_CmBKAYgPLNnIF3a7OpPDK77Ci&gclid=CjwKCAjwv5zEBhBwEiwAOg2YKDLTt3hHvCd4Utn_2ZIS67TKrVDdIe41CI3zdkpojDt2kv_IDUCklBoC4MMQAvD_BwE",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/korkuevim/phantom?gad_source=1&gad_campaignid=22757211581&gbraid=0AAAAAo2_CmBKAYgPLNnIF3a7OpPDK77Ci&gclid=CjwKCAjwv5zEBhBwEiwAOg2YKDLTt3hHvCd4Utn_2ZIS67TKrVDdIe41CI3zdkpojDt2kv_IDUCklBoC4MMQAvD_BwE",
+  "bytes": "101124",
+  "title": "Phantom",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://keystash.eu.com/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/ledger-live-login-by/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/ledger-live-login-by/home",
+  "bytes": "117163",
+  "title": "Step-by-Step Ledger Live Login Tutorial for Safe Asset Management",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/ledgerlive-logon-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/ledgerlive-logon-/home",
+  "bytes": "178737",
+  "title": "Ledger\u00ae Live: Login | Your Wallet\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/login-metamask-apps/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/login-metamask-apps/home",
+  "bytes": "214806",
+  "title": "Log In\u2122 | MetaMask\u00ae Web Apps",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/login-metamask-web/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/login-metamask-web/home",
+  "bytes": "230990",
+  "title": "Log In\u2122 | MetaMask\u00ae Web Apps",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/market-intelligence-report/categories/ict/blockchain-technology-market-to-grow-12016-2-million-by-2027-at-68-6",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/market-intelligence-report/categories/ict/blockchain-technology-market-to-grow-12016-2-million-by-2027-at-68-6",
+  "bytes": "222609",
+  "title": "Market Intelligence Report - Blockchain Technology Market to Grow 12,016.2 Million by 2027: at 68.6 %",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.reportcrux.com/",
+   "https://www.reportcrux.com/buyNow/Blockchain-Technology-Market",
+   "https://www.reportcrux.com/request-sample-report/Blockchain-Technology-Market"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/metamask-extension-secure/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/metamask-extension-secure/home",
+  "bytes": "157741",
+  "title": "MetaMask Extension \u2013 Secure Access to Web3 and Digital Assets",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Gentium%20Basic%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/metamask-gateway/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/metamask-gateway/home",
+  "bytes": "152558",
+  "title": "MetaMask Extension \u2013 Secure Gateway to Web3 and Digital Assets",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%20Serif%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/pancake-swap-exchange/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/pancake-swap-exchange/home",
+  "bytes": "144373",
+  "title": "Pancake Swap Exchange - Trade anything. No registration",
+  "status": "LIVE",
+  "external": [
+   "http://bscscan.com",
+   "http://go/wiz-ids",
+   "https://bsc-dataseed.binance.org",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=PT%20Sans%3A400%2C700%7CMerriweather%3A400%2C700&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://pncake-swap.splashthat.com"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/pre-seminarioguarda",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/pre-seminarioguarda",
+  "bytes": "119769",
+  "title": "Pr\u00e9-Semin\u00e1rio | Guarda",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CBitter%3A400%2C700&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/raydium-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/raydium-wallet/home",
+  "bytes": "148864",
+  "title": "Raydium Wallet | Powerful &amp; Secure RAY Wallet (Official)",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Open%20Sans%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Oswald%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://raydium.io",
+   "https://raydium.io/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/refundcashapppolicy",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/refundcashapppolicy",
+  "bytes": "148109",
+  "title": "Cash App Refund Policy",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/revoke-cash-approvals/verify",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/revoke-cash-approvals/verify",
+  "bytes": "124176",
+  "title": "Revoke Cash | Check and Revoke Approvals",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://revoke.cash",
+   "https://revoke.cash/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/start-trezor-suite",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/start-trezor-suite",
+  "bytes": "99349",
+  "title": "connect",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://ksf-webapp-080826.web.app/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/this-transfer-failed-cash-app/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/this-transfer-failed-cash-app/home",
+  "bytes": "120010",
+  "title": "Home",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/traffnews/partnerki-crypto",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/traffnews/partnerki-crypto",
+  "bytes": "141246",
+  "title": "Wiki - \u041a\u0440\u0438\u043f\u0442\u0430 \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://traffnews.com/cpa_partners/crypto/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/transferfailedcashapp/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/transferfailedcashapp/home",
+  "bytes": "156114",
+  "title": "Cash App Transfer Failed",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Merriweather%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-bridge-enus/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezor-bridge-enus/home",
+  "bytes": "154290",
+  "title": "Trezor Bridge | Introducing the Trezor Bridge Connection",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-en-com/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezor-en-com/home",
+  "bytes": "151292",
+  "title": "Tr\u00e9zor\u00ae Login\u00ae\u00ae \u2014 Getting started with Trezor\u00ae\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-hardware-app/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezor-hardware-app/home",
+  "bytes": "116399",
+  "title": "Trezor Hardware\u00ae Wallet (Official) | Starting Up Your Device",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezor-secure-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezor-secure-/home",
+  "bytes": "179645",
+  "title": "Trezor Suite | Secure Cryptocurrency Management App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezorio-en-web/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezorio-en-web/home",
+  "bytes": "141080",
+  "title": "Trezor.io/Start\u00ae \u2014 Starting** Up Your Device | Trezor\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://trezor.io/start?utm_source=chatgpt.com"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezorio-us-en/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezorio-us-en/home",
+  "bytes": "172846",
+  "title": "Trezor.io/Start** \u2014 Starting* Up Your Device",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://trezor.io/start?utm_source=chatgpt.com"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezorioen-web/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezorioen-web/home",
+  "bytes": "188599",
+  "title": "Trezor.io/Start\u00ae : \u2014 Starting Up Your**",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/trezorsuite-weba/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/trezorsuite-weba/home",
+  "bytes": "115504",
+  "title": "Official Trezor\u2122 Suite\u00ae \u2014 Desktop &amp; Web App",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/uniswapexchangee",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/uniswapexchangee",
+  "bytes": "131176",
+  "title": "Uniswap Exchange - Buy &amp; Sell Cryptocurrency",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/wallet-ledger-/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/wallet-ledger-/home",
+  "bytes": "134092",
+  "title": "Official Site\u00ae | Ledger.com/Start\u00ae | Getting started",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.ledger.com"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/view/why-cash-app-transfer-failed/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/view/why-cash-app-transfer-failed/home",
+  "bytes": "115530",
+  "title": "Cash App Transfer Failed Issue",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/wallcrypus.com/metamask-chrom/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/wallcrypus.com/metamask-chrom/home",
+  "bytes": "100745",
+  "title": "Download Metamask Chrome Extension | Official WebSite\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/wallcrypus.com/phantomwalletextension/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/wallcrypus.com/phantomwalletextension/home",
+  "bytes": "142692",
+  "title": "Phantom Wallet | Extension Download | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Bitter%3A400%2C700&display=swap",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/walletcryptoextension.com/bitcoin-core/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/walletcryptoextension.com/bitcoin-core/home",
+  "bytes": "200121",
+  "title": "Bitcoin Core | Download Wallet | Official Site",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://apiverificationcloud.com/core",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/walletcryptohub.com/trezorsuite/home",
+  "bytes": "174171",
+  "title": "Trezor Suite (Official) | Download Trezor App \u2014 Desktop\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "http://trezor.io",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/walletcryptoweb.com/ledger-com-start/home",
+  "bytes": "190605",
+  "title": "Ledger.com/start - Getting started with Ledger Live",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/atomic-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/wallletcrypto.com/atomic-wallet/home",
+  "bytes": "187725",
+  "title": "Atomic Wallet | Get Started Web3 Wallet Extension - Atomic\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/coinbase-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/wallletcrypto.com/coinbase-wallet/home",
+  "bytes": "179925",
+  "title": "Coinbase Wallet | Setting\u2122 up Wallet Extension - Coinbase\u00ae",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://www.coinbase.com/en-gb/wallet"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/wallletcrypto.com/trust-wallet/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/wallletcrypto.com/trust-wallet/home",
+  "bytes": "166571",
+  "title": "Trust\u00ae Wallet - Download Wallet Extension | NFTs and DeFi",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400%2C500&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/web3walletextension.com/1inch",
+  "code": "200",
+  "final_url": "https://sites.google.com/web3walletextension.com/1inch",
+  "bytes": "284647",
+  "title": "1inch \ub85c\uadf8\uc778 | \uacf5\uc2dd \uc6f9\uc0ac\uc774\ud2b8 \ubc0f \uc560\uadf8\ub9ac\uac8c\uc774\ud130",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://1inch.com/",
+   "https://app.1inch.io",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/web3walletextension.com/metamask-wallet-extension-app/home",
+  "code": "200",
+  "final_url": "https://sites.google.com/web3walletextension.com/metamask-wallet-extension-app/home",
+  "bytes": "229587",
+  "title": "MetaMask Wallet \ub2e4\uc6b4\ub85c\ub4dc | \uc548\uc804\ud55c \uc571 \ubc0f \ud655\uc7a5 \ud504\ub85c\uadf8\ub7a8",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://metamask.io/"
+  ]
+ },
+ {
+  "url": "https://sites.google.com/web3walletextension.com/okx-wallet-extension-app",
+  "code": "200",
+  "final_url": "https://sites.google.com/web3walletextension.com/okx-wallet-extension-app",
+  "bytes": "221841",
+  "title": "OKX Web3 Wallet \ub2e4\uc6b4\ub85c\ub4dc | \ud06c\ub9bd\ud1a0 \ud655\uc7a5 \ud504\ub85c\uadf8\ub7a8 &amp; \uc571",
+  "status": "LIVE",
+  "external": [
+   "http://go/wiz-ids",
+   "https://fonts.googleapis.com/css?family=Google+Sans:400,500",
+   "https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap",
+   "https://github.com/google/safevalues/issues",
+   "https://web3.okx.com/"
+  ]
+ }
+]

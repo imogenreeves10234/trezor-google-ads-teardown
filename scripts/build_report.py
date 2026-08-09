@@ -160,6 +160,37 @@ gallery = load("gallery.json", [])
 geotab = load("geo_table.json", {})
 zipmeta = load("zip_meta.json", {})
 payhosts = load("payload_hosts.json", [])
+cases_fragment = ""
+try:
+    cases_fragment = open(os.path.join(ROOT, "data", "cases_fragment.html")).read()
+except Exception:
+    cases_fragment = "<p class='muted'>Case file is being regenerated.</p>"
+livead_verdict = load("livead_verdict.json", {})
+
+
+def livead_verdict_html():
+    v = livead_verdict
+    if not v:
+        return ('<div class="panel"><p style="margin:0">The live-ad SERP sweep is still running; '
+                'this section updates when it completes.</p></div>')
+    live = v.get("total_live_ads", 0)
+    if live > 0:
+        box = (f'<div class="panel flag"><p style="margin-top:0"><b>Yes &mdash; {live} live malicious '
+               f'ad(s) were caught in the SERP.</b></p>')
+        rows = "".join(
+            f'<li><b>{E(a.get("brand"))}</b> in <b>{E(a.get("cc"))}</b> &mdash; displayed URL '
+            f'<code>{E(a.get("displayed_url") or "?")}</code>, query &ldquo;{E(a.get("query"))}&rdquo;</li>'
+            for a in v.get("live_ads", []))
+        return box + f"<ul>{rows}</ul></div>"
+    return (f'<div class="panel good"><p style="margin-top:0"><b>No live malicious ad was observed '
+            f'right now.</b></p><p style="margin-bottom:0">Across <b>{v.get("rendered", 0)} SERPs that '
+            f'rendered</b> ({v.get("total", 0)} probes attempted, {v.get("blocked", 0)} blocked by '
+            f"Google's bot wall) covering {v.get('brands', 0)} brands in {v.get('geos', 0)} countries, "
+            f'not one sponsored result pointed at Google-owned hosting or a known phishing domain. '
+            f'This is &ldquo;not observed in this sweep&rdquo;, not proof of total absence: ad fill is '
+            f'intermittent and these campaigns burst and pause. The <b>pages</b> are live; a live '
+            f'<b>ad</b> pointing at them was not caught in this pass.</p></div>')
+
 
 
 def gallery_html():
@@ -404,6 +435,19 @@ li.t-def .t-when b{{color:var(--accent)}}
 .urlbar{{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
   padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}}
 .urlbar .g{{color:#188038}} .urlbar .r{{color:#c5221f;font-weight:700}}
+.case{{border:1px solid var(--line);border-radius:11px;margin:20px 0;overflow:hidden;background:var(--panel)}}
+.case-head{{padding:15px 20px 12px;border-bottom:1px solid var(--line);background:#12161c}}
+.case-head h3{{font-size:17px;margin:9px 0 0;font-weight:700}}
+.case-head h3 .mono{{font-size:13px;color:var(--dim);word-break:break-all}}
+.case-body{{padding:16px 20px 20px}}
+table.kv{{width:100%;border-collapse:collapse;margin:0 0 14px}}
+table.kv td{{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;font-size:13.5px}}
+table.kv td:first-child{{color:var(--dim);width:220px;font-size:12.5px}}
+.case-journey{{background:#12171d;border-left:3px solid var(--after);border-radius:0 8px 8px 0;
+  padding:12px 16px;font-size:14px;color:var(--text)}}
+.case-shot{{margin:16px 0 0}}
+.case-shot img{{width:100%;max-width:560px;border:1px solid var(--line);border-radius:8px;background:#fff}}
+.case-shot figcaption{{color:var(--dim);font-size:12.5px;margin-top:7px}}
 .tag{{display:inline-block;align-self:flex-start;font:700 10px/1 var(--mono);letter-spacing:.09em;
   padding:5px 8px;border-radius:4px;text-transform:uppercase}}
 .tag-active{{background:#3a1418;color:#ff8b8b;border:1px solid #5c1f26}}
@@ -462,7 +506,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 
 <nav class="toc"><div class="wrap">
   <b>Contents</b>
-  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#live">10 Live pages</a><a href="#chain">11 Payload chain</a><a href="#geo">12 Where they serve</a><a href="#download">13 Download evidence</a><a href="#advertised">14 Advertised URLs</a><a href="#ledger">15 The Ledger domain</a><a href="#pattern">16 Platform pattern</a><a href="#serpgeo">17 Multi-geo SERP</a><a href="#advertiser">18 The advertiser</a><a href="#response">19 Response</a><a href="#ioc">20 Indicators</a><a href="#method">21 Method</a>
+  <a href="#livead">A Live ads?</a><a href="#cases">B Case file</a><a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#live">10 Live pages</a><a href="#chain">11 Payload chain</a><a href="#geo">12 Where they serve</a><a href="#download">13 Download evidence</a><a href="#advertised">14 Advertised URLs</a><a href="#ledger">15 The Ledger domain</a><a href="#pattern">16 Platform pattern</a><a href="#serpgeo">17 Multi-geo SERP</a><a href="#advertiser">18 The advertiser</a><a href="#response">19 Response</a><a href="#ioc">20 Indicators</a><a href="#method">21 Method</a>
 </div></nav>
 
 <section id="answers"><div class="wrap">
@@ -497,6 +541,39 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
       each drain's own block time. <b>{money(usd(post))}</b> of it after the victim publicly warned
       people. <a href="#money">§7</a></div>
   </div>
+</div></section>
+
+<section id="livead"><div class="wrap">
+  <h2>A &middot; Are the ads live right now?</h2>
+  <p class="sub">The question that kept getting muddled, answered on its own.</p>
+  <div class="panel">
+    <p style="margin-top:0">There are <b>three different things</b> the word &ldquo;live&rdquo; can
+    mean here, and they have different answers. Keeping them apart is the whole point:</p>
+    <ol style="margin-bottom:0">
+      <li><b>Are the phishing pages live?</b> <span class="bad">Yes.</span> 15 confirmed serving in
+        all {geo} countries probed today (&sect;12), 7 still actively harvesting (&sect;10).</li>
+      <li><b>Were they distributed by paid Google ads?</b> <span class="amber">Yes, provably</span>
+        &mdash; 16 URLs captured with Google&rsquo;s own click parameters, 11 campaign IDs
+        (&sect;14). Most recent such capture: April 2026.</li>
+      <li><b>Is a paid ad running <i>at this moment</i>?</b> &mdash; that is what the sweep below
+        tests directly.</li>
+    </ol>
+  </div>
+  {livead_verdict_html()}
+</div></section>
+
+<section id="cases"><div class="wrap">
+  <h2>B &middot; Case file &mdash; every live page, one block each</h2>
+  <p class="sub">One entry per live phishing page, in the format you asked for: the google.com URL, the
+  payload domain behind it, registration dates, where it serves, its advertising status, and the
+  victim&rsquo;s journey. Full source, headers and screenshots for each are in the
+  <a href="#download">evidence ZIP</a>.</p>
+  <div class="legend" style="margin-bottom:20px">
+    <span><i class="sw" style="background:#ff8b8b"></i>ACTIVE HARVESTER &mdash; asking for seed phrases now</span>
+    <span><i class="sw" style="background:#f0c078"></i>BROKEN SHELL &mdash; live page, payload host dead</span>
+    <span><i class="sw" style="background:#9ec5e8"></i>BRAND IMPERSONATION &mdash; no live harvest seen</span>
+  </div>
+  {cases_fragment}
 </div></section>
 
 <section id="happened"><div class="wrap">

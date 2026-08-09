@@ -1,0 +1,30 @@
+{
+  "cc": "FR",
+  "query": "trezor wallet",
+  "brand": "trezor",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_FR_s_336065JKV_ttl_72h",
+      "exit": {
+        "ip": "86.227.117.43",
+        "hostname": "lfbn-mon-1-790-43.w86-227.abo.wanadoo.fr",
+        "city": "Argeles",
+        "region": "Occitanie",
+        "country": "FR",
+        "loc": "42.5471,3.0225",
+        "org": "AS3215 Orange S.A.",
+        "postal": "66700",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "trezor_FR_trezor-wallet_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}
