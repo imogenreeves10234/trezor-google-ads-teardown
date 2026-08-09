@@ -630,6 +630,15 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
     solicit a recovery phrase. The misspelling and the accented <i>ó</i> are deliberate — they read
     correctly to a human and defeat exact-string brand matching.</p>
   </div>
+  <figure>
+    <img src="assets/live-ledger-20260809.jpg" alt="A live phishing page on sites.google.com styled as the official Ledger Live download page, with fake Windows, macOS, Linux, iOS and Android download buttons.">
+    <figcaption>Captured live on <b>{time.strftime("%d %B %Y", time.gmtime())}</b> at
+    <code>sites.google.com/ledgerstart-web.com/ledger-live/home</code> — two days after the Trezor
+    page was pulled. It bills itself “OFFICIAL LEDGER LIVE™ DOWNLOAD PAGE”, claims “Trusted by over
+    7 million customers”, and offers five platform downloads. The page title still carries the
+    misspelling: “<b>Leder</b> Live … Official® Site®”. Note the URL — a Workspace-verified
+    attacker domain sitting inside a google.com address.</figcaption>
+  </figure>
   <div class="scroll"><table>
     <tr><th>Brand</th><th>Live URL</th></tr>
     {eco_live_html()}
