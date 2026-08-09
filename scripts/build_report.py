@@ -287,8 +287,9 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   <p class="lede">A Google Search sponsored result for <b>“trezor suite”</b> showed the URL
   <code>https://www.google.com</code> and the advertiser name <b>Trezor.io</b>. It led to a
   pixel-perfect Trezor clone hosted on Google Sites that asked for the wallet recovery phrase.
-  It out-ranked Trezor’s own ad. In 33 hours it took
-  <b>{btcs(dep):.2f} BTC</b> from <b>{len(dep)}</b> wallets.</p>
+  It out-ranked Trezor’s own ad. In 33 hours the harvesting address took
+  <b>{btcs(dep):.2f} BTC</b> from <b>{len(dep)}</b> wallets — and Google’s own advertising policy
+  already forbade the ad in writing.</p>
   <div class="stats">
     <div class="stat red"><b>{money(usd(dep))}</b><span>stolen, valued at each drain’s own block time</span></div>
     <div class="stat"><b>{len(dep)}</b><span>separate victim wallet drains</span></div>
@@ -305,10 +306,11 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
     <ol style="margin:0;padding-left:19px">
       <li>The attacker put the phishing page on <b>Google Sites</b> —
         <code>sites.google.com/view/start-trezor-suite</code>.</li>
-      <li>Google requires an ad’s display URL to share a domain with its final URL. Because the
-        final URL was on <code>sites.google.com</code>, a display URL of
-        <b><code>https://www.google.com</code></b> <i>satisfied</i> that requirement. The rule written
-        to stop exactly this deception was the rule that permitted it.</li>
+      <li>The ad rendered its display URL as <b><code>https://www.google.com</code></b>. Google’s
+        destination-mismatch policy lists as a violation <i>“Failing to use a subdomain to clearly
+        identify a site from all other sites hosted on that domain or from the parent domain”</i> —
+        which a path-based Google Sites URL cannot satisfy. The ad was <b>already prohibited</b>. It
+        ran anyway.</li>
       <li>The advertiser set its public name to <b>Trezor.io</b> and bought sitelinks, so the ad
         rendered above the genuine Trezor ad.</li>
       <li>The landing page cloned trezor.io and asked for the <b>BIP-39 recovery phrase</b> in
@@ -320,16 +322,59 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section><div class="wrap">
+  <h2>How much of this is actually established</h2>
+  <p class="sub">Separating what is checkable from what is one person’s word, before anything is
+  built on top of it.</p>
+  <div class="two">
+    <div class="panel good">
+      <h3 style="margin-bottom:8px">Verifiable</h3>
+      <ul style="margin:0;padding-left:18px">
+        <li>The URL <code>sites.google.com/view/start-trezor-suite</code> — captured by urlscan.io
+          while live.</li>
+        <li>The page content — a trezor.io clone soliciting a BIP-39 phrase.</li>
+        <li>The address <code>bc1qrz33mr7…</code> and every satoshi through it —
+          <b>{money(usd(dep))}</b> across <b>{len(dep)}</b> drains, agreed by two independent
+          block explorers.</li>
+        <li>Trezor’s reply, from the verified account, at <b>2026-08-07 10:57:56 UTC</b>.</li>
+        <li>Google’s policy text, quoted live.</li>
+      </ul>
+    </div>
+    <div class="panel flag">
+      <h3 style="margin-bottom:8px">Claim only</h3>
+      <ul style="margin:0;padding-left:18px">
+        <li><b>“Life savings.”</b> Unverified. No amount was named and no wallet was tied to the
+          poster.</li>
+        <li><b>“Top sponsored result.”</b> Unverified for the query the victim named. The surviving
+          screenshot is a different query, posted by a different account, a day later.</li>
+        <li><b>The reporting account is 16 minutes old.</b> The user ID decodes to
+          <b>2026-08-06 19:39:47 UTC</b>; the post is <b>19:56:03 UTC</b> — 16 minutes 15 seconds
+          later. Default avatar, unverified, no history.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="small muted">This does not make the incident false — the blockchain is indifferent to who
+  tweeted, and it records {len(dep)} drained wallets either way. It means the <b>money and the page
+  are the evidence</b>, and the narrator is not. Every figure in this report comes from the former.</p>
+</div></section>
+
+<section><div class="wrap">
   <h2>The ad</h2>
-  <p class="sub">Captured by the victim on the query “trezor suite”. Both sponsored slots are Trezor —
-  only one of them is Trezor.</p>
+  <p class="sub">Published by @BitcoinNewsCom on 2026-08-07, on the query “trezor suite”. Both
+  sponsored slots say Trezor — only one of them is Trezor.</p>
+  <p class="small muted">Provenance, stated precisely: the victim’s own post carried
+  <b>no image</b> — its media list is empty in X’s API. These two screenshots were attached to
+  @BitcoinNewsCom’s post the following day, and the query shown (“trezor suite”) is not the query
+  the victim named (“Trezor wallet”). They are the best available capture of the ad and they are
+  consistent with everything else here, but they are a news account’s screenshots, not the victim’s,
+  and nobody has independently reproduced the placement.</p>
   <figure>
     <img src="assets/serp-malicious-ad.jpg" alt="Google search results for 'trezor suite'. The first sponsored result is titled 'Trezor Suite | Download Trezor App' from advertiser Trezor.io with the displayed URL https://www.google.com. The second sponsored result is the genuine Trezor ad with the displayed URL https://www.trezor.io.">
     <figcaption>Top sponsored slot: advertiser <b>Trezor.io</b>, display URL
     <b>https://www.google.com</b>, headline “Trezor Suite | Download Trezor App”, with five sitelinks
     and a “1M+ visits in past month” annotation. Directly beneath it sits the real Trezor ad
     at <b>https://www.trezor.io</b> — the same creative this investigation captured live in Spain
-    while the fleet was running.</figcaption>
+    while the fleet was running, which is one reason the capture reads as genuine. The sitelinks
+    matter: they are configured per campaign, so this was a built-out account, not a throwaway.</figcaption>
   </figure>
   <div class="two">
     <div><div class="urlbar">🔒 Trezor.io &nbsp;<span class="r">https://www.google.com</span></div>
@@ -344,19 +389,41 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   <p class="sub">This is the part that generalises beyond Trezor.</p>
   <p>A Google search ad carries two URLs. The <b>final URL</b> is where the click lands; the
   <b>display URL</b> is the one the user reads. The advertiser supplies both, but Google constrains
-  the pair. Its <i>Destination mismatch</i> policy defines the violation as
-  <i>“The domain or domain extension in the display URL doesn’t match the final and mobile URLs where
-  users are taken to,”</i> and instructs advertisers to <i>“Make sure the domain of your display URL
-  exactly matches the domain of your final URL.”</i></p>
-  <p>The policy page’s own worked example of a violation is, verbatim:
-  <i>“Display URL: google.com and Final URL: example.com”.</i></p>
+  the pair through its <i>Destination mismatch</i> policy, which lists four separate violations.
+  Two of them matter here, quoted verbatim:</p>
+  <div class="panel">
+    <p style="margin-top:0"><b>1.</b> <i>“The domain or domain extension in the display URL doesn’t
+    match the final and mobile URLs where users are taken to.”</i> The policy’s own worked example of
+    a violation is <i>“Display URL: google.com and Final URL: example.com”.</i></p>
+    <p style="margin-bottom:0"><b>2.</b> <i>“Failing to use a subdomain to clearly identify a site
+    from all other sites hosted on that domain or from the parent domain.”</i></p>
+  </div>
+  <p>Clause 1 is the one everybody reaches for, and on its own it looks satisfied: the click really
+  did land on google.com, so display domain and final domain agree. That reading is why the
+  “it complied with the rule” explanation circulates. It is wrong, because clause 2 exists.</p>
   <div class="panel flag">
-    <p style="margin:0"><b>The inversion.</b> Google’s example forbids <code>google.com</code> over
-    <code>example.com</code>. The attacker satisfied it by moving the landing page <i>onto</i>
-    google.com. Display domain and final domain became genuinely identical, so the ad was not evading
-    the destination rule — it was <b>complying</b> with it. A safeguard written to guarantee the URL
-    tells the truth printed the most trusted string on the internet under a phishing page, and the
-    guarantee held: the click really did go to google.com.</p>
+    <p style="margin:0"><b>Clause 2 is precisely about shared hosting, and it is unsatisfiable on
+    Google Sites.</b> <code>sites.google.com</code> hosts millions of unrelated pages. Clause 2
+    demands a <i>subdomain</i> that distinguishes this site both from every other site on the domain
+    and from the parent domain. A Google Sites URL identifies itself by <i>path</i> —
+    <code>/view/start-trezor-suite</code> — never by subdomain. There is no way to run this ad
+    compliantly.</p>
+  </div>
+  <p><b>So this was not a loophole. It was an enforcement failure.</b> The rule that should have
+  stopped the ad was already written, already published, and already covered the exact
+  configuration used. The ad served regardless, above the genuine advertiser, for at least the
+  33 hours the blockchain can account for.</p>
+  <p class="small muted">Stated carefully because the popular explanation is wrong: the claim that
+  <code>sites.google.com</code> and <code>ads.google.com</code> “share the google.com root, so the
+  display URL is legitimate” was tested against the live policy text and does not hold. The display
+  URL is an <i>observation</i> — read off the SERP capture below — and the policy breach is clause 2,
+  not an absence of rules.</p>
+  <div class="panel flag">
+    <p style="margin:0"><b>What the victim actually saw.</b> Whatever the policy says, the rendered
+    result carried the most trusted string on the internet above a seed-phrase harvester — and the
+    string was not a lie. The click really did go to google.com. That is what makes this class of
+    ad unusually effective: the single check a careful user is told to perform, reading the domain,
+    returns the reassuring answer.</p>
   </div>
   <p>Any Google-operated host that lets a stranger publish a page will do the same job:
   Google Sites, Looker Studio, Google Groups, Blogger, Apps Script, Firebase
@@ -626,6 +693,47 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 </div></section>
 
 <section><div class="wrap">
+  <h2>The response, and the four-month-old warning</h2>
+  <div class="panel">
+    <h3 style="margin-bottom:6px">Trezor</h3>
+    <p style="margin-top:0">The verified @Trezor account replied to the victim at
+    <b>2026-08-07 10:57:56 UTC</b> — <b>15 h 02 m</b> after the post — saying it was escalating
+    internally and reporting the phishing page through the relevant channels, and followed 86 minutes
+    later with a standalone advisory about fake Trezor sites in sponsored results. By then the
+    harvesting had already stopped on its own: the last drain was <b>06:00 UTC</b>, and the attacker
+    had finished sweeping at <b>06:40</b>. The vendor response landed <b>4 h 17 m after the money was
+    already gone</b>.</p>
+    <p style="margin-bottom:0" class="small muted">No Google statement on this incident was located.
+    Neither the removal time of the page nor who removed it is established, so no takedown latency is
+    claimed here — an attempt to bound it from X’s crawl artefacts was tested and rejected.</p>
+  </div>
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">SEAL had documented the identical attack class in March</h3>
+    <p style="margin-top:0">Security Alliance’s Intel team published a wave analysis covering
+    <b>13–30 March 2026</b>: <b>351–356</b> blocked malicious Google Ads URLs,
+    <b>$810,929</b> in confirmed stolen funds and <b>$1,274,259</b> including unattributable losses.
+    It names <code>sites.google.com/view/</code> pages — along with <code>docs.google.com</code> and
+    <code>business.google.com</code> — as the primary web frame, with the cloned front end delivered
+    through secondary iframes behind fingerprinting and cloaking scripts.</p>
+    <p style="margin-bottom:0">Four months later the same hosting pattern, on the same platform, took
+    a further <b>{money(usd(dep))}</b> in 33 hours.</p>
+  </div>
+  <div class="panel">
+    <h3 style="margin-bottom:6px">Why the advertiser is still unnamed</h3>
+    <p style="margin-top:0">Google’s advertiser-verification programme is explicitly a
+    <i>gradual, selective</i> rollout — <i>“all advertisers will eventually be required to complete
+    advertiser verification”</i>. Verification is triggered after selection, with restriction or
+    pausing as the consequence, which leaves a window in which an unverified account serves live
+    search ads. Verified advertisers are disclosed publicly — name and location, name-change history,
+    creatives, dates and locations served, and whether ads were removed or the account suspended.</p>
+    <p style="margin-bottom:0">That disclosure surfaces only the <b>self-declared</b> identity, and in
+    this case it surfaces nothing at all: the Transparency Center holds no record of the campaign.
+    Whether the account was hijacked, bought aged, or newly created inside the unverified window is
+    <b>not established</b> — the leads circulating for it were tested here and did not survive.</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
   <h2>Indicators</h2>
   <div class="ioc">Phishing page   sites.google.com/view/start-trezor-suite   (unpublished as of 2026-08-09)
 Ad display URL  https://www.google.com          Ad advertiser name  "Trezor.io"
@@ -664,10 +772,27 @@ Prior hosting   start-trezor-suite-{{faq,en,ai,us,dlv,cdn,download-io}}.pages.de
     <tr><td>Whether ads run elsewhere now</td><td>{geo_tot} residential-exit SERP probes in 18 countries —
       <b>inconclusive by construction</b>, see the control above</td></tr>
   </table>
-  <p class="small muted">Limits worth stating plainly: the Google Ads account behind the ad was never
-  identified, because Google’s transparency tool holds no record of it. The victim’s loss is a claim;
-  the {money(usd(dep))} figure is not — it is the blockchain’s. Attribution of the sibling feeder
-  wallets to specific campaigns is unproven beyond their shared treasury.</p>
+  <h3 style="margin-top:30px">What remains unanswered</h3>
+  <ul>
+    <li><b>The advertiser of record.</b> Not identified. The Transparency Center holds no entry, and
+      the circulating explanations — hijacked advertiser accounts, named advertisers from earlier
+      waves — were each tested against their sources and did not survive.</li>
+    <li><b>Takedown latency.</b> Unknown. The page was live on 5 August and is unpublished now;
+      neither the removal time nor the actor is established, and no abuse-report SLA was found.</li>
+    <li><b>Geo-targeting.</b> No pattern established. The live-SERP instrument cannot see ad fill, and
+      the ATC holds no campaign to inspect.</li>
+    <li><b>Cloaking specifics for this page.</b> Not evidenced. SEAL describes fingerprinting and
+      cloaking with secondary iframes for the March wave; nothing was recovered for this URL, whose
+      DOM is behind urlscan’s login wall.</li>
+    <li><b>Any Google statement.</b> None located.</li>
+    <li><b>Sibling-campaign attribution.</b> The feeder wallets share a treasury; which brand campaign
+      each ran is unproven.</li>
+  </ul>
+  <p class="small muted">One correction worth recording, because the wrong version is the popular one:
+  the explanation that a <code>sites.google.com</code> landing page makes a <code>google.com</code>
+  display URL <i>legitimate</i> does not survive contact with the policy text. Clause 2 of the same
+  policy forbids it. The display URL is an observation; the compliance story attached to it was wrong.
+  The victim’s loss is a claim; the {money(usd(dep))} is not — it is the blockchain’s.</p>
 </div></section>
 
 <footer><div class="wrap">

@@ -75,6 +75,22 @@
       "rel_to_warning_h": 10.08
     },
     {
+      "utc": "2026-08-07 10:57:56",
+      "epoch": 1786100276,
+      "kind": "public",
+      "event": "Verified @Trezor account replies to the victim: escalating internally, reporting the phishing page through the relevant channels - 15h02m after the report, and 4h17m after the last drain",
+      "source": "x.com/Trezor/status/2085681844599546144",
+      "rel_to_warning_h": 15.03
+    },
+    {
+      "utc": "2026-08-07 12:24:04",
+      "epoch": 1786105444,
+      "kind": "public",
+      "event": "Trezor posts a standalone advisory about fake Trezor sites appearing in sponsored results",
+      "source": "x.com/Trezor",
+      "rel_to_warning_h": 16.47
+    },
+    {
       "utc": "2026-08-07 14:26:12",
       "epoch": 1786112772,
       "kind": "public",
