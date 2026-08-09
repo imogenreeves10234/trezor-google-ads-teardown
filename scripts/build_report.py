@@ -155,6 +155,38 @@ def legit_html():
 
 geo_rows, geo_ok, geo_tot = geo_html()
 eco = load("ecosystem.json", {})
+adv = load("advertised_final.json", [])
+ledger = load("ledger_status.json", {})
+
+
+def advertised_html():
+    """The proven-advertised URL table: every row carries a Google click parameter."""
+    rows = []
+    for r in adv:
+        st = r.get("state", "?")
+        cls = {"LIVE": "bad", "REMOVED": "muted"}.get(st, "muted")
+        label = {"LIVE": "LIVE", "REMOVED": "removed"}.get(st, st)
+        cid = ", ".join(r.get("campaign_ids") or []) or "—"
+        rows.append(
+            f'<tr><td class="small">{E(r["last_seen"])}</td>'
+            f'<td><span class="{cls}"><b>{E(label)}</b></span></td>'
+            f'<td>{E(r["brand"])}</td>'
+            f'<td class="mono">{E(cid)}</td>'
+            f'<td class="mono small">{E(r["base"].replace("https://sites.google.com", ""))}</td>'
+            f'<td class="mono small muted">{E(", ".join(r.get("params") or []))}</td></tr>')
+    return "\n".join(rows)
+
+
+def ledger_tests_html():
+    rows = []
+    for t in ledger.get("tests", []):
+        rows.append(
+            f'<tr><td><b>{E(t["test"])}</b>'
+            + (f'<div class="small muted">{E(t.get("route",""))}</div>' if t.get("route") else "")
+            + f'</td><td>{E(t["result"])}</td>'
+            f'<td class="small muted">{E(t.get("control",""))}</td>'
+            f'<td class="small">{E(t.get("weight",""))}</td></tr>')
+    return "\n".join(rows)
 
 
 def eco_brand_html():
@@ -310,6 +342,18 @@ li.t-def .t-when b{{color:var(--accent)}}
 .urlbar{{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
   padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}}
 .urlbar .g{{color:#188038}} .urlbar .r{{color:#c5221f;font-weight:700}}
+.toc{{position:sticky;top:0;z-index:20;background:rgba(11,13,16,.94);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:11px 0;font-size:12.5px}}
+.toc .wrap{{display:flex;gap:14px;flex-wrap:wrap;align-items:baseline}}
+.toc b{{color:var(--dim);font:600 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase}}
+.toc a{{color:var(--dim);text-decoration:none;white-space:nowrap}}
+.toc a:hover{{color:var(--ink)}}
+section{{scroll-margin-top:64px}}
+.qa{{display:grid;grid-template-columns:1fr;gap:0;border:1px solid var(--line);border-radius:10px;
+  overflow:hidden;margin-top:22px}}
+.qa .q{{background:#151a20;padding:15px 20px 6px;font-weight:700;font-size:17px}}
+.qa .a{{background:#151a20;padding:0 20px 17px;color:var(--dim);border-bottom:1px solid var(--line)}}
+.qa .a:last-child{{border-bottom:0}}
 footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 .ioc{{background:#0f1318;border:1px solid var(--line);border-radius:8px;padding:16px 18px;
   font-family:var(--mono);font-size:12.5px;line-height:1.95;overflow-x:auto;white-space:pre-wrap;word-break:break-all}}
@@ -334,8 +378,47 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </div>
 </div></header>
 
-<section><div class="wrap">
-  <h2>What actually happened</h2>
+<nav class="toc"><div class="wrap">
+  <b>Contents</b>
+  <a href="#happened">1 What happened</a><a href="#established">2 What's established</a><a href="#ad">3 The ad</a><a href="#mechanic">4 The google.com mechanic</a><a href="#landing">5 Landing page</a><a href="#roadmap">6 Roadmap</a><a href="#money">7 Money</a><a href="#timeline">8 Timeline</a><a href="#hosting">9 Hosting history</a><a href="#advertised">10 Advertised URLs</a><a href="#ledger">11 The Ledger domain</a><a href="#pattern">12 Platform pattern</a><a href="#geo">13 Multi-geo</a><a href="#advertiser">14 The advertiser</a><a href="#response">15 Response</a><a href="#ioc">16 Indicators</a><a href="#method">17 Method</a>
+</div></nav>
+
+<section id="answers"><div class="wrap">
+  <h2>Answers, up front</h2>
+  <div class="qa">
+    <div class="q">How did an ad end up displaying <code>google.com</code>?</div>
+    <div class="a">The phishing page was hosted <b>on Google Sites</b>, so the ad's landing domain
+      genuinely was google.com. It was <b>not</b> a compliant loophole: Google's destination policy
+      separately forbids <i>"failing to use a subdomain to clearly identify a site from all other
+      sites hosted on that domain or from the parent domain"</i>, which a path-based Google Sites URL
+      can never satisfy. The ad was already prohibited. <a href="#mechanic">§4</a></div>
+
+    <div class="q">Which URLs were actually used for advertising?</div>
+    <div class="a"><b>{len(adv)} of them, listed in full with their campaign IDs</b>, each captured
+      with Google's own click parameters still attached — a receipt, not a guess.
+      {sum(1 for r in adv if r.get("state")=="LIVE")} are still live.
+      <a href="#advertised">§10</a></div>
+
+    <div class="q">Is <code>ledgerstart-web.com</code> currently being advertised?</div>
+    <div class="a"><b>No evidence that it is</b> — zero in the Ads Transparency Center (with a passing
+      control), no click parameters on any of its 3 public captures, and it does not rank organically
+      for its own title. The page <b>is</b> live and does solicit recovery phrases. Four tests, their
+      controls and their weight: <a href="#ledger">§11</a></div>
+
+    <div class="q">Who ran the ad?</div>
+    <div class="a"><b>Unknown, and unknowable from public records.</b> Google's Ads Transparency Center
+      holds no entry for it. The sweep did find two <i>confirmed</i> advertiser-account takeovers of
+      real companies — neither connected to this incident. <a href="#advertiser">§14</a></div>
+
+    <div class="q">How much was taken?</div>
+    <div class="a"><b>{money(usd(dep))}</b> from <b>{len(dep)}</b> wallets in 32.9 hours, valued at
+      each drain's own block time. <b>{money(usd(post))}</b> of it after the victim publicly warned
+      people. <a href="#money">§7</a></div>
+  </div>
+</div></section>
+
+<section id="happened"><div class="wrap">
+  <h2>1 · What actually happened</h2>
   <p class="sub">Five facts carry the whole incident.</p>
   <div class="panel flag">
     <ol style="margin:0;padding-left:19px">
@@ -356,8 +439,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>How much of this is actually established</h2>
+<section id="established"><div class="wrap">
+  <h2>2 · How much of this is actually established</h2>
   <p class="sub">Separating what is checkable from what is one person’s word, before anything is
   built on top of it.</p>
   <div class="two">
@@ -392,8 +475,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   are the evidence</b>, and the narrator is not. Every figure in this report comes from the former.</p>
 </div></section>
 
-<section><div class="wrap">
-  <h2>The ad</h2>
+<section id="ad"><div class="wrap">
+  <h2>3 · The ad itself</h2>
   <p class="sub">Published by @BitcoinNewsCom on 2026-08-07, on the query “trezor suite”. Both
   sponsored slots say Trezor — only one of them is Trezor.</p>
   <p class="small muted">Provenance, stated precisely: the victim’s own post carried
@@ -419,8 +502,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>The mechanic: why it said google.com</h2>
+<section id="mechanic"><div class="wrap">
+  <h2>4 · The mechanic — why it said google.com</h2>
   <p class="sub">This is the part that generalises beyond Trezor.</p>
   <p>A Google search ad carries two URLs. The <b>final URL</b> is where the click lands; the
   <b>display URL</b> is the one the user reads. The advertiser supplies both, but Google constrains
@@ -467,8 +550,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   cookie-consent banner to the attacker’s page.</p>
 </div></section>
 
-<section><div class="wrap">
-  <h2>The landing page</h2>
+<section id="landing"><div class="wrap">
+  <h2>5 · The landing page and the harvest</h2>
   <figure>
     <img src="assets/phishing-clone-google-sites.jpg" alt="The phishing page: a pixel-perfect copy of the trezor.io homepage, served from sites.google.com, with a Google cookie-consent banner in the lower left.">
     <figcaption>The clone as urlscan.io captured it at <b>2026-08-05 23:07:54 UTC</b> — two hours after
@@ -487,8 +570,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </figure>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Roadmap: how the operation was assembled</h2>
+<section id="roadmap"><div class="wrap">
+  <h2>6 · Roadmap — how the operation was assembled</h2>
   <p class="sub">Reconstructed from the on-chain record, 41 public scans of the kit, and the live
   advertising surfaces.</p>
   <ol class="steps">
@@ -523,8 +606,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </ol>
 </div></section>
 
-<section><div class="wrap">
-  <h2>The money</h2>
+<section id="money"><div class="wrap">
+  <h2>7 · The money</h2>
   <p class="sub">Every figure below is read from the Bitcoin blockchain and cross-checked between
   mempool.space and blockstream.info, which agree exactly
   ({btc.get("total_received_btc",0):.8f} BTC received, {btc.get("chain_stats",{}).get("tx_count",0)} transactions).</p>
@@ -582,13 +665,13 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   unspent as at {time.strftime("%d %B %Y", time.gmtime())}.</p>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Timeline</h2>
+<section id="timeline"><div class="wrap">
+  <h2>8 · Timeline</h2>
   <ul class="timeline">{timeline_html()}</ul>
 </div></section>
 
-<section><div class="wrap">
-  <h2>The kit’s hosting history</h2>
+<section id="hosting"><div class="wrap">
+  <h2>9 · The kit’s hosting history</h2>
   <p class="sub">41 public scans of <code>start-trezor-suite</code> across 18 months. The migration to
   Google is the story.</p>
   <div class="two">
@@ -614,8 +697,75 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </table></div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>This is not one page. It is a platform pattern.</h2>
+<section id="advertised"><div class="wrap">
+  <h2>10 · The URLs that were provably used for advertising</h2>
+  <p class="sub">Not inferred. Every URL below was captured by a public scanner with Google’s own
+  ad-click parameters still attached to it.</p>
+
+  <div class="panel">
+    <p style="margin-top:0"><b>Why this is proof.</b> When someone clicks a Google ad, Google’s click
+    redirector appends its own parameters to the destination — <code>gclid</code> (the click id),
+    <code>gad_source=1</code>, <code>gbraid</code>, and <code>gad_campaignid</code> (the literal
+    campaign number). Nobody types those by hand. If a scanner captured a URL with them attached, the
+    page was reached <b>through a paid Google ad</b>. That is a receipt, not an inference.</p>
+    <p style="margin-bottom:0" class="small muted">Scope: <code>sites.google.com</code> pages
+    impersonating crypto wallets and exchanges. Note that ~9,900 Google Sites URLs carry these
+    parameters in total — the overwhelming majority are ordinary small businesses using Google Sites
+    as their website and advertising it legitimately. The list below is the crypto-impersonation
+    subset only.</p>
+  </div>
+
+  <div class="stats" style="margin:0 0 22px">
+    <div class="stat"><b>{len(adv)}</b><span>URLs with a click-parameter receipt</span></div>
+    <div class="stat"><b>{len({c for r in adv for c in (r.get("campaign_ids") or [])})}</b><span>distinct Google Ads campaign IDs</span></div>
+    <div class="stat red"><b>{sum(1 for r in adv if r.get("state")=="LIVE")}</b><span>still live today</span></div>
+    <div class="stat"><b>2025-07 → 2026-04</b><span>span of captures</span></div>
+  </div>
+
+  <div class="scroll"><table>
+    <tr><th>Last captured</th><th>Status</th><th>Brand</th><th>Campaign ID</th>
+        <th>URL (prefix <code>sites.google.com</code>)</th><th>Parameters seen</th></tr>
+    {advertised_html()}
+  </table></div>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">One campaign, three landing pages</h3>
+    <p style="margin:0">Campaign <code>22897044940</code> appears on
+    <code>/view/nfwn/uniswap</code>, <code>/view/ndauqdj/uniswap</code> and
+    <code>/view/jdsaiqpe/uniswap</code> — captured 26 Aug, 2 Sep and 7 Sep 2025. The advertiser kept
+    one campaign running and rotated the Google Sites page underneath it as each was taken down.
+    Killing a landing page does not touch the ad account.</p>
+  </div>
+
+  <div class="panel">
+    <h3 style="margin-bottom:6px">And the honest gap: no Trezor URL is on this list</h3>
+    <p style="margin:0">No capture of <code>sites.google.com/view/start-trezor-suite</code> carries a
+    click parameter — the urlscan capture that exists was a direct submission, not an ad click. The
+    evidence that <i>that</i> page was advertised is the SERP screenshot and the victim’s account, not
+    a parameter receipt. The table above proves the <b>technique</b> is bought traffic; it does not
+    itself prove the Trezor page was.</p>
+  </div>
+</div></section>
+
+<section id="ledger"><div class="wrap">
+  <h2>11 · Is <span class="mono" style="font-size:.62em">sites.google.com/ledgerstart-web.com/ledger-live/home</span> being advertised?</h2>
+  <div class="panel flag">
+    <p style="margin-top:0"><b>Short answer: no evidence that it is — but that is not the same as
+    proof it isn’t.</b></p>
+    <p style="margin-bottom:0">{E(ledger.get("answer",""))}</p>
+  </div>
+  <p><b>The page itself is live and malicious.</b> {E(ledger.get("page_status",""))}</p>
+  <div class="scroll"><table>
+    <tr><th>Test</th><th>Result</th><th>Positive control</th><th>How much it is worth</th></tr>
+    {ledger_tests_html()}
+  </table></div>
+  <div class="panel good">
+    <p style="margin:0"><b>Conclusion.</b> {E(ledger.get("conclusion",""))}</p>
+  </div>
+</div></section>
+
+<section id="pattern"><div class="wrap">
+  <h2>12 · This is not one page. It is a platform pattern.</h2>
   <p class="sub">Searching every public scan of <code>sites.google.com</code> against ten wallet and
   exchange brands returns <b>{eco.get("unique_urls",0)} distinct phishing URLs</b>, running
   continuously from <b>2020 to today</b>.</p>
@@ -684,8 +834,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </table></div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Multi-geo check</h2>
+<section id="geo"><div class="wrap">
+  <h2>13 · Multi-geo live check</h2>
   <p class="sub">{geo_tot} probes across 18 countries, each through a fresh residential exit in-country,
   driving a real Chrome profile. {geo_ok} rendered a genuine local SERP.</p>
   <div class="panel">
@@ -711,8 +861,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   time.</p>
 </div></section>
 
-<section><div class="wrap">
-  <h2>What the Ads Transparency Center holds</h2>
+<section id="advertiser"><div class="wrap">
+  <h2>14 · Who the advertiser is — and why nobody can say</h2>
   <p class="sub">Google’s own advertiser-accountability record, queried directly through the RPC the
   site itself uses, across 20 regions.</p>
   <div class="panel flag">
@@ -736,8 +886,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   {research_block()}
 </div></section>
 
-<section><div class="wrap">
-  <h2>The response, and the four-month-old warning</h2>
+<section id="response"><div class="wrap">
+  <h2>15 · The response, and the four-month-old warning</h2>
   <div class="panel">
     <h3 style="margin-bottom:6px">Trezor</h3>
     <p style="margin-top:0">The verified @Trezor account replied to the victim at
@@ -777,8 +927,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
   </div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Indicators</h2>
+<section id="ioc"><div class="wrap">
+  <h2>16 · Indicators</h2>
   <div class="ioc">Phishing page   sites.google.com/view/start-trezor-suite   (unpublished as of 2026-08-09)
 Ad display URL  https://www.google.com          Ad advertiser name  "Trezor.io"
 Ad headline     Trezor Suite | Download Trezor App
@@ -801,8 +951,8 @@ Prior hosting   start-trezor-suite-{{faq,en,ai,us,dlv,cdn,download-io}}.pages.de
                 start-trezor-suite-cdn.gitbook.io/en-us</div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Method</h2>
+<section id="method"><div class="wrap">
+  <h2>17 · Method, and what could not be measured</h2>
   <p class="sub">Everything here is reproducible from the repository.</p>
   <table>
     <tr><th>Question</th><th>How it was answered</th></tr>

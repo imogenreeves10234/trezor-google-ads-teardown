@@ -1,0 +1,34 @@
+{
+  "url": "https://sites.google.com/ledgerstart-web.com/ledger-live/home",
+  "question": "Is this domain currently being advertised?",
+  "answer": "Every instrument available returns nothing \u2014 and one of them, the Ads Transparency Center, is known to miss this exact attack class, because it held nothing for the Trezor campaign that demonstrably ran. So: no evidence of advertising, not a proven absence of it.",
+  "page_status": "LIVE, verified by direct fetch 2026-08-09. Title: 'Leder Live | Ledger Live App Crypto Wallet - Official Site'. Solicits recovery phrase and private key.",
+  "tests": [
+    {
+      "test": "Ads Transparency Center, domain = ledgerstart-web.com, regions US / GB / DE",
+      "result": "0 creatives in all three",
+      "control": "PASSED in the same run - trezor.io US returned 40 creatives (Trezor Company s.r.o.)",
+      "route": "routed through a Frontier residential exit in Calimesa, California, because the datacenter IP was 429-ing",
+      "weight": "Weak. ATC also held zero records for the Trezor campaign that demonstrably ran."
+    },
+    {
+      "test": "urlscan.io - every public capture of the URL",
+      "result": "3 captures (2026-02-24, 2026-03-20, 2026-06-02). NONE carries a gclid, gad_source, gbraid or gad_campaignid",
+      "control": "n/a - the same query shape returned ad parameters for 16 other Google Sites URLs",
+      "weight": "Moderate. Where a page IS reached by ad click, scanners routinely capture the parameters."
+    },
+    {
+      "test": "Live SERP, GB residential exit (Vodafone), query = the page's own exact title",
+      "result": "Page does not appear. Google autocorrects the 'Leder' misspelling to 'ledger' and returns normal results",
+      "control": "SERP rendered fully (painted, real organic results, AI Overview present)",
+      "weight": "Moderate for organic visibility, none for paid."
+    },
+    {
+      "test": "Live SERP, US, query = 'ledger live download'",
+      "result": "NOT MEASURED - 6 of 6 residential exits received Google's /sorry/ interstitial",
+      "control": "n/a - never rendered",
+      "weight": "None. Reported as a gap, not as an absence."
+    }
+  ],
+  "conclusion": "The page is live and malicious but shows no sign of active paid promotion or organic ranking. The most likely reading is a dormant or low-traffic asset in a portfolio - registered, built, and left standing. It cost the operator nothing to leave up."
+}

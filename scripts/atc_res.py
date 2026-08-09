@@ -1,63 +1,80 @@
 #!/usr/bin/env python3
-"""Transport shim: route atc.py through a Gonzo residential exit via curl.
+"""ATC queries through a fresh Gonzo residential exit.
 
-The box's datacenter IP is 429/`/sorry/`-blocked at adstransparency.google.com.
-Everything else about atc.py (payload shapes, GEO map, parse_creatives) is unchanged.
+The datacenter IP gets HTTP 429 after sustained use; a residential exit resets
+the bucket. Uses curl because urllib is the thing Cloudflare/Google 429s hardest.
 """
-import json
-import random
-import string
-import subprocess
-import sys
-import time
+import json, subprocess, sys, time, urllib.parse, urllib.request
 
-sys.path.insert(0, '/root/workspace/trezor-ads-teardown/scripts')
-import atc  # noqa: E402
+KEY = open('/root/.config/gonzo/key').read().strip()
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
+GEO = {"US":2840,"GB":2826,"DE":2276,"FR":2250,"NL":2528,"CA":2124,"AU":2036,
+       "IN":2356,"BR":2076,"JP":2392,"ES":2724,"IT":2380,"PL":2616,"CZ":2203,
+       "TR":2792,"MX":2484,"SG":2702,"AE":2784,"KR":2410,"IE":2372}
 
-CC = 'US'          # residential exit country (independent of the ATC region filter)
-MIN_GAP = 1.5
-_LAST = [0.0]
+def exit_proxy(cc="US"):
+    req = urllib.request.Request(
+        "https://api.gonzoproxy.app/functions/v1/proxy-api/generate",
+        data=json.dumps({"country":cc,"ttl":72,"ttl_unit":"h",
+                         "format":"ip:port:user:pass","count":1}).encode(),
+        headers={"x-api-key":KEY,"Content-Type":"application/json"})
+    p = json.load(urllib.request.urlopen(req,timeout=45))["proxies"][0]
+    h,pt,u,pw = p.split(":")
+    return f"http://{u}:{pw}@{h}:{pt}"
 
+def call(endpoint, payload, proxy, tries=3):
+    body = urllib.parse.urlencode({"f.req":json.dumps(payload,separators=(",",":"))})
+    for i in range(tries):
+        r = subprocess.run(["curl","-sS","--max-time","50","-x",proxy,
+            "-H","Content-Type: application/x-www-form-urlencoded;charset=UTF-8",
+            "-H",f"User-Agent: {UA}","-H","x-same-domain: 1",
+            "-H","Origin: https://adstransparency.google.com",
+            "-H","Referer: https://adstransparency.google.com/",
+            "--data",body,
+            f"https://adstransparency.google.com/anji/_/rpc/{endpoint}"],
+            capture_output=True,text=True)
+        t = (r.stdout or "").strip()
+        if t.startswith("{") or t.startswith("["):
+            return json.loads(t)
+        time.sleep(3+i*4)
+    return {"_error": (r.stdout or r.stderr or "")[:200]}
 
-def _rnd(n=8):
-    return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(n))
+def creatives(term, region, proxy):
+    return call("SearchService/SearchCreatives",
+        {"2":40,"3":{"8":[GEO[region]],"12":{"1":term,"2":True}},
+         "7":{"1":1,"2":0,"3":-1}}, proxy)
 
+def rows(resp):
+    out=[]
+    for it in (resp or {}).get("1",[]) or []:
+        def ep(k):
+            v=it.get(k)
+            return int(v["1"]) if isinstance(v,dict) and v.get("1") else None
+        out.append({"advertiser_id":it.get("1"),"creative_id":it.get("2"),
+                    "advertiser_name":it.get("12"),"domain":it.get("14"),
+                    "first":ep("6"),"last":ep("7"),
+                    "body":json.dumps(it.get("3",{}),ensure_ascii=False)[:2500]})
+    return out
 
-def _px():
-    return (f'http://GonzosdyOUxO_c_{CC}_s_{_rnd()}_ttl_30m:ZuBnaGgs'
-            f'@connect.gonzoproxy.app:10000')
+def d(ts):
+    return time.strftime("%Y-%m-%d",time.gmtime(ts)) if ts else "?"
 
-
-def _post(endpoint, payload, proxy=None, timeout=60, retries=4):
-    gap = time.time() - _LAST[0]
-    if gap < MIN_GAP:
-        time.sleep(MIN_GAP - gap)
-    body = "f.req=" + json.dumps(payload, separators=(",", ":"))
-    last = None
-    for attempt in range(retries):
-        _LAST[0] = time.time()
-        cmd = ["curl", "-sS", "--compressed", "-m", str(timeout), "--proxy", _px(),
-               "-X", "POST", atc.BASE + endpoint,
-               "-H", "Content-Type: application/x-www-form-urlencoded;charset=UTF-8",
-               "-H", "x-same-domain: 1",
-               "-H", "Origin: https://adstransparency.google.com",
-               "-H", "Referer: https://adstransparency.google.com/",
-               "-H", "Accept-Language: en-US,en;q=0.9",
-               "-H", f"User-Agent: {atc.UA}",
-               "-w", "\n__HTTP__%{http_code}", "--data-urlencode", body]
-        try:
-            p = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 25)
-            out, code = p.stdout, ""
-            if "__HTTP__" in out:
-                out, code = out.rsplit("__HTTP__", 1)
-                code = code.strip()
-            if code == "200":
-                return json.loads(out.strip() or "{}")
-            last = f"HTTP {code}: {out[:150]}"
-        except Exception as e:   # transport failure -> retry, never "no ads"
-            last = repr(e)
-        time.sleep(2 + attempt * 3)
-    raise RuntimeError(f"{endpoint} failed after {retries}: {last}")
-
-
-atc._post = _post
+if __name__=="__main__":
+    proxy = exit_proxy("US")
+    print("exit:", subprocess.run(["curl","-sS","--max-time","30","-x",proxy,
+          "https://ipinfo.io/json"],capture_output=True,text=True).stdout[:150])
+    ctl = rows(creatives("trezor.io","US",proxy))
+    print(f"CONTROL trezor.io US -> {len(ctl)} creatives", ctl[0]['advertiser_name'] if ctl else "FAIL")
+    if not ctl:
+        sys.exit("control failed, aborting")
+    for term in sys.argv[1:]:
+        for reg in ["US","GB","DE"]:
+            r = rows(creatives(term,reg,proxy))
+            if r:
+                print(f"  HIT {term} [{reg}] {len(r)}:")
+                for x in r[:6]:
+                    print(f"      {x['advertiser_name']} ({x['advertiser_id']}) dom={x['domain']} {d(x['first'])}->{d(x['last'])}")
+            else:
+                print(f"  {term} [{reg}]: 0")
+            time.sleep(1.2)

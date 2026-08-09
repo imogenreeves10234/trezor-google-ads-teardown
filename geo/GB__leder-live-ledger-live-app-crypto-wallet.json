@@ -1,0 +1,41 @@
+{
+  "cc": "GB",
+  "query": "leder live ledger live app crypto wallet",
+  "tld": "co.uk",
+  "hl": "en",
+  "attempt": 1,
+  "ts": "2026-08-09T09:23:26Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_GB_s_160977BBM_ttl_72h",
+  "exit": {
+    "ip": "84.64.113.148",
+    "city": "Edinburgh",
+    "region": "Scotland",
+    "country": "GB",
+    "loc": "55.9521,-3.1965",
+    "org": "AS5378 Vodafone Limited",
+    "postal": "EH1",
+    "timezone": "Europe/London",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=leder+live+ledger+live+app+crypto+wallet&sca_esv=737eec92a050c477&source=hp&ei=I0d4at-2Gcjwi-gPm7qu0A0&iflsig=ABILxe8AAAAAanhVM-fIQ6YH1GZsWbtjhx_GVROTtpBm&ved=0ahUKEwif1PDbnJOWAxVI-AIHHRudC9oQ4dUDCBw&uact=5&oq=leder+live+ledger+live+app+crypto+wallet&gs_lp=Egdnd3Mtd2l6IihsZWRlciBsaXZlIGxlZGdlciBsaXZlIGFwcCBjcnlwdG8gd2FsbGV0MgcQIRgKGKABMgcQIRgKGKABMgcQIRgKGKABMgcQIRgKGKABSKUyUB5YxShwAXgAkAEAmAHLAqAB4y2qAQg1LjMyLjEuMrgBA8gBAPgBAZgCKaACgi-oAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCxAuGIAEGLEDGIMBwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEC4YgwEYsQMYgATCAgsQLhiABBjHARjRA8ICERAuGIAEGLEDGIMBGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICDhAuGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgcQABiABBgKwgIFEAAYgATCAgwQABiABBgKGAsYsQPCAgkQABiABBgKGAvCAgcQABiABBgNwgIFECEYoAHCAgUQIRifBcICCBAAGAgYHhgNwgILEAAYgAQYigUYhgPCAggQABiABBiiBMICBhAAGBYYHsICBhAAGB4YDcICBRAAGO8FwgIIEAAYiQUYogTCAgQQIRgVmAMJ8QW0615pK5RRCJIHCDUuMzMuMS4yoAfJ6AGyBwg0LjMzLjEuMrgH-S7CBwc3LjIzLjExyAdZgAgB&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nNews\nImages\nVideos\nShopping\nForums\nMore\nTools\nSearch Results\nThese are results for ledger live ledger live app crypto wallet\nSearch instead for leder live ledger live app crypto wallet\n\nAI Overview\nLedger Wallet\u2122 (formerly known as Ledger Live\u2122) is the official companion app for Ledger hardware wallets. It lets you securely buy, sell, swap, stake, and manage your cryptocurrency holdings while keeping your private keys offline on your physical device.\u00a0\nLedger\n\u00a0+3\nMost users on Reddit r/ledgerwallet agree that Ledger Wallet functions strictly as an interface for your hardware device and blockchain data, meaning your actual funds remain secured by your recovery phrase rather than the software itself.\u00a0\nReddit\n\u00b7r/ledgerwallet\nKey Featu",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "84.64.113.148",
+      "org": "AS5378 Vodafone Limited"
+    }
+  ],
+  "status": "OK"
+}

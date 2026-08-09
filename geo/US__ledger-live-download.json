@@ -1,0 +1,89 @@
+{
+  "cc": "US",
+  "query": "ledger live download",
+  "tld": "com",
+  "hl": "en",
+  "attempt": 6,
+  "ts": "2026-08-09T09:25:07Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_US_s_925843JGU_ttl_72h",
+  "exit": {
+    "ip": "24.34.229.241",
+    "hostname": "c-24-34-229-241.hsd1.ma.comcast.net",
+    "city": "New Bedford",
+    "region": "Massachusetts",
+    "country": "US",
+    "loc": "41.6353,-70.9270",
+    "org": "AS7922 Comcast Cable Communications, LLC",
+    "postal": "02740",
+    "timezone": "America/New_York",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtime%2Bnow%26sca_esv%3D737eec92a050c477%26source%3Dhp%26ei%3Ddkd4auuPK_arw8cP9tnBsAU%26iflsig%3DABILxe8AAAAAanhVhkL2GadGsErpsK9cWbhPISiK4XqO%26ved%3D0ahUKEwjrosyDnZOWAxX21fACHfZsEFYQ4dUDCCA%26uact%3D5%26oq%3Dtime%2Bnow%26gs_lp%3DEgdnd3Mtd2l6Igh0aW1lIG5vdzIOEAAYgAQYsQMYyQMY8AYyCxAAGPwGGPIGGI8HMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIhA1QG1jsBnABeACQAQCYAeIBoAHHDKoBBTAuNC40uAEDyAEA-AEBmAIJoALzDKgCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICERAAGIAEGIoFGI0GGLEDGIMBwgIOEC4YgAQYigUYsQMYgwHCAgsQLhiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgILEC4YgAQYxwEY0QPCAg4QLhiABBixAxjHARjRA8ICCBAAGIAEGLEDwgIFEC4YgATCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGPAGwgIOEAAYgAQYigUYjQYYsQPCAgsQLhiABBjHARivAcICCxAAGIAEGLEDGPAGmAMI8QXA2aMES2L6jJIHBTEuNC40oAeIUrIHBTAuNC40uAfqDMIHBTAuNS40yAcfgAgB%26sclient%3Dgws-wiz&q=EgQYIuXxGP6O4dMGIjAurCY97hjuTHdmwHh_rHEtl9SNHj3jTGW0rIECsf7BKuFPbveUwKZCevBQfXJCnHAyAnJSWgFD",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "153.66.239.79",
+      "org": "AS14593 Space Exploration Technologies Corporation"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "38.124.35.159",
+      "org": "AS174 Cogent Communications, LLC"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "98.240.241.103",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "69.246.69.34",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "24.126.183.190",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    },
+    {
+      "attempt": 6,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "24.34.229.241",
+      "org": "AS7922 Comcast Cable Communications, LLC"
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}
