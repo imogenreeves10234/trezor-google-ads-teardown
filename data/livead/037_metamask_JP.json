@@ -1,0 +1,84 @@
+{
+  "cc": "JP",
+  "query": "metamask download",
+  "brand": "metamask",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_JP_s_117179FJO_ttl_72h",
+      "exit": {
+        "ip": "153.243.40.139",
+        "hostname": "p939140-ipoe.ipoe.ocn.ne.jp",
+        "city": "Kokubunji",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.7022,139.4756",
+        "org": "AS4713 NTT DOCOMO BUSINESS,Inc.",
+        "postal": "329-0417",
+        "timezone": "Asia/Tokyo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "metamask_JP_metamask-download_1.png"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_JP_s_408980QCH_ttl_72h",
+      "exit": {
+        "ip": "115.165.34.56",
+        "hostname": "h115-165-34-056.hikari.itscom.jp",
+        "city": "Yokohama",
+        "region": "Kanagawa",
+        "country": "JP",
+        "loc": "35.4333,139.6500",
+        "org": "AS9365 its communications Inc.",
+        "postal": "220-8588",
+        "timezone": "Asia/Tokyo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_JP_s_922106BZV_ttl_72h",
+      "exit": {
+        "ip": "59.190.25.27",
+        "hostname": "59-190-25-27f1.kyt1.eonet.ne.jp",
+        "city": "Kyoto",
+        "region": "Kyoto",
+        "country": "JP",
+        "loc": "35.0211,135.7538",
+        "org": "AS17511 OPTAGE Inc.",
+        "postal": "602-0054",
+        "timezone": "Asia/Tokyo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_JP_s_832930FJI_ttl_72h",
+      "exit": {
+        "ip": "124.150.217.67",
+        "hostname": "124-150-217-67.ppp.bbiq.jp",
+        "city": "Kagoshima",
+        "region": "Kagoshima",
+        "country": "JP",
+        "loc": "31.5667,130.5500",
+        "org": "AS7679 QTnet,Inc.",
+        "postal": "890-0054",
+        "timezone": "Asia/Tokyo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "metamask_JP_metamask-download_4.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

@@ -1,0 +1,64 @@
+{
+  "cc": "DE",
+  "query": "ledger.com start",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_931167JIY_ttl_72h",
+      "exit": {
+        "ip": "84.138.15.92",
+        "hostname": "p548a0f5c.dip0.t-ipconnect.de",
+        "city": "Mannheim",
+        "region": "Baden-Wurttemberg",
+        "country": "DE",
+        "loc": "49.4891,8.4669",
+        "org": "AS3320 Deutsche Telekom AG",
+        "postal": "68159",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_DE_s_817089HIM_ttl_72h",
+      "exit": {
+        "ip": "2.213.72.117",
+        "hostname": "dynamic-002-213-072-117.2.213.pool.telefonica.de",
+        "city": "Berlin",
+        "region": "State of Berlin",
+        "country": "DE",
+        "loc": "52.5244,13.4105",
+        "org": "AS6805 Telefonica Germany GmbH & Co.OHG",
+        "postal": "10119",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_DE_s_781009RMD_ttl_72h",
+      "exit": {
+        "ip": "84.172.21.25",
+        "hostname": "p54ac1519.dip0.t-ipconnect.de",
+        "city": "Dippoldiswalde",
+        "region": "Saxony",
+        "country": "DE",
+        "loc": "50.8962,13.6691",
+        "org": "AS3320 Deutsche Telekom AG",
+        "postal": "01744",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_DE_ledger-com-start_3.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

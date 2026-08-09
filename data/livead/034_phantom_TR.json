@@ -1,0 +1,30 @@
+{
+  "cc": "TR",
+  "query": "phantom extension",
+  "brand": "phantom",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_TR_s_951817OSA_ttl_72h",
+      "exit": {
+        "ip": "78.188.83.246",
+        "hostname": "78.188.83.246.static.ttnet.com.tr",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "phantom_TR_phantom-extension_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

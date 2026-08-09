@@ -1,0 +1,30 @@
+{
+  "cc": "GB",
+  "query": "coinbase wallet",
+  "brand": "coinbase",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_161364EZA_ttl_72h",
+      "exit": {
+        "ip": "86.190.161.25",
+        "hostname": "host86-190-161-25.range86-190.btcentralplus.com",
+        "city": "Dungannon",
+        "region": "Northern Ireland",
+        "country": "GB",
+        "loc": "54.5034,-6.7672",
+        "org": "AS2856 British Telecommunications Limited",
+        "postal": "BT70",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "coinbase_GB_coinbase-wallet_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

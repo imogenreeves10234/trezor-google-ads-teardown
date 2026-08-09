@@ -1,0 +1,80 @@
+{
+  "cc": "US",
+  "query": "exodus wallet",
+  "brand": "exodus",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_874176VHK_ttl_72h",
+      "exit": {
+        "ip": "147.81.179.207",
+        "hostname": "dhcp-147-81-179-207.hawaiiantel.net",
+        "city": "Kahului",
+        "region": "Hawaii",
+        "country": "US",
+        "loc": "20.8893,-156.4729",
+        "org": "AS36149 Hawaiian Telcom Services Company, Inc.",
+        "postal": "96732",
+        "timezone": "Pacific/Honolulu",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_181836GFI_ttl_72h",
+      "exit": {
+        "ip": "68.129.223.119",
+        "hostname": "pool-68-129-223-119.nycmny.fios.verizon.net",
+        "city": "New York City",
+        "region": "New York",
+        "country": "US",
+        "loc": "40.7143,-74.0060",
+        "org": "AS701 Verizon Business",
+        "postal": "10004",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "exodus_US_exodus-wallet_2.png"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_702465MMM_ttl_72h",
+      "exit": {
+        "ip": "71.255.99.166",
+        "hostname": "pool-71-255-99-166.phlapa.fios.verizon.net",
+        "city": "Allentown",
+        "region": "Pennsylvania",
+        "country": "US",
+        "loc": "40.6084,-75.4902",
+        "org": "AS701 Verizon Business",
+        "postal": "18101",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_698847UFR_ttl_72h",
+      "exit": {
+        "ip": "24.4.230.151",
+        "city": "San Jose",
+        "region": "California",
+        "country": "US",
+        "loc": "37.3394,-121.8950",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "95110",
+        "timezone": "America/Los_Angeles",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

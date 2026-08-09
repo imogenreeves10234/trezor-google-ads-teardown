@@ -159,6 +159,7 @@ adv = load("advertised_final.json", [])
 gallery = load("gallery.json", [])
 geotab = load("geo_table.json", {})
 zipmeta = load("zip_meta.json", {})
+avzip = load("av_zip_meta.json", {})
 payhosts = load("payload_hosts.json", [])
 cases_fragment = ""
 try:
@@ -551,7 +552,8 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
     mean here, and they have different answers. Keeping them apart is the whole point:</p>
     <ol style="margin-bottom:0">
       <li><b>Are the phishing pages live?</b> <span class="bad">Yes.</span> 15 confirmed serving in
-        all {geo} countries probed today (&sect;12), 7 still actively harvesting (&sect;10).</li>
+        all {len(geotab.get("geos", []))} countries probed today (&sect;12), 7 still actively
+        harvesting (&sect;10).</li>
       <li><b>Were they distributed by paid Google ads?</b> <span class="amber">Yes, provably</span>
         &mdash; 16 URLs captured with Google&rsquo;s own click parameters, 11 campaign IDs
         (&sect;14). Most recent such capture: April 2026.</li>
@@ -965,6 +967,20 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
       {zipmeta.get("pages","?")} pages &middot; {len(zipmeta.get("geos", []))} countries</span></span>
   </a>
   <p class="small mono muted">md5 {E(zipmeta.get("md5",""))}<br>sha256 {E(zipmeta.get("sha256",""))}</p>
+
+  <h3 style="margin-top:26px">For antivirus / threat-intel submission</h3>
+  <p class="sub" style="margin-bottom:12px">Same captures, but with <b>real file extensions</b>
+  (.html / .js / .css) and offline-working copies, so an AV engine classifies the actual code. The
+  two payload kits that were live are included in full. Encrypted with password
+  <code>infected</code> — the standard so your own AV does not delete the samples before you upload
+  them.</p>
+  <a class="dl" href="{E(avzip.get("file",""))}" download>
+    <span class="dl-i">&darr;</span>
+    <span><b>{E(avzip.get("file",""))}</b>
+      <span class="muted small">{avzip.get("mb","?")} MB &middot; {avzip.get("cases","?")} cases &middot;
+      password <b>infected</b> &middot; real .html/.js extensions</span></span>
+  </a>
+  <p class="small mono muted">md5 {E(avzip.get("md5",""))}</p>
   <div class="two">
     <div class="panel">
       <h3 style="margin-bottom:6px">What is inside</h3>

@@ -1,0 +1,78 @@
+{
+  "cc": "US",
+  "query": "uniswap app",
+  "brand": "uniswap",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_451812JDY_ttl_72h",
+      "exit": {
+        "ip": "46.110.209.146",
+        "hostname": "46-110-209-146.plcsflaa.metronetinc.net",
+        "city": "Palm Coast",
+        "region": "Florida",
+        "country": "US",
+        "loc": "29.5850,-81.2078",
+        "org": "AS30600 Metronet",
+        "postal": "32137",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_707052LTS_ttl_72h",
+      "exit": {
+        "ip": "98.212.144.212",
+        "hostname": "c-98-212-144-212.hsd1.il.comcast.net",
+        "city": "Champaign",
+        "region": "Illinois",
+        "country": "US",
+        "loc": "40.1164,-88.2434",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "61820",
+        "timezone": "America/Chicago",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_821434BLK_ttl_72h",
+      "exit": {
+        "ip": "159.242.34.224",
+        "hostname": "159.242.34.224.dynamic.cltel.net",
+        "city": "Clear Lake",
+        "region": "Iowa",
+        "country": "US",
+        "loc": "43.1380,-93.3794",
+        "org": "AS394907 Northland Communications Inc.",
+        "postal": "50428",
+        "timezone": "America/Chicago",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_322963PNM_ttl_72h",
+      "exit": {
+        "ip": "24.35.207.251",
+        "hostname": "cpe-207-251.troy.al.troycable.net",
+        "city": "Ozark",
+        "region": "Alabama",
+        "country": "US",
+        "loc": "31.4591,-85.6405",
+        "org": "AS13825 Troy Cablevision, Inc.",
+        "postal": "36360",
+        "timezone": "America/Chicago",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

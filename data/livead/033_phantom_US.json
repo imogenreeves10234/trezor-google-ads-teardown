@@ -1,0 +1,81 @@
+{
+  "cc": "US",
+  "query": "phantom extension",
+  "brand": "phantom",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_560773XSS_ttl_72h",
+      "exit": {
+        "ip": "174.17.230.101",
+        "hostname": "174-17-230-101.phnx.qwest.net",
+        "city": "Phoenix",
+        "region": "Arizona",
+        "country": "US",
+        "loc": "33.4484,-112.0740",
+        "org": "AS209 CenturyLink Communications, LLC",
+        "postal": "85003",
+        "timezone": "America/Phoenix",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "error",
+      "error": "Page.goto: Timeout 70000ms exceeded.\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_883913UWR_ttl_72h",
+      "exit": {
+        "ip": "73.250.184.231",
+        "hostname": "c-73-250-184-231.hsd1.md.comcast.net",
+        "city": "Laurel",
+        "region": "Maryland",
+        "country": "US",
+        "loc": "39.0993,-76.8483",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "20707",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "phantom_US_phantom-extension_2.png"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_587839DRJ_ttl_72h",
+      "exit": {
+        "ip": "174.173.46.69",
+        "city": "Philadelphia",
+        "region": "Pennsylvania",
+        "country": "US",
+        "loc": "39.9524,-75.1636",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "19102",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_913579SAQ_ttl_72h",
+      "exit": {
+        "ip": "108.16.250.219",
+        "hostname": "pool-108-16-250-219.phlapa.fios.verizon.net",
+        "city": "Philadelphia",
+        "region": "Pennsylvania",
+        "country": "US",
+        "loc": "39.9524,-75.1636",
+        "org": "AS701 Verizon Business",
+        "postal": "19102",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

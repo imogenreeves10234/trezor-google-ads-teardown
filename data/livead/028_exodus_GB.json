@@ -1,0 +1,30 @@
+{
+  "cc": "GB",
+  "query": "exodus web3 wallet",
+  "brand": "exodus",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_898458GFZ_ttl_72h",
+      "exit": {
+        "ip": "81.111.140.62",
+        "hostname": "cpc94240-ward11-2-0-cust61.10-2.cable.virginm.net",
+        "city": "Salford",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.4877,-2.2904",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "M5",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "exodus_GB_exodus-web3-wallet_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

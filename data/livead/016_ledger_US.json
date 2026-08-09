@@ -1,0 +1,84 @@
+{
+  "cc": "US",
+  "query": "ledger live download",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_281567WWM_ttl_72h",
+      "exit": {
+        "ip": "98.183.182.142",
+        "hostname": "ip98-183-182-142.hr.hr.cox.net",
+        "city": "Norfolk",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "36.8468,-76.2852",
+        "org": "AS22773 Cox Communications Inc.",
+        "postal": "23510",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_614110JFP_ttl_72h",
+      "exit": {
+        "ip": "76.36.175.136",
+        "hostname": "syn-076-036-175-136.res.spectrum.com",
+        "city": "Greensboro",
+        "region": "North Carolina",
+        "country": "US",
+        "loc": "36.0726,-79.7920",
+        "org": "AS11426 Charter Communications Inc",
+        "postal": "27411",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "ledger_US_ledger-live-download_2.png"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_527987HXJ_ttl_72h",
+      "exit": {
+        "ip": "73.14.46.240",
+        "hostname": "c-73-14-46-240.hsd1.co.comcast.net",
+        "city": "Colorado Springs",
+        "region": "Colorado",
+        "country": "US",
+        "loc": "38.8339,-104.8214",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "80903",
+        "timezone": "America/Denver",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_378459DOG_ttl_72h",
+      "exit": {
+        "ip": "115.84.209.17",
+        "hostname": "17.209.84.115.net.loopinternet.com",
+        "city": "Mountain Top",
+        "region": "Pennsylvania",
+        "country": "US",
+        "loc": "41.1695,-75.8774",
+        "org": "AS394868 Greenlight Networks, LLC",
+        "postal": "18707",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "ledger_US_ledger-live-download_4.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

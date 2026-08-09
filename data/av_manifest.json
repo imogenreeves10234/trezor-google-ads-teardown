@@ -1,0 +1,92 @@
+[
+  {
+    "folder": "sites_google_com_kryptowallets_app_uniswap_dex_login",
+    "brand": "Uniswap",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": null
+  },
+  {
+    "folder": "sites_google_com_ledgerstart_web_com_ledger_live_home",
+    "brand": "Ledger",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": null
+  },
+  {
+    "folder": "sites_google_com_net7_net_coinbase_home",
+    "brand": "Coinbase",
+    "kind": "BRAND PAGE",
+    "payload_state": null
+  },
+  {
+    "folder": "sites_google_com_preloadcomubx_com_nsdh232_uniswap",
+    "brand": "Uniswap",
+    "kind": "BROKEN SHELL",
+    "payload_state": "CF_521_ORIGIN_DOWN"
+  },
+  {
+    "folder": "sites_google_com_view_app_ledger_com_home",
+    "brand": "Ledger",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": "LIVE"
+  },
+  {
+    "folder": "sites_google_com_view_app_ledger_wallet",
+    "brand": "Ledger",
+    "kind": "BROKEN SHELL",
+    "payload_state": "404"
+  },
+  {
+    "folder": "sites_google_com_view_app_uniswap_dashbroad_uniswap",
+    "brand": "Uniswap",
+    "kind": "BROKEN SHELL",
+    "payload_state": "404"
+  },
+  {
+    "folder": "sites_google_com_view_dplhzjdquwbtktmp_metamask_ja_jp",
+    "brand": "MetaMask",
+    "kind": "BRAND PAGE",
+    "payload_state": null
+  },
+  {
+    "folder": "sites_google_com_view_exodus_web3wallet_home",
+    "brand": "Exodus",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": null
+  },
+  {
+    "folder": "sites_google_com_view_exodus_wlt_home",
+    "brand": "Exodus",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": null
+  },
+  {
+    "folder": "sites_google_com_view_exodwolt_home_exodus",
+    "brand": "Exodus",
+    "kind": "BROKEN SHELL",
+    "payload_state": "NXDOMAIN"
+  },
+  {
+    "folder": "sites_google_com_view_konut2_okx_wallet",
+    "brand": "OKX",
+    "kind": "BROKEN SHELL",
+    "payload_state": "NXDOMAIN"
+  },
+  {
+    "folder": "sites_google_com_view_korkuevim_phantom",
+    "brand": "Phantom",
+    "kind": "BROKEN SHELL",
+    "payload_state": "CF_522_ORIGIN_DOWN"
+  },
+  {
+    "folder": "sites_google_com_view_start_trezor_suite",
+    "brand": "Trezor",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": "LIVE"
+  },
+  {
+    "folder": "sites_google_com_walletcryptoweb_com_ledger_com_start_home",
+    "brand": "Ledger",
+    "kind": "ACTIVE HARVESTER",
+    "payload_state": null
+  }
+]

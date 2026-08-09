@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 geoshots/
 evidence/
+av-samples/
+av_payloads/
+mirror/

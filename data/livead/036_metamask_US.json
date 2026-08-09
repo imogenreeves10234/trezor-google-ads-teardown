@@ -1,0 +1,78 @@
+{
+  "cc": "US",
+  "query": "metamask download",
+  "brand": "metamask",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_350548JEC_ttl_72h",
+      "exit": {
+        "ip": "75.118.144.85",
+        "hostname": "d-75-118-144-85.oh.cpe.breezeline.net",
+        "city": "Des Plaines",
+        "region": "Illinois",
+        "country": "US",
+        "loc": "42.0334,-87.8834",
+        "org": "AS11776 Breezeline",
+        "postal": "60016",
+        "timezone": "America/Chicago",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_817152QJK_ttl_72h",
+      "exit": {
+        "ip": "104.1.107.86",
+        "hostname": "104-1-107-86.lightspeed.knvltn.sbcglobal.net",
+        "city": "Fort Smith",
+        "region": "Arkansas",
+        "country": "US",
+        "loc": "35.3859,-94.3986",
+        "org": "AS7018 AT&T Enterprises, LLC",
+        "postal": "72905",
+        "timezone": "America/Chicago",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_500174WXF_ttl_72h",
+      "exit": {
+        "ip": "99.105.44.153",
+        "hostname": "99-105-44-153.lightspeed.wepbfl.sbcglobal.net",
+        "city": "Sebastian",
+        "region": "Florida",
+        "country": "US",
+        "loc": "27.8164,-80.4706",
+        "org": "AS7018 AT&T Enterprises, LLC",
+        "postal": "32958",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_997694WYR_ttl_72h",
+      "exit": {
+        "ip": "96.225.156.67",
+        "hostname": "pool-96-225-156-67.nrflva.fios.verizon.net",
+        "city": "Virginia Beach",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "36.8529,-75.9780",
+        "org": "AS701 Verizon Business",
+        "postal": "23451",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

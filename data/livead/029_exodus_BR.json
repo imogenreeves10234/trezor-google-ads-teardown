@@ -1,0 +1,81 @@
+{
+  "cc": "BR",
+  "query": "exodus web3 wallet",
+  "brand": "exodus",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_BR_s_890757MPZ_ttl_72h",
+      "exit": {
+        "ip": "191.37.175.193",
+        "hostname": "191-37-175-193.unifique.net",
+        "city": "Ca\u00e7ador",
+        "region": "Santa Catarina",
+        "country": "BR",
+        "loc": "-26.7753,-51.0150",
+        "org": "AS28343 UNIFIQUE TELECOMUNICACOES S/A",
+        "postal": "89500-000",
+        "timezone": "America/Sao_Paulo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_BR_s_378726VYZ_ttl_72h",
+      "exit": {
+        "ip": "191.241.129.134",
+        "hostname": "dynamic-191-241-129-134.minasinfo.net.br",
+        "city": "Itaporanga d'Ajuda",
+        "region": "Sergipe",
+        "country": "BR",
+        "loc": "-10.9981,-37.3106",
+        "org": "AS263671 MINAS INFO LTDA-ME",
+        "postal": "49120-000",
+        "timezone": "America/Maceio",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_BR_s_117720MYL_ttl_72h",
+      "exit": {
+        "ip": "187.19.179.210",
+        "hostname": "187-19-179-210-tmp.static.brisanet.net.br",
+        "city": "Jo\u00e3o Pessoa",
+        "region": "Para\u00edba",
+        "country": "BR",
+        "loc": "-7.1150,-34.8631",
+        "org": "AS28126 BRISANET SERVICOS DE TELECOMUNICACOES S.A",
+        "postal": "58000-000",
+        "timezone": "America/Fortaleza",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "exodus_BR_exodus-web3-wallet_3.png"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_BR_s_274069UZA_ttl_72h",
+      "exit": {
+        "ip": "187.56.96.158",
+        "hostname": "187-56-96-158.dsl.telesp.net.br",
+        "city": "Guaratinguet\u00e1",
+        "region": "S\u00e3o Paulo",
+        "country": "BR",
+        "loc": "-22.8164,-45.1925",
+        "org": "AS27699 TELEF\u00d4NICA BRASIL S.A",
+        "postal": "12500-000",
+        "timezone": "America/Sao_Paulo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

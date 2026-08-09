@@ -1,0 +1,47 @@
+{
+  "cc": "GB",
+  "query": "coinbase login",
+  "brand": "coinbase",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_509310HLU_ttl_72h",
+      "exit": {
+        "ip": "86.143.244.234",
+        "hostname": "host86-143-244-234.range86-143.btcentralplus.com",
+        "city": "Ashington",
+        "region": "England",
+        "country": "GB",
+        "loc": "55.1772,-1.5641",
+        "org": "AS2856 British Telecommunications Limited",
+        "postal": "NE63",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_GB_s_256045PPD_ttl_72h",
+      "exit": {
+        "ip": "89.241.176.23",
+        "hostname": "host-89-241-176-23.as13285.net",
+        "city": "Leeds",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.7965,-1.5478",
+        "org": "AS13285 TalkTalk Communications Limited",
+        "postal": "LS1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "coinbase_GB_coinbase-login_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

@@ -1,0 +1,46 @@
+{
+  "cc": "GB",
+  "query": "uniswap login",
+  "brand": "uniswap",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_927334ZBN_ttl_72h",
+      "exit": {
+        "ip": "31.205.244.5",
+        "hostname": "ip-31-205-244-5.ask4internet.com",
+        "city": "Lincoln",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.2268,-0.5379",
+        "org": "AS41230 ASK4 Limited",
+        "postal": "LN2",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_GB_s_278096RNO_ttl_72h",
+      "exit": {
+        "ip": "88.97.204.38",
+        "city": "Rochdale",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.5833,-2.1833",
+        "org": "AS212655 YouFibre Limited",
+        "postal": "OL11",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "uniswap_GB_uniswap-login_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

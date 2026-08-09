@@ -1,0 +1,30 @@
+{
+  "cc": "GB",
+  "query": "ledger.com start",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_225006ZQH_ttl_72h",
+      "exit": {
+        "ip": "86.3.96.98",
+        "hostname": "86-3-96-98.pon.virginmedia.net",
+        "city": "Sheffield",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.3830,-1.4659",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "S1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_GB_ledger-com-start_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

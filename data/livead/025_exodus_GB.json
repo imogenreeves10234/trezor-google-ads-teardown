@@ -1,0 +1,30 @@
+{
+  "cc": "GB",
+  "query": "exodus wallet",
+  "brand": "exodus",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_668065LVA_ttl_72h",
+      "exit": {
+        "ip": "92.19.77.185",
+        "hostname": "host-92-19-77-185.as13285.net",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5085,-0.1257",
+        "org": "AS13285 TalkTalk Communications Limited",
+        "postal": "WC2N",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "exodus_GB_exodus-wallet_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

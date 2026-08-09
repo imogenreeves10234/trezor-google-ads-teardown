@@ -1,0 +1,30 @@
+{
+  "cc": "FR",
+  "query": "phantom extension",
+  "brand": "phantom",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_FR_s_324934QKX_ttl_72h",
+      "exit": {
+        "ip": "88.164.25.13",
+        "hostname": "88-164-25-13.subs.proxad.net",
+        "city": "Saint-Quentin-en-Yvelines",
+        "region": "\u00cele-de-France",
+        "country": "FR",
+        "loc": "48.7719,2.0189",
+        "org": "AS12322 Free SAS",
+        "postal": "78190",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "phantom_FR_phantom-extension_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

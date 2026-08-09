@@ -1,0 +1,78 @@
+{
+  "cc": "US",
+  "query": "uniswap login",
+  "brand": "uniswap",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_983706UNX_ttl_72h",
+      "exit": {
+        "ip": "76.51.50.95",
+        "hostname": "syn-076-051-050-095.res.spectrum.com",
+        "city": "Bellflower",
+        "region": "California",
+        "country": "US",
+        "loc": "33.8817,-118.1170",
+        "org": "AS20001 Charter Communications Inc",
+        "postal": "90706",
+        "timezone": "America/Los_Angeles",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_600024EFO_ttl_72h",
+      "exit": {
+        "ip": "67.170.240.35",
+        "hostname": "c-67-170-240-35.hsd1.ca.comcast.net",
+        "city": "San Jose",
+        "region": "California",
+        "country": "US",
+        "loc": "37.3394,-121.8950",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "95110",
+        "timezone": "America/Los_Angeles",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_356944DYC_ttl_72h",
+      "exit": {
+        "ip": "69.117.61.235",
+        "hostname": "ool-45753deb.dyn.optonline.net",
+        "city": "Bridgeport",
+        "region": "Connecticut",
+        "country": "US",
+        "loc": "41.1792,-73.1894",
+        "org": "AS6128 Cablevision Systems Corp.",
+        "postal": "06604",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_247109JJN_ttl_72h",
+      "exit": {
+        "ip": "71.69.60.248",
+        "hostname": "syn-071-069-060-248.res.spectrum.com",
+        "city": "Mebane",
+        "region": "North Carolina",
+        "country": "US",
+        "loc": "36.0960,-79.2670",
+        "org": "AS11426 Charter Communications Inc",
+        "postal": "27302",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

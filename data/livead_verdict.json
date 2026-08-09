@@ -1,0 +1,59 @@
+{
+  "total": 52,
+  "rendered": 30,
+  "blocked": 22,
+  "brands": 8,
+  "geos": 7,
+  "total_live_ads": 0,
+  "live_ads": [],
+  "per_brand": {
+    "Coinbase": {
+      "checked": 4,
+      "rendered": 2,
+      "geos_checked": 2,
+      "live_countries": []
+    },
+    "Exodus": {
+      "checked": 6,
+      "rendered": 2,
+      "geos_checked": 3,
+      "live_countries": []
+    },
+    "Ledger": {
+      "checked": 12,
+      "rendered": 9,
+      "geos_checked": 4,
+      "live_countries": []
+    },
+    "Metamask": {
+      "checked": 4,
+      "rendered": 0,
+      "geos_checked": 2,
+      "live_countries": []
+    },
+    "Okx": {
+      "checked": 2,
+      "rendered": 1,
+      "geos_checked": 2,
+      "live_countries": []
+    },
+    "Phantom": {
+      "checked": 6,
+      "rendered": 4,
+      "geos_checked": 3,
+      "live_countries": []
+    },
+    "Trezor": {
+      "checked": 12,
+      "rendered": 9,
+      "geos_checked": 4,
+      "live_countries": []
+    },
+    "Uniswap": {
+      "checked": 6,
+      "rendered": 3,
+      "geos_checked": 3,
+      "live_countries": []
+    }
+  }
+}

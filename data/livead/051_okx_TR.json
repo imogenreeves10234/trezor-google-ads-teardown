@@ -1,0 +1,37 @@
+{
+  "cc": "TR",
+  "query": "okx wallet",
+  "brand": "okx",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_TR_s_728466CDE_ttl_72h",
+      "exit": {},
+      "result": "error",
+      "error": "Page.goto: Navigation to \"https://www.google.com.tr/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_TR_s_267104GAP_ttl_72h",
+      "exit": {
+        "ip": "88.230.49.70",
+        "hostname": "88.230.49.70.dynamic.ttnet.com.tr",
+        "city": "Marmaris",
+        "region": "Mu\u011fla",
+        "country": "TR",
+        "loc": "36.8550,28.2742",
+        "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+        "postal": "48700",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "okx_TR_okx-wallet_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

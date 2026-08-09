@@ -1,0 +1,30 @@
+{
+  "cc": "TR",
+  "query": "ledger.com start",
+  "brand": "ledger",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_TR_s_882928XOI_ttl_72h",
+      "exit": {
+        "ip": "159.146.66.220",
+        "hostname": "220.66.146.159.srv.turk.net",
+        "city": "Istanbul",
+        "region": "Istanbul",
+        "country": "TR",
+        "loc": "41.0138,28.9497",
+        "org": "AS12735 TurkNet Iletisim Hizmetleri A.S.",
+        "postal": "34096",
+        "timezone": "Europe/Istanbul",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "ledger_TR_ledger-com-start_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

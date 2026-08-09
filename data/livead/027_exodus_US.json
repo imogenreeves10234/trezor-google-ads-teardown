@@ -1,0 +1,80 @@
+{
+  "cc": "US",
+  "query": "exodus web3 wallet",
+  "brand": "exodus",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_US_s_880250JBB_ttl_72h",
+      "exit": {
+        "ip": "47.200.68.75",
+        "hostname": "47-200-68-75.fdr01.venc.fl.ip.frontiernet.net",
+        "city": "Venice",
+        "region": "Florida",
+        "country": "US",
+        "loc": "27.0998,-82.4543",
+        "org": "AS5650 Verizon Business",
+        "postal": "34285",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_US_s_525614YLJ_ttl_72h",
+      "exit": {
+        "ip": "162.228.85.100",
+        "hostname": "162-228-85-100.lightspeed.wepbfl.sbcglobal.net",
+        "city": "Port Saint Lucie",
+        "region": "Florida",
+        "country": "US",
+        "loc": "27.2939,-80.3503",
+        "org": "AS7018 AT&T Enterprises, LLC",
+        "postal": "34983",
+        "timezone": "America/New_York",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "exodus_US_exodus-web3-wallet_2.png"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_US_s_612081SWY_ttl_72h",
+      "exit": {
+        "ip": "73.66.241.8",
+        "city": "Fresno",
+        "region": "California",
+        "country": "US",
+        "loc": "36.7477,-119.7724",
+        "org": "AS7922 Comcast Cable Communications, LLC",
+        "postal": "93737",
+        "timezone": "America/Los_Angeles",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_US_s_637747PCR_ttl_72h",
+      "exit": {
+        "ip": "184.179.230.50",
+        "hostname": "ip184-179-230-50.ph.ph.cox.net",
+        "city": "Phoenix",
+        "region": "Arizona",
+        "country": "US",
+        "loc": "33.4484,-112.0740",
+        "org": "AS22773 Cox Communications Inc.",
+        "postal": "85003",
+        "timezone": "America/Phoenix",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

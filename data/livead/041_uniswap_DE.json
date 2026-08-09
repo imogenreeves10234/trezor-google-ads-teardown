@@ -1,0 +1,64 @@
+{
+  "cc": "DE",
+  "query": "uniswap app",
+  "brand": "uniswap",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_729541GZC_ttl_72h",
+      "exit": {
+        "ip": "37.120.47.104",
+        "hostname": "37.120.47.104.dyn.pyur.net",
+        "city": "Berlin",
+        "region": "State of Berlin",
+        "country": "DE",
+        "loc": "52.5244,13.4105",
+        "org": "AS50436 Tele Columbus AG",
+        "postal": "10119",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_DE_s_489815QRS_ttl_72h",
+      "exit": {
+        "ip": "92.211.25.80",
+        "hostname": "ipservice-092-211-025-080.092.211.pools.vodafone-ip.de",
+        "city": "Nuremberg",
+        "region": "Bavaria",
+        "country": "DE",
+        "loc": "49.4542,11.0775",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "90051",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_DE_s_423981GIQ_ttl_72h",
+      "exit": {
+        "ip": "92.209.236.169",
+        "hostname": "ipservice-092-209-236-169.092.209.pools.vodafone-ip.de",
+        "city": "Stuttgart",
+        "region": "Baden-Wurttemberg",
+        "country": "DE",
+        "loc": "48.7823,9.1770",
+        "org": "AS3209 Vodafone GmbH",
+        "postal": "70173",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "uniswap_DE_uniswap-app_3.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

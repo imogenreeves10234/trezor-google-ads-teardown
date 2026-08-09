@@ -1,0 +1,47 @@
+{
+  "cc": "FR",
+  "query": "phantom wallet",
+  "brand": "phantom",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_FR_s_699841GLF_ttl_72h",
+      "exit": {
+        "ip": "46.193.56.132",
+        "hostname": "cust-west-par-46-193-56-132.cust.wifirst.net",
+        "city": "Paris",
+        "region": "\u00cele-de-France",
+        "country": "FR",
+        "loc": "48.8534,2.3488",
+        "org": "AS52075 Wifirst S.A.S.",
+        "postal": "75000",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_FR_s_775564YGW_ttl_72h",
+      "exit": {
+        "ip": "88.168.105.220",
+        "hostname": "88-168-105-220.subs.proxad.net",
+        "city": "Saint-Denis",
+        "region": "\u00cele-de-France",
+        "country": "FR",
+        "loc": "48.9356,2.3539",
+        "org": "AS12322 Free SAS",
+        "postal": "93200",
+        "timezone": "Europe/Paris",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "phantom_FR_phantom-wallet_2.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

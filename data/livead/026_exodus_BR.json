@@ -1,0 +1,81 @@
+{
+  "cc": "BR",
+  "query": "exodus wallet",
+  "brand": "exodus",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_BR_s_418018CJJ_ttl_72h",
+      "exit": {
+        "ip": "45.70.158.168",
+        "hostname": "168.158.70.45.maxbr.com.br",
+        "city": "Abre Campo",
+        "region": "Minas Gerais",
+        "country": "BR",
+        "loc": "-20.3011,-42.4775",
+        "org": "AS267654 MAXBR COMERCIO E PRESTACAO DE SERVICOS LTDA - ME",
+        "postal": "35365-000",
+        "timezone": "America/Sao_Paulo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_BR_s_752363EFL_ttl_72h",
+      "exit": {
+        "ip": "186.236.199.40",
+        "hostname": "186-236-199-40.cable.cabotelecom.com.br",
+        "city": "Natal",
+        "region": "Rio Grande do Norte",
+        "country": "BR",
+        "loc": "-5.7950,-35.2094",
+        "org": "AS28220 Alares Cabo Servicos de Telecomunicacoes S.A.",
+        "postal": "59000-000",
+        "timezone": "America/Fortaleza",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": false,
+      "screenshot": "exodus_BR_exodus-wallet_2.png"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_BR_s_841754WUN_ttl_72h",
+      "exit": {
+        "ip": "191.37.175.192",
+        "hostname": "191-37-175-192.unifique.net",
+        "city": "Lages",
+        "region": "Santa Catarina",
+        "country": "BR",
+        "loc": "-27.8161,-50.3261",
+        "org": "AS28343 UNIFIQUE TELECOMUNICACOES S/A",
+        "postal": "88500-000",
+        "timezone": "America/Sao_Paulo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_BR_s_504795INF_ttl_72h",
+      "exit": {
+        "ip": "177.129.25.42",
+        "hostname": "42.25.129.177.in-addr.arpa.verointernet.com.br",
+        "city": "Tramanda\u00ed",
+        "region": "Rio Grande do Sul",
+        "country": "BR",
+        "loc": "-29.9847,-50.1336",
+        "org": "AS53184 VERO S.A",
+        "postal": "95590-000",
+        "timezone": "America/Sao_Paulo",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}

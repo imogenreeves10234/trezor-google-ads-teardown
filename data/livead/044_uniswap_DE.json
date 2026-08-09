@@ -1,0 +1,30 @@
+{
+  "cc": "DE",
+  "query": "uniswap login",
+  "brand": "uniswap",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_DE_s_833933CCY_ttl_72h",
+      "exit": {
+        "ip": "93.211.70.86",
+        "hostname": "p5dd34656.dip0.t-ipconnect.de",
+        "city": "Rathenow",
+        "region": "Brandenburg",
+        "country": "DE",
+        "loc": "52.6066,12.3370",
+        "org": "AS3320 Deutsche Telekom AG",
+        "postal": "14712",
+        "timezone": "Europe/Berlin",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "rendered",
+      "ad_count": 0,
+      "painted": true,
+      "screenshot": "uniswap_DE_uniswap-login_1.png"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "RENDERED_NO_MALICIOUS_AD"
+}

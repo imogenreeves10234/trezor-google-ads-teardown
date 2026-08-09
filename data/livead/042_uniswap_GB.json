@@ -1,0 +1,75 @@
+{
+  "cc": "GB",
+  "query": "uniswap app",
+  "brand": "uniswap",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_user": "GonzosdyOUxO_c_GB_s_843123JBQ_ttl_72h",
+      "exit": {
+        "ip": "176.251.118.254",
+        "city": "Eastbourne",
+        "region": "England",
+        "country": "GB",
+        "loc": "50.7687,0.2845",
+        "org": "AS5607 Sky UK Limited",
+        "postal": "BN21",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 2,
+      "exit_user": "GonzosdyOUxO_c_GB_s_492899DNR_ttl_72h",
+      "exit": {
+        "ip": "88.97.186.186",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5085,-0.1257",
+        "org": "AS51809 BRSK Limited",
+        "postal": "WC2N",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 3,
+      "exit_user": "GonzosdyOUxO_c_GB_s_935056NUT_ttl_72h",
+      "exit": {
+        "ip": "82.6.133.159",
+        "hostname": "cpc106993-hali7-2-0-cust1438.17-1.cable.virginm.net",
+        "city": "Halifax",
+        "region": "England",
+        "country": "GB",
+        "loc": "53.7167,-1.8500",
+        "org": "AS5089 Virgin Media Limited",
+        "postal": "HX1",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    },
+    {
+      "attempt": 4,
+      "exit_user": "GonzosdyOUxO_c_GB_s_301796EAO_ttl_72h",
+      "exit": {
+        "ip": "88.97.193.137",
+        "city": "Stockton-on-Tees",
+        "region": "England",
+        "country": "GB",
+        "loc": "54.5685,-1.3187",
+        "org": "AS212655 YouFibre Limited",
+        "postal": "TS19",
+        "timezone": "Europe/London",
+        "readme": "https://ipinfo.io/missingauth"
+      },
+      "result": "blocked"
+    }
+  ],
+  "ads": [],
+  "suspicious_ads": [],
+  "status": "UNVERIFIED"
+}
