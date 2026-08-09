@@ -1129,6 +1129,7 @@ footer{{padding:46px 0 76px;color:var(--dim);font-size:13.5px}}
 
 <section id="pattern"><div class="wrap">
   <h2>16 · This is not one page. It is a platform pattern.</h2>
+  <div class="panel flag"><p style="margin:0">&#11088; <b>The ads stopped, but the same fake pages now rank ORGANICALLY on Google&rsquo;s first page via parasite SEO.</b> Full plain-language teardown &mdash; pages, attacker domains, registration dates, screenshots, takedown steps: <a href="seo/"><b>How fake wallet pages reach Google&rsquo;s first page &rarr;</b></a></p></div>
   <p class="sub">Searching every public scan of <code>sites.google.com</code> against ten wallet and
   exchange brands returns <b>{eco.get("unique_urls",0)} distinct phishing URLs</b>, running
   continuously from <b>2020 to today</b>.</p>
