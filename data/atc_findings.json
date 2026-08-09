@@ -1,0 +1,28 @@
+{
+  "regions_swept": ["US","GB","IE","FR","BE","CZ","PL","ES","IT","CA","AU","BR","MX","IN","SG","KR","TR","DE","JP","VN"],
+  "clusters": 12,
+  "control_failures": [],
+  "zero_advertiser_domains": ["sites.google.com","script.google.com","docs.google.com","drive.google.com",
+    "groups.google.com","lookerstudio.google.com","datastudio.google.com","firebaseapp.com","web.app",
+    "appspot.com","blogspot.com","storage.googleapis.com","translate.goog"],
+  "domains_returning_advertisers": {
+    "google.com": "Google LLC (AR14188379519798214657) plus a long tail of local businesses - Google Business Profile / local-ad artifacts. No crypto advertiser in any region.",
+    "googleusercontent.com": "Display-creative hosting leaking into the domain field; recurring ad-tech names (SALESTUBE, PIA Floak, MightyHive, Mediabrands, DQ&A). No crypto advertiser in any region."
+  },
+  "attacker_lookalike_domains_in_atc": "zero in US/TR/DE/KR (ledgercom-start.com, ledgerstart-web.com, ledgrstrt.com, app-download-ledger.com, ledger-live.com, ledgerlive.com)",
+  "confirmed_account_takeovers": [
+    {"advertiser":"NORM REEVES INC","id":"AR13216877914810744833","region":"US",
+     "nature":"Genuine Norm Reeves Honda Cerritos account (real California corporation), 49 dealer creatives running continuously since 2023-04-20. Intruded 2025-09-07 04:31 UTC with 16.5h of overlap with live dealer ads, then 1 Binance brand-bid search ad plus 8 contentless cloaked display creatives ('To continue - click here'). Dark since 2025-09-08 20:36 - a ~40-hour takeover ended by suspension.",
+     "not_linked_to_trezor":"11 months earlier, different brand, no shared infrastructure"},
+    {"advertiser":"VISA EUROPE LTD","id":"AR02700591065387237377","region":"US",
+     "nature":"The real Visa Europe, victim of a 4-day account takeover 2025-09-29 to 2025-10-02 after a genuine visa.pl Visa Mobile campaign. The intruding copy impersonates Binance/Aster, not Visa.",
+     "not_linked_to_trezor":"11 months earlier, different brand"}
+  ],
+  "refuted_false_positives": [
+    "JAI MATA DI ENTERPRISES (AR12256293412315070465) - renders as an affil.trezor.io ad, Trezor's OWN affiliate subdomain",
+    "CONG TY TNHH NOI THAT PHI TUAN (AR14125311996685451265) - renders as a Bybit www.bybit.eu ad",
+    "Willing Media Co., Limited (AR06640749188919328769) - renders as an MEXC www.mexc.com ad",
+    "Kraken/Binance/Coinbase/Ledger flags on 6 further advertisers - all resolved to real businesses, resellers or account-takeover victims"
+  ],
+  "caveat": "US had a partial blackout: after ~70 calls the endpoint returned HTTP 302 for 25+ minutes, leaving 4 named advertiser-mode enrichment gaps."
+}

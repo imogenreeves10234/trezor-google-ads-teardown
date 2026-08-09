@@ -185,14 +185,49 @@ def eco_dom_html():
 
 # --------------------------------------------------------------- research
 def research_block():
-    if not research:
-        return ('<p class="muted">The multi-source research pass and the per-region advertiser sweep '
-                'are recorded in <code>data/</code> in the repository.</p>')
-    parts = []
-    for k, v in research.items():
-        if isinstance(v, str) and v.strip():
-            parts.append(f"<h3>{E(k.replace('_',' ').title())}</h3><div class='prose'>{v}</div>")
-    return "\n".join(parts)
+    af = load("atc_findings.json", {})
+    if not af:
+        return ""
+    zero = ", ".join(f"<code>{E(d)}</code>" for d in af.get("zero_advertiser_domains", []))
+    regions = ", ".join(af.get("regions_swept", []))
+    takeovers = "".join(
+        f'<div class="panel"><h3 style="margin-bottom:6px">{E(t["advertiser"])} '
+        f'<span class="mono small muted">{E(t["id"])}</span></h3>'
+        f'<p style="margin-top:0">{E(t["nature"])}</p>'
+        f'<p style="margin-bottom:0" class="small bad">Not connected to this incident: '
+        f'{E(t["not_linked_to_trezor"])}.</p></div>'
+        for t in af.get("confirmed_account_takeovers", []))
+    fps = "".join(f"<li>{E(x)}</li>" for x in af.get("refuted_false_positives", []))
+    return f'''
+  <h3 style="margin-top:34px">Twelve regional sweeps, every one control-checked</h3>
+  <p>A second pass put one agent on each of twelve region clusters — {E(regions)} — sweeping fifteen
+  Google-owned hosting domains and eleven wallet and exchange brands, each run bracketed by the
+  <code>trezor.io</code> positive control. <b>No cluster's negatives rest on a failing control.</b></p>
+  <div class="panel flag">
+    <p style="margin-top:0"><b>{E(str(len(af.get("zero_advertiser_domains", []))))} Google-owned hosting
+    domains return zero advertisers in every region tested</b>, {zero}.</p>
+    <p style="margin-bottom:0">Only two of fifteen ever return anything, and both are benign:
+    <code>google.com</code> is Google LLC plus a long tail of local businesses (Business Profile
+    artifacts), and <code>googleusercontent.com</code> is display-creative hosting leaking into the
+    domain field. <b>No crypto advertiser on either, in any region.</b> The attackers' own verified
+    lookalike domains — <code>ledgercom-start.com</code>, <code>ledgerstart-web.com</code>,
+    <code>ledgrstrt.com</code> — are also absent.</p>
+  </div>
+
+  <h3 style="margin-top:30px">What the sweep did find: two confirmed advertiser-account takeovers</h3>
+  <p>Neither is connected to this incident, and both are stated here precisely because the
+  hijacked-advertiser story circulates as an <i>explanation</i> for the Trezor ad without evidence.
+  These show the mechanism is real and visible in the transparency record — and that it looks nothing
+  like a blank.</p>
+  {takeovers}
+  <div class="panel good">
+    <h3 style="margin-bottom:6px">Cleared, and named so nobody repeats the mistake</h3>
+    <p style="margin-top:0" class="small">Nine advertisers were flagged by the sweep and refuted on
+    verification. Three of them appear on <code>trezor.io</code> domain searches and look damning
+    until the creative is actually downloaded:</p>
+    <ul class="small" style="margin-bottom:0">{fps}</ul>
+  </div>
+  <p class="small muted">{E(af.get("caveat",""))}</p>'''
 
 
 HTML = f'''<!doctype html>

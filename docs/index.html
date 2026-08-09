@@ -589,7 +589,36 @@ footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
   Polish, Slovak, Hungarian and Serbian, so a long tail of legitimate safe manufacturers, locksmiths
   and one hotel advertise under the name:</p>
   <ul class="small"><li><b>EPI -TREZORY s.r.o.</b> <span class='muted'>(CZ)</span></li><li><b>EU-TREZOR Kft.</b> <span class='muted'>(HU)</span></li><li><b>Hotel Trezor</b> <span class='muted'>(DE)</span></li><li><b>Justra trezory, s.r.o.</b> <span class='muted'>(CZ)</span></li><li><b>PRZEDSIĘBIORSTWO WIELOBRANŻOWE &#x27;&#x27;TREZOR&#x27;&#x27; S.C. Cezary Floriańczyk</b> <span class='muted'>(PL)</span></li><li><b>Trezor Company s.r.o.</b> <span class='muted'>(CZ)</span></li><li><b>Trezor Uspomena</b> <span class='muted'>(RS)</span></li><li><b>Václav Brnka - TREZORY</b> <span class='muted'>(CZ)</span></li></ul>
-  <p class="muted">The multi-source research pass and the per-region advertiser sweep are recorded in <code>data/</code> in the repository.</p>
+  
+  <h3 style="margin-top:34px">Twelve regional sweeps, every one control-checked</h3>
+  <p>A second pass put one agent on each of twelve region clusters — US, GB, IE, FR, BE, CZ, PL, ES, IT, CA, AU, BR, MX, IN, SG, KR, TR, DE, JP, VN — sweeping fifteen
+  Google-owned hosting domains and eleven wallet and exchange brands, each run bracketed by the
+  <code>trezor.io</code> positive control. <b>No cluster's negatives rest on a failing control.</b></p>
+  <div class="panel flag">
+    <p style="margin-top:0"><b>13 Google-owned hosting
+    domains return zero advertisers in every region tested</b>, <code>sites.google.com</code>, <code>script.google.com</code>, <code>docs.google.com</code>, <code>drive.google.com</code>, <code>groups.google.com</code>, <code>lookerstudio.google.com</code>, <code>datastudio.google.com</code>, <code>firebaseapp.com</code>, <code>web.app</code>, <code>appspot.com</code>, <code>blogspot.com</code>, <code>storage.googleapis.com</code>, <code>translate.goog</code>.</p>
+    <p style="margin-bottom:0">Only two of fifteen ever return anything, and both are benign:
+    <code>google.com</code> is Google LLC plus a long tail of local businesses (Business Profile
+    artifacts), and <code>googleusercontent.com</code> is display-creative hosting leaking into the
+    domain field. <b>No crypto advertiser on either, in any region.</b> The attackers' own verified
+    lookalike domains — <code>ledgercom-start.com</code>, <code>ledgerstart-web.com</code>,
+    <code>ledgrstrt.com</code> — are also absent.</p>
+  </div>
+
+  <h3 style="margin-top:30px">What the sweep did find: two confirmed advertiser-account takeovers</h3>
+  <p>Neither is connected to this incident, and both are stated here precisely because the
+  hijacked-advertiser story circulates as an <i>explanation</i> for the Trezor ad without evidence.
+  These show the mechanism is real and visible in the transparency record — and that it looks nothing
+  like a blank.</p>
+  <div class="panel"><h3 style="margin-bottom:6px">NORM REEVES INC <span class="mono small muted">AR13216877914810744833</span></h3><p style="margin-top:0">Genuine Norm Reeves Honda Cerritos account (real California corporation), 49 dealer creatives running continuously since 2023-04-20. Intruded 2025-09-07 04:31 UTC with 16.5h of overlap with live dealer ads, then 1 Binance brand-bid search ad plus 8 contentless cloaked display creatives (&#x27;To continue - click here&#x27;). Dark since 2025-09-08 20:36 - a ~40-hour takeover ended by suspension.</p><p style="margin-bottom:0" class="small bad">Not connected to this incident: 11 months earlier, different brand, no shared infrastructure.</p></div><div class="panel"><h3 style="margin-bottom:6px">VISA EUROPE LTD <span class="mono small muted">AR02700591065387237377</span></h3><p style="margin-top:0">The real Visa Europe, victim of a 4-day account takeover 2025-09-29 to 2025-10-02 after a genuine visa.pl Visa Mobile campaign. The intruding copy impersonates Binance/Aster, not Visa.</p><p style="margin-bottom:0" class="small bad">Not connected to this incident: 11 months earlier, different brand.</p></div>
+  <div class="panel good">
+    <h3 style="margin-bottom:6px">Cleared, and named so nobody repeats the mistake</h3>
+    <p style="margin-top:0" class="small">Nine advertisers were flagged by the sweep and refuted on
+    verification. Three of them appear on <code>trezor.io</code> domain searches and look damning
+    until the creative is actually downloaded:</p>
+    <ul class="small" style="margin-bottom:0"><li>JAI MATA DI ENTERPRISES (AR12256293412315070465) - renders as an affil.trezor.io ad, Trezor&#x27;s OWN affiliate subdomain</li><li>CONG TY TNHH NOI THAT PHI TUAN (AR14125311996685451265) - renders as a Bybit www.bybit.eu ad</li><li>Willing Media Co., Limited (AR06640749188919328769) - renders as an MEXC www.mexc.com ad</li><li>Kraken/Binance/Coinbase/Ledger flags on 6 further advertisers - all resolved to real businesses, resellers or account-takeover victims</li></ul>
+  </div>
+  <p class="small muted">US had a partial blackout: after ~70 calls the endpoint returned HTTP 302 for 25+ minutes, leaving 4 named advertiser-mode enrichment gaps.</p>
 </div></section>
 
 <section><div class="wrap">

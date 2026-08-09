@@ -73,11 +73,25 @@ harvested BIP-39 phrases. **73 wallets, 20.93 BTC, $1,349,952, in 32.9 hours.**
 - X is 402 to WebFetch; **`api.fxtwitter.com` / `api.vxtwitter.com` work** and return quoted-tweet
   media lists (that's how the screenshot provenance error was caught).
 
+## 12-region ATC sweep — COMPLETE (61 agents, 0 control failures)
+
+- ⭐ **`sites.google.com` returns ZERO advertisers in all 18 regions tested**, and so do 12 more
+  Google-owned hosting domains. Only `google.com` (Google LLC + Business-Profile local ads) and
+  `googleusercontent.com` (creative-hosting artifact) return anything — **no crypto advertiser on
+  either, in any region**. The attackers' own verified lookalike domains are absent too.
+- ⭐ **Two CONFIRMED advertiser-account takeovers found** — proof the mechanism is real and visible:
+  **NORM REEVES INC** `AR13216877914810744833` (real Honda dealership; intruder ran a Binance
+  brand-bid + 8 cloaked display creatives with **16.5h overlap with live dealer ads**, ~40h window,
+  suspended) and **VISA EUROPE LTD** `AR02700591065387237377` (the real Visa Europe, 4-day takeover).
+  ⚠ **Neither is connected to the Trezor campaign** (11 months earlier, different brands) — say so.
+- ⚠ **Nine flagged advertisers were REFUTED — do not defame them.** The three that appear on
+  `trezor.io` searches render, once the creative PNG is downloaded, as an **`affil.trezor.io`** ad
+  (Trezor's own affiliate subdomain), a **Bybit** ad and an **MEXC** ad.
+
 ## Open
 
 - Advertiser of record, takedown latency, geo-targeting pattern, cloaking specifics for this URL — all
   unestablished and labelled as such on the page. 17 of 25 tested claims were killed in verification.
-- The 12-region ATC sweep (workflow `wf_fb20b673-306`) was still finishing at hand-off; whatever passes
-  its positive control gets folded in. My own 20-region sweep already found **no impostor advertiser**.
+- US sweep had a partial blackout (HTTP 302 for 25+ min after ~70 calls), leaving 4 enrichment gaps.
 
 See memory [[trezor-google-sites-ad-teardown]], [[google-sites-phishing-pattern]].
