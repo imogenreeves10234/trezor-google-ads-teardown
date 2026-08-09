@@ -1,0 +1,79 @@
+{
+  "cc": "ZA",
+  "query": "trezor wallet",
+  "tld": "co.za",
+  "hl": "en",
+  "attempt": 5,
+  "ts": "2026-08-09T02:17:19Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_ZA_s_122820PBH_ttl_72h",
+  "exit": {
+    "ip": "197.185.175.44",
+    "hostname": "rain-197-185-175-44.rain.network",
+    "city": "Johannesburg",
+    "region": "Gauteng",
+    "country": "ZA",
+    "loc": "-26.2023,28.0436",
+    "org": "AS37105 RAIN GROUP HOLDINGS (PTY) LTD",
+    "postal": "2041",
+    "timezone": "Africa/Johannesburg",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dweather%2Btoday%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3DNON3auXVFtm1hbIP-JqSqAk%26iflsig%3DABILxe8AAAAAanfxRJLa7WwjDc-1DxqEtvjUF-W9hhE_%26ved%3D0ahUKEwjlv_e0vZKWAxXZWkEAHXiNBJUQ4dUDCBw%26uact%3D5%26oq%3Dweather%2Btoday%26gs_lp%3DEgdnd3Mtd2l6Ig13ZWF0aGVyIHRvZGF5MgsQABiABBixAxjJAzILEAAYgAQYsQMYkgMyCxAAGIAEGLEDGJIDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgUQABiABEivE1AeWIMKcAF4AJABAJgB7gOgAesVqgEDNC02uAEDyAEA-AEBmAIHoAKLFqgCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgILEAAYgAQYsQMYgwHCAggQLhixAxiABMICDhAuGIMBGLEDGIAEGIoFwgIOEAAYgAQYsQMYgwEYyQPCAg4QABiABBiKBRiNBhixA5gDCPEFrSQELlRmQRGSBwUxLjQtNqAH3iOyBwM0LTa4B4IWwgcFMC41LjLIBxaACAE%26sclient%3Dgws-wiz%26sei%3DP-N3aorpDJif1fIP1ZmnmQs&q=EgTFua8sGMDG39MGIjCYHv8KyQPmjAxqX7QuhrPueZHb_6EY8CKRZHkBkzZ0u4QGzqlqPyozTnrkrRXCchoyAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": false,
+      "ad_count": 0,
+      "error": null,
+      "ip": "165.165.110.134",
+      "org": "AS5713 Telkom SA Ltd."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "165.165.120.182",
+      "org": "AS5713 Telkom SA Ltd."
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "41.242.161.176",
+      "org": "AS37049 SADV (Pty) Ltd"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": false,
+      "ad_count": 0,
+      "error": null,
+      "ip": "197.95.122.82",
+      "org": "AS20011 Dimension Data"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "197.185.175.44",
+      "org": "AS37105 RAIN GROUP HOLDINGS (PTY) LTD"
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

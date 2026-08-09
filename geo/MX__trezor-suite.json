@@ -1,0 +1,79 @@
+{
+  "cc": "MX",
+  "query": "trezor suite",
+  "tld": "com.mx",
+  "hl": "es",
+  "attempt": 5,
+  "ts": "2026-08-09T02:16:02Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_MX_s_188492FZR_ttl_72h",
+  "exit": {
+    "ip": "187.139.182.22",
+    "hostname": "acceso-187.139.182.22.prod-infinitum.com.mx",
+    "city": "Guadalajara",
+    "region": "Jalisco",
+    "country": "MX",
+    "loc": "20.6774,-103.3475",
+    "org": "AS8151 Uninet S.A. de C.V.",
+    "postal": "59058",
+    "timezone": "America/Mexico_City",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dweather%2Btoday%26sca_esv%3D4dc13bed5212d114%26sxsrf%3DAPpeQnuqfcECvTy5NIvmuLAeF7V040sUWA%253A1786241768191%26source%3Dhp%26ei%3D6OJ3araTCtbGkPIPu_37qAg%26iflsig%3DABILxe8AAAAAanfw-CrDGe6WrsL7udu0jtf-0jPN_617%26ved%3D0ahUKEwi2p8yQvZKWAxVWI0QIHbv-HoUQ4dUDCBw%26uact%3D5%26oq%3Dweather%2Btoday%26gs_lp%3DEgdnd3Mtd2l6Ig13ZWF0aGVyIHRvZGF5MggQABiABBiSAzIOEAAYgAQYsQMYgwEYyQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiUFFAmWPcMcAF4AJABAJgB8AGgAbwXqgEEMi0xM7gBA8gBAPgBAZgCDqACkBioAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICCBAAGIAEGLEDwgIOEC4YgAQYsQMYxwEY0QPCAgsQABiABBixAxiDAcICBBAAGAPCAgUQLhiABMICDhAuGIMBGLEDGIAEGIoFwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICFBAuGIAEGIoFGLEDGIMBGMcBGNEDwgIREAAYgAQYigUYjQYYsQMYgwHCAgsQABiABBiKBRiSA8ICCBAuGLEDGIAEwgIREC4YgAQYsQMYgwEYxwEY0QPCAhEQLhiABBixAxjJAxjHARjRA5gDDfEF4c1d36s4orGSBwYxLjAuMTOgB69xsgcEMi0xM7gHghjCBwYyLTEzLjHIBzyACAE%26sclient%3Dgws-wiz%26sei%3D7uJ3avHZO7K2hbIPhu3K6A8&q=EgS7i7YWGO_F39MGIjDpL6kmzJJNwOe-J1ZjvIR2F3l2r5hFdT-UbZUMkBPIDUGh1Vx7xKh6Kh9uES4RkekyAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "189.229.214.188",
+      "org": "AS8151 Uninet S.A. de C.V."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "187.189.91.213",
+      "org": "AS17072 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V."
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "187.187.226.24",
+      "org": "AS28530 Mexico Red de Telecomunicaciones, S. de R.L. de C.V."
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "189.203.34.47",
+      "org": "AS17072 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V."
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "187.139.182.22",
+      "org": "AS8151 Uninet S.A. de C.V."
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

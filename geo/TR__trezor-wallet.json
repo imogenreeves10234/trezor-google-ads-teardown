@@ -1,0 +1,51 @@
+{
+  "cc": "TR",
+  "query": "trezor wallet",
+  "tld": "com.tr",
+  "hl": "tr",
+  "attempt": 2,
+  "ts": "2026-08-09T02:11:49Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_TR_s_407296OES_ttl_72h",
+  "exit": {
+    "ip": "94.54.24.35",
+    "city": "Ankara",
+    "region": "Ankara",
+    "country": "TR",
+    "loc": "39.9199,32.8543",
+    "org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.",
+    "postal": "06420",
+    "timezone": "Europe/Istanbul",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=_eF3apSJAYvmxc8PuO7bgQ8&iflsig=ABILxe8AAAAAanfwDc0nMp4BbNKO6HoH_aWdkHOoTi4a&ved=0ahUKEwjU-7ugvJKWAxULc_EDHTj3NvAQ4dUDCBs&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMggQABgWGB4YCjIGEAAYFhgeSJ0SUBhYmAxwAXgAkAEAmAGkAaABtw-qAQQwLjEzuAEDyAEA-AEBmAIOoAL6D6gCCsICChAAGAMYjwEY6gLCAgoQLhgDGI8BGOoCwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiDARixAxiABMICDhAAGIAEGIoFGLEDGIMBwgIUEC4YgAQYigUYsQMYgwEYxwEY0QPCAggQLhiABBixA8ICCBAAGIAEGLEDwgILEC4YgAQYsQMYgwHCAgUQABiABMICERAuGIAEGLEDGIMBGMcBGNEDwgIIEC4YsQMYgATCAgUQLhiABJgDCPEFE0wM8iuW8EaSBwQxLjEzoAfzT7IHBDAuMTO4B_IPwgcFMC42LjjIBzCACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Ana i\u00e7eri\u011fe ge\u00e7\nEri\u015filebilirlik yard\u0131m\u0131\nOturum a\u00e7\u0131n\nAI Modu\nT\u00fcm\u00fc\nAl\u0131\u015fveri\u015f\nG\u00f6rseller\nHaberler\nVideolar\nK\u0131sa videolar\nDaha fazla\nAra\u00e7lar\nArama Sonu\u00e7lar\u0131\nSite Ba\u011flant\u0131lar\u0131 ile Web Sonucu\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\n\u00b7\nBu sayfan\u0131n \u00e7evirisini yap\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nSet up your Trezor. Plug in y",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: Navigation to \"https://www.google.com.tr/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.google.com.tr/\", waiting until \"d",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "94.54.24.35",
+      "org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S."
+    }
+  ],
+  "status": "OK"
+}

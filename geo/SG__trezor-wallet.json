@@ -1,0 +1,41 @@
+{
+  "cc": "SG",
+  "query": "trezor wallet",
+  "tld": "com.sg",
+  "hl": "en",
+  "attempt": 1,
+  "ts": "2026-08-09T02:13:03Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_SG_s_650223SKR_ttl_72h",
+  "exit": {
+    "ip": "14.100.29.34",
+    "city": "Singapore",
+    "region": "Singapore",
+    "country": "SG",
+    "loc": "1.2897,103.8501",
+    "org": "AS9506 Singtel Fibre Broadband",
+    "postal": "018989",
+    "timezone": "Asia/Singapore",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=QeJ3apa8O6WR4-EPgtjp-AI&iflsig=ABILxe8AAAAAanfwUmLeB1-Ja8xsiqri7haBzNzXXgMv&ved=0ahUKEwjW4KzBvJKWAxWlyDgGHQJsGi8Q4dUDCBA&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjpElAYWMQMcAF4AJABAJgB2QSgAd4ZqgELMC41LjMuMC4xLjK4AQPIAQD4AQGYAgygApQaqAIKwgIKEAAYAxiPARjqAsICDhAAGIAEGIoFGLEDGIMBwgIOEC4YgAQYigUYsQMYgwHCAgsQLhiABBixAxiDAcICCBAAGIAEGLEDwgILEC4YgAQYxwEY0QPCAgQQABgDwgIIEC4YgAQYsQPCAgsQLhiABBjHARivAZgDCPEFdHTsOqtJS96SBwsxLjEuNy4wLjEuMqAHvUKyBwswLjEuNy4wLjEuMrgHjBrCBwUwLjYuNsgHKIAIAQ&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nShopping\nImages\nNews\nVideos\nShort videos\nMore\nTools\nSearch Results\nWeb result with site links\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nStore\nTake your crypto off exchanges and into your own hands. Save ...\n\nTrezor.io Start\nSet up your Trezor. Plug in your device and follow the steps to ...\n\nMore results from tr",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "14.100.29.34",
+      "org": "AS9506 Singtel Fibre Broadband"
+    }
+  ],
+  "status": "OK"
+}

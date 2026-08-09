@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>The google.com Phishing Ad — Trezor / Google Sites teardown</title>
+<style>
+:root{
+  --bg:#0b0d10; --panel:#12161b; --line:#232a33; --ink:#e8edf3; --dim:#97a3b2;
+  --accent:#4ade80; --before:#f59e0b; --after:#ef4444; --link:#7dd3fc;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+a{color:var(--link)}
+h1,h2,h3{line-height:1.15;letter-spacing:-.02em;margin:0}
+header{padding:74px 0 46px;border-bottom:1px solid var(--line)}
+.kicker{font:600 12px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--after)}
+h1{font-size:clamp(34px,6vw,62px);font-weight:800;margin:18px 0 16px}
+h1 em{font-style:normal;color:var(--after)}
+.lede{font-size:clamp(17px,2.2vw,21px);color:var(--dim);max-width:74ch}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);margin:44px 0 0}
+.stat{background:var(--panel);padding:18px 20px}
+.stat b{display:block;font:700 26px/1.1 var(--mono);color:var(--ink)}
+.stat span{display:block;font-size:12.5px;color:var(--dim);margin-top:7px}
+.stat.red b{color:var(--after)} .stat.amber b{color:var(--before)} .stat.green b{color:var(--accent)}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(23px,3.4vw,33px);font-weight:750;margin-bottom:8px}
+.sub{color:var(--dim);margin:0 0 26px;max-width:76ch}
+p{max-width:76ch}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px 24px;margin:20px 0}
+.panel.flag{border-left:3px solid var(--after)}
+.panel.good{border-left:3px solid var(--accent)}
+figure{margin:26px 0}
+figure img{width:100%;border:1px solid var(--line);border-radius:8px;display:block;background:#fff}
+figcaption{color:var(--dim);font-size:13.5px;margin-top:11px;max-width:80ch}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@media(max-width:820px){.two{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:14px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 11.5px/1 var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--dim)}
+.mono,code{font-family:var(--mono);font-size:12.5px;word-break:break-all}
+code{background:#1a1f26;padding:2px 6px;border-radius:4px;color:#cfe6ff}
+.muted{color:var(--dim)} .small{font-size:12.5px}
+.ok{color:var(--accent)} .bad{color:var(--after)} .hold{color:var(--before);font-weight:700}
+.scroll{overflow-x:auto}
+ol.steps{counter-reset:s;list-style:none;padding:0;margin:26px 0}
+ol.steps>li{counter-increment:s;position:relative;padding:0 0 26px 60px;
+  border-left:1px solid var(--line);margin-left:17px}
+ol.steps>li:last-child{border-left:1px solid transparent}
+ol.steps>li::before{content:counter(s);position:absolute;left:-17px;top:-3px;width:34px;height:34px;
+  border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--after);
+  font:700 14px/34px var(--mono);text-align:center}
+ol.steps h3{font-size:18px;margin-bottom:7px}
+ul.timeline{list-style:none;padding:0;margin:24px 0}
+ul.timeline li{display:grid;grid-template-columns:210px 1fr;gap:20px;padding:13px 0;
+  border-bottom:1px solid var(--line)}
+@media(max-width:720px){ul.timeline li{grid-template-columns:1fr;gap:5px}}
+.t-when b{font:600 13px/1.4 var(--mono);display:block}
+.t-when span{font-size:11.5px;color:var(--dim)}
+.t-what{font-size:15px}
+.t-what .src{display:block;font-family:var(--mono);font-size:11.5px;color:var(--dim);margin-top:4px}
+li.t-money .t-when b{color:var(--after)}
+li.t-infra .t-when b{color:var(--link)}
+li.t-public .t-when b{color:var(--before)}
+li.t-def .t-when b{color:var(--accent)}
+.chart{width:100%;height:auto;margin:14px 0 4px}
+.chart .axis{stroke:var(--line);stroke-width:1}
+.chart .tick{fill:var(--dim);font:11px var(--mono)}
+.chart .warnline{stroke:var(--ink);stroke-width:1;stroke-dasharray:3 3;opacity:.75}
+.chart .warnlabel{fill:var(--ink);font:11px var(--mono)}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--dim);margin-top:6px;flex-wrap:wrap}
+.sw{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.urlbar{font-family:var(--mono);font-size:14px;background:#fff;color:#202124;border-radius:22px;
+  padding:11px 17px;display:inline-block;margin:7px 0;border:1px solid #dadce0}
+.urlbar .g{color:#188038} .urlbar .r{color:#c5221f;font-weight:700}
+footer{padding:46px 0 76px;color:var(--dim);font-size:13.5px}
+.ioc{background:#0f1318;border:1px solid var(--line);border-radius:8px;padding:16px 18px;
+  font-family:var(--mono);font-size:12.5px;line-height:1.95;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+.prose{max-width:78ch}
+</style></head><body>
+
+<header><div class="wrap">
+  <div class="kicker">Incident teardown · 5–7 August 2026</div>
+  <h1>The phishing ad that displayed <em>google.com</em></h1>
+  <p class="lede">A Google Search sponsored result for <b>“trezor suite”</b> showed the URL
+  <code>https://www.google.com</code> and the advertiser name <b>Trezor.io</b>. It led to a
+  pixel-perfect Trezor clone hosted on Google Sites that asked for the wallet recovery phrase.
+  It out-ranked Trezor’s own ad. In 33 hours it took
+  <b>20.93 BTC</b> from <b>73</b> wallets.</p>
+  <div class="stats">
+    <div class="stat red"><b>$1,349,952</b><span>stolen, valued at each drain’s own block time</span></div>
+    <div class="stat"><b>73</b><span>separate victim wallet drains</span></div>
+    <div class="stat amber"><b>32.9 h</b><span>from first drain to last</span></div>
+    <div class="stat red"><b>$439,226</b><span>taken <i>after</i> the victim went public</span></div>
+    <div class="stat green"><b>18 mo</b><span>the kit had been running before this</span></div>
+  </div>
+</div></header>
+
+<section><div class="wrap">
+  <h2>What actually happened</h2>
+  <p class="sub">Five facts carry the whole incident.</p>
+  <div class="panel flag">
+    <ol style="margin:0;padding-left:19px">
+      <li>The attacker put the phishing page on <b>Google Sites</b> —
+        <code>sites.google.com/view/start-trezor-suite</code>.</li>
+      <li>Because a search ad’s visible URL is derived from its final URL, the ad rendered its
+        display URL as <b><code>https://www.google.com</code></b>. The display URL matched the
+        landing domain, so it did <i>not</i> trip Google’s destination-mismatch rule — the exact rule
+        that exists to stop this deception.</li>
+      <li>The advertiser set its public name to <b>Trezor.io</b> and bought sitelinks, so the ad
+        rendered above the genuine Trezor ad.</li>
+      <li>The landing page cloned trezor.io and asked for the <b>BIP-39 recovery phrase</b> in
+        24 boxes, promising “Your information stays offline only.”</li>
+      <li>The same kit had been blocked by <b>Cloudflare</b> nine days earlier. It moved to Google’s
+        own hosting and was not blocked.</li>
+    </ol>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>The ad</h2>
+  <p class="sub">Captured by the victim on the query “trezor suite”. Both sponsored slots are Trezor —
+  only one of them is Trezor.</p>
+  <figure>
+    <img src="assets/serp-malicious-ad.jpg" alt="Google search results for 'trezor suite'. The first sponsored result is titled 'Trezor Suite | Download Trezor App' from advertiser Trezor.io with the displayed URL https://www.google.com. The second sponsored result is the genuine Trezor ad with the displayed URL https://www.trezor.io.">
+    <figcaption>Top sponsored slot: advertiser <b>Trezor.io</b>, display URL
+    <b>https://www.google.com</b>, headline “Trezor Suite | Download Trezor App”, with five sitelinks
+    and a “1M+ visits in past month” annotation. Directly beneath it sits the real Trezor ad
+    at <b>https://www.trezor.io</b> — the same creative this investigation captured live in Spain
+    while the fleet was running.</figcaption>
+  </figure>
+  <div class="two">
+    <div><div class="urlbar">🔒 Trezor.io &nbsp;<span class="r">https://www.google.com</span></div>
+      <p class="small muted">The impostor. The domain is real, which is the whole trick.</p></div>
+    <div><div class="urlbar">🔒 Trezor.io &nbsp;<span class="g">https://www.trezor.io</span></div>
+      <p class="small muted">The genuine advertiser, ranked second.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>The mechanic: why it said google.com</h2>
+  <p class="sub">This is the part that generalises beyond Trezor.</p>
+  <p>A Google search ad has two URLs. The <b>final URL</b> is where the click lands. The
+  <b>display URL</b> is what the user reads, and Google derives its domain from the final URL rather
+  than letting the advertiser type it freely. Google’s <i>Destination mismatch</i> policy exists to
+  enforce that relationship; its own worked example of a violation is a display URL of
+  <code>google.com</code> pointing at a final URL of <code>example.com</code>.</p>
+  <div class="panel flag">
+    <p style="margin:0"><b>The inversion.</b> By hosting the page <i>on Google’s own domain</i>, the
+    attacker made display URL and final URL genuinely identical. The ad was not evading the
+    destination rule — it was <b>complying</b> with it. The safeguard returned the most trusted
+    string on the internet and printed it under a phishing page.</p>
+  </div>
+  <p>Any Google-operated host that lets a stranger publish a page will do the same job:
+  Google Sites, Looker Studio, Google Groups, Blogger, Apps Script, Firebase
+  (<code>web.app</code>, <code>firebaseapp.com</code>), and <code>appspot.com</code>. Google Sites is
+  the strongest of them because it serves from <code>sites.google.com</code> and adds Google’s own
+  cookie-consent banner to the attacker’s page.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>The landing page</h2>
+  <figure>
+    <img src="assets/phishing-clone-google-sites.jpg" alt="The phishing page: a pixel-perfect copy of the trezor.io homepage, served from sites.google.com, with a Google cookie-consent banner in the lower left.">
+    <figcaption>The clone as urlscan.io captured it at <b>2026-08-05 23:07:54 UTC</b> — two hours after
+    the first victim was already being drained. It reproduces Trezor’s live homepage down to the
+    “Self-Custody Week. Up to 20% Off” promo bar and the “2M+ Customers · 10+ Years in Bitcoin”
+    line. Bottom-left is Google’s own banner: <i>“This site uses cookies from Google to deliver its
+    services and to analyze traffic.”</i> The attacker inherited Google’s consent UI as free
+    credibility. “Continue in browser” is the harvest path.</figcaption>
+  </figure>
+  <figure>
+    <img src="assets/seed-harvest-modal.jpg" alt="A modal titled 'Import your Trezor Wallet' with a BIP-39 24-word recovery phrase selector and 24 numbered input boxes.">
+    <figcaption>The harvest. A recovery-phrase-type selector (BIP-39, 24 words) and 24 numbered boxes.
+    The reassurance <i>“Trezor will restore your private keys… Your information stays offline only.”</i>
+    is the load-bearing lie. The “Enable automatic synchronization” toggle is set dressing. A genuine
+    Trezor never asks for the phrase on a screen.</figcaption>
+  </figure>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Roadmap: how the operation was assembled</h2>
+  <p class="sub">Reconstructed from the on-chain record, 41 public scans of the kit, and the live
+  advertising surfaces.</p>
+  <ol class="steps">
+    <li><h3>Build the kit, then run it for 18 months</h3>
+      <p>The earliest public capture is <b>23 January 2025</b> on
+      <code>start-trezor-suite-cdn.gitbook.io</code> — a crude doorway page titled “Trezor Suite
+      (Official)” carrying the misspelling <i>“Get strat your trezor”</i>, which survives as an
+      attribution marker.</p></li>
+    <li><h3>Industrialise on disposable hosting</h3>
+      <p>From September 2025 the kit ran on <b>eight</b> Cloudflare Pages subdomains —
+      <code>-faq</code>, <code>-en</code>, <code>-ai</code>, <code>-us</code>, <code>-dlv</code>,
+      <code>-cdn</code>, <code>-download-io</code>. Free, instant, and disposable: when one is
+      burned, the next is a deploy away.</p></li>
+    <li><h3>Lose the channel to Cloudflare</h3>
+      <p>By <b>27 July 2026</b> Cloudflare was serving <i>“Suspected Phishing — This website has been
+      reported for potential phishing”</i> in place of the kit. The pages.dev channel was dead.</p></li>
+    <li><h3>Move onto Google’s own domain</h3>
+      <p>Nine days later the same kit is live at
+      <code>sites.google.com/view/start-trezor-suite</code>. Google Sites is free, needs only a Google
+      account, publishes instantly, and hands the attacker a google.com URL.</p></li>
+    <li><h3>Buy the query</h3>
+      <p>An advertiser named <b>Trezor.io</b> bids on Trezor’s brand terms with sitelinks and a
+      site-visit annotation, and takes the slot above the real Trezor ad. Brand terms are cheap for an
+      impostor: the click is worth a wallet, not a $60 device sale.</p></li>
+    <li><h3>Harvest and drain</h3>
+      <p>Victims type 24 words. Drains begin <b>2026-08-05 21:08:55 UTC</b> and run for 33 hours at an
+      average of <b>$41,032/hour</b>.</p></li>
+    <li><h3>Consolidate before anyone can act</h3>
+      <p>Seven sweeps between <b>04:19</b> and <b>06:40 UTC</b> on 7 August empty the harvest address
+      into hop-1 wallets and onward into a treasury that was already collecting from other
+      campaigns.</p></li>
+  </ol>
+</div></section>
+
+<section><div class="wrap">
+  <h2>The money</h2>
+  <p class="sub">Every figure below is read from the Bitcoin blockchain and cross-checked between
+  mempool.space and blockstream.info, which agree exactly
+  (24.04135820 BTC received, 80 transactions).</p>
+
+  <div class="stats" style="margin:0 0 26px">
+    <div class="stat"><b>20.9324</b><span>BTC from victims (external inflow)</span></div>
+    <div class="stat red"><b>$1,349,952</b><span>valued at each drain’s block time</span></div>
+    <div class="stat"><b>$18,492</b><span>average per victim</span></div>
+    <div class="stat"><b>$5,281</b><span>median per victim</span></div>
+    <div class="stat amber"><b>$162,121</b><span>single largest drain</span></div>
+  </div>
+
+  <div class="panel">
+    <h3 style="margin-bottom:6px">The warning changed nothing for ten hours</h3>
+    <p class="small muted" style="margin-top:0">The victim named the exact URL and the exact
+    harvesting address publicly at 19:56 UTC on 6 August, tagging Trezor, ZachXBT and CertiK.
+    Drains continued until 06:00 UTC the next morning.</p>
+    <svg viewBox="0 0 1000 260" class="chart" role="img"
+  aria-label="Hourly value of victim drains; the public warning is marked">
+  <line x1="34" y1="226" x2="966" y2="226" class="axis"/>
+  <rect x="34.0" y="225.6" width="26.0" height="1.0" fill="var(--before)" rx="1.5"><title>08-05 21:00 UTC — 1 drains — $454</title></rect><rect x="67.3" y="225.4" width="26.0" height="1.0" fill="var(--before)" rx="1.5"><title>08-05 22:00 UTC — 2 drains — $689</title></rect><rect x="100.6" y="211.1" width="26.0" height="14.9" fill="var(--before)" rx="1.5"><title>08-05 23:00 UTC — 1 drains — $16,853</title></rect><rect x="133.9" y="209.9" width="26.0" height="16.1" fill="var(--before)" rx="1.5"><title>08-06 00:00 UTC — 4 drains — $18,153</title></rect><rect x="167.1" y="174.1" width="26.0" height="51.9" fill="var(--before)" rx="1.5"><title>08-06 01:00 UTC — 2 drains — $58,571</title></rect><rect x="200.4" y="153.6" width="26.0" height="72.4" fill="var(--before)" rx="1.5"><title>08-06 04:00 UTC — 1 drains — $81,831</title></rect><rect x="233.7" y="222.7" width="26.0" height="3.3" fill="var(--before)" rx="1.5"><title>08-06 05:00 UTC — 1 drains — $3,762</title></rect><rect x="267.0" y="211.6" width="26.0" height="14.4" fill="var(--before)" rx="1.5"><title>08-06 06:00 UTC — 2 drains — $16,209</title></rect><rect x="300.3" y="129.5" width="26.0" height="96.5" fill="var(--before)" rx="1.5"><title>08-06 07:00 UTC — 5 drains — $109,030</title></rect><rect x="333.6" y="185.2" width="26.0" height="40.8" fill="var(--before)" rx="1.5"><title>08-06 08:00 UTC — 3 drains — $46,039</title></rect><rect x="366.9" y="34.0" width="26.0" height="192.0" fill="var(--before)" rx="1.5"><title>08-06 10:00 UTC — 3 drains — $216,862</title></rect><rect x="400.1" y="201.0" width="26.0" height="25.0" fill="var(--before)" rx="1.5"><title>08-06 11:00 UTC — 2 drains — $28,185</title></rect><rect x="433.4" y="127.0" width="26.0" height="99.0" fill="var(--before)" rx="1.5"><title>08-06 13:00 UTC — 5 drains — $111,842</title></rect><rect x="466.7" y="114.6" width="26.0" height="111.4" fill="var(--before)" rx="1.5"><title>08-06 14:00 UTC — 8 drains — $125,811</title></rect><rect x="500.0" y="225.8" width="26.0" height="1.0" fill="var(--before)" rx="1.5"><title>08-06 16:00 UTC — 1 drains — $233</title></rect><rect x="533.3" y="158.8" width="26.0" height="67.2" fill="var(--before)" rx="1.5"><title>08-06 17:00 UTC — 5 drains — $75,848</title></rect><rect x="566.6" y="225.7" width="26.0" height="1.0" fill="var(--before)" rx="1.5"><title>08-06 18:00 UTC — 2 drains — $353</title></rect><rect x="599.9" y="190.0" width="26.0" height="36.0" fill="var(--after)" rx="1.5"><title>08-06 20:00 UTC — 6 drains — $40,664</title></rect><rect x="633.1" y="124.4" width="26.0" height="101.6" fill="var(--after)" rx="1.5"><title>08-06 21:00 UTC — 4 drains — $114,721</title></rect><rect x="666.4" y="212.1" width="26.0" height="13.9" fill="var(--after)" rx="1.5"><title>08-06 22:00 UTC — 2 drains — $15,751</title></rect><rect x="699.7" y="203.1" width="26.0" height="22.9" fill="var(--after)" rx="1.5"><title>08-06 23:00 UTC — 1 drains — $25,832</title></rect><rect x="733.0" y="201.0" width="26.0" height="25.0" fill="var(--after)" rx="1.5"><title>08-07 00:00 UTC — 1 drains — $28,271</title></rect><rect x="766.3" y="219.2" width="26.0" height="6.8" fill="var(--after)" rx="1.5"><title>08-07 01:00 UTC — 3 drains — $7,673</title></rect><rect x="799.6" y="174.0" width="26.0" height="52.0" fill="var(--after)" rx="1.5"><title>08-07 02:00 UTC — 2 drains — $58,705</title></rect><rect x="832.9" y="221.3" width="26.0" height="4.7" fill="var(--after)" rx="1.5"><title>08-07 03:00 UTC — 2 drains — $5,277</title></rect><rect x="866.1" y="222.0" width="26.0" height="4.0" fill="var(--after)" rx="1.5"><title>08-07 04:00 UTC — 1 drains — $4,493</title></rect><rect x="899.4" y="105.3" width="26.0" height="120.7" fill="var(--after)" rx="1.5"><title>08-07 05:00 UTC — 2 drains — $136,351</title></rect><rect x="932.7" y="224.7" width="26.0" height="1.3" fill="var(--after)" rx="1.5"><title>08-07 06:00 UTC — 1 drains — $1,489</title></rect><line x1="596.2" y1="26" x2="596.2" y2="226" class="warnline"/><text x="602.2" y="22" class="warnlabel">public warning 19:56 UTC</text><text x="47.0" y="241" class="tick">21</text><text x="146.8" y="241" class="tick">00</text><text x="246.7" y="241" class="tick">05</text><text x="346.6" y="241" class="tick">08</text><text x="446.4" y="241" class="tick">13</text><text x="546.3" y="241" class="tick">17</text><text x="646.1" y="241" class="tick">21</text><text x="746.0" y="241" class="tick">00</text><text x="845.8" y="241" class="tick">03</text><text x="945.7" y="241" class="tick">06</text>
+  <text x="34" y="22" class="tick">peak hour $216,862</text>
+</svg>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--before)"></i>before the public warning —
+        48 drains, $910,726</span>
+      <span><i class="sw" style="background:var(--after)"></i>after it —
+        25 drains, <b>$439,226</b>
+        (33% of the total)</span>
+    </div>
+  </div>
+
+  <p class="small muted">A note on the headline number: the address’s gross
+  <code>funded_txo_sum</code> is 24.0414 BTC, but that figure
+  double-counts change returning from the attacker’s own sweeps. Victim money is the
+  <b>20.9324 BTC</b> of external inflow across 73 deposits.</p>
+
+  <h3 style="margin-top:34px">Where it went</h3>
+  <p class="sub">Seven sweeps into four hop-1 wallets, then onward into one treasury.</p>
+  <div class="scroll"><table>
+    <tr><th>Hop-1 address</th><th>BTC from harvest</th><th>Total received</th><th>Still held</th></tr>
+    <tr><td class="mono">bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z</td><td>10.5460</td><td>10.5460</td><td class="muted">0.0000</td></tr>
+<tr><td class="mono">bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs</td><td>7.3966</td><td>7.3966</td><td class="hold">7.3966</td></tr>
+<tr><td class="mono">bc1qs7zptzqvl0ahaz8qpvlhz2qqtwdrsyhu3sf3rn</td><td>1.7580</td><td>3.5160</td><td class="muted">0.0000</td></tr>
+<tr><td class="mono">bc1qpx66w070d2x68pdv3899wksl9h9vtf7fhmkg92</td><td>1.1900</td><td>1.1900</td><td class="hold">1.1900</td></tr>
+  </table></div>
+
+  <div class="panel flag">
+    <h3 style="margin-bottom:6px">The treasury is shared across campaigns</h3>
+    <p style="margin:0">
+    <code class="mono">bc1qhluxs8yfper7sxnmpgpjy9e38dx4qxpuhen5cs</code> has received
+    <b>27.3128 BTC</b> and has spent <b>none of it</b>. Only 10.55 BTC of that came from the Trezor
+    harvest address. Its earliest receipt is <b>4 August</b> — before the Trezor campaign’s first
+    victim — so the operator was already running other campaigns through the same wallet.</p>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Feeder into the treasury</th><th>BTC</th><th>Attribution</th></tr>
+    <tr><td class="mono">bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z</td><td>10.5459</td><td>the Trezor campaign</td></tr>
+<tr><td class="mono">bc1qp2lvxmy6zafwxclt5p2q6zdyvcv9xuhgw674yz</td><td>6.4575</td><td>a different campaign</td></tr>
+<tr><td class="mono">bc1qxzuw53znzkqa0jyrktjhzzqxgz92dnuncwxj86</td><td>4.8814</td><td>a different campaign</td></tr>
+<tr><td class="mono">bc1qah99mfvfgpks8qrj5k490ava0z0lzqhwc06e7h</td><td>3.5142</td><td>a different campaign</td></tr>
+<tr><td class="mono">bc1qja3nhlxs76h74t25zj660zuj2l2pfhmfmnj82y</td><td>1.9138</td><td>a different campaign</td></tr>
+<tr><td class="mono">bc1qrsdfutpwh86mgd5a8kcpx8ghuk0hugytu2wu53</td><td>0.0000</td><td>a different campaign</td></tr>
+  </table></div>
+  <p class="small muted">Two wallets are still sitting on funds:
+  <code>bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs</code> (7.3966 BTC) and
+  <code>bc1qpx66w070d2x68pdv3899wksl9h9vtf7fhmkg92</code> (1.19 BTC), plus the 27.31 BTC treasury —
+  unspent as at 09 August 2026.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Timeline</h2>
+  <ul class="timeline"><li class="t-infra">
+      <div class="t-when"><b>2025-01-23 21:42:45</b><span></span></div>
+      <div class="t-what">Earliest public capture of the kit: start-trezor-suite-cdn.gitbook.io/en-us, titled &#x27;Trezor Suite (Official)&#x27;, link text &#x27;Get strat your trezor&#x27; (sic)<span class="src">urlscan db46458c-4dd4-4ace-b4e6-1ffe29ce6884</span></div></li>
+<li class="t-infra">
+      <div class="t-when"><b>2025-09-13 21:12:07</b><span></span></div>
+      <div class="t-what">Kit moves to Cloudflare Pages; start-trezor-suite-faq.pages.dev first captured<span class="src">urlscan 019944eb</span></div></li>
+<li class="t-def">
+      <div class="t-when"><b>2026-07-27 19:10:18</b><span>240.8h before warning</span></div>
+      <div class="t-what">Cloudflare serves &#x27;Suspected Phishing&#x27; interstitial on start-trezor-suite-en.pages.dev - the pages.dev channel is burned<span class="src">urlscan 019fa4fb, Ray ID a21df0ae9efa035c</span></div></li>
+<li class="t-money">
+      <div class="t-when"><b>2026-08-04 06:25:00</b><span>61.5h before warning</span></div>
+      <div class="t-what">Attacker treasury bc1qhluxs8y... receives 4.8814 BTC from an unrelated feeder - operation already running other campaigns<span class="src">mempool.space</span></div></li>
+<li class="t-money">
+      <div class="t-when"><b>2026-08-05 21:08:55</b><span>22.8h before warning</span></div>
+      <div class="t-what">FIRST victim drain into bc1qrz33mr7... - the Google Sites campaign is live and converting<span class="src">mempool.space</span></div></li>
+<li class="t-infra">
+      <div class="t-when"><b>2026-08-05 23:07:54</b><span>20.8h before warning</span></div>
+      <div class="t-what">urlscan captures https://sites.google.com/view/start-trezor-suite - a pixel-perfect trezor.io clone served from Google&#x27;s own domain<span class="src">urlscan 019fd42e</span></div></li>
+<li class="t-public">
+      <div class="t-when"><b>2026-08-06 19:56:03</b><span>0.0h before warning</span></div>
+      <div class="t-what">Victim @ReallyBadDay99 publicly names the URL and the harvesting address, tags @Trezor @zachxbt @CertiK<span class="src">x.com/ReallyBadDay99/status/2085454877719675354</span></div></li>
+<li class="t-money">
+      <div class="t-when"><b>2026-08-07 04:19:48</b><span>8.4h after warning</span></div>
+      <div class="t-what">Attacker begins sweeping the harvest address (7 sweeps over 2h21m)<span class="src">mempool.space</span></div></li>
+<li class="t-money">
+      <div class="t-when"><b>2026-08-07 06:00:44</b><span>10.1h after warning</span></div>
+      <div class="t-what">LAST victim drain - 10h04m AFTER the public warning<span class="src">mempool.space</span></div></li>
+<li class="t-public">
+      <div class="t-when"><b>2026-08-07 14:26:12</b><span>18.5h after warning</span></div>
+      <div class="t-what">@BitcoinNewsCom amplifies to 263k followers; Trezor says it is escalating and working to have the site removed<span class="src">x.com/BitcoinNewsCom/status/2085734257784139900</span></div></li>
+<li class="t-state">
+      <div class="t-when"><b>2026-08-09 01:38:00</b><span>53.7h after warning</span></div>
+      <div class="t-what">sites.google.com/view/start-trezor-suite now 302s to a Google account sign-in = unpublished or removed<span class="src">verified this session</span></div></li></ul>
+</div></section>
+
+<section><div class="wrap">
+  <h2>The kit’s hosting history</h2>
+  <p class="sub">41 public scans of <code>start-trezor-suite</code> across 18 months. The migration to
+  Google is the story.</p>
+  <div class="two">
+    <figure><img src="assets/kit-origin-gitbook.jpg" alt="The January 2025 GitBook version of the phishing kit.">
+      <figcaption><b>23 Jan 2025 — GitBook.</b> The origin: a doorway page with the
+      “Get strat your trezor” typo.</figcaption></figure>
+    <figure><img src="assets/cloudflare-blocked.jpg" alt="Cloudflare 'Suspected Phishing' warning page shown in place of the kit.">
+      <figcaption><b>27 Jul 2026 — Cloudflare.</b> The pages.dev channel is blocked as
+      “Suspected Phishing”. Nine days later the kit is on Google Sites.</figcaption></figure>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Host</th><th>Scans</th><th>Role</th></tr>
+    <tr><td class="mono">start-trezor-suite-faq.pages.dev</td><td>10</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-en.pages.dev</td><td>9</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-ai.pages.dev</td><td>9</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-us.pages.dev</td><td>6</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-download-io.pages.dev</td><td>3</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-dlv.pages.dev</td><td>1</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-cdn.pages.dev</td><td>1</td><td>Cloudflare Pages</td></tr>
+    <tr><td class="mono">start-trezor-suite-cdn.gitbook.io</td><td>1</td><td>GitBook — earliest, Jan 2025</td></tr>
+    <tr><td class="mono"><b>sites.google.com/view/start-trezor-suite</b></td><td>1</td>
+        <td><b>Google Sites — the paid-ad campaign</b></td></tr>
+  </table></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Multi-geo check</h2>
+  <p class="sub">32 probes across 18 countries, each through a fresh residential exit in-country,
+  driving a real Chrome profile. 20 rendered a genuine local SERP.</p>
+  <div class="panel">
+    <p style="margin-top:0"><b>What this can and cannot prove.</b> The extractor is validated: in
+    Spain it captured a live ad in full — the genuine
+    <i>“Hardware Wallet Trezor — Up To 20% Off Trezor Wallets”</i> creative at
+    <code>https://www.trezor.io</code>, through a DIGI Spain residential exit. But on a control query
+    that always carries ads (“car insurance”, UK) the rendered page contained an
+    <code>#tads</code> container holding <b>two empty ad slots</b> and no creative. Google reserves
+    the slots for these sessions and declines to fill them.</p>
+    <p style="margin-bottom:0">So a country reading <i>no creative served</i> below is
+    <b>not measured</b> — it is not evidence that no malicious ad runs there. Reported as-is rather
+    than dressed up as coverage.</p>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Country</th><th>SERPs rendered</th><th>Paid creative</th><th>Residential exits used</th></tr>
+    <tr><td><b>AE</b></td><td>2/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">Emirates Internet</td></tr>
+<tr><td><b>AU</b></td><td>1/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">Telstra Limited</td></tr>
+<tr><td><b>BR</b></td><td>1/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">DIRECT INTERNET LTDA, TELEFÔNICA BRASIL S.A</td></tr>
+<tr><td><b>CA</b></td><td>0/2 rendered</td><td><span class="bad">not measured</span></td><td class="muted small">Managed Network Systems Inc.</td></tr>
+<tr><td><b>CZ</b></td><td>2/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">AVONET, s.r.o., O2 Czech Republic, a.s.</td></tr>
+<tr><td><b>DE</b></td><td>0/2 rendered</td><td><span class="bad">not measured</span></td><td class="muted small"></td></tr>
+<tr><td><b>ES</b></td><td>2/2 rendered</td><td><span class="ok">1 ad captured</span></td><td class="muted small">CARTAGO TELECOM S. L., DIGI SPAIN TELECOM S.A</td></tr>
+<tr><td><b>FR</b></td><td>0/2 rendered</td><td><span class="bad">not measured</span></td><td class="muted small"></td></tr>
+<tr><td><b>GB</b></td><td>3/3 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">British Telecommunications Limited, Vodafone Limited</td></tr>
+<tr><td><b>IN</b></td><td>2/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">Cable ISP in India, National Internet Backbone</td></tr>
+<tr><td><b>IT</b></td><td>2/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">Telecom Italia S.p.A., WIND TRE S.P.A.</td></tr>
+<tr><td><b>NL</b></td><td>0/2 rendered</td><td><span class="bad">not measured</span></td><td class="muted small">Odido Netherlands B.V., Vodafone Libertel B.V.</td></tr>
+<tr><td><b>PL</b></td><td>2/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">P4 Sp. z o.o., VECTRA S.A.</td></tr>
+<tr><td><b>SG</b></td><td>1/1 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">Singtel Fibre Broadband</td></tr>
+<tr><td><b>TR</b></td><td>2/2 rendered</td><td><span class="muted">no creative served</span></td><td class="muted small">Turk Telekomunikasyon Anonim Sirketi, Turksat Uydu Haberlesme Kablo TV</td></tr>
+<tr><td><b>US</b></td><td>0/2 rendered</td><td><span class="bad">not measured</span></td><td class="muted small">Cablevision Systems Corp., Comcast Cable Communications, LLC</td></tr>
+  </table></div>
+  <p class="small muted">Most residential exits are refused outright: Google’s
+  <code>/sorry/</code> interstitial appeared on AT&amp;T, Verizon, Charter, TalkTalk, Sky, BT and DIGI
+  addresses alike. Rendering a SERP at all required between one and five fresh exits per country, and
+  a persistent real-Chrome profile with a warm-up search — a plain automated browser is refused every
+  time.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>What the Ads Transparency Center holds</h2>
+  <p class="sub">Google’s own advertiser-accountability record, queried directly through the RPC the
+  site itself uses, across 20 regions.</p>
+  <div class="panel flag">
+    <p style="margin-top:0"><b>There is no record of this ad.</b> A domain query for
+    <code>sites.google.com</code> returns <b>zero</b> creatives in the United States. The same query
+    for <code>trezor.io</code> returns 40 creatives for
+    <b>Trezor Company s.r.o.</b> (<code>AR07426507167890407425</code>) — so the method works and the
+    zero is real, not a broken query.</p>
+    <p style="margin-bottom:0">Sweeping the term <i>trezor</i> across 20 regions returns only genuine
+    businesses. The advertiser that took $1,349,952 is absent from the transparency tool.</p>
+  </div>
+  <p><b>Do not mistake these for impostors.</b> <i>Trezor</i> means “safe” or “vault” in Czech,
+  Polish, Slovak, Hungarian and Serbian, so a long tail of legitimate safe manufacturers, locksmiths
+  and one hotel advertise under the name:</p>
+  <ul class="small"><li><b>EPI -TREZORY s.r.o.</b> <span class='muted'>(CZ)</span></li><li><b>EU-TREZOR Kft.</b> <span class='muted'>(HU)</span></li><li><b>Hotel Trezor</b> <span class='muted'>(DE)</span></li><li><b>Justra trezory, s.r.o.</b> <span class='muted'>(CZ)</span></li><li><b>PRZEDSIĘBIORSTWO WIELOBRANŻOWE &#x27;&#x27;TREZOR&#x27;&#x27; S.C. Cezary Floriańczyk</b> <span class='muted'>(PL)</span></li><li><b>Trezor Company s.r.o.</b> <span class='muted'>(CZ)</span></li><li><b>Trezor Uspomena</b> <span class='muted'>(RS)</span></li><li><b>Václav Brnka - TREZORY</b> <span class='muted'>(CZ)</span></li></ul>
+  <p class="muted">The multi-source research pass and the per-region advertiser sweep are recorded in <code>data/</code> in the repository.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Indicators</h2>
+  <div class="ioc">Phishing page   sites.google.com/view/start-trezor-suite   (unpublished as of 2026-08-09)
+Ad display URL  https://www.google.com          Ad advertiser name  "Trezor.io"
+Ad headline     Trezor Suite | Download Trezor App
+Kit fingerprint "Get strat your trezor"   (misspelling, present since Jan 2025)
+
+Harvest address bc1qrz33mr7tx8wrpcs2pxrvv83hqwpm907s9shkz4
+Hop 1           bc1qqg3c0ed0wzjdnjjlgcdrzyzedj8tgyapkvda9z    10.5460 BTC  (forwarded)
+                bc1q4yc2fuexygkyl27hxkpjyrjw5al9vd7c3jkyrs     7.3966 BTC  (HELD)
+                bc1qs7zptzqvl0ahaz8qpvlhz2qqtwdrsyhu3sf3rn     1.7580 BTC  (forwarded via taproot)
+                bc1qpx66w070d2x68pdv3899wksl9h9vtf7fhmkg92     1.1900 BTC  (HELD)
+Treasury        bc1qhluxs8yfper7sxnmpgpjy9e38dx4qxpuhen5cs    27.3128 BTC  (HELD, multi-campaign)
+Other feeders   bc1qp2lvxmy6zafwxclt5p2q6zdyvcv9xuhgw674yz     6.4575 BTC
+                bc1qxzuw53znzkqa0jyrktjhzzqxgz92dnuncwxj86     4.8814 BTC  (15 txs, 15.5895 BTC total)
+                bc1qah99mfvfgpks8qrj5k490ava0z0lzqhwc06e7h     3.5142 BTC
+                bc1qja3nhlxs76h74t25zj660zuj2l2pfhmfmnj82y     1.9138 BTC
+Taproot hop     bc1pdv5j7k8fqfmfscc5yd4l9duadsqh3ektkf89pxuy9tt4g0vuahgqgu4yzn
+                bc1p8hpctcd32r5pv0t50w2k7mlhvqnklxwa3ljelm8q6eapjvnertpsc4qhzj
+
+Prior hosting   start-trezor-suite-{faq,en,ai,us,dlv,cdn,download-io}.pages.dev
+                start-trezor-suite-cdn.gitbook.io/en-us</div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Method</h2>
+  <p class="sub">Everything here is reproducible from the repository.</p>
+  <table>
+    <tr><th>Question</th><th>How it was answered</th></tr>
+    <tr><td>What the ad looked like</td><td>The victim’s own screenshots, pulled from the source post</td></tr>
+    <tr><td>What the page did</td><td>urlscan.io public capture <code>019fd42e</code>, 2026-08-05 23:07:54 UTC</td></tr>
+    <tr><td>How long the kit ran</td><td>41 urlscan captures, 2025-01-23 → 2026-08-05</td></tr>
+    <tr><td>How much was taken</td><td>Full chain history, per-deposit valuation at block time;
+      mempool.space and blockstream.info agree exactly</td></tr>
+    <tr><td>Who advertised</td><td>Ads Transparency Center RPC (<code>SearchCreatives</code>,
+      <code>SearchSuggestions</code>), 20 regions, with a trezor.io positive control on every run</td></tr>
+    <tr><td>Whether ads run elsewhere now</td><td>32 residential-exit SERP probes in 18 countries —
+      <b>inconclusive by construction</b>, see the control above</td></tr>
+  </table>
+  <p class="small muted">Limits worth stating plainly: the Google Ads account behind the ad was never
+  identified, because Google’s transparency tool holds no record of it. The victim’s loss is a claim;
+  the $1,349,952 figure is not — it is the blockchain’s. Attribution of the sibling feeder
+  wallets to specific campaigns is unproven beyond their shared treasury.</p>
+</div></section>
+
+<footer><div class="wrap">
+  Built 09 August 2026 · defensive research, published noindex ·
+  source data and scripts in the repository ·
+  primary sources:
+  <a href="https://x.com/ReallyBadDay99/status/2085454877719675354">victim report</a> ·
+  <a href="https://x.com/BitcoinNewsCom/status/2085734257784139900">amplification</a> ·
+  <a href="https://urlscan.io/result/019fd42e-d592-714c-b291-4cf35ccef61c/">urlscan capture</a> ·
+  <a href="https://mempool.space/address/bc1qrz33mr7tx8wrpcs2pxrvv83hqwpm907s9shkz4">harvest address</a>
+</div></footer>
+</body></html>

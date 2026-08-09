@@ -1,0 +1,62 @@
+{
+  "cc": "BR",
+  "query": "trezor wallet",
+  "tld": "com.br",
+  "hl": "pt",
+  "attempt": 3,
+  "ts": "2026-08-09T02:12:27Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_BR_s_717367MDY_ttl_72h",
+  "exit": {
+    "ip": "179.225.252.119",
+    "hostname": "179-225-252-119.user.vivozap.com.br",
+    "city": "S\u00e3o Paulo",
+    "region": "S\u00e3o Paulo",
+    "country": "BR",
+    "loc": "-23.5475,-46.6361",
+    "org": "AS26599 TELEF\u00d4NICA BRASIL S.A",
+    "postal": "01000-000",
+    "timezone": "America/Sao_Paulo",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+wallet&sca_esv=4dc13bed5212d114&source=hp&ei=HuJ3aqm-LbLa1sQPpKqdkAY&iflsig=ABILxe8AAAAAanfwLvcL_ZcwNEp3YUg6oCEzN7ddEbci&ved=0ahUKEwipxcawvJKWAxUyrZUCHSRVB2IQ4dUDCDA&uact=5&oq=trezor+wallet&gs_lp=Egdnd3Mtd2l6Ig10cmV6b3Igd2FsbGV0MgsQABiABBixAxiDATIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSOASUC1YlQxwAXgAkAEAmAHvAqABiCGqAQYyLTEuMTK4AQPIAQD4AQGYAg6gAushqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAggQABiABBixA8ICERAuGIAEGLEDGIMBGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABMICDhAAGIAEGLEDGIMBGMkDwgILEAAYgAQYigUYkgPCAgsQLhiABBixAxiDAcICCBAuGLEDGIAEmAMR8QXk0iZm6n6TUJIHBjEuMy0xM6AHk02yBwQzLTEzuAfZIcIHBzAuNC44LjLIB0GACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Ir para o conte\u00fado principal\nAjuda sobre acessibilidade\nFazer login\nModo IA\nTudo\nShopping\nImagens\nNot\u00edcias\nV\u00eddeos\nV\u00eddeos curtos\nMais\nFerramentas\nResultados da pesquisa\nResultado da Web com links de sites\nTrezor Hardware Wallet (Official) | Bitcoin & Crypto Security ...\n\nTrezor\nhttps://trezor.io\n\u00b7\nTraduzir esta p\u00e1gina\nThe safest cold storage wallets for crypto security and financial independence. Easily use, store, and protect Bitcoins.\nTrezor Suite App (Official)\nSecure with built-in protection ... Protect your assets with ...\n\nTrezor Safe 5\nTrezor Safe 5 is an advanced hardware wallet designed for ...\n\nTrezor Safe 3\nThe Trezor Safe 3 hardware wallet brings together crypto security ...\n\nAplicativo Trezor Suite (Oficial)\nO aplicativo Trezor Suite facilita e assegura o gerenciamento, a ...\n\n",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "177.80.7.142",
+      "org": "AS28573 Claro NXT Telecomunicacoes Ltda"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "191.36.235.133",
+      "org": "AS263344 wr net inform\u00e1tica e telecomunica\u00e7\u00f5es ltda"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "179.225.252.119",
+      "org": "AS26599 TELEF\u00d4NICA BRASIL S.A"
+    }
+  ],
+  "status": "OK"
+}

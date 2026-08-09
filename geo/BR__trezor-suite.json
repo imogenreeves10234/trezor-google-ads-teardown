@@ -1,0 +1,79 @@
+{
+  "cc": "BR",
+  "query": "trezor suite",
+  "tld": "com.br",
+  "hl": "pt",
+  "attempt": 5,
+  "ts": "2026-08-09T02:13:08Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_BR_s_694081NKA_ttl_72h",
+  "exit": {
+    "ip": "168.232.218.152",
+    "hostname": "ip-168-232-218-152.directwifi.com.br",
+    "city": "Curitiba",
+    "region": "Paran\u00e1",
+    "country": "BR",
+    "loc": "-25.4278,-49.2731",
+    "org": "AS263569 DIRECT INTERNET LTDA",
+    "postal": "80000-000",
+    "timezone": "America/Sao_Paulo",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtime%2Bnow%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3DOuJ3asP-Dr6m5OUP1bzwkAM%26iflsig%3DABILxe8AAAAAanfwSm9PBGbvwDSme2GisCKhYCHMOBQq%26ved%3D0ahUKEwjDg9W9vJKWAxU-E7kGHVUeHDIQ4dUDCDA%26uact%3D5%26oq%3Dtime%2Bnow%26gs_lp%3DEgdnd3Mtd2l6Igh0aW1lIG5vdzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgcQABiABBgKMgUQABiABEilD1AiWKgHcAF4AJABAJgBrgKgAZ4SqgEFMi02LjK4AQPIAQD4AQGYAgmgAs8SqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgIIEC4YgAQYsQPCAgUQLhiABJgDDPEFLjv8hxLym7ySBwcxLjAuNi4yoAf8LLIHBTItNi4yuAfCEsIHBzAuNS4zLjHIByKACAE%26sclient%3Dgws-wiz%26sei%3DQeJ3arbPEamWwcsPqIqimQU&q=EgSo6NqYGMLE39MGIjBZrGcJARToWiNYYAJg5wAoj2Zru7cDl_dgT30_agvcTffrp190Ls6GpAmXcHfVGHAyAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "177.55.228.213",
+      "org": "AS28656 BTT TELECOMUNICACOES S.A."
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "201.216.101.2",
+      "org": "AS53080 VERO S.A"
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "189.6.9.99",
+      "org": "AS28573 Claro NXT Telecomunicacoes Ltda"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "170.150.243.42",
+      "org": "AS61588 DIGITAL PROVEDOR DE ACESSO A INTERNET LTDA"
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "168.232.218.152",
+      "org": "AS263569 DIRECT INTERNET LTDA"
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}

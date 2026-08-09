@@ -1,0 +1,52 @@
+{
+  "cc": "TR",
+  "query": "trezor suite",
+  "tld": "com.tr",
+  "hl": "tr",
+  "attempt": 2,
+  "ts": "2026-08-09T02:11:48Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_TR_s_705612URJ_ttl_72h",
+  "exit": {
+    "ip": "78.190.217.144",
+    "hostname": "78.190.217.144.static.ttnet.com.tr",
+    "city": "Istanbul",
+    "region": "Istanbul",
+    "country": "TR",
+    "loc": "41.0138,28.9497",
+    "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+    "postal": "34096",
+    "timezone": "Europe/Istanbul",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&source=hp&ei=9uF3au-1IqOii-gPiZGs8Aw&iflsig=ABILxe8AAAAAanfwBvNa_SM__SetON6knxJz2tAnvmlz&ved=0ahUKEwjviLKdvJKWAxUj0QIHHYkIC84Q4dUDCBs&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IrBVQMFipDHABeACQAQCYAfsBoAGpD6oBBjAuMTAuMrgBA8gBAPgBAZgCDaAC8Q-oAgrCAgoQLhgDGI8BGOoCwgIKEAAYAxiPARjqAsICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIUEC4YgAQYigUYsQMYgwEYxwEY0QPCAgUQLhiABMICCBAAGIAEGLEDwgIREC4YgAQYsQMYgwEYxwEY0QPCAggQLhiABBixA5gDDvEFe8MI7FcIYaCSBwYxLjEwLjKgB7JLsgcGMC4xMC4yuAfjD8IHBzAuNS43LjHIBzWACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Ana i\u00e7eri\u011fe ge\u00e7\nEri\u015filebilirlik yard\u0131m\u0131\nOturum a\u00e7\u0131n\nAI Modu\nT\u00fcm\u00fc\nG\u00f6rseller\nVideolar\nK\u0131sa videolar\nHaberler\nAl\u0131\u015fveri\u015f\nDaha fazla\nAra\u00e7lar\nArama Sonu\u00e7lar\u0131\nSite Ba\u011flant\u0131lar\u0131 ile Web Sonucu\nTrezor Suite App (Official) | Desktop & Web Crypto ...\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\n\u00b7\nBu sayfan\u0131n \u00e7evirisini yap\nThe Trezor Suite app makes it easy and secure to manage, buy, sell, and swap your crypto all in one place. Download for desktopContinue in\u00a0...\nDownload & verify Trezor Suite\nThe Trezor Suite desktop application (Linux, MacOS ...\n\nInstalling Trezor Suite on ...\nLearn how to install Trezor Suite on Windows with this simple ...\n\nTrezor Suite\nLearn about Trezor Suite on desktop and mobile. Manage ...\n\nInstalling Trezor Suite on MacOS\nLearn how to install Trezor Suite on macOS with this sim",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": null,
+      "painted": null,
+      "ad_count": null,
+      "error": "Page.goto: Navigation to \"https://www.google.com.tr/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.google.com.tr/\", waiting until \"d",
+      "ip": null,
+      "org": null
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "78.190.217.144",
+      "org": "AS9121 Turk Telekomunikasyon Anonim Sirketi"
+    }
+  ],
+  "status": "OK"
+}

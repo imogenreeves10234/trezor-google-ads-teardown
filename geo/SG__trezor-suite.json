@@ -1,0 +1,61 @@
+{
+  "cc": "SG",
+  "query": "trezor suite",
+  "tld": "com.sg",
+  "hl": "en",
+  "attempt": 3,
+  "ts": "2026-08-09T02:13:51Z",
+  "ok": true,
+  "proxy_user": "GonzosdyOUxO_c_SG_s_392418JFW_ttl_72h",
+  "exit": {
+    "ip": "58.182.1.2",
+    "city": "Ulu Bedok",
+    "region": "Singapore",
+    "country": "SG",
+    "loc": "1.3333,103.9333",
+    "org": "AS55430 Starhub Ltd",
+    "postal": "460080",
+    "timezone": "Asia/Singapore",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "painted": true,
+  "final_url": "https://www.google.com/search?q=trezor+suite&sca_esv=4dc13bed5212d114&source=hp&ei=c-J3avGjO9yYseMPh-HCwQ8&iflsig=ABILxe8AAAAAanfwhKevR9EYdxQWXx2LcXAQ3AopzXny&ved=0ahUKEwixqZjZvJKWAxVcTGwGHYewMPgQ4dUDCDE&uact=5&oq=trezor+suite&gs_lp=Egdnd3Mtd2l6Igx0cmV6b3Igc3VpdGUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOgUUB5Y2wtwAXgAkAEAmAHWAaABthOqAQYwLjEuMTG4AQPIAQD4AQGYAg2gAvcTqAIKwgIKEAAYAxiPARjqAsICChAuGAMYjwEY6gLCAgsQABiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIOEC4YgAQYigUYsQMYgwHCAgsQLhiABBixAxiDAcICCBAAGIAEGLEDwgILEC4YgAQYxwEY0QPCAgQQABgDwgIIEC4YgAQYsQPCAgsQLhiABBjHARivAcICBRAuGIAEmAMK8QUQwu8pAaf4aJIHBjEuMC4xMqAHp0myBwQyLTEyuAftE8IHBzAuNy41LjHIBzGACAE&sclient=gws-wiz",
+  "blocked": false,
+  "page_text_head": "Skip to main content\nAccessibility help\nSign in\nAI Mode\nAll\nImages\nShopping\nNews\nVideos\nForums\nMore\nTools\nSearch Results\nWeb result with site links\nTrezor Suite App (Official) | Desktop & Web Crypto ...\n\nTrezor\nhttps://trezor.io \u203a trezor-suite\nThe Trezor Suite app makes it easy and secure to manage, buy, sell, and swap your crypto all in one place. Download for desktopContinue in\u00a0...\nDownload & verify Trezor Suite\nThe Trezor Suite desktop application (Linux, MacOS ...\n\nInstalling Trezor Suite on ...\nLearn how to install Trezor Suite on Windows with this simple ...\n\nTrezor Suite\nLearn about Trezor Suite on desktop and mobile. Manage ...\n\nInstalling Trezor Suite on MacOS\nLearn how to install Trezor Suite on macOS with this simple step ...\n\nUse Trezor Suite in your ...\nOpen Trezor Suite in yo",
+  "ads": [],
+  "ad_count": 0,
+  "organic_has_trezor_io": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "116.89.33.156",
+      "org": "AS55430 Starhub Ltd"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "103.11.48.195",
+      "org": "AS56300 MyRepublic Ltd."
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "blocked": false,
+      "painted": true,
+      "ad_count": 0,
+      "error": null,
+      "ip": "58.182.1.2",
+      "org": "AS55430 Starhub Ltd"
+    }
+  ],
+  "status": "OK"
+}

@@ -1,9 +1,254 @@
 [
   {
+    "cc": "GB",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 3
+  },
+  {
     "cc": "US",
     "q": "trezor wallet",
     "status": "UNVERIFIED_EXIT_BLOCKED",
     "ads": 0,
-    "tries": 4
+    "tries": 5
+  },
+  {
+    "cc": "US",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "GB",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "DE",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "tries": 5
+  },
+  {
+    "cc": "DE",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "tries": 5
+  },
+  {
+    "cc": "FR",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "tries": 5
+  },
+  {
+    "cc": "FR",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "tries": 5
+  },
+  {
+    "cc": "NL",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "CZ",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 2
+  },
+  {
+    "cc": "NL",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "CZ",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "PL",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 3
+  },
+  {
+    "cc": "IT",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 1
+  },
+  {
+    "cc": "PL",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 3
+  },
+  {
+    "cc": "ES",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 2
+  },
+  {
+    "cc": "ES",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 1,
+    "tries": 3
+  },
+  {
+    "cc": "IT",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 2
+  },
+  {
+    "cc": "CA",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "AU",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 3
+  },
+  {
+    "cc": "CA",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "tries": 5
+  },
+  {
+    "cc": "AU",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "tries": 5
+  },
+  {
+    "cc": "IN",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 1
+  },
+  {
+    "cc": "IN",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 1
+  },
+  {
+    "cc": "TR",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 2
+  },
+  {
+    "cc": "TR",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 2
+  },
+  {
+    "cc": "AE",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 1
+  },
+  {
+    "cc": "BR",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 3
+  },
+  {
+    "cc": "AE",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 1
+  },
+  {
+    "cc": "BR",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "SG",
+    "q": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "tries": 1
+  },
+  {
+    "cc": "SG",
+    "q": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "tries": 3
+  },
+  {
+    "cc": "ZA",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "MX",
+    "q": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "MX",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
+  },
+  {
+    "cc": "ZA",
+    "q": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "tries": 5
   }
 ]

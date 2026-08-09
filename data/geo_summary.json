@@ -1,0 +1,322 @@
+[
+  {
+    "cc": "AE",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS5384 Emirates Internet",
+    "exit_ip": "151.253.67.178",
+    "tries": 1,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "AE",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS5384 Emirates Internet",
+    "exit_ip": "2.50.193.198",
+    "tries": 1,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "AU",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS1221 Telstra Limited",
+    "exit_ip": "101.182.181.189",
+    "tries": 3,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "AU",
+    "query": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "exit_org": null,
+    "exit_ip": null,
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "BR",
+    "query": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "exit_org": "AS263569 DIRECT INTERNET LTDA",
+    "exit_ip": "168.232.218.152",
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "BR",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS26599 TELEF\u00d4NICA BRASIL S.A",
+    "exit_ip": "179.225.252.119",
+    "tries": 3,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "CA",
+    "query": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "exit_org": "AS7057 Managed Network Systems Inc.",
+    "exit_ip": "98.143.67.64",
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "CA",
+    "query": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "exit_org": null,
+    "exit_ip": null,
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "CZ",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS20723 AVONET, s.r.o.",
+    "exit_ip": "178.20.142.200",
+    "tries": 2,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "CZ",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS5610 O2 Czech Republic, a.s.",
+    "exit_ip": "85.160.79.222",
+    "tries": 5,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "DE",
+    "query": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "exit_org": null,
+    "exit_ip": null,
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "DE",
+    "query": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "exit_org": null,
+    "exit_ip": null,
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "ES",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS50564 CARTAGO TELECOM S. L.",
+    "exit_ip": "185.182.127.94",
+    "tries": 2,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "ES",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 1,
+    "exit_org": "AS57269 DIGI SPAIN TELECOM S.A",
+    "exit_ip": "188.26.218.54",
+    "tries": 3,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "FR",
+    "query": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "exit_org": null,
+    "exit_ip": null,
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "FR",
+    "query": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": null,
+    "exit_org": null,
+    "exit_ip": null,
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "GB",
+    "query": "car insurance",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS2856 British Telecommunications Limited",
+    "exit_ip": "109.146.139.170",
+    "tries": 3,
+    "organic_trezor_io": false
+  },
+  {
+    "cc": "GB",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS5378 Vodafone Limited",
+    "exit_ip": "90.242.250.134",
+    "tries": 3,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "GB",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS5378 Vodafone Limited",
+    "exit_ip": "84.65.167.46",
+    "tries": 5,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "IN",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS17465 Cable ISP in India",
+    "exit_ip": "116.68.99.121",
+    "tries": 1,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "IN",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS9829 National Internet Backbone",
+    "exit_ip": "59.180.76.90",
+    "tries": 1,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "IT",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS1267 WIND TRE S.P.A.",
+    "exit_ip": "151.20.34.239",
+    "tries": 2,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "IT",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS3269 Telecom Italia S.p.A.",
+    "exit_ip": "87.21.186.156",
+    "tries": 1,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "NL",
+    "query": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "exit_org": "AS50266 Odido Netherlands B.V.",
+    "exit_ip": "85.146.149.49",
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "NL",
+    "query": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "exit_org": "AS33915 Vodafone Libertel B.V.",
+    "exit_ip": "212.120.126.64",
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "PL",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS29314 VECTRA S.A.",
+    "exit_ip": "89.151.19.199",
+    "tries": 3,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "PL",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS9141 P4 Sp. z o.o.",
+    "exit_ip": "217.119.78.94",
+    "tries": 3,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "SG",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS9506 Singtel Fibre Broadband",
+    "exit_ip": "14.100.29.34",
+    "tries": 1,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "TR",
+    "query": "trezor suite",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS9121 Turk Telekomunikasyon Anonim Sirketi",
+    "exit_ip": "78.190.217.144",
+    "tries": 2,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "TR",
+    "query": "trezor wallet",
+    "status": "OK",
+    "ads": 0,
+    "exit_org": "AS47524 Turksat Uydu Haberlesme Kablo TV ve Isletme A.S.",
+    "exit_ip": "94.54.24.35",
+    "tries": 2,
+    "organic_trezor_io": true
+  },
+  {
+    "cc": "US",
+    "query": "trezor suite",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "exit_org": "AS7922 Comcast Cable Communications, LLC",
+    "exit_ip": "75.75.128.168",
+    "tries": 5,
+    "organic_trezor_io": null
+  },
+  {
+    "cc": "US",
+    "query": "trezor wallet",
+    "status": "UNVERIFIED_EXIT_BLOCKED",
+    "ads": 0,
+    "exit_org": "AS6128 Cablevision Systems Corp.",
+    "exit_ip": "24.190.187.229",
+    "tries": 5,
+    "organic_trezor_io": null
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "cc": "MX",
+  "query": "trezor wallet",
+  "tld": "com.mx",
+  "hl": "es",
+  "attempt": 5,
+  "ts": "2026-08-09T02:16:25Z",
+  "ok": false,
+  "proxy_user": "GonzosdyOUxO_c_MX_s_548703IFN_ttl_72h",
+  "exit": {
+    "ip": "187.188.233.13",
+    "hostname": "fixed-187-188-233-13.totalplay.net",
+    "city": "Culiac\u00e1n",
+    "region": "Sinaloa",
+    "country": "MX",
+    "loc": "24.8021,-107.3942",
+    "org": "AS17072 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",
+    "postal": "80030",
+    "timezone": "America/Mazatlan",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+  "blocked": true,
+  "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dweather%2Btoday%26sca_esv%3D4dc13bed5212d114%26source%3Dhp%26ei%3D_eJ3au-wN4fGp84PwNSeUA%26iflsig%3DABILxe8AAAAAanfxDUCIb7a40uns4F6lVMKJ_WxeWFud%26ved%3D0ahUKEwivo_uavZKWAxUH48kDHUCqBwoQ4dUDCBw%26uact%3D5%26oq%3Dweather%2Btoday%26gs_lp%3DEgdnd3Mtd2l6Ig13ZWF0aGVyIHRvZGF5MgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjEFFAbWPwLcAF4AJABAJgB9QGgAawXqgEEMi0xM7gBA8gBAPgBAZgCDqAC7heoAgrCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqAsICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICCBAuGIAEGLEDwgIFEC4YgATCAggQABiABBiSA8ICDhAAGIAEGLEDGIMBGMkDwgIIEC4YsQMYgATCAhEQLhiABBixAxjJAxjHARjRA8ICBxAAGIAEGAqYAwjxBWiIdtiW_XxPkgcGMS4wLjEzoAeSY7IHBDItMTO4B-YXwgcGMC4yLjEyyAcwgAgB%26sclient%3Dgws-wiz%26sei%3DBeN3ap7uDaqxhbIP1aje2AM&q=EgS7vOkNGIXG39MGIjDgElymhaCyhurIQ5IGH1IYNegmQ_ib4AG_182ls5nTBymxpej6Kfy5JMgsH6UKj1kyAVJaAUM",
+  "exit_reason": "sorry-on-warmup",
+  "ad_count": 0,
+  "attempts": [
+    {
+      "attempt": 1,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "206.135.55.65",
+      "org": "AS28458 IENTC S DE RL DE CV"
+    },
+    {
+      "attempt": 2,
+      "ok": false,
+      "blocked": false,
+      "painted": false,
+      "ad_count": 0,
+      "error": null,
+      "ip": "187.244.105.125",
+      "org": "AS13999 Mega Cable, S.A. de C.V."
+    },
+    {
+      "attempt": 3,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "177.236.2.246",
+      "org": "AS28509 Cablemas Telecomunicaciones SA de CV"
+    },
+    {
+      "attempt": 4,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "187.223.213.152",
+      "org": "AS8151 Uninet S.A. de C.V."
+    },
+    {
+      "attempt": 5,
+      "ok": false,
+      "blocked": true,
+      "painted": null,
+      "ad_count": 0,
+      "error": null,
+      "ip": "187.188.233.13",
+      "org": "AS17072 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V."
+    }
+  ],
+  "status": "UNVERIFIED_EXIT_BLOCKED"
+}
