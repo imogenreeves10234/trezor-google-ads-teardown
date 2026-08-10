@@ -116,3 +116,25 @@ harvested BIP-39 phrases. **73 wallets, 20.93 BTC, $1,349,952, in 32.9 hours.**
 - US sweep had a partial blackout (HTTP 302 for 25+ min after ~70 calls), leaving 4 enrichment gaps.
 
 See memory [[trezor-google-sites-ad-teardown]], [[google-sites-phishing-pattern]].
+
+## ⭐ Rev 5-6 (2026-08-09/10): SEO parasite teardown + homoglyph tool + expanded sweep
+
+- **/seo** (docs/seo/) — plain-language: how fake wallet pages rank ORGANICALLY on Google via
+  parasite SEO on sites.google.com. 71 indexed pages / 22 attacker domains, per-page cards w/ reg
+  dates. **/seo2** (docs/seo2/) — deep method: AI "white content" (~4,700-word ChatGPT articles,
+  proven per-page markers), IDN homographs, cloaking, registrar clusters + abuse contacts + KYC ask.
+- ⭐ **CRITICAL, user-caught: ledġer.app (xn--leder-y1a.app) cloaks — bare root 302s to REAL
+  ledger.com; phishing lives ONLY on device paths /stax.php /nanos.php /nanox.php** (Ledger models).
+  Loads ethers.js = live wallet-DRAINER, obfuscated (3.5k+ \x escapes). Registrar NICENIC (HK),
+  reg 2026-05-10, Cloudflare. ⚠ LESSON: test the device/param PATHS, not just root — root cloaks.
+- ⭐ **Backend answer: SEO pages harvest INLINE (30/31); ad pages iframe external payload. Not one
+  backend.** Bare attacker domains = mostly dead Workspace-verification tokens (19/25).
+- ⭐ **OSINT sweep (wf 21 agents): +300 look-alike domains, 91 live, 32 IDN homographs** (mostly
+  trezor via NICENIC; also Dynadot, Registrar.eu). Registrar.eu 410-Gone park cluster = takedown in
+  progress. Several homograph variants registered-but-not-serving (pre-positioned). Data:
+  data/osint_expanded.json, data/osint_synthesis.md, data/registrar_clusters.json.
+- ⭐ **Homoglyph educational tool** — homoglyph/homoglyph.py (word↔xn-- + decode/defence) + gated CF
+  Worker (3 users, Basic Auth) at homoglyph-tool.fleet-fefsba.workers.dev. ⚠ worker.js gitignored
+  (holds pwds); creds in /root/.config/homoglyph-tool/creds.json. See memory [[homoglyph-idn-attack]].
+- Registrar abuse desks: NICENIC abuse@nicenic.net, WebNic compliance@web.cc, BigRock abuse@bigrock.com,
+  Registrar.eu/Openprovider abuse@openprovider.eu.
