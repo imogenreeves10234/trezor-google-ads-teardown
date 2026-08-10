@@ -25,19 +25,66 @@ for i in ("2", "10", "18"):
 chain = load("chain_ranking.json", [])
 expanded = load("osint_expanded.json", {})  # filled if workflow finished
 
-exp = load("osint_expanded.json", None)
-if exp and exp.get("domains"):
-    rows = "".join(f'<tr><td class="mono">{E(d.get("domain",""))}</td><td>{E(d.get("idn_decoded") or "")}</td>'
-                   f'<td>{E(d.get("registrar") or "?")}</td><td>{E((d.get("registered") or "")[:10])}</td></tr>'
-                   for d in exp["domains"][:120])
-    EXPANDED_BLOCK = (f'<p class="sub">{len(exp["domains"])} additional look-alike / homograph domains '
-        f'found via Certificate-Transparency + RDAP. Full list in <code>data/osint_expanded.json</code>.</p>'
-        f'<div class="scroll"><table><tr><th>Domain</th><th>Reads as</th><th>Registrar</th><th>Registered</th></tr>{rows}</table></div>')
+import re as _re
+try:
+    import idna as _idna
+except Exception:
+    _idna = None
+_exp = load("osint_expanded.json", []) or []
+
+
+def _islive(x):
+    return bool(_re.search(r"https 200|\bLIVE\b|200 LIVE", x.get("source", ""), _re.I))
+
+
+def _reg(x):
+    r = (x.get("registrar") or "")
+    return "NOT REG" not in r.upper() and "rdap-failed=NOT" not in r and "NOT REGISTERED" not in x.get("source", "")
+
+
+def _dec(x):
+    if x.get("idn_decoded"):
+        return x["idn_decoded"]
+    dm = x.get("domain", "")
+    if dm.startswith("xn--"):
+        try:
+            return _idna.decode(dm)
+        except Exception:
+            try:
+                return dm.encode().decode("idna")
+            except Exception:
+                return "?"
+    return ""
+
+
+if _exp:
+    idn = [x for x in _exp if x.get("domain", "").startswith("xn--")]
+    livenew = [x for x in _exp if _islive(x) and not x.get("domain", "").startswith("xn--")]
+    idn_rows = "".join(
+        f'<tr><td class="mono puny">{E(x["domain"])}</td><td class="mono pretty">{E(_dec(x))}</td>'
+        f'<td class="small">{E((x.get("registrar") or "?").split("(")[0][:34])}</td>'
+        f'<td class="small">{"registered" if _reg(x) else "not yet registered"}</td></tr>'
+        for x in idn[:32])
+    live_rows = "".join(
+        f'<tr><td class="mono">{E(x["domain"])}</td><td class="small">{E((x.get("registrar") or "?").split("(")[0][:30])}</td>'
+        f'<td class="small">{E((x.get("registered") or "")[:10])}</td></tr>'
+        for x in sorted(livenew, key=lambda z: z.get("registered", ""), reverse=True)[:40])
+    EXPANDED_BLOCK = (
+        f'<p class="sub">A Certificate-Transparency + RDAP sweep found <b>{len(_exp)} more</b> look-alike '
+        f'domains beyond the 22 &mdash; <b>{sum(1 for x in _exp if _islive(x))} live</b>, '
+        f'<b>{len(idn)} hidden-character (IDN homograph)</b>. Full list: <code>data/osint_expanded.json</code>. '
+        f'Two things worth knowing: a batch already sits on a park IP returning <b>410 Gone</b> '
+        f'(a takedown in progress), and several homograph variants are <b>registered but not yet serving</b> '
+        f'&mdash; pre-positioned for later.</p>'
+        f'<h3 style="margin:22px 0 6px;font-size:16px">Hidden-character (IDN homograph) domains &mdash; {len(idn)} found</h3>'
+        f'<div class="scroll"><table><tr><th>Registered as (xn--)</th><th>Reads as</th><th>Registrar</th><th>Status</th></tr>{idn_rows}</table></div>'
+        f'<p class="small muted">Almost all mimic <b>trezor</b> (trez&oacute;r, tr&emacr;zor, trez&otilde;r&hellip;) and '
+        f'led&#289;er &mdash; overwhelmingly through <b>NICENIC (Hong Kong)</b>, plus Dynadot and Registrar.eu.</p>'
+        f'<h3 style="margin:22px 0 6px;font-size:16px">Newly-found LIVE look-alike domains (top 40)</h3>'
+        f'<div class="scroll"><table><tr><th>Domain</th><th>Registrar</th><th>Registered</th></tr>{live_rows}</table></div>')
 else:
-    EXPANDED_BLOCK = ('<p class="muted">The automated Certificate-Transparency sweep for additional '
-        'look-alike and homograph domains is still completing; its full results will be published to '
-        '<code>data/osint_expanded.json</code> in the repository. Everything else on this page is '
-        'complete and verified from live visits.</p>')
+    EXPANDED_BLOCK = '<p class="muted">Sweep pending.</p>'
+
 ndom = sum(c["count"] for c in clusters)
 avg_words = sum(a["words"] for a in ai) // max(len(ai), 1)
 serve_phish = [r for r in cloak if r.get("drainer_signatures") and not r.get("redirects_to_real_brand")]

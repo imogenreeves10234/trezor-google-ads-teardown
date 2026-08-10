@@ -1,0 +1,2702 @@
+[
+  {
+    "brand": "Ledger",
+    "domain": "ledger-secure-access.com",
+    "idn_decoded": "",
+    "nameservers": "kellen.ns.cloudflare.com, marjory.ns.cloudflare.com",
+    "registered": "2026-08-09T20:12:47Z",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves via Cloudflare, http 301->https(self), https 403 (Cloudflare blocks our datacenter IP; NOT a clean negative)"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgre.live",
+    "idn_decoded": "",
+    "nameservers": "lucy.ns.cloudflare.com, kareem.ns.cloudflare.com",
+    "registered": "2026-08-04T03:41:33Z",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 198.52.247.67, http 521 (Cloudflare origin down), https fails with self-signed cert"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgre.link",
+    "idn_decoded": "",
+    "nameservers": "ns1.vercel-dns.com, ns2.vercel-dns.com",
+    "registered": "2026-08-04T03:46:18Z",
+    "registrar": "Global Domain Group LLC",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 64.239.123.193 (Vercel), http 308->https, https 200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgersupport.pro",
+    "idn_decoded": "",
+    "nameservers": "ns43.domaincontrol.com, ns44.domaincontrol.com",
+    "registered": "2026-08-04T14:46:42Z",
+    "registrar": "GoDaddy.com, LLC",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 34.111.179.208, http 301->https, https 200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledger-helphub.com",
+    "idn_decoded": "",
+    "nameservers": "bella.ns.cloudflare.com, lex.ns.cloudflare.com",
+    "registered": "2026-08-03T18:57:54Z",
+    "registrar": "Global Domain Group LLC",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves via Cloudflare, http 301->https, https 200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledger-security-notice.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.openprovider.nl, ns2.openprovider.be, ns3.openprovider.eu",
+    "registered": "2026-08-01T03:46:00Z",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves IP 45.74.47.181, http 301->https, https 302->/pages/security.html->200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerpro.store",
+    "idn_decoded": "",
+    "nameservers": "atlas.dns-parking.com, hyperion.dns-parking.com",
+    "registered": "2026-07-30T11:27:38Z",
+    "registrar": "HOSTINGER operations, UAB",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 216.24.57.1 (Render), http 301->https, https 200 (slow) LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgernewupdate.com",
+    "idn_decoded": "",
+    "nameservers": "david.ns.cloudflare.com, jill.ns.cloudflare.com",
+    "registered": "2026-07-29T08:08:44Z",
+    "registrar": "Eranet International Limited",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves via Cloudflare, http 403 & https 403 (Cloudflare blocks our IP; NOT a clean negative)"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgercyber.net",
+    "idn_decoded": "",
+    "nameservers": "ns1.mykocrm.co, ns2.mykocrm.co",
+    "registered": "2026-07-28T08:44:21Z",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 91.92.241.159, http 308->https, https 200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "us-ledger.org",
+    "idn_decoded": "",
+    "nameservers": "hasslo.ns.cloudflare.com, sandy.ns.cloudflare.com",
+    "registered": "2026-07-26T09:43:23Z",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP(rdap.org); HTTP: resolves via Cloudflare, http 403 & https 403 (Cloudflare blocks our IP; NOT a clean negative)"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwallet.support",
+    "idn_decoded": "",
+    "nameservers": "uriah.ns.cloudflare.com, sasha.ns.cloudflare.com",
+    "registered": "2026-07-13T16:23:59Z",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "source": "RDAP(rdap.org); HTTP: resolves via Cloudflare, http 301->https, https 200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "leedger-firmware-update.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.ultahost.com, ns2.ultahost.com, ns3.ultahost.com, ns4.ultahost.com",
+    "registered": "2026-07-09T15:49:34Z",
+    "registrar": "Ultahost, Inc.",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves IP 79.133.41.61 (Ultahost), http 200 & https 200 LIVE"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwallets.shop",
+    "idn_decoded": "",
+    "nameservers": "alfred.ns.cloudflare.com, irena.ns.cloudflare.com",
+    "registered": "2026-07-06T11:21:11Z",
+    "registrar": "Nicenic International Group Co., Limited",
+    "source": "RDAP(rdap.org); HTTP: NXDOMAIN - no A record (registered + Cloudflare-delegated but not currently serving)"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwalletdeviceupdates.com",
+    "idn_decoded": "",
+    "nameservers": "courtney.ns.cloudflare.com, guy.ns.cloudflare.com",
+    "registered": "2026-07-02T13:36:48Z",
+    "registrar": "Internet Domain Service BS Corp",
+    "source": "RDAP(rdap.org->verisign); HTTP: NXDOMAIN - no A record (not serving). Shares courtney/guy Cloudflare NS with 2 sibling ...web3 domains"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwalletdevicesweb3.com",
+    "idn_decoded": "",
+    "nameservers": "courtney.ns.cloudflare.com, guy.ns.cloudflare.com",
+    "registered": "2026-06-24T09:33:39Z",
+    "registrar": "Internet Domain Service BS Corp",
+    "source": "RDAP(rdap.org->verisign); HTTP: NXDOMAIN - no A record (not serving). Same NS pair as deviceupdates & deviceupdateweb3"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwalletdeviceupdateweb3.com",
+    "idn_decoded": "",
+    "nameservers": "courtney.ns.cloudflare.com, guy.ns.cloudflare.com",
+    "registered": "2026-06-19T11:34:44Z",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP(rdap.org 429 -> retried via rdap.verisign.com OK 200); HTTP: NXDOMAIN - no A record (not serving). Same NS pair as the other two ...web3/deviceupdate .com"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledger--live.com",
+    "idn_decoded": "",
+    "nameservers": "lauryn.ns.cloudflare.com, odin.ns.cloudflare.com",
+    "registered": "2026-06-10T15:45:35Z",
+    "registrar": "NameSilo, LLC",
+    "source": "RDAP(rdap.org->verisign); HTTP: NXDOMAIN - no A record (registered + Cloudflare-delegated but not currently serving)"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgrcdn.com",
+    "idn_decoded": "",
+    "nameservers": "asa.ns.cloudflare.com, salvador.ns.cloudflare.com",
+    "registered": "2026-06-08T05:31:20Z",
+    "registrar": "Cloudflare, Inc.",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves via Cloudflare, http 404 & https 404 (live edge, no content served at apex)"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwalletrelease.com",
+    "idn_decoded": "",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "registered": "2026-06-08T09:52:19Z",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves IP 185.53.179.136 (Sedo/Team Internet park), http 410 & https 410 Gone. Cluster with 2 more Registrar.eu domains on same IP"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgernewfirmwareupdate.com",
+    "idn_decoded": "",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "registered": "2026-05-31T11:07:50Z",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP(rdap.org->verisign); HTTP: resolves IP 185.53.179.136 (park), http 410 & https 410 Gone. Same IP + NS as ledgerwalletrelease & ledgerwallets.live"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwallets.live",
+    "idn_decoded": "",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "registered": "2026-05-29T18:05:15Z",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 185.53.179.136 (park), http 410 & https 410 Gone. Third domain in the 185.53.179.136 Registrar.eu cluster"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgero.cc",
+    "idn_decoded": "",
+    "nameservers": "ns1.363.hk, ns2.363.hk, ns3.363.hk, ns4.363.hk, ns5.363.hk, ns6.363.hk",
+    "registered": "2026-05-17T17:42:27Z",
+    "registrar": "Chengdu West Dimension Digital Technology Co., Ltd.",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 162.209.140.179, http 200 & https 200 LIVE. Registered 36s AFTER ledgerc.cc, same IP + 363.hk NS = one operator"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerc.cc",
+    "idn_decoded": "",
+    "nameservers": "ns1.363.hk, ns2.363.hk, ns3.363.hk, ns4.363.hk, ns5.363.hk, ns6.363.hk",
+    "registered": "2026-05-17T17:41:51Z",
+    "registrar": "Chengdu West Dimension Digital Technology Co., Ltd.",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 162.209.140.179 (SAME as ledgero.cc), http 200 & https 200 LIVE. Sibling pair, registered 36s apart"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "xn--leder-y1a.app",
+    "idn_decoded": "led\u0121er.app",
+    "nameservers": "adam.ns.cloudflare.com, shaz.ns.cloudflare.com",
+    "registered": "2026-05-10T15:44:20Z",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "source": "RDAP(pubapi.registry.google/rdap; rdap.nic.google unresolvable + rdap.org 429, resolved via IANA bootstrap); HTTP: resolves via Cloudflare, http 301->https, https 302 -> https://ledger.com -> www.ledger.com. CLOAKING: bounces to REAL brand site (reproduced twice). IDN homograph = 'ledger' with U+0121 g-dot-above"
+  },
+  {
+    "brand": "Ledger",
+    "domain": "ledgerwallet.cloud",
+    "idn_decoded": "",
+    "nameservers": "ns1.dns-parking.com, ns2.dns-parking.com",
+    "registered": "2026-05-10T01:23:31Z",
+    "registrar": "HOSTINGER operations, UAB",
+    "source": "RDAP(rdap.org); HTTP: resolves IP 2a02:4780:6:1858::(Hostinger), http 301->https, https 200 LIVE"
+  },
+  {
+    "domain": "ledgerlive.ind.in",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. dba Openprovider (IANA 1647)",
+    "registered": "2026-05-10",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "RDAP+HTTP GET. Resolves 185.53.179.136; https & http return 410 Gone (server=Caddy); no redirect. TOMBSTONED (shared takedown host, see notes)."
+  },
+  {
+    "domain": "ledgerlivewallet.download",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2026-04-08",
+    "nameservers": "a.dnspod.com, b.dnspod.com, c.dnspod.com",
+    "source": "RDAP+HTTP GET. CNAME -> ledgerlivewallet.download.pages.dnsoe7.com (Tencent EdgeOne Pages), 43.174.247.23/246.23; https & http 200 (server=edgeone-pages); no redirect. LIVE."
+  },
+  {
+    "domain": "ledgerlivedesktop.us",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2026-04-08",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "RDAP(registry-direct rdap.nic.us)+HTTP GET. Resolves 185.53.179.136; https & http 410 Gone (server=Caddy); no redirect. TOMBSTONED (same host as ledgerlive.ind.in)."
+  },
+  {
+    "domain": "ledgerwallet.icu",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Xin Net Technology Corporation (IANA 120)",
+    "registered": "2026-03-24",
+    "nameservers": "freens1.jdgslb.com, freens2.jdgslb.com",
+    "source": "RDAP+HTTP GET. Resolves 114.67.215.164 but connection TIMES OUT on 80 & 443 (curl 000/28); RDAP status=active. Registered but host down/filtered \u2014 no live page observed."
+  },
+  {
+    "domain": "ledgerwalletcn.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "registered": "2026-03-23",
+    "nameservers": "NS1.DYNA-NS.NET, NS2.DYNA-NS.NET",
+    "source": "RDAP+HTTP GET. Resolves 156.226.125.111; http 301 -> https://ledgerwalletcn.com/ (self), https 200 (server=Apache). LIVE."
+  },
+  {
+    "domain": "ledgerwaliet.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "registered": "2026-03-23",
+    "nameservers": "NS1.DYNA-NS.NET, NS2.DYNA-NS.NET",
+    "source": "RDAP+HTTP GET. Typosquat 'waliet'. CNAME y58cug36.2026cname.com -> 94.154.43.8; http 301 -> https (self), https 200 (server=nginx). LIVE."
+  },
+  {
+    "domain": "ledger-verification.net",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2026-02-12",
+    "nameservers": "CLAYTON.NS.CLOUDFLARE.COM, TESS.NS.CLOUDFLARE.COM",
+    "source": "RDAP+HTTP GET. Behind Cloudflare 188.114.96.3/97.3; https & http 403 (Cloudflare block/challenge to our UA); no redirect. Resolves, live-behind-CF (browser fleet needed to see content)."
+  },
+  {
+    "domain": "ledger-device-protection.info",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Porkbun LLC (IANA 1861)",
+    "registered": "2026-02-12",
+    "nameservers": "lara.ns.cloudflare.com, memphis.ns.cloudflare.com",
+    "source": "RDAP+HTTP GET. Resolves 136.144.215.8; http 301 -> https://ledger-device-protection.info/ (self, server=nginx); https TLS handshake times out (curl 000). Resolves; redirects to own https."
+  },
+  {
+    "domain": "ledgerlive-authenticate.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2026-02-02",
+    "nameservers": "NS3.MY-NDNS.COM, NS4.MY-NDNS.COM",
+    "source": "RDAP+HTTP GET. SERVFAIL at 8.8.8.8 but resolves via system resolver to 107.148.158.138; http 200 (server=Microsoft-HTTPAPI/2.0); no redirect. LIVE on http."
+  },
+  {
+    "domain": "ledgerwalletsupportweb3.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2026-01-26",
+    "nameservers": "INA1.REGISTRAR.EU, INA2.REGISTRAR.EU, INA3.REGISTRAR.EU",
+    "source": "RDAP+HTTP GET. Resolves 185.53.179.136; https & http 410 Gone (server=Caddy); no redirect. TOMBSTONED (same host cluster)."
+  },
+  {
+    "domain": "ledger-live-update.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hello Internet Corp (IANA 1924)",
+    "registered": "2026-01-22",
+    "nameservers": "FINLEY.NS.CLOUDFLARE.COM, RACHEL.NS.CLOUDFLARE.COM",
+    "source": "RDAP+HTTP GET. Cloudflare 188.114.96.3/97.3; http 301->https (self), https 302 -> https://www.www.ledger-live-update.com (BROKEN: NXDOMAIN, does not resolve). Misconfigured self-redirect, dead-ends. NOT a redirect to real brand."
+  },
+  {
+    "domain": "ledger-live-login.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hello Internet Corp (IANA 1924)",
+    "registered": "2026-01-22",
+    "nameservers": "FINLEY.NS.CLOUDFLARE.COM, RACHEL.NS.CLOUDFLARE.COM",
+    "source": "RDAP+HTTP GET. Cloudflare 104.21.78.118/172.67.220.159; http 301->https (self), https 302 -> https://www.www.ledger-live-login.com (BROKEN, NXDOMAIN). Sister of ledger-live-update.com: same registrar, same CF NS pair, registered same minute."
+  },
+  {
+    "domain": "ledger-security-verification.info",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2025-12-15",
+    "nameservers": "drake.ns.cloudflare.com, noor.ns.cloudflare.com",
+    "source": "RDAP+HTTP GET. Cloudflare 172.67.137.4/104.21.46.88; http 301->https (self), https 521 (Cloudflare: origin server down). Resolves; origin currently offline."
+  },
+  {
+    "domain": "ledgerwallet.live",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "CommuniGal Communication Ltd. (Galcomm) (IANA 418)",
+    "registered": "2025-12-11",
+    "nameservers": "ns15.abovedomains.com, ns16.abovedomains.com",
+    "source": "RDAP+HTTP GET. Resolves 103.224.212.214 (Trellian/Above.com); https & http 200 (server=Apache); no redirect. LIVE (abovedomains NS = likely monetized parking)."
+  },
+  {
+    "domain": "ledgeraapp.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC (IANA 146)",
+    "registered": "2025-10-09",
+    "nameservers": "NS53.DOMAINCONTROL.COM, NS54.DOMAINCONTROL.COM",
+    "source": "RDAP+HTTP GET. Typosquat 'ledgeraapp'. AWS 76.223.105.230/13.248.243.5; http 308 -> https (self), https 200 (server=DPS/2.0.0-beta, a hosting/parking platform). LIVE."
+  },
+  {
+    "domain": "ledgerlive-live.live",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2025-10-05",
+    "nameservers": "megan.ns.cloudflare.com, pedro.ns.cloudflare.com",
+    "source": "RDAP+HTTP GET. Cloudflare 188.114.96.3/97.3; https & http 403 (CF block to our UA); no redirect. Resolves, live-behind-CF."
+  },
+  {
+    "domain": "ledgerlive.claims",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Spaceship, Inc. (IANA 3862)",
+    "registered": "2025-10-04",
+    "nameservers": "launch1.spaceship.net, launch2.spaceship.net",
+    "source": "RDAP+HTTP GET. Resolves 185.158.133.1; http 301->https (self), https 200 (server=cloudflare). LIVE (Spaceship 'launch' NS = likely default parking)."
+  },
+  {
+    "domain": "ledgerlivedeviceweb3.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2025-08-05",
+    "nameservers": "INA1.REGISTRAR.EU, INA2.REGISTRAR.EU, INA3.REGISTRAR.EU",
+    "source": "RDAP+HTTP GET. Resolves 185.53.179.136; https & http 410 Gone (server=Caddy); no redirect. TOMBSTONED (same host cluster). Reg 2025-08-05, near the 2025-08-03 WebNic burst."
+  },
+  {
+    "domain": "ledgerlivehardwareupdate.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2025-07-24",
+    "nameservers": "NS1.DOMAINREGISTRAR.BIZ, NS2.DOMAINREGISTRAR.BIZ, NS3.DOMAINREGISTRAR.BIZ, NS4.DOMAINREGISTRAR.BIZ",
+    "source": "RDAP+HTTP GET. Resolves 172.238.172.122 / 172.236.104.43 / .157 (Linode/Akamai); http 200 (server=openresty); https TLS handshake times out (curl 000). LIVE on http."
+  },
+  {
+    "domain": "ledgerwallets.cfd",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC (IANA 1479)",
+    "registered": "2025-06-06",
+    "nameservers": "ns1.ns306.parklogic.com, ns2.ns306.parklogic.com",
+    "source": "RDAP+HTTP GET. NXDOMAIN \u2014 does NOT resolve (curl 6). RDAP status = pendingDelete + redemptionPeriod + serverHold: domain is being deleted/expired. Was ParkLogic-parked. DEAD."
+  },
+  {
+    "domain": "ledgerliveapp.lol",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "registered": "2024-09-17",
+    "nameservers": "ns1.dyna-ns.net, ns2.dyna-ns.net",
+    "source": "RDAP+HTTP GET. DNS NOERROR but NO A/AAAA record (NODATA); curl cannot resolve host. Registration active but no web host \u2014 serves no site currently."
+  },
+  {
+    "domain": "ledgerlive-deny.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "IONOS SE (IANA 83)",
+    "registered": "2024-07-25",
+    "nameservers": "A.NS36.DE, B.NS36.DE",
+    "source": "RDAP+HTTP GET. Resolves 91.195.240.13 (Sedo parking IP); https & http 200 (server=Parking/1.0); no redirect. PARKED (Sedo)."
+  },
+  {
+    "domain": "ledgerlive-portal.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "IONOS SE (IANA 83)",
+    "registered": "2024-07-20",
+    "nameservers": "A.NS36.DE, B.NS36.DE",
+    "source": "RDAP+HTTP GET. Resolves 91.195.240.13 (Sedo); https & http 200 (server=Parking/1.0); no redirect. PARKED (Sedo). Sister of ledgerlive-deny.com: same registrar, same NS, same parking IP, reg ~5 days apart."
+  },
+  {
+    "domain": "ledgerwallet.nl",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "OmniRegistrar (.nl / SIDN registrant; no IANA ID)",
+    "registered": "2020-11-17",
+    "nameservers": "pns1.directdomain.nl, pns2.directdomain.nl",
+    "source": "RDAP(registry-direct rdap.sidn.nl)+HTTP GET. Resolves 85.10.155.145 (Hetzner); http 301 -> https (self), https 200 (server=Caddy). LIVE. Oldest in batch (2020)."
+  },
+  {
+    "domain": "ledger--stats.com",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Cloudflare, Inc. (IANA 1910)",
+    "registered": "2019-02-07",
+    "nameservers": "LILA.NS.CLOUDFLARE.COM, MERLIN.NS.CLOUDFLARE.COM",
+    "source": "RDAP+HTTP GET. Double-hyphen 'ledger--stats'. Cloudflare 104.21.46.244/172.67.169.134; http 308 -> https (self, :443), https 200 (server=cloudflare). LIVE. Earliest registration date on record (2019-02-07)."
+  },
+  {
+    "domain": "ledger-wallet.ph",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph has NO RDAP in IANA bootstrap; dotPH whois is web-only \u2014 CLI whois.dot.ph returned 'Terminated'; IANA lists empty whois for .ph). Registrar/date UNMEASURED, not a negative.",
+    "registered": "unmeasured",
+    "nameservers": "unmeasured (registry gave no data)",
+    "source": "RDAP=none(.ph). HTTP: RESOLVES to 45.79.222.138 (Linode) but port 80 and 443 Connection refused (HTTP 000) = DNS set, no live web server."
+  },
+  {
+    "domain": "ledgerlive-support-verifynow.ph",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph: no RDAP; dotPH web-only whois). UNMEASURED.",
+    "registered": "unmeasured",
+    "nameservers": "unmeasured",
+    "source": "RDAP=none(.ph). HTTP: does NOT resolve (no A record)."
+  },
+  {
+    "domain": "ledgerwallet.com.ph",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph: no RDAP; dotPH web-only whois). UNMEASURED.",
+    "registered": "unmeasured",
+    "nameservers": "unmeasured",
+    "source": "RDAP=none(.ph). HTTP: RESOLVES to 45.79.222.138 (Linode, same IP as ledger-wallet.ph) but 80/443 Connection refused (HTTP 000) = parked DNS, no server."
+  },
+  {
+    "domain": "ledgerwallet.de",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "not disclosed (DENIC RDAP withholds registrar)",
+    "registered": "not disclosed by DENIC (RDAP gives only last-changed 2026-07-17; no creation date published for .de)",
+    "nameservers": "ns1.parklogic.com, ns2.parklogic.com",
+    "source": "RDAP=rdap.denic.de (status active). HTTP: RESOLVES 172.236.98.137, HTTP 200 (Server openresty). NS parklogic.com = DOMAIN PARKING service."
+  },
+  {
+    "domain": "ledgerwalletshop.de",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "not disclosed (DENIC RDAP)",
+    "registered": "not disclosed by DENIC (last-changed 2026-03-23)",
+    "nameservers": "brit.ns.cloudflare.com, sage.ns.cloudflare.com",
+    "source": "RDAP=rdap.denic.de (status active). HTTP: RESOLVES 104.21.2.24 (Cloudflare), HTTPS 200."
+  },
+  {
+    "domain": "ledgrone.de",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "not disclosed (DENIC RDAP)",
+    "registered": "not disclosed by DENIC (last-changed 2026-04-09)",
+    "nameservers": "ns1.dogado.de, ns2.dogado.de, ns3.dogado.de, ns4.dogado.de",
+    "source": "RDAP=rdap.denic.de (status active). HTTP: RESOLVES 185.215.158.114, HTTPS 200. NS=dogado.de (German host)."
+  },
+  {
+    "domain": "ledgerwallet.im",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "redacted (nic.im whois GDPR-redacts registrar and all contacts)",
+    "registered": "redacted by nic.im (only Expiry Date 2028-04-11 shown; no creation date)",
+    "nameservers": "ns1.dyna-ns.net, ns2.dyna-ns.net",
+    "source": "whois.nic.im (GDPR-redacted). HTTP: RESOLVES 94.154.43.130, HTTPS 456 (Server nginx). NOTE: 94.154.43.0/24 shared with ledgerwallet.com.cn (94.154.43.8)."
+  },
+  {
+    "domain": "ledger-app.at",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Hosting concepts B.V. / Registrar.eu (nic.at registrar #648)",
+    "registered": "not disclosed by nic.at (whois gives only changed 2026-07-27; no creation date)",
+    "nameservers": "achiel.ns.cloudflare.com, audrey.ns.cloudflare.com",
+    "source": "whois.nic.at (rdap.nic.at does not resolve). HTTP: RESOLVES 188.114.96.3 (Cloudflare), HTTPS 403 (bot/geo block)."
+  },
+  {
+    "domain": "ledgerwallet-app.cn",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Beijing Xinnet Technology (\u5317\u4eac\u65b0\u7f51\u6570\u7801\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8)",
+    "registered": "2026-04-29 13:54:22 (exp 2027-04-29)",
+    "nameservers": "ns1.onclouddns.com, ns2.onclouddns.com",
+    "source": "whois.cnnic (rdap.cnnic.cn does not resolve). Registrant: \u5408\u80a5\u6885\u5170\u7af9\u83ca\u56ed\u827a\u6709\u9650\u516c\u53f8, email yangtaiji888@gmail.com. HTTP: RESOLVES 183.60.150.16 (Tencent), HTTPS 200 (openresty)."
+  },
+  {
+    "domain": "ledgerwallet.com.cn",
+    "brand": "Ledger",
+    "idn_decoded": "",
+    "registrar": "Chengdu West Dimension / west.cn (\u6210\u90fd\u897f\u7ef4\u6570\u7801\u79d1\u6280\u6709\u9650\u516c\u53f8)",
+    "registered": "2025-04-01 20:54:06 (exp 2029-04-01)",
+    "nameservers": "ns1.myhostadmin.net, ns2.myhostadmin.net",
+    "source": "whois.cnnic. Registrant: \u5408\u80a5\u5e02\u585e\u5916\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8, email caifu5918@163.com. HTTP: RESOLVES 94.154.43.8, HTTPS 200 (nginx). NOTE: 94.154.43.0/24 shared with ledgerwallet.im."
+  },
+  {
+    "domain": "xn--trezr-3ta.com",
+    "brand": "Trezor",
+    "idn_decoded": "trez\u00f3r.com",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "registered": "2026-07-10T14:47:46Z",
+    "nameservers": "graham.ns.cloudflare.com, paris.ns.cloudflare.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: RESOLVES (Cloudflare 104.21.75.2), HTTPS 522 (origin unreachable). Newest homograph in set."
+  },
+  {
+    "domain": "xn--trezo-9bb.com",
+    "brand": "Trezor",
+    "idn_decoded": "trezo\u0157.com",
+    "registrar": "HOSTINGER operations, UAB",
+    "registered": "2025-07-12T06:08:14Z",
+    "nameservers": "ns1.dns-expired.com, ns2.dns-expired.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: does NOT resolve (no A record). NS dns-expired.com = Hostinger expired/parking NS."
+  },
+  {
+    "domain": "xn--trezo-9bb.io",
+    "brand": "Trezor",
+    "idn_decoded": "trezo\u0157.io",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "registered": "2026-02-02T01:51:03Z",
+    "nameservers": "ns3.my-ndns.com, ns4.my-ndns.com",
+    "source": "RDAP=rdap.identitydigital.services. HTTP: does NOT resolve (no A record)."
+  },
+  {
+    "domain": "xn--trezo-9bb.app",
+    "brand": "Trezor",
+    "idn_decoded": "trezo\u0157.app",
+    "registrar": "NOT REGISTERED (authoritative 404)",
+    "registered": "not registered",
+    "nameservers": "n/a",
+    "source": "RDAP=pubapi.registry.google (Google nic) returned 404 'not found' = domain NOT registered. HTTP: does not resolve. Available/registrable gap."
+  },
+  {
+    "domain": "xn--trezo-9bb.org",
+    "brand": "Trezor",
+    "idn_decoded": "trezo\u0157.org",
+    "registrar": "NOT REGISTERED (authoritative 404)",
+    "registered": "not registered",
+    "nameservers": "n/a",
+    "source": "RDAP=rdap.publicinterestregistry.org (PIR) returned 404 = NOT registered. HTTP: does not resolve."
+  },
+  {
+    "domain": "xn--trzor-7za.com",
+    "brand": "Trezor",
+    "idn_decoded": "tr\u0117zor.com",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "registered": "2025-11-25T23:41:30Z",
+    "nameservers": "ns3.my-ndns.com, ns4.my-ndns.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: does NOT resolve (no A record). Registered but dormant."
+  },
+  {
+    "domain": "xn--trzor-7za.online",
+    "brand": "Trezor",
+    "idn_decoded": "tr\u0117zor.online",
+    "registrar": "NOT REGISTERED (authoritative 404)",
+    "registered": "not registered",
+    "nameservers": "n/a",
+    "source": "RDAP=rdap.radix.host (.online registry) returned 404 = NOT registered. HTTP: does not resolve."
+  },
+  {
+    "domain": "xn--trezor-gva.com",
+    "brand": "Trezor",
+    "idn_decoded": "trezor\u00e9.com",
+    "registrar": "GoDaddy.com, LLC",
+    "registered": "2025-10-28T10:22:38Z",
+    "nameservers": "ns05.domaincontrol.com, ns06.domaincontrol.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: RESOLVES 76.223.105.230 (AWS Global Accelerator), HTTPS 200 (Server DPS/2.0.0-beta) = LIVE page."
+  },
+  {
+    "domain": "xn--trezr-581b.com",
+    "brand": "Trezor",
+    "idn_decoded": "trez\u1ecdr.com",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "registered": "2025-12-04T08:02:24Z",
+    "nameservers": "clark.ns.cloudflare.com, lila.ns.cloudflare.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: does NOT resolve (no A record). Registered but dormant."
+  },
+  {
+    "domain": "xn--trzor-jza.com",
+    "brand": "Trezor",
+    "idn_decoded": "tr\u0113zor.com",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "registered": "2026-02-07T08:36:23Z",
+    "nameservers": "gwen.ns.cloudflare.com, julio.ns.cloudflare.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: RESOLVES (Cloudflare 172.67.201.233), HTTPS 522 (origin unreachable)."
+  },
+  {
+    "domain": "xn--trzor-k0a.com",
+    "brand": "Trezor",
+    "idn_decoded": "tr\u0119zor.com",
+    "registrar": "Dominet (HK) Limited",
+    "registered": "2025-10-04T10:56:31Z",
+    "nameservers": "ns-cloud-b1.googledomains.com, ns-cloud-b2.googledomains.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: does NOT resolve (no A record). Registered but dormant."
+  },
+  {
+    "domain": "xn--trezr-9dc.com",
+    "brand": "Trezor",
+    "idn_decoded": "trez\u022fr.com",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "registered": "2025-12-09T18:13:02Z",
+    "nameservers": "clint.ns.cloudflare.com, saanvi.ns.cloudflare.com",
+    "source": "RDAP=rdap.verisign.com/com. HTTP: does NOT resolve (no A record). Registered but dormant."
+  },
+  {
+    "domain": "xn--trzor-csa.io",
+    "brand": "Trezor",
+    "idn_decoded": "tr\u00e9zor.io",
+    "registrar": "Dynadot Inc",
+    "registered": "2026-05-06T12:54:09Z",
+    "nameservers": "houston.ns.cloudflare.com, georgia.ns.cloudflare.com",
+    "source": "RDAP=rdap.identitydigital.services. HTTP: RESOLVES (Cloudflare 188.114.96.3), HTTPS 301 -> https://snl-github.io/ = CLOAK/redirect to a GitHub Pages host (NOT the real brand). Parasite-host tell."
+  },
+  {
+    "domain": "xn--trzor-csa.cc",
+    "brand": "Trezor",
+    "idn_decoded": "tr\u00e9zor.cc",
+    "registrar": "NOT REGISTERED (authoritative 404)",
+    "registered": "not registered",
+    "nameservers": "n/a",
+    "source": "RDAP=tld-rdap.verisign.com/cc returned 404 = NOT registered. HTTP: does not resolve."
+  },
+  {
+    "domain": "xn--trezr-mua.com",
+    "brand": "Trezor",
+    "idn_decoded": "trez\u00f6r.com",
+    "registrar": "NOT REGISTERED (authoritative 404)",
+    "registered": "not registered",
+    "nameservers": "n/a",
+    "source": "RDAP=rdap.verisign.com/com returned 404 = domain NOT registered. HTTP: does not resolve."
+  },
+  {
+    "domain": "xn--trezr-mua.io",
+    "idn_decoded": "trez\u00f6r.io",
+    "brand": "Trezor",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "registered": "2025-07-15",
+    "nameservers": "5014.ns1.abovedomains.com, 5014.ns2.abovedomains.com (Dynadot parking); RDAP status: client hold, client transfer prohibited, auto renew period",
+    "source": "RDAP=Identity Digital(.io). HTTP: does NOT resolve (no A record; 'client hold' removes it from the zone) -> SUSPENDED by registrar. No redirect observed."
+  },
+  {
+    "domain": "xn--trezr-gua.com",
+    "idn_decoded": "trez\u00f5r.com",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.com) returned 404 on two passes; dig shows zero NS/A. Confirmed UNREGISTERED (not a fetch failure). No HTTP: domain does not resolve."
+  },
+  {
+    "domain": "xn--trezr-yua.com",
+    "idn_decoded": "trez\u00f8r.com",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.com) 404 x2; zero DNS records. Confirmed UNREGISTERED. Does not resolve."
+  },
+  {
+    "domain": "xn--trezr-xta.com",
+    "idn_decoded": "trez\u00f2r.com",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.com) 404 x2; zero DNS records. Confirmed UNREGISTERED. Does not resolve."
+  },
+  {
+    "domain": "xn--trezr-j9a.com",
+    "idn_decoded": "trez\u014dr.com",
+    "brand": "Trezor",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2026-04-16",
+    "nameservers": "a.dnspod.com, b.dnspod.com, c.dnspod.com (DNSPod/Tencent); RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: CNAMEs to xn--trezr-j9a.com.eo.dnse3.com (Tencent EdgeOne) but that target returns NO final A -> curl 'could not resolve', not currently serving. Registered but no live site right now."
+  },
+  {
+    "domain": "xn--trezr-9ta.com",
+    "idn_decoded": "trez\u00f4r.com",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.com) 404 x2; zero DNS records. Confirmed UNREGISTERED. Does not resolve."
+  },
+  {
+    "domain": "xn--trzor-w0a.net",
+    "idn_decoded": "tr\u011bzor.net",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.net) 404 x2; zero DNS records. Confirmed UNREGISTERED. Does not resolve."
+  },
+  {
+    "domain": "xn--trzor-o51b.com",
+    "idn_decoded": "tr\u1eb9zor.com",
+    "brand": "Trezor",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2025-12-01",
+    "nameservers": "aldo.ns.cloudflare.com, ximena.ns.cloudflare.com; RDAP status: client delete prohibited, client hold, client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: does NOT resolve (no A; 'client hold' = suspended) despite Cloudflare NS. NICENIC (Hong Kong) registrar matches known cluster. No redirect."
+  },
+  {
+    "domain": "xn--trezo-bp1b.com",
+    "idn_decoded": "trezo\u1e59.com",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.com) 404 x2; zero DNS records. Confirmed UNREGISTERED. Does not resolve."
+  },
+  {
+    "domain": "xn--treor-kib.org",
+    "idn_decoded": "tre\u017cor.org",
+    "brand": "Trezor",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2026-05-30",
+    "nameservers": "a.dnspod.com, b.dnspod.com, c.dnspod.com (DNSPod/Tencent); RDAP status: client transfer prohibited",
+    "source": "RDAP=PIR(.org). HTTP: CNAMEs to xn--treor-kib.org.eo.dnse5.com (Tencent EdgeOne) with NO final A -> curl 'could not resolve', not serving now. Same DNSPod+EdgeOne pattern as xn--trezr-j9a.com."
+  },
+  {
+    "domain": "xn--trezor-o-i2a.com",
+    "idn_decoded": "trezor-\u00edo.com",
+    "brand": "Trezor",
+    "registrar": "rdap-failed=NOT REGISTERED",
+    "registered": "n/a",
+    "nameservers": "none",
+    "source": "RDAP=Verisign(.com) 404 x2; zero DNS records. Confirmed UNREGISTERED. Does not resolve."
+  },
+  {
+    "domain": "trezor-connect.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "OwnRegistrar, Inc. (IANA 1250)",
+    "registered": "2026-08-09",
+    "nameservers": "marek.ns.cloudflare.com, miki.ns.cloudflare.com; RDAP status: active",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to Cloudflare (172.67.182.139, 104.21.43.172); https 200, NO redirect. LIVE. Registered TODAY (2026-08-09) - freshest in batch."
+  },
+  {
+    "domain": "trezorusersupport.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Ultahost, Inc. (IANA 4331)",
+    "registered": "2026-08-08",
+    "nameservers": "dahlia.ns.cloudflare.com, damian.ns.cloudflare.com; RDAP status: active",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to Cloudflare (188.114.96.3/97.3); https 403 (Cloudflare block/challenge to our datacenter UA). Resolves; content gated. Registered yesterday (2026-08-08)."
+  },
+  {
+    "domain": "trezoractivate.io",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Key-Systems GmbH (IANA 269)",
+    "registered": "2026-07-19",
+    "nameservers": "ns53.hostwindsdns.com, ns54.hostwindsdns.com (Hostwinds); RDAP status: active",
+    "source": "RDAP=Identity Digital(.io). HTTP: resolves to 142.11.217.94 (Hostwinds); https 200, NO redirect. LIVE."
+  },
+  {
+    "domain": "trezor-crypto-tips.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Spaceship, Inc. (IANA 3862)",
+    "registered": "2026-04-09",
+    "nameservers": "alfred.ns.cloudflare.com, ximena.ns.cloudflare.com; RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 89.167.86.140; TLS cert does NOT match host; with -k https=404 (nginx/1.24.0 Ubuntu), http:80=200. Serves on plain HTTP; misconfigured cert. SHARES IP 89.167.86.140 with trezor-model-t-tips.com."
+  },
+  {
+    "domain": "trezor-model-t-tips.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Spaceship, Inc. (IANA 3862)",
+    "registered": "2026-04-09",
+    "nameservers": "joan.ns.cloudflare.com, sri.ns.cloudflare.com; RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 89.167.86.140 (SAME IP + same nginx/1.24.0 Ubuntu as trezor-crypto-tips.com); TLS cert mismatch; -k https=404, http:80=200. Registered same day (2026-04-09) minutes apart from the crypto-tips domain -> same operator."
+  },
+  {
+    "domain": "trezority.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Name.com, Inc. (IANA 625)",
+    "registered": "2025-08-11",
+    "nameservers": "ns1stv.name.com, ns2kry.name.com, ns3fgq.name.com, ns4bty.name.com; RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 172.236.205.98 (Akamai/Linode); https 200, NO redirect. LIVE."
+  },
+  {
+    "domain": "trezoriostat.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2025-11-24",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu; RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 185.53.179.136 (Team Internet/parking range); https 410 Gone. Resolves but content removed (410)."
+  },
+  {
+    "domain": "trezorio-bridge.live",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Spaceship, Inc. (IANA 3862)",
+    "registered": "2025-11-12",
+    "nameservers": "perla.ns.cloudflare.com, jimmy.ns.cloudflare.com; RDAP status: client transfer prohibited",
+    "source": "RDAP=Identity Digital(.live). HTTP: resolves to Cloudflare (172.67.202.215, 104.21.52.183); https 200, NO redirect. LIVE. Mimics 'Trezor Bridge' software."
+  },
+  {
+    "domain": "trezorosuite.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "registered": "2026-07-17",
+    "nameservers": "joel.ns.cloudflare.com, laura.ns.cloudflare.com; RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to Cloudflare (188.114.96.3/97.3) but https AND http both TIMED OUT (0 bytes) on 3 attempts up to 20s -> resolves but not responding to us (not confirmed dead; likely Cloudflare origin down or filtering our IP). Mimics 'Trezor Suite'."
+  },
+  {
+    "domain": "trezoronline.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2026-06-05",
+    "nameservers": "donald.ns.cloudflare.com, tegan.ns.cloudflare.com; RDAP status: client delete prohibited, client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to Cloudflare (188.114.96.3/97.3); https 403 (Cloudflare block to our UA). Resolves; content gated. NICENIC (HK) registrar = known cluster."
+  },
+  {
+    "domain": "trezoronlineassist.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "OwnRegistrar, Inc. (IANA 1250)",
+    "registered": "2025-09-04",
+    "nameservers": "a.dnspod.com, b.dnspod.com, c.dnspod.com (DNSPod/Tencent); RDAP status: active",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 91.212.166.171 but TCP connection TIMED OUT on https+http, 3 attempts to 20s -> resolves, port not responding to us (not confirmed dead). DNSPod NS pattern."
+  },
+  {
+    "domain": "trezoronlineupdate.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "OwnRegistrar, Inc. (IANA 1250)",
+    "registered": "2026-02-12",
+    "nameservers": "meadow.ns.cloudflare.com, roan.ns.cloudflare.com; RDAP status: active",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 45.66.248.172; TLS cert EXPIRED; with -k https=200; http:80 => 301 redirect to https://trezoronlineupdate.com/ (self, forces https - NOT to the real brand). LIVE (expired cert)."
+  },
+  {
+    "domain": "trezoroinvest.com",
+    "idn_decoded": "",
+    "brand": "Trezor",
+    "registrar": "GoDaddy.com, LLC (IANA 146)",
+    "registered": "2025-06-18",
+    "nameservers": "ns63.domaincontrol.com, ns64.domaincontrol.com (GoDaddy); RDAP status: client delete/renew/transfer/update prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 185.158.133.1; https 200, NO redirect. LIVE. ('invest' angle - possible investment/scam variant.)"
+  },
+  {
+    "domain": "treezora.com",
+    "idn_decoded": "",
+    "brand": "Trezor (weak/typosquat - double-e 'treezora')",
+    "registrar": "HOSTINGER operations, UAB (IANA 1636)",
+    "registered": "2026-05-21",
+    "nameservers": "apollo.dns-parking.com, athena.dns-parking.com (Hostinger parking); RDAP status: client transfer prohibited",
+    "source": "RDAP=Verisign(.com). HTTP: resolves to 2.57.91.91 (Hostinger parking IP) but https+http TIMED OUT on 3 attempts to 20s -> parked, not serving to us. Weakest brand tie in the set."
+  },
+  {
+    "domain": "trezorria.ca",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "2026-04-10",
+    "registrar": "Open Provider Inc. (Openprovider)",
+    "nameservers": "byte.dns-parking.com; pixel.dns-parking.com",
+    "source": "rdap.org (CIRA)"
+  },
+  {
+    "domain": "trezorr.to",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "2026-06-16",
+    "registrar": "Government of Kingdom of Tonga (.to registry; reseller not disclosed)",
+    "nameservers": "ns1.amper.host; ns2.amper.host",
+    "source": "rdap.org (Tonga)"
+  },
+  {
+    "domain": "trezor.com.co",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "unknown (registry whois unreachable from box; DNS-active)",
+    "registrar": "inferred Openprovider (NS-based, GUESS \u2014 not measured)",
+    "nameservers": "ns1.openprovider.nl; ns2.openprovider.be; ns3.openprovider.eu",
+    "source": "DNS + CentralNic (not authoritative for .com.co)"
+  },
+  {
+    "domain": "trezor.com.im",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "unknown (whois GDPR-redacted; expiry 2027-04-25, ~2026-04-25 GUESS)",
+    "registrar": "not disclosed (.im/Domicilium whois hides it)",
+    "nameservers": "ns1.dyna-ns.net; ns2.dyna-ns.net",
+    "source": "whois nic.im"
+  },
+  {
+    "domain": "trezor-app.cn",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "2026-04-29",
+    "registrar": "Beijing Xinnet Digital Information Tech Co. (Xin Net / \u5317\u4eac\u65b0\u7f51\u6570\u7801)",
+    "nameservers": "ns1.onclouddns.com; ns2.onclouddns.com",
+    "source": "whois CNNIC"
+  },
+  {
+    "domain": "trezorio.jp",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "2025-12-03",
+    "registrar": "not listed by JPRS whois; host=Xserver Japan",
+    "nameservers": "ns1.xserver.jp; ns2.xserver.jp; ns3.xserver.jp; ns4.xserver.jp; ns5.xserver.jp",
+    "source": "whois JPRS"
+  },
+  {
+    "domain": "trezoriosecure.ph",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "unknown (whois.dot.ph timed out \u2014 NOT a clean negative)",
+    "registrar": "whois-unavailable (.ph whois unresponsive)",
+    "nameservers": "unknown (dot.ph whois/NS unretrievable)",
+    "source": "DNS-only"
+  },
+  {
+    "domain": "trezor-vhod.ph",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "unknown (whois.dot.ph timed out)",
+    "registrar": "whois-unavailable (.ph whois unresponsive)",
+    "nameservers": "unknown",
+    "source": "DNS-only"
+  },
+  {
+    "domain": "trezor-billing.ph",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "unknown (whois.dot.ph timed out)",
+    "registrar": "whois-unavailable (.ph whois unresponsive)",
+    "nameservers": "unknown",
+    "source": "DNS-only"
+  },
+  {
+    "domain": "trezorrbionline.ph",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "unknown (whois.dot.ph timed out)",
+    "registrar": "whois-unavailable (.ph whois unresponsive)",
+    "nameservers": "unknown",
+    "source": "DNS-only"
+  },
+  {
+    "domain": "trezor.io-eu-us.com",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "NOT REGISTERED (Verisign 'No match' for io-eu-us.com)",
+    "registrar": "n/a \u2014 domain does not exist",
+    "nameservers": "n/a",
+    "source": "whois Verisign"
+  },
+  {
+    "domain": "trezorwalletapp.co.com",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "2026-03-28",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (= Openprovider)",
+    "nameservers": "a.dnspod.com; b.dnspod.com; c.dnspod.com (Tencent DNSPod)",
+    "source": "whois CentralNic (co.com)"
+  },
+  {
+    "domain": "trezor-offical-suit.pages.dev",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Cloudflare Pages; parent pages.dev owned by Cloudflare)",
+    "registrar": "n/a \u2014 Cloudflare Pages project",
+    "nameservers": "Cloudflare (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trezoriostartlogin.pages.dev",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Cloudflare Pages)",
+    "registrar": "n/a \u2014 Cloudflare Pages project",
+    "nameservers": "Cloudflare (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trzr-com-secure.pages.dev",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Cloudflare Pages)",
+    "registrar": "n/a \u2014 Cloudflare Pages project",
+    "nameservers": "Cloudflare (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trezor-suite--secure.pages.dev",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Cloudflare Pages)",
+    "registrar": "n/a \u2014 Cloudflare Pages project",
+    "nameservers": "Cloudflare (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trzr3545cnct.iolanda21.workers.dev",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Cloudflare Workers; account 'iolanda21')",
+    "registrar": "n/a \u2014 Cloudflare Workers",
+    "nameservers": "Cloudflare (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trzrmupdate.update.wwwgwwkpoaq.vpngringa.duckdns.org",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (DuckDNS free dynamic DNS; parent duckdns.org reg Gandi 2013)",
+    "registrar": "n/a \u2014 DuckDNS subdomain (points to DigitalOcean 143.110.235.123)",
+    "nameservers": "DuckDNS (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trezor.peopleagainstsocialism.com",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "parent peopleagainstsocialism.com reg 2009-03-02 (subdomain not separately registrable)",
+    "registrar": "GoDaddy.com, LLC (parent; now parked)",
+    "nameservers": "ns1.dns-parking.com; ns2.dns-parking.com (parent; subdomain has NO A)",
+    "source": "whois Verisign (parent)"
+  },
+  {
+    "domain": "treezor-login.weebly.com",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Weebly/Square; parent weebly.com reg MarkMonitor 2006)",
+    "registrar": "n/a \u2014 Weebly site subdomain",
+    "nameservers": "Weebly/Square (platform, fronted by Cloudflare)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "trezoriostarts.my.canva.site",
+    "brand": "Trezor",
+    "idn_decoded": "",
+    "registered": "platform subdomain (Canva; parent canva.site owned by Canva)",
+    "registrar": "n/a \u2014 Canva site subdomain",
+    "nameservers": "Canva (platform)",
+    "source": "live HTTP + platform"
+  },
+  {
+    "domain": "metamaks.io",
+    "brand": "MetaMask",
+    "idn_decoded": "",
+    "registered": "2024-09-14",
+    "registrar": "NameSilo, LLC",
+    "nameservers": "ns13.knownsrv.com; ns14.knownsrv.com",
+    "source": "Identity Digital RDAP + whois nic.io"
+  },
+  {
+    "domain": "metamaks.org",
+    "brand": "MetaMask",
+    "idn_decoded": "",
+    "registered": "2025-07-22",
+    "registrar": "Gname.com Pte. Ltd.",
+    "nameservers": "expire1.gname-dns.com; expire2.gname-dns.com (status: clientHold = suspended)",
+    "source": "PIR RDAP"
+  },
+  {
+    "domain": "metamaks.space",
+    "brand": "MetaMask",
+    "idn_decoded": "",
+    "registered": "2025-11-19",
+    "registrar": "Upperlink Limited",
+    "nameservers": "ns1.extrahostpro.net; ns2.extrahostpro.net",
+    "source": "whois (CentralNic backend)"
+  },
+  {
+    "domain": "metamaks.xyz",
+    "brand": "MetaMask",
+    "idn_decoded": "",
+    "registered": "NOT REGISTERED (CentralNic 'DOMAIN NOT FOUND')",
+    "registrar": "n/a \u2014 domain does not exist",
+    "nameservers": "n/a",
+    "source": "whois CentralNic"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaks-info.com",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC (IANA 1479)",
+    "registered": "2026-05-21",
+    "nameservers": "DNS2018A.TROUBLE-FREE.NET, DNS2018B.TROUBLE-FREE.NET",
+    "source": "Verisign RDAP (via rdap.org); LIVE: HTTP 200 LiteSpeed, title 'Index of /' (open directory listing), A=64.20.37.43, no redirect; status client transfer prohibited"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaksio.info",
+    "idn_decoded": "",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com (IANA 303)",
+    "registered": "2025-09-05",
+    "nameservers": "rns19.webhostbox.net, rns20.webhostbox.net",
+    "source": "Identity Digital RDAP; SUSPENDED: status client hold (+delete/renew/transfer/update prohibited); DNS NXDOMAIN, does not resolve"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaksk.com",
+    "idn_decoded": "",
+    "registrar": "Dominet (HK) Limited (IANA 3775)",
+    "registered": "2025-11-04",
+    "nameservers": "ANIRBAN.NS.CLOUDFLARE.COM, CASS.NS.CLOUDFLARE.COM",
+    "source": "Verisign RDAP; status active but DNS SERVFAIL from 1.1.1.1 (Cloudflare zone not serving), does not currently resolve; no redirect"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaksk.io",
+    "idn_decoded": "",
+    "registrar": "Web Commerce Communications Limited dba WebNic.cc (IANA 460)",
+    "registered": "2025-11-03",
+    "nameservers": "hold1.luxhost.org, hold2.luxhost.org",
+    "source": "Identity Digital RDAP (rdap.identitydigital.services); SUSPENDED: status client hold, 'hold' NS, DNS NXDOMAIN; WebNic = same registrar as the known 2025-08-03 cluster"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamakscrypto.com",
+    "idn_decoded": "",
+    "registrar": "not-registered",
+    "registered": "none",
+    "nameservers": "none",
+    "source": "Verisign .com RDAP returned 404 (queried directly, not a fetch error) + DNS NXDOMAIN = domain not registered / available"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamakse.click",
+    "idn_decoded": "",
+    "registrar": "not-registered",
+    "registered": "none",
+    "nameservers": "none",
+    "source": "rdap.registry.click (.click registry) returned 404 + DNS NXDOMAIN = not registered / available"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamakse.tr",
+    "idn_decoded": "",
+    "registrar": "not-registered",
+    "registered": "none",
+    "nameservers": "none",
+    "source": ".tr has no RDAP; whois.trabis.gov.tr returned 'No match found' + DNS NXDOMAIN = not registered"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaksvip.top",
+    "idn_decoded": "",
+    "registrar": "not-registered",
+    "registered": "none",
+    "nameservers": "none",
+    "source": "rdap.zdnsgtld.com (.top registry) returned 404 (queried directly) + DNS NXDOMAIN = not registered / available"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaska.com.cn",
+    "idn_decoded": "",
+    "registrar": "Web Commerce Communications Limited (WebNic)",
+    "registered": "2026-07-10",
+    "nameservers": "a5.share-dns.com, b5.share-dns.net (whois); dig sees a.share-dns.com, b.share-dns.net",
+    "source": "CNNIC whois (.cn has no working public RDAP); LIVE-ish: HTTP 403 Forbidden nginx, A=128.241.236.22, no redirect; WebNic again"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaskssupport.com",
+    "idn_decoded": "",
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED (IANA 3765)",
+    "registered": "2026-08-07",
+    "nameservers": "ML1.DARKHOST.PRO, ML2.DARKHOST.PRO",
+    "source": "Verisign RDAP; LIVE + FRESH (registered 2 days before lookup): HTTP 200 nginx, title 'Site Under Maintenance', A=45.83.179.201, status active, no redirect; NICENIC (HK) = same registrar as the known cluster; 'darkhost.pro' NS"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamasksupport.help",
+    "idn_decoded": "",
+    "registrar": "Key-Systems, LLC (IANA 1345)",
+    "registered": "2025-10-27",
+    "nameservers": "ns1.sedoparking.com, ns2.sedoparking.com",
+    "source": "CentralNic .help RDAP; PARKED: HTTP 200 Server 'Parking/1.0', Sedo German parking page, A=64.190.63.222, no redirect"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmask.org",
+    "idn_decoded": "",
+    "registrar": "West263 International Limited (IANA 1915)",
+    "registered": "2025-07-29",
+    "nameservers": "ns1-domain-expired.myhostadmin.net, ns2-domain-expired.myhostadmin.net",
+    "source": "PIR (.org) RDAP; status auto renew period (expired-grace); resolves A=128.14.74.107 + 128.14.74.124 but server gives connection reset / empty reply (no usable HTTP); twin of metmask.top (registered within ~1s, same registrar/NS)"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmask.top",
+    "idn_decoded": "",
+    "registrar": "West263 International Limited (IANA 1915)",
+    "registered": "2025-07-29",
+    "nameservers": "ns1-domain-expired.myhostadmin.net, ns2-domain-expired.myhostadmin.net",
+    "source": "zdns (.top) RDAP; status active + auto renew period; resolves A=128.14.74.107 + 128.14.74.124 (SAME IPs as metmask.org) but no usable HTTP (timeout/empty reply); registered 1 second after metmask.org = one operator"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemask.cc",
+    "idn_decoded": "",
+    "registrar": "Gname.com Pte. Ltd. (IANA 1923)",
+    "registered": "2025-06-25",
+    "nameservers": "EXPIRE1.GNAME-DNS.COM, EXPIRE2.GNAME-DNS.COM",
+    "source": "Verisign .cc RDAP; EXPIRED: status client hold + redemption period, 'expire' NS, DNS NXDOMAIN, does not resolve"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemask.com.co",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu / Openprovider (IANA 1647)",
+    "registered": "2026-04-29",
+    "nameservers": "INA1.REGISTRAR.EU, INA2.REGISTRAR.EU, INA3.REGISTRAR.EU",
+    "source": ".co whois (whois.registry.co; rdap.nic.co unreachable); TAKEN DOWN: HTTP 410 Gone, Server Caddy, A=185.53.179.136 (sinkhole/parking), no redirect; same registrar + same sinkhole IP as metemask.com.mx"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemask.com.mx",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu / Openprovider",
+    "registered": "2026-06-02",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "NIC Mexico whois (.mx has no RDAP); TAKEN DOWN: HTTP 410 Gone, Server Caddy, A=185.53.179.136 (SAME IP as metemask.com.co), no redirect; sibling of metemask.com.co (same Openprovider infra)"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask--wallet.com",
+    "idn_decoded": "",
+    "registrar": "Vantage of Convergence (Chengdu) Technology Co., Ltd. (IANA 3869)",
+    "registered": "2025-06-28",
+    "nameservers": "EXP1.KENPAINS.COM, EXP2.KENPAINS.COM",
+    "source": "Verisign RDAP; EXPIRING: status redemption period, 'exp' NS, DNS NXDOMAIN, does not resolve; registered same day as metamask--wallet.shop"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask--wallet.shop",
+    "idn_decoded": "",
+    "registrar": "GNAME.COM PTE. LTD. (IANA 1923)",
+    "registered": "2025-06-28",
+    "nameservers": "expire1.gname-dns.com, expire2.gname-dns.com",
+    "source": "GMO Registry (.shop) RDAP; DYING: status pending delete + redemption period, DNS NXDOMAIN; registered same day (2025-06-28) as metamask--wallet.com = paired registration"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask--portfoliio-dapp.xyz",
+    "idn_decoded": "",
+    "registrar": "not-registered",
+    "registered": "none",
+    "nameservers": "none",
+    "source": "CentralNic .xyz RDAP returned 404 (queried directly) + DNS NXDOMAIN = not registered / available (note double-i 'portfoliio' typo)"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask--por4folio-dapp.xyz",
+    "idn_decoded": "",
+    "registrar": "not-registered",
+    "registered": "none",
+    "nameservers": "none",
+    "source": "CentralNic .xyz RDAP returned 404 (queried directly) + DNS NXDOMAIN = not registered / available (note leetspeak 'por4folio')"
+  },
+  {
+    "brand": "ChatGPT / OpenAI",
+    "domain": "chatgpt-connect.top",
+    "idn_decoded": "",
+    "registrar": "Openprovider / Hosting Concepts B.V. (IANA 1647)",
+    "registered": "2026-02-10",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "zdns (.top) RDAP; ABUSE-SUSPENDED: status server hold (registry-imposed), DNS NXDOMAIN; NOT a wallet brand but SAME Openprovider/registrar.eu infra as metemask.com.co & metemask.com.mx = ties this ChatGPT-phish to the MetaMask cluster"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-logincentral-bg.ph",
+    "idn_decoded": "",
+    "registrar": "no RDAP/whois for .ph (dot.ph is web-only at whois.dot.ph)",
+    "registered": "unknown-no-rdap-or-whois (DNS presence implies registered)",
+    "nameservers": "not published to public resolvers",
+    "source": "DNS only (dig) \u2014 .ph has no RDAP and no whois server; resolves A=45.79.222.138 (Linode) but ports 80/443 refused (not serving); 'bg' geo suffix; one of 4 .ph on the SAME IP = one operator"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-logincentral-my.ph",
+    "idn_decoded": "",
+    "registrar": "no RDAP/whois for .ph (dot.ph web-only)",
+    "registered": "unknown-no-rdap-or-whois (DNS presence implies registered)",
+    "nameservers": "not published to public resolvers",
+    "source": "DNS only (dig) \u2014 resolves intermittently to A=45.79.222.138 (Linode, SAME as bg/oz/nl .ph), connection refused on 80/443; 'my' geo suffix (Malaysia)"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-logincentral-oz.ph",
+    "idn_decoded": "",
+    "registrar": "no RDAP/whois for .ph (dot.ph web-only)",
+    "registered": "unknown-no-rdap-or-whois (DNS presence implies registered)",
+    "nameservers": "not published to public resolvers",
+    "source": "DNS only (dig) \u2014 resolves intermittently to A=45.79.222.138 (Linode, SAME IP as the other .ph), connection refused on 80/443; 'oz' geo suffix (Australia)"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-walletaccess-nl.ph",
+    "idn_decoded": "",
+    "registrar": "no RDAP/whois for .ph (dot.ph web-only)",
+    "registered": "unknown-no-rdap-or-whois (DNS presence implies registered)",
+    "nameservers": "not published to public resolvers",
+    "source": "DNS only (dig) \u2014 resolves intermittently to A=45.79.222.138 (Linode, SAME IP as the 3 logincentral .ph), connection refused on 80/443; 'walletaccess' + 'nl' geo suffix (Netherlands)"
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-walletaccess-ph.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI (dig blocked); A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph has no RDAP and no CLI whois (web-only at whois.dot.ph)",
+    "registrar": "rdap-failed (.ph registry: no RDAP; whois web-only)",
+    "source": "RDAP: .ph unsupported (rdap.org empty / 1015). HTTP GET: resolves (retry-with-backoff) to 45.79.222.138 Linode, 200 openresty, JS window.location.replace -> router.parklogic.com = PARKED. Earlier 'could not resolve' was flaky DNS, NOT a true negative."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-walletauth-asia.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP: A=45.79.222.138 (confirmed via getent), openresty/ParkLogic parking infra; direct GET intermittently failed on flaky .ph DNS but resolves to the same shared parking IP as the other 8."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-walletauth-eu.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP: A=45.79.222.138, same openresty/ParkLogic parking as the cluster; GET flaky on .ph DNS, resolution confirmed via getent."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-account-recovery-key.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP GET: 200 openresty, title 'Redirecting...', ParkLogic redirect = PARKED, IP 45.79.222.138 Linode."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-activate.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP GET: 200 openresty; body confirmed JS window.location.replace -> https://router.parklogic.com/ = PARKED. IP 45.79.222.138 Linode."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-payment.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP GET: 200 openresty, 'Redirecting...' ParkLogic = PARKED. IP 45.79.222.138 Linode."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-confirmaccess10.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP GET: 200 openresty, 'Redirecting...' ParkLogic = PARKED. IP 45.79.222.138 Linode."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-verify-1111wincardbet.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP GET: 200 openresty, 'Redirecting...' ParkLogic = PARKED. Label ties MetaMask lure to a gambling brand ('1111wincardbet'). IP 45.79.222.138 Linode."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-verify-1111baccaratblazeryzyxz.ph",
+    "idn_decoded": "",
+    "nameservers": "not retrievable via RDAP/CLI; A=45.79.222.138 (Linode)",
+    "registered": "unknown \u2014 .ph no RDAP/CLI whois",
+    "registrar": "rdap-failed (.ph registry)",
+    "source": "RDAP: .ph unsupported. HTTP GET: 200 openresty, 'Redirecting...' ParkLogic = PARKED. Label ties MetaMask lure to gambling ('1111baccaratblaze...'). IP 45.79.222.138 Linode."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmask-backup-token-recovery-authkey.cadenceireland.kinsta.cloud",
+    "idn_decoded": "",
+    "nameservers": "peaches.ns.cloudflare.com, jerry.ns.cloudflare.com (parent kinsta.cloud)",
+    "registered": "2018-02-21 (parent kinsta.cloud registration; the phishing subdomain itself has NO separate registration)",
+    "registrar": "MarkMonitor Inc. (parent kinsta.cloud \u2014 hosting platform, NOT the attacker)",
+    "source": "RDAP: rdap.org on parent kinsta.cloud. HTTP GET: 200, WordPress (wp-json links, uncode theme cookie), x-robots-tag noindex,nofollow, Cloudflare/Kinsta. LIVE \u2014 phishing served from an abused Kinsta WordPress site ('cadenceireland'). Report to Kinsta abuse."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaks-recovery.miguelamorim.pt",
+    "idn_decoded": "",
+    "nameservers": "ns1.mydnspt.net, ns2.mydnspt.net, ns7.mydnspt.net, ns8.mydnspt.net (parent miguelamorim.pt)",
+    "registered": "2020-07-13 (parent miguelamorim.pt creation date; subdomain has no separate registration)",
+    "registrar": "not disclosed by .pt registry (DNS.PT whois hides registrar); parent domain, not attacker-registered",
+    "source": "whois miguelamorim.pt (DNS.PT). HTTP GET: 200 nginx, 482-byte page, header x-scale base64-decodes to 'apocas@github'. LIVE \u2014 phishing on an ABUSED legitimate personal .pt site (likely compromised). Report to site owner / .pt host."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-restoreserver-page.vercel.app",
+    "idn_decoded": "",
+    "nameservers": "ns1.vercel-dns-3.com, ns2.vercel-dns-3.com, ns3.vercel-dns-3.com, ns4.vercel-dns-3.com (parent vercel.app)",
+    "registered": "2020-01-28 (parent vercel.app; free subdomain, no separate registration)",
+    "registrar": "Tucows Domains Inc. (parent vercel.app \u2014 hosting platform)",
+    "source": "RDAP: rdap.org bootstrap on parent vercel.app. HTTP GET: 404, x-vercel-error: DEPLOYMENT_NOT_FOUND = deployment already removed/taken down."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmask-crypto-login.pages.dev",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "2020-09-02 (parent pages.dev; free subdomain, no separate registration)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev \u2014 hosting platform)",
+    "source": "RDAP: rdap.org bootstrap on parent pages.dev. HTTP GET: 403 (Cloudflare Pages project blocked/removed) \u2014 no redirect; appears taken down/disabled."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask--login.pages.dev",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "2020-09-02 (parent pages.dev; free subdomain)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev \u2014 hosting platform)",
+    "source": "RDAP: parent pages.dev. HTTP GET: 403 (Cloudflare Pages blocked/removed) \u2014 taken down/disabled."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask--wallet.pages.dev",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "2020-09-02 (parent pages.dev; free subdomain)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev \u2014 hosting platform)",
+    "source": "RDAP: parent pages.dev. HTTP GET: 403 (Cloudflare Pages blocked/removed) \u2014 taken down/disabled."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamask-io--lgin.pages.dev",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "2020-09-02 (parent pages.dev; free subdomain)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev \u2014 hosting platform)",
+    "source": "RDAP: parent pages.dev. HTTP GET: 403 (Cloudflare Pages blocked/removed) \u2014 taken down/disabled."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaskk--login.pages.dev",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "2020-09-02 (parent pages.dev; free subdomain)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev \u2014 hosting platform)",
+    "source": "RDAP: parent pages.dev. HTTP GET: 403 (Cloudflare Pages blocked/removed) \u2014 taken down/disabled."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemask-io-download.pages.dev",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "2020-09-02 (parent pages.dev; free subdomain)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev \u2014 hosting platform)",
+    "source": "RDAP: parent pages.dev. HTTP GET: 403 (Cloudflare Pages blocked/removed) \u2014 taken down/disabled."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamskdwnld.gitbook.io",
+    "idn_decoded": "",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (parent gitbook.io)",
+    "registered": "2014-03-30 (parent gitbook.io; free subdomain, no separate registration)",
+    "registrar": "Cloudflare, Inc (parent gitbook.io \u2014 hosting platform)",
+    "source": "RDAP: Identity Digital (.io) on parent gitbook.io. HTTP GET: 307 redirect -> https://metamskdwnld.gitbook.io/us/ = STILL LIVE (GitBook space up). Report to GitBook abuse."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaskextensionnn.gitbook.io",
+    "idn_decoded": "",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (parent gitbook.io)",
+    "registered": "2014-03-30 (parent gitbook.io; free subdomain)",
+    "registrar": "Cloudflare, Inc (parent gitbook.io \u2014 hosting platform)",
+    "source": "RDAP: Identity Digital (.io) on parent gitbook.io. HTTP GET: 307 redirect -> https://metamaskextensionnn.gitbook.io/us/ = STILL LIVE (GitBook space up). Report to GitBook abuse."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamsklogin.webflow.io",
+    "idn_decoded": "",
+    "nameservers": "lamar.ns.cloudflare.com, journey.ns.cloudflare.com (parent webflow.io)",
+    "registered": "2013-05-08 (parent webflow.io; free subdomain, no separate registration)",
+    "registrar": "MarkMonitor Inc. (parent webflow.io \u2014 hosting platform)",
+    "source": "RDAP: Identity Digital (.io) on parent webflow.io. HTTP GET: 404 (surrogate-key '404req') = Webflow subdomain unpublished/removed \u2014 taken down."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmask--io.wixstudio.com",
+    "idn_decoded": "",
+    "nameservers": "DNS1.P08.NSONE.NET, DNS2.P08.NSONE.NET, DNS3.P08.NSONE.NET, DNS4.P08.NSONE.NET (parent wixstudio.com)",
+    "registered": "2016-12-17 (parent wixstudio.com; free subdomain, no separate registration)",
+    "registrar": "GoDaddy.com, LLC (parent wixstudio.com \u2014 hosting platform)",
+    "source": "RDAP: verisign/rdap.org on parent wixstudio.com. HTTP GET: 404 (Wix served page-not-found) = Wix Studio site removed/not found \u2014 taken down."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemaskextension.typedream.app",
+    "idn_decoded": "",
+    "nameservers": "annalise.ns.cloudflare.com, darwin.ns.cloudflare.com (parent typedream.app)",
+    "registered": "2021-01-22 (parent typedream.app; free subdomain, no separate registration)",
+    "registrar": "Squarespace Domains II LLC. (parent typedream.app \u2014 hosting platform)",
+    "source": "RDAP: rdap.org bootstrap on parent typedream.app. HTTP GET: 404 (x-middleware-rewrite /metemaskextension, Next.js) = Typedream site removed \u2014 taken down."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmasklogin6.godaddysites.com",
+    "idn_decoded": "",
+    "nameservers": "CNS1.SECURESERVER.NET, CNS2.SECURESERVER.NET (parent godaddysites.com)",
+    "registered": "2013-11-18 (parent godaddysites.com; free subdomain, no separate registration)",
+    "registrar": "GoDaddy.com, LLC (parent godaddysites.com \u2014 hosting platform)",
+    "source": "RDAP: verisign/rdap.org on parent godaddysites.com. HTTP GET: 404 (Server DPS/2.0.0, eu-central-1) = GoDaddy site-builder site not found/removed \u2014 taken down."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamaksignin.godaddysites.com",
+    "idn_decoded": "",
+    "nameservers": "CNS1.SECURESERVER.NET, CNS2.SECURESERVER.NET (parent godaddysites.com)",
+    "registered": "2013-11-18 (parent godaddysites.com; free subdomain, no separate registration)",
+    "registrar": "GoDaddy.com, LLC (parent godaddysites.com \u2014 hosting platform)",
+    "source": "RDAP: verisign/rdap.org on parent godaddysites.com. HTTP GET: 404 (Server DPS/2.0.0, eu-central-1) = GoDaddy site-builder site not found/removed \u2014 taken down."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamskinlogin.wordpress.com",
+    "idn_decoded": "",
+    "registrar": "MarkMonitor Inc. (of parent wordpress.com; Automattic)",
+    "registered": "2000-03-03 (parent wordpress.com; subdomain creation not in RDAP)",
+    "nameservers": "NS1-NS4.WORDPRESS.COM",
+    "source": "RDAP rdap.org (parent wordpress.com). Free WordPress.com hosted subdomain - attacker identity NOT in registry. HTTP GET: resolves 192.0.78.12/13, HTTPS 200 (nginx), no redirect - LIVE."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metmasksignin.blogspot.com",
+    "idn_decoded": "",
+    "registrar": "MarkMonitor Inc. (of parent blogspot.com; Google)",
+    "registered": "2000-07-31 (parent blogspot.com; subdomain creation not in RDAP)",
+    "nameservers": "NS1-NS4.GOOGLE.COM",
+    "source": "RDAP rdap.org (parent blogspot.com). Free Blogger/Blogspot hosted subdomain - attacker identity NOT in registry. HTTP GET: resolves 142.251.20.132, HTTPS 200 (GSE), no redirect - LIVE."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamsk-lgin-eng.tem3.io",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC (of parent tem3.io)",
+    "registered": "2024-08-02 (parent tem3.io; subdomain creation not in RDAP)",
+    "nameservers": "val.ns.cloudflare.com, justin.ns.cloudflare.com",
+    "source": "RDAP identitydigital (parent tem3.io; .io). Hosted subdomain on tem3.io platform (Cloudflare-fronted) - attacker identity NOT in registry. HTTP GET: resolves 188.114.96.3 (Cloudflare), HTTPS 403 (cloudflare), no redirect."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metamskl.ct.ws",
+    "idn_decoded": "",
+    "registrar": "Namecheap, Inc. (of parent ct.ws; NS ByetHost)",
+    "registered": "2024-11-01 (parent ct.ws; subdomain creation not in RDAP)",
+    "nameservers": "ns1-ns5.byet.org (ByetHost/iFastNet free hosting)",
+    "source": "whois (RDAP absent for .ws; parent ct.ws). Free ByetHost subdomain - attacker identity NOT in registry. HTTP GET: DNS resolves 199.59.243.225 but HTTPS times out and HTTP returns no response - not serving/suspended."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemasklogin.github.io",
+    "idn_decoded": "",
+    "registrar": "MarkMonitor Inc. (of parent github.io; GitHub)",
+    "registered": "2013-03-08 (parent github.io; subdomain creation not in RDAP)",
+    "nameservers": "ns-692.awsdns-22.net, ns-1622.awsdns-10.co.uk, dns1/2/3.p05.nsone.net",
+    "source": "RDAP identitydigital (parent github.io; .io). Free GitHub Pages subdomain - attacker identity NOT in registry. HTTP GET: resolves 185.199.108-111.153 (GitHub Pages), HTTPS 404 (GitHub.com) - page removed/not published, no redirect."
+  },
+  {
+    "brand": "MetaMask",
+    "domain": "metemaskwalt.zapier.app",
+    "idn_decoded": "",
+    "registrar": "Name.com, Inc. (of parent zapier.app; Zapier)",
+    "registered": "2022-09-20 (parent zapier.app; subdomain creation not in RDAP)",
+    "nameservers": "ns1.vercel-dns.com, ns2.vercel-dns.com",
+    "source": "RDAP rdap.org (parent zapier.app). Free Zapier Interfaces subdomain (Vercel-hosted) - attacker identity NOT in registry. HTTP GET: resolves 64.239.109.1 (Vercel), HTTPS 404 (Vercel) - interface removed/not found, no redirect."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomwallet.co.in",
+    "idn_decoded": "",
+    "registrar": "HOSTINGER operations, UAB",
+    "registered": "2026-08-06",
+    "nameservers": "monroe.ns.cloudflare.com, ram.ns.cloudflare.com",
+    "source": "RDAP rdap.org. Status clientHold+addPeriod. HTTP GET: NXDOMAIN (Cloudflare DoH status 3) - does NOT resolve. Registered only 3 days ago and already on hold."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantom333.com",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2026-08-02",
+    "nameservers": "NS1.MISTERI88390.COM, NS2.MISTERI88390.COM (custom NS)",
+    "source": "RDAP rdap.org (verisign). Status active. HTTP GET: resolves 97.74.94.118 (GoDaddy), HTTPS 200 (nginx), no redirect - LIVE. Fresh (7 days), custom private nameservers = operator-controlled."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phanton.biz",
+    "idn_decoded": "",
+    "registrar": "Global Domain Group LLC",
+    "registered": "2026-07-24",
+    "nameservers": "chin.ns.cloudflare.com, bart.ns.cloudflare.com",
+    "source": "whois (RDAP was Cloudflare-1015 blocked via rdap.org). Updated 2026-07-29. HTTP GET: resolves 188.114.96.3 (Cloudflare), HTTPS 200 (cloudflare), no redirect - LIVE."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomextension.app",
+    "idn_decoded": "",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "registered": "2026-07-22",
+    "nameservers": "rns19.webhostbox.net, rns20.webhostbox.net",
+    "source": "RDAP nic.google/rdap.org (.app). HTTP GET: resolves 162.241.85.94 (Unified Layer/Bluehost), HTTPS 200 (Apache), no redirect - LIVE. Same PDR registrar + 1 day apart from phantom-web3apps.com = likely same operator batch."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantom-web3apps.com",
+    "idn_decoded": "",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "registered": "2026-07-21",
+    "nameservers": "NS1.SUSPENDED-DOMAIN.COM, NS2.SUSPENDED-DOMAIN.COM",
+    "source": "RDAP rdap.org. Status clientHold + NS pointed to SUSPENDED-DOMAIN.COM = registrar SUSPENDED for abuse. HTTP GET: NXDOMAIN (DoH status 3) - does NOT resolve."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomhoods.xyz",
+    "idn_decoded": "",
+    "registrar": "NameCheap, Inc.",
+    "registered": "2026-08-05",
+    "nameservers": "dns1.registrar-servers.com, dns2.registrar-servers.com (Namecheap)",
+    "source": "RDAP rdap.org. Status addPeriod. HTTP GET: resolves 216.198.79.1 (Vercel), HTTPS 308 -> https://www.phantomhoods.xyz/ (self, apex->www), final 200 (Vercel) - LIVE. Fresh (4 days). Redirect is to itself, NOT a brand-cloaking redirect."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomblaze.online",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC",
+    "registered": "2026-06-08",
+    "nameservers": "ryleigh.ns.cloudflare.com, amir.ns.cloudflare.com",
+    "source": "whois (RDAP nic.online returns HTML UI not JSON; rdap.org 429). HTTP GET: resolves 104.21.59.82 (Cloudflare), HTTPS 200 (cloudflare), no redirect - LIVE."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantom-my.com",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "registered": "2026-05-28",
+    "nameservers": "a.dnspod.com, c.dnspod.com",
+    "source": "whois (RDAP was Cloudflare-1015). HTTP GET: resolves 154.86.119.103, HTTPS handshake fails (unexpected EOF), HTTP 503 Service Unavailable, no redirect. Shares Registrar.eu + dnspod.com NS with phantum.biz = likely same operator."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomwalletbr.site",
+    "idn_decoded": "",
+    "registrar": "HOSTINGER operations, UAB",
+    "registered": "2026-05-21",
+    "nameservers": "nova.dns-parking.com, cosmos.dns-parking.com (Hostinger parking)",
+    "source": "RDAP rdap.org. Status clientHold+serverHold. HTTP GET: NXDOMAIN (DoH status 3) - does NOT resolve. On hold + parking NS = suspended/parked."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomarcanebay.link",
+    "idn_decoded": "",
+    "registrar": "Spaceship, Inc.",
+    "registered": "2026-05-19",
+    "nameservers": "simon.ns.cloudflare.com, zainab.ns.cloudflare.com",
+    "source": "RDAP rdap.org (.link). HTTP GET: resolves 104.21.88.146 (Cloudflare), HTTPS 200 (cloudflare), no redirect - LIVE."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomwallet.uk",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC.",
+    "registered": "2026-03-09",
+    "nameservers": "ns33.domaincontrol.com, ns34.domaincontrol.com",
+    "source": "RDAP rdap.org (Nominet/.uk). Status serverHold (registry-level suspension). HTTP GET: NXDOMAIN (DoH status 3) - does NOT resolve."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantom-gateway.xyz",
+    "idn_decoded": "",
+    "registrar": "Name.com, Inc.",
+    "registered": "2026-02-22",
+    "nameservers": "ns1.vercel-dns.com, ns2.vercel-dns.com",
+    "source": "RDAP rdap.org. Status active. HTTP GET: DoH status 0 (NOERROR) but NO A record at apex - zone exists on Vercel DNS but no web address published, so no HTTP served."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantum.biz",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "registered": "2026-02-18",
+    "nameservers": "a.dnspod.com, c.dnspod.com",
+    "source": "RDAP rdap.org (.biz). HTTP GET: resolves 62.210.212.90 (Online SAS/Scaleway, FR), HTTP 200 (LiteSpeed) but HTTPS cert name-mismatch (shared cert, no SAN for phantum.biz) - LIVE over HTTP. Shares Registrar.eu + dnspod.com NS with phantom-my.com = likely same operator."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomwalletweb3.com",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "registered": "2025-11-06",
+    "nameservers": "INA1.REGISTRAR.EU, INA2.REGISTRAR.EU, INA3.REGISTRAR.EU",
+    "source": "RDAP rdap.org. HTTP GET: resolves 185.53.179.136 (Team Internet parking range), HTTPS 410 Gone (Caddy) - taken down/removed, no redirect."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomwallet.in",
+    "idn_decoded": "",
+    "registrar": "HOSTINGER operations, UAB",
+    "registered": "2025-11-26",
+    "nameservers": "ns1.dns-parking.com, ns2.dns-parking.com (Hostinger parking)",
+    "source": "RDAP rdap.org (.in). HTTP GET: resolves 185.158.133.1 (Hostinger), HTTPS handshake fails, HTTP 409 Conflict, no redirect - parked/unconfigured on Hostinger."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phanton.pro",
+    "idn_decoded": "",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "registered": "2025-11-24",
+    "nameservers": "ariadne.ns.cloudflare.com, ignacio.ns.cloudflare.com",
+    "source": "RDAP identitydigital (.pro; rdap.org was 429). HTTP GET: DoH status 2 SERVFAIL - Cloudflare NS delegated but not answering/DNSSEC-broken; does NOT resolve right now."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantumn.com",
+    "idn_decoded": "",
+    "registrar": "Tucows Domains Inc.",
+    "registered": "2025-09-20",
+    "nameservers": "NS-CLOUD-E1..E4.GOOGLEDOMAINS.COM",
+    "source": "RDAP rdap.org (verisign). Status active. HTTP GET: resolves 23.227.38.32 (Shopify), HTTPS handshake fails, HTTP 409 Conflict (Cloudflare) - pointed at Shopify but store not connected, no redirect."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantomwallet.help",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2025-09-04",
+    "nameservers": "ns1.dnsowl.com, ns2.dnsowl.com, ns3.dnsowl.com (NameSilo/DNSOwl)",
+    "source": "RDAP rdap.org (.help). HTTP GET: resolves 91.195.240.123 (Sedo parking), HTTPS TLS unrecognized-name, HTTP 432 (Server: Parking/1.0) - parked, no redirect."
+  },
+  {
+    "brand": "Phantom",
+    "domain": "phantummm.com",
+    "idn_decoded": "",
+    "registrar": "NOT REGISTERED (whois: 'No match for PHANTUMMM.COM'; DoH NXDOMAIN)",
+    "registered": "n/a - unregistered/available",
+    "nameservers": "none",
+    "source": "whois + verisign RDAP 404 + Cloudflare DoH status 3 (NXDOMAIN), all agree: domain is NOT registered. HTTP GET: does not resolve. Was a false 404 via rdap.org earlier due to Cloudflare-1015 rate-limit - confirmed unregistered by independent whois/DoH."
+  },
+  {
+    "domain": "phantomwallet.cash",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns1cny.name.com, ns2ckr.name.com, ns3jkl.name.com, ns4hny.name.com",
+    "registered": "2025-08-27",
+    "registrar": "Name.com, Inc.",
+    "source": "RDAP Identity Digital (rdap.identitydigital.services); HTTP GET: resolves 34.111.179.208 (Google Cloud LB), HTTP/2 404, no redirect"
+  },
+  {
+    "domain": "phantomwalletverificationweb3.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "registered": "2025-08-18",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "source": "RDAP Verisign .com; HTTP GET: resolves 185.53.179.136, HTTP/2 410 Gone (server: Caddy) - page deliberately retired, no redirect"
+  },
+  {
+    "domain": "phantom-backup.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns1.all-harmless.domains, ns2.all-harmless.domains",
+    "registered": "2025-08-05",
+    "registrar": "Sav.com, LLC",
+    "source": "RDAP Verisign .com; HTTP GET: resolves 34.76.205.124 (Google Cloud), HTTP 200 (server: Caddy) on direct-IP fetch; public TLS handshake flaky/reset. No redirect. Shares Sav.com+all-harmless.domains NS with phanthom.net"
+  },
+  {
+    "domain": "phantom-alert-final-bot.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns1.gm111.parklogic.com, ns2.gm111.parklogic.com",
+    "registered": "2025-06-26",
+    "registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
+    "source": "RDAP Verisign .com, RDAP status=redemptionPeriod (deleted, being purged); HTTP GET: DNS NXDOMAIN, no A record, does not resolve. NS = ParkLogic parking"
+  },
+  {
+    "domain": "phantumsunhub.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "dns1.sitezoogle.com, dns2.sitezoogle.com, dns3.sitezoogle.com, dns4.sitezoogle.com",
+    "registered": "2025-06-22",
+    "registrar": "eNom, LLC",
+    "source": "RDAP Verisign .com; HTTP GET: resolves 172.65.197.38 (Cloudflare 172.65/2606:4700), HTTP/2 200 (server: openresty), no redirect - live"
+  },
+  {
+    "domain": "phanthom.net",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns1.all-harmless.domains, ns2.all-harmless.domains",
+    "registered": "2025-06-21",
+    "registrar": "Sav.com, LLC",
+    "source": "RDAP Verisign .net, RDAP status=redemptionPeriod (deleted); HTTP GET: DNS NXDOMAIN, no A, does not resolve. Same Sav.com+all-harmless.domains cluster as phantom-backup.com"
+  },
+  {
+    "domain": "phantomaccount.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns1.systemdns.com, ns2.systemdns.com, ns3.systemdns.com",
+    "registered": "2024-10-27",
+    "registrar": "Tucows Domains Inc.",
+    "source": "RDAP Verisign .com; HTTP GET: resolves 103.169.142.0 behind Cloudflare, HTTP/2 200 (server: cloudflare), no redirect - live"
+  },
+  {
+    "domain": "phantumwallet.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns1.dyna-ns.net, ns2.dyna-ns.net",
+    "registered": "2023-12-22",
+    "registrar": "Dynadot Inc",
+    "source": "RDAP Verisign .com; HTTP GET: resolves 54.215.31.113, HTTP/2 302 -> https://forsale.dynadot.com/phantumwallet.com?drefid=2071 (parked/FOR SALE, not active phishing)"
+  },
+  {
+    "domain": "phantomwallet.app",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "dns1.registrar-servers.com, dns2.registrar-servers.com",
+    "registered": "2021-05-31",
+    "registrar": "Namecheap Inc.",
+    "source": "RDAP pubapi.registry.google (.app); HTTP GET: resolves 162.255.119.26 (Namecheap), HTTP 302 -> http://www.phantomwallet.app/ (Namecheap default/parking, server: namecheap-nginx). NS = Namecheap default"
+  },
+  {
+    "domain": "phantomwallet.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "ns77.domaincontrol.com, ns78.domaincontrol.com",
+    "registered": "2016-08-29",
+    "registrar": "GoDaddy.com, LLC",
+    "source": "RDAP Verisign .com (old 2016 reg); HTTP GET: resolves 15.197.225.128/3.33.251.168, HTTP/2 301 -> https://store.fantomwallet.com (301-redirects OFF to a DIFFERENT-brand 'fantomwallet' store - typo/brand-bleed cloaking tell, does NOT go to real phantom.app)"
+  },
+  {
+    "domain": "phantom-wallet.ph",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "none currently delegated (parent .ph returns SOA, no NS) - A points to dotPH registry NXDOMAIN wildcard lander",
+    "registered": ">=2026-08-09 (measured from CT; .ph has no RDAP)",
+    "registrar": "rdap-failed (.ph has NO RDAP; dotPH web-whois is Cloudflare-challenge-gated - not scriptable, not a clean negative)",
+    "source": "CT certspotter: 2 DV certs issued 2026-08-09 (incl www) = WAS registered+attacker-controlled today; HTTP GET: A=45.79.222.138 = dotPH/ParkLogic NXDOMAIN lander (POSITIVE CONTROL: random nonexistent .ph resolves to same IP; PTR=...dotph-nxd...parklogic.net), 80/443 connection-refused to us. Read: very recent registry suspension/takedown - certs hours old, DNS now de-delegated"
+  },
+  {
+    "domain": "phantom-activate.ph",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "none currently delegated (registry NXDOMAIN lander)",
+    "registered": ">=2026-08-09 (CT)",
+    "registrar": "rdap-failed (.ph no RDAP; dotPH web-whois Cloudflare-gated)",
+    "source": "CT certspotter: 2 DV certs 2026-08-09 (incl www 20:31Z, i.e. today) = registered+controlled today; HTTP GET: A=45.79.222.138 dotPH NXDOMAIN lander (positive-control confirmed), HTTP refused/empty to us. Very recent takedown/de-delegation"
+  },
+  {
+    "domain": "phantom-billing.ph",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "none currently delegated (registry NXDOMAIN lander)",
+    "registered": ">=2026-08-09 (CT)",
+    "registrar": "rdap-failed (.ph no RDAP; dotPH web-whois Cloudflare-gated)",
+    "source": "CT certspotter: 1 DV cert 2026-08-09; HTTP GET: A=45.79.222.138 dotPH NXDOMAIN lander, HTTP/1.1 200 (server: openresty) = registry lander page (positive control: random .ph -> same IP), no redirect"
+  },
+  {
+    "domain": "phantom-unlock.ph",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "none currently delegated (registry NXDOMAIN lander)",
+    "registered": ">=2026-08-09 (CT)",
+    "registrar": "rdap-failed (.ph no RDAP; dotPH web-whois Cloudflare-gated)",
+    "source": "CT certspotter: 1 DV cert 2026-08-09; HTTP GET: A=45.79.222.138 dotPH NXDOMAIN lander, HTTP/1.1 200 (server: openresty) = registry lander (positive-control confirmed), no redirect"
+  },
+  {
+    "domain": "phantom-security-dashboard.ph",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "none currently delegated (registry NXDOMAIN lander)",
+    "registered": ">=2026-07-30 (CT, earliest of set)",
+    "registrar": "rdap-failed (.ph no RDAP; dotPH web-whois Cloudflare-gated)",
+    "source": "CT certspotter: 2 DV certs 2026-07-30 + 2026-08-08 (www) - oldest .ph of the cluster; HTTP GET: A=45.79.222.138 dotPH NXDOMAIN lander, HTTP/1.1 200 (server: openresty), no redirect"
+  },
+  {
+    "domain": "xn--phantomwalet-vbb.gitbook.io",
+    "brand": "Phantom",
+    "idn_decoded": "phantom\u00e2walet.gitbook.io (U+00E2 a-circumflex)",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (parent gitbook.io)",
+    "registered": "subdomain on GitBook (parent gitbook.io registered 2014-03-30)",
+    "registrar": "Cloudflare, Inc (registrar of parent gitbook.io) - subdomain is an attacker-created GitBook space, not a registrable domain",
+    "source": "RDAP Identity Digital .io on parent gitbook.io; HTTP GET on FQDN: resolves via Cloudflare, HTTP/2 307 -> https://xn--phantomwalet-vbb.gitbook.io/io/ (GitBook default redirect) = space exists. Parasite-hosted on legit SaaS; RDAP N/A for the subdomain itself"
+  },
+  {
+    "domain": "xn--phantomwallet-lobk.webflow.io",
+    "brand": "Phantom",
+    "idn_decoded": "\u00fcphan\u00fbtomwallet.webflow.io (U+00FC u-diaeresis + U+00FB u-circumflex)",
+    "nameservers": "lamar.ns.cloudflare.com, journey.ns.cloudflare.com (parent webflow.io)",
+    "registered": "subdomain on Webflow (parent webflow.io registered 2013-05-08)",
+    "registrar": "MarkMonitor Inc. (registrar of parent webflow.io) - subdomain is/was an attacker Webflow site, not a registrable domain",
+    "source": "RDAP Identity Digital .io on parent webflow.io; HTTP GET on FQDN: resolves via Cloudflare, HTTP/2 404 (server: cloudflare) = Webflow subdomain not published / removed. Parasite host; RDAP N/A for subdomain"
+  },
+  {
+    "domain": "xn--phantm-wallet-extension-9ic.netcoins-logi.com",
+    "brand": "Phantom",
+    "idn_decoded": "phant\u00f3m-wallet-extension.netcoins-logi.com (U+00F3 o-acute)",
+    "nameservers": "n/a - parent netcoins-logi.com is NOT registered",
+    "registered": "n/a - parent domain not registered",
+    "registrar": "n/a - parent netcoins-logi.com is NOT REGISTERED (Verisign RDAP 404; rdap.org 302->Verisign 404; 0 CT certs; no A record)",
+    "source": "RDAP Verisign .com on parent = 404 (unregistered); CT: 0 certs; HTTP GET: DNS NXDOMAIN, does not resolve. Dead lead - the registrable domain behind this subdomain does not currently exist"
+  },
+  {
+    "domain": "xn--phantm-7wa.app",
+    "brand": "Phantom",
+    "idn_decoded": "phant\u00f2m.app (U+00F2 o-grave)",
+    "nameservers": "none - not registered",
+    "registered": "n/a - not registered",
+    "registrar": "NOT REGISTERED (RDAP pubapi.registry.google returns 404 'not found'; 0 CT certs; DNS NXDOMAIN)",
+    "source": "RDAP .app 404; CT certspotter 0 certs; HTTP GET: NXDOMAIN, does not resolve. IDN homograph exists as a string but is not registered"
+  },
+  {
+    "domain": "xn--phantm-7rf.net",
+    "brand": "Phantom",
+    "idn_decoded": "phant\u0444m.net (U+0444 CYRILLIC small letter EF - homograph, replaces 'o')",
+    "nameservers": "3939.ns1.abovedomains.com, 3939.ns2.abovedomains.com",
+    "registered": "2004-07-07 (old domain)",
+    "registrar": "$$$ Private Label Internet Service Kiosk, Inc. (dba PLISK.com)",
+    "source": "RDAP Verisign .net; HTTP GET: resolves 103.224.182.238, HTTP/1.1 200 (server: Apache) = AboveDomains parking page. Old 2004 domain, parked/for-sale (not active phishing); Cyrillic-EF homograph"
+  },
+  {
+    "domain": "phantom--wallet-app.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "subdomain on Cloudflare Pages (parent pages.dev registered 2020-09-02)",
+    "registrar": "CloudFlare, Inc. (registrar of parent pages.dev) - subdomain is an attacker Cloudflare Pages project, not a registrable domain",
+    "source": "RDAP pubapi.registry.google .dev on parent pages.dev; HTTP GET on FQDN: resolves via Cloudflare (188.114.96.3), HTTP/2 403 (server: cloudflare) = Pages project disabled/access-restricted/deleted deployment. Parasite host; RDAP N/A for subdomain"
+  },
+  {
+    "domain": "phantom--wallet-docs.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "subdomain on Cloudflare Pages (parent pages.dev 2020-09-02)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev) - attacker Pages project, not a registrable domain",
+    "source": "RDAP .dev on parent; HTTP GET on FQDN: resolves via Cloudflare (172.66.44.148), HTTP/2 403 (server: cloudflare) = project disabled/removed. Parasite host"
+  },
+  {
+    "domain": "phantom--wallet-eng.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "subdomain on Cloudflare Pages (parent pages.dev 2020-09-02)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev) - attacker Pages project, not a registrable domain",
+    "source": "RDAP .dev on parent; HTTP GET on FQDN: resolves via Cloudflare (188.114.96.3), HTTP/2 403 (server: cloudflare) = project disabled/removed. Parasite host"
+  },
+  {
+    "domain": "phantomwallet--to.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "subdomain on Cloudflare Pages (parent pages.dev 2020-09-02)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev) - attacker Pages project, not a registrable domain",
+    "source": "RDAP .dev on parent; HTTP GET on FQDN: resolves via Cloudflare (188.114.96.3), HTTP/2 403 (server: cloudflare) = project disabled/removed. Parasite host"
+  },
+  {
+    "domain": "phantom-walle-t.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (parent pages.dev)",
+    "registered": "subdomain on Cloudflare Pages (parent pages.dev 2020-09-02)",
+    "registrar": "CloudFlare, Inc. (parent pages.dev) - attacker Pages project, not a registrable domain",
+    "source": "RDAP .dev on parent; HTTP GET on FQDN: resolves via Cloudflare (172.66.45.11), HTTP/2 500 (server: cloudflare) = Pages project error/misconfigured. Parasite host"
+  },
+  {
+    "domain": "phantom-wellat.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: pages.dev = CloudFlare, Inc.]",
+    "registered": "2020-09-02 (pages.dev parent; subdomain undated)",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (pages.dev)",
+    "source": "RDAP=parent pages.dev via rdap.org->verisign. HTTP GET https-> resolves, HTTP/2 403 (Cloudflare Pages; 403 is NOT a clean negative - re-check with browser fleet)"
+  },
+  {
+    "domain": "phantom-extension-o-app.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: pages.dev = CloudFlare, Inc.]",
+    "registered": "2020-09-02 (pages.dev parent; subdomain undated)",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (pages.dev)",
+    "source": "RDAP=parent pages.dev. HTTP GET-> resolves, HTTP/2 403 (Cloudflare; not a clean negative)"
+  },
+  {
+    "domain": "phantom-connect-auth-flow.pages.dev",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: pages.dev = CloudFlare, Inc.]",
+    "registered": "2020-09-02 (pages.dev parent; subdomain undated)",
+    "nameservers": "adi.ns.cloudflare.com, karl.ns.cloudflare.com (pages.dev)",
+    "source": "RDAP=parent pages.dev. HTTP GET-> resolves, HTTP/2 200 LIVE (active deployment - priority takedown)"
+  },
+  {
+    "domain": "phantom-w-let.gitbook.io",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: gitbook.io = Cloudflare, Inc.]",
+    "registered": "2014-03-30 (gitbook.io parent; subdomain undated)",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (gitbook.io)",
+    "source": "RDAP=parent gitbook.io via IdentityDigital rdap. HTTP GET-> resolves, HTTP/2 403 (not a clean negative)"
+  },
+  {
+    "domain": "phantomwallet.uk.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[CentralNic 3rd-level SLD; parent uk.com = Instra Corporation Pty Ltd.]",
+    "registered": "1996-05-01 (uk.com parent zone; the phantomwallet.* label is a CentralNic sub-registration, not in registry RDAP)",
+    "nameservers": "ns1-4.centralnic.net (uk.com)",
+    "source": "RDAP=parent uk.com via rdap.org. HTTP GET-> resolves, HTTP/2 302 -> https://www.phantomwallet.uk.com// (self/www redirect - site exists)"
+  },
+  {
+    "domain": "phantomwallet.framer.website",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: framer.website = CSC Corporate Domains, Inc.]",
+    "registered": "2021-11-19 (framer.website parent; subdomain undated)",
+    "nameservers": "ns-1243.awsdns-27.org, ns-1818.awsdns-35.co.uk, ns-336.awsdns-42.com, ns-792.awsdns-35.net (framer.website)",
+    "source": "RDAP=parent framer.website. HTTP GET-> resolves, HTTP/2 404 (Framer 'site not found' - likely removed/never published; not a clean negative)"
+  },
+  {
+    "domain": "phantomwalletchromedownload.webflow.io",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: webflow.io = MarkMonitor Inc.]",
+    "registered": "2013-05-08 (webflow.io parent; subdomain undated)",
+    "nameservers": "lamar.ns.cloudflare.com, journey.ns.cloudflare.com (webflow.io)",
+    "source": "RDAP=parent webflow.io via IdentityDigital rdap. HTTP GET-> resolves, HTTP/2 404 (Webflow subdomain unpublished/removed)"
+  },
+  {
+    "domain": "phantomwalletius.webflow.io",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: webflow.io = MarkMonitor Inc.]",
+    "registered": "2013-05-08 (webflow.io parent; subdomain undated)",
+    "nameservers": "lamar.ns.cloudflare.com, journey.ns.cloudflare.com (webflow.io)",
+    "source": "RDAP=parent webflow.io. HTTP GET-> resolves, HTTP/2 404 (unpublished/removed)"
+  },
+  {
+    "domain": "phantomwalletextensionc.webflow.io",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: webflow.io = MarkMonitor Inc.]",
+    "registered": "2013-05-08 (webflow.io parent; subdomain undated)",
+    "nameservers": "lamar.ns.cloudflare.com, journey.ns.cloudflare.com (webflow.io)",
+    "source": "RDAP=parent webflow.io. HTTP GET-> resolves, HTTP/2 404 (unpublished/removed)"
+  },
+  {
+    "domain": "phantomwalletdownload.blogspot.com",
+    "brand": "Phantom",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: blogspot.com = MarkMonitor Inc. / Google]",
+    "registered": "2000-07-31 (blogspot.com parent; subdomain undated)",
+    "nameservers": "ns1-4.google.com (blogspot.com)",
+    "source": "RDAP=parent blogspot.com via rdap.org->verisign. HTTP GET-> resolves, HTTP/2 404 (Blogspot blog removed/never created)"
+  },
+  {
+    "domain": "phantum-un-wullet.gitbook.io",
+    "brand": "Phantom (typosquat 'phantum')",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: gitbook.io = Cloudflare, Inc.]",
+    "registered": "2014-03-30 (gitbook.io parent; subdomain undated)",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (gitbook.io)",
+    "source": "RDAP=parent gitbook.io. HTTP GET-> resolves, HTTP/2 307 -> /login/ (GitBook space is gated/exists - browser fleet should verify content)"
+  },
+  {
+    "domain": "phantum-waglet-help.gitbook.io",
+    "brand": "Phantom (typosquat 'phantum')",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: gitbook.io = Cloudflare, Inc.]",
+    "registered": "2014-03-30 (gitbook.io parent; subdomain undated)",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (gitbook.io)",
+    "source": "RDAP=parent gitbook.io. HTTP GET-> resolves, HTTP/2 307 -> /us/ (redirects to live content path - LIVE, priority)"
+  },
+  {
+    "domain": "phantum-xex-wllate.gitbook.io",
+    "brand": "Phantom (typosquat 'phantum')",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: gitbook.io = Cloudflare, Inc.]",
+    "registered": "2014-03-30 (gitbook.io parent; subdomain undated)",
+    "nameservers": "hugh.ns.cloudflare.com, dahlia.ns.cloudflare.com (gitbook.io)",
+    "source": "RDAP=parent gitbook.io. HTTP GET-> resolves, HTTP/2 307 -> /login/ (gated space exists - verify with browser)"
+  },
+  {
+    "domain": "phantumwaalet.github.io",
+    "brand": "Phantom (typosquat 'phantum')",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: github.io = MarkMonitor Inc.]",
+    "registered": "2013-03-08 (github.io parent; subdomain undated)",
+    "nameservers": "ns-692.awsdns-22.net, ns-1622.awsdns-10.co.uk, dns1/2/3.p05.nsone.net (github.io)",
+    "source": "RDAP=parent github.io via IdentityDigital rdap. HTTP GET-> resolves, HTTP/2 404 (GitHub Pages site removed/never published)"
+  },
+  {
+    "domain": "phanton-wallet.webflow.io",
+    "brand": "Phantom (typosquat 'phanton')",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: webflow.io = MarkMonitor Inc.]",
+    "registered": "2013-05-08 (webflow.io parent; subdomain undated)",
+    "nameservers": "lamar.ns.cloudflare.com, journey.ns.cloudflare.com (webflow.io)",
+    "source": "RDAP=parent webflow.io. HTTP GET-> resolves, HTTP/2 404 (unpublished/removed)"
+  },
+  {
+    "domain": "phantonxwallett.created.app",
+    "brand": "Phantom (typosquat 'phanton')",
+    "idn_decoded": "",
+    "registrar": "[platform subdomain: created.app = Name.com, Inc. / Vercel]",
+    "registered": "2023-07-12 (created.app parent; subdomain undated)",
+    "nameservers": "ns1.vercel-dns.com, ns2.vercel-dns.com (created.app)",
+    "source": "RDAP=parent created.app via rdap.org->registry.google. HTTP GET-> resolves, HTTP/2 404 (Vercel/created.app app removed/never deployed)"
+  },
+  {
+    "domain": "exodusfb.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Ultahost, Inc.",
+    "registered": "2026-08-08T15:52:52Z",
+    "nameservers": "ns1-sin.v-sys.org, ns2-sin.v-sys.org",
+    "source": "RDAP=verisign via rdap.org. HTTP GET-> resolves, HTTP/1.1 200 OK LIVE (registered 1 day before scan - freshest domain in batch, priority). NS v-sys.org is a pivot target"
+  },
+  {
+    "domain": "exodusoil.org",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC",
+    "registered": "2026-08-06T01:48:50Z",
+    "nameservers": "ns1.dreamhost.com, ns2.dreamhost.com, ns3.dreamhost.com",
+    "source": "RDAP=PIR via rdap.org. HTTP GET-> resolves, HTTP/2 301 -> https://exoduseffect.com/?affId=7704081A&c1=&c2=32&_ef_transaction_id=&oid=1&ef_affid=32&source_id=emd (LIVE cloaking redirect to affiliate/Everflow offer exoduseffect.com - actionable phishing endpoint + pivot)"
+  },
+  {
+    "domain": "exodus-tr.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Ultahost, Inc.",
+    "registered": "2026-08-03T17:39:42Z",
+    "nameservers": "ns1.all-harmless.domains, ns2.all-harmless.domains",
+    "source": "RDAP=verisign via rdap.org. HTTP GET-> DNS RESOLVES 34.76.205.124 (Google Cloud) but connection RESET on both :443(SSL unexpected) and :80 - no HTTP served to us (dormant or IP/geo-filtered; NOT confirmed dead - browser fleet should retry). NS 'all-harmless.domains' is itself a tell + pivot"
+  },
+  {
+    "domain": "exodus-apps.org",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "registered": "2026-07-29T12:45:54Z",
+    "nameservers": "ns1.amper.host, ns2.amper.host",
+    "source": "RDAP=PIR via rdap.org. HTTP GET-> does NOT resolve (no A record apex or www via 1.1.1.1) - registered, DNS not pointed yet (staged). Twins with exodus-waflet.org: same registrar, same NS amper.host, registered 10s apart (12:45:54 vs 12:45:44) = SAME operator"
+  },
+  {
+    "domain": "exodus-waflet.org",
+    "brand": "Exodus (typosquat 'waflet')",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu",
+    "registered": "2026-07-29T12:45:44Z",
+    "nameservers": "ns1.amper.host, ns2.amper.host",
+    "source": "RDAP=PIR via rdap.org. HTTP GET-> resolves (apex 45.74.7.27, www 158.94.211.29) but HTTP/2 504 both attempts (CDN up, backend down - staged/not-yet-live, NOT a clean negative). Twin of exodus-apps.org (registered 10s apart, same NS amper.host)"
+  },
+  {
+    "domain": "exodusairdrops.net",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC",
+    "registered": "2026-07-29T00:12:54Z",
+    "nameservers": "ns41.domaincontrol.com, ns42.domaincontrol.com",
+    "source": "RDAP=verisign via rdap.org. HTTP GET-> resolves, HTTP/2 301 -> https://viperwrl.com.au/rewards/wallet/restore.html (LIVE cloaking redirect to a 'wallet restore' page = seed-phrase harvest; viperwrl.com.au is a compromised/abused .au host + pivot target - HIGH priority)"
+  },
+  {
+    "domain": "exodusextension.live",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2026-07-29T19:50:22Z",
+    "nameservers": "dns1/2/3/4.p08.nsone.net (NS1)",
+    "source": "RDAP=Nic.live via rdap.org. HTTP GET-> does NOT resolve (no A record apex or www) - registered same day as the cluster, DNS not pointed yet (staged)"
+  },
+  {
+    "domain": "exoduspay.cc",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "registered": "2026-07-29T21:11:43Z",
+    "nameservers": "pablo.ns.cloudflare.com, roxy.ns.cloudflare.com",
+    "source": "RDAP=Verisign/.cc via rdap.org. HTTP GET-> resolves, HTTP/2 403 (behind Cloudflare - blocked to datacenter IP or no page; NOT a clean negative, re-check with browser fleet)"
+  },
+  {
+    "domain": "exodus-wallet.website",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Name.com, Inc.",
+    "registered": "2026-07-29T08:32:45Z",
+    "nameservers": "garret.ns.cloudflare.com, wally.ns.cloudflare.com",
+    "source": "RDAP via rdap.org. HTTP GET-> does NOT resolve (no A record apex or www) despite Cloudflare NS - registered same day as cluster, DNS not pointed yet (staged)"
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-app.org",
+    "idn_decoded": "",
+    "nameservers": "cris.ns.cloudflare.com, rosalie.ns.cloudflare.com",
+    "registered": "2026-07-28",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "source": "HTTP: resolves (Cloudflare 104.21.44.76/172.67.197.75); TLS handshake completes then HTTPS request HANGS with no response (000) for 40s; no redirect. NOT a clean negative - origin tarpit/down behind CF. Shares exact CF NS pair + same-day reg with app-exodus.org."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "app-exodus.org",
+    "idn_decoded": "",
+    "nameservers": "cris.ns.cloudflare.com, rosalie.ns.cloudflare.com",
+    "registered": "2026-07-28",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "source": "HTTP: resolves (Cloudflare 104.21.18.123/172.67.181.211); TLS completes then HTTPS HANGS (000), no response in 40s; no redirect. Registered within ~4s of exodus-app.org on same CF NS pair = same batch."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "en-exodus.org",
+    "idn_decoded": "",
+    "nameservers": "carioca.ns.cloudflare.com, james.ns.cloudflare.com",
+    "registered": "2026-07-26",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "source": "HTTP: resolves (Cloudflare 104.21.31.230/172.67.180.187); HTTPS 503 (Cloudflare, origin unavailable), no redirect. Live at CF - not a negative; re-check via browser."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-3d.com",
+    "idn_decoded": "",
+    "nameservers": "nsb1.squarespacedns.com, nsb2.squarespacedns.com, nsb3.squarespacedns.com, nsb4.squarespacedns.com",
+    "registered": "2026-07-26",
+    "registrar": "Squarespace Domains II LLC (IANA 895)",
+    "source": "HTTP: resolves (Squarespace 198.185.159.145/198.49.23.144); HTTPS 200 serving; no redirect. Live Squarespace-hosted page."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodusecureapi.com",
+    "idn_decoded": "",
+    "nameservers": "carla.ns.cloudflare.com, giancarlo.ns.cloudflare.com",
+    "registered": "2026-07-25",
+    "registrar": "OwnRegistrar, Inc. (IANA 1250)",
+    "source": "HTTP: A record = 5.5.5.5 (placeholder/null IP despite Cloudflare NS); TCP connect fails, no HTTP service (000). Registered but not serving. NS delegated to CF but A points elsewhere = staged/not-yet-live."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-wallet.app",
+    "idn_decoded": "",
+    "nameservers": "horizon.dns-parking.com, orbit.dns-parking.com",
+    "registered": "2026-07-23",
+    "registrar": "HOSTINGER operations, UAB (IANA 1636)",
+    "source": "HTTP: resolves (84.200.24.239); HTTPS 200; no redirect. Hostinger dns-parking NS => likely Hostinger parking/holding page."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodusapppc.com",
+    "idn_decoded": "",
+    "nameservers": "(none - removed)",
+    "registered": "2026-07-21",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "source": "HTTP: does NOT resolve (NXDOMAIN, curl ec=6). RDAP status = clientHold + clientTransferProhibited and nameservers stripped => SUSPENDED/taken down. This is a confirmed dead/suspended domain, not a fetch failure."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus.mom",
+    "idn_decoded": "",
+    "nameservers": "curitiba.ns.porkbun.com, fortaleza.ns.porkbun.com, maceio.ns.porkbun.com, salvador.ns.porkbun.com",
+    "registered": "2026-04-29",
+    "registrar": "Porkbun LLC (IANA 1861)",
+    "source": "HTTP: resolves (207.207.210.163); HTTPS 200 serving; no redirect. Live."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-crypto-guide.com",
+    "idn_decoded": "",
+    "nameservers": "joan.ns.cloudflare.com, sri.ns.cloudflare.com",
+    "registered": "2026-04-09",
+    "registrar": "Spaceship, Inc. (IANA 3862)",
+    "source": "HTTP: resolves (89.167.86.140); HTTPS 200 serving; no redirect. Same registrar + same 2026-04-09 date (~8s apart) as exodus-wallet-review.com = same batch."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-wallet-review.com",
+    "idn_decoded": "",
+    "nameservers": "galilea.ns.cloudflare.com, titan.ns.cloudflare.com",
+    "registered": "2026-04-09",
+    "registrar": "Spaceship, Inc. (IANA 3862)",
+    "source": "HTTP: resolves (Cloudflare 104.21.20.42); HTTPS 451 (Unavailable For Legal Reasons via CF); no redirect. Live at CF (451 to our IP) - re-check via browser. Batch-mate of exodus-crypto-guide.com."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodusfinance.org",
+    "idn_decoded": "",
+    "nameservers": "eugene.ns.cloudflare.com, jillian.ns.cloudflare.com",
+    "registered": "2026-04-09",
+    "registrar": "Cloudflare, Inc. (IANA 1910)",
+    "source": "HTTP: resolves (Cloudflare 188.114.96.3); HTTPS 403 (CF bot-block to datacenter IP); no redirect. NOT a negative - registered same day (2026-04-09) as the two Spaceship domains = third domain in that wave."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "fakeexodus.net",
+    "idn_decoded": "",
+    "nameservers": "ns1.devoster.com, ns2.devoster.com",
+    "registered": "2026-03-27",
+    "registrar": "NameSilo, LLC (IANA 1479)",
+    "source": "HTTP: resolves (15.204.249.97, OVH US); HTTPS 200 serving; no redirect. Live (name self-labels as fake; likely research/parody or bait)."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodusprob.com",
+    "idn_decoded": "",
+    "nameservers": "donald.ns.cloudflare.com, melina.ns.cloudflare.com",
+    "registered": "2026-03-10",
+    "registrar": "Hello Internet Corp (IANA 1924)",
+    "source": "HTTP: resolves (Cloudflare 188.114.96.3); HTTPS 403 (CF bot-block); no redirect. NOT a negative. Shares the EXACT Cloudflare NS pair (donald+melina) with exoduspx.cc across different registrars = same operator."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-authentication.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.parkingcrew.net, ns2.parkingcrew.net",
+    "registered": "2026-02-26",
+    "registrar": "Internet Domain Service BS Corp (IANA 2487)",
+    "source": "HTTP: resolves (104.247.81.99); HTTPS 410 Gone; no redirect. ParkingCrew NS + shared IP 104.247.81.99 with encrypted-exodus.com & exodus-troubleshooting.com = parked cluster."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-app.com",
+    "idn_decoded": "",
+    "nameservers": "arvind.ns.cloudflare.com, veda.ns.cloudflare.com",
+    "registered": "2026-02-11",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "source": "HTTP: resolves (Cloudflare 2606:4700:3036::ac43:a49e); HTTPS 403 (CF bot-block); no redirect. Live at CF - re-check via browser."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exoduspx.cc",
+    "idn_decoded": "",
+    "nameservers": "donald.ns.cloudflare.com, melina.ns.cloudflare.com",
+    "registered": "2026-01-30",
+    "registrar": "Dominet (HK) Limited (IANA 3775)",
+    "source": "HTTP: resolves (Cloudflare); HTTPS 200 serving; no redirect. Same CF NS pair (donald+melina) as exodusprob.com => linked operator. .cc via HK registrar Dominet."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodusru.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.dnsimple-edge.com, ns2.dnsimple-edge.net, ns3.dnsimple-edge.io, ns4.dnsimple-edge.org",
+    "registered": "2026-01-30",
+    "registrar": "Key-Systems GmbH (IANA 269)",
+    "source": "HTTP: resolves (52.6.250.82, AWS us-east-1); HTTPS 200 serving; no redirect. Live, DNSimple-fronted."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodussappweb3.xyz",
+    "idn_decoded": "",
+    "nameservers": "ns1.dyna-ns.net, ns2.dyna-ns.net",
+    "registered": "2026-01-28",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "source": "HTTP: resolves (185.53.179.128, Team Internet/Tucows parking); HTTPS 410 Gone; no redirect. Parked (Dynadot dyna-ns default NS)."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-comm.com",
+    "idn_decoded": "",
+    "nameservers": "donna.ns.cloudflare.com, kevin.ns.cloudflare.com",
+    "registered": "2026-01-26",
+    "registrar": "Cloudflare, Inc. (IANA 1910)",
+    "source": "HTTP: resolves (Cloudflare 2a06:98c1:3120::3); HTTPS 301 REDIRECT to https://exoduscomm.com/ - i.e. redirects to a SIBLING attacker domain (exoduscomm.com), NOT the real exodus.com. Only live redirect in the set."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-control.com",
+    "idn_decoded": "",
+    "nameservers": "dns1.icedns.is, dns2.icedns.is",
+    "registered": "2026-01-11",
+    "registrar": "Internet Domain Service BS Corp (IANA 2487)",
+    "source": "HTTP: A record = 196.251.100.48 (196.251.x = known bulletproof-hosting range); TCP connect refused/timeout on 443, no HTTP response (000). Resolves but host not serving us - NOT a clean negative. IceDNS.is NS + IDS BS Corp registrar."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-investorshub.live",
+    "idn_decoded": "",
+    "nameservers": "ns1.spantrix.com, ns2.spantrix.com",
+    "registered": "2026-01-06",
+    "registrar": "Sav.com, LLC (IANA 609)",
+    "source": "HTTP: resolves (66.85.46.67); HTTPS 200 serving; no redirect. Live."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exoduswap.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.dyna-ns.net, ns2.dyna-ns.net",
+    "registered": "2026-01-02",
+    "registrar": "Dynadot Inc (IANA 472)",
+    "source": "HTTP: resolves (199.36.158.100, Firebase/Google hosting range); HTTPS 200 serving; no redirect. Live on Firebase Hosting."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "encrypted-exodus.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.parkingcrew.net, ns2.parkingcrew.net",
+    "registered": "2025-12-23",
+    "registrar": "Internet Domain Service BS Corp (IANA 2487)",
+    "source": "HTTP: resolves (104.247.81.99); HTTPS 410 Gone; no redirect. Parked. Same IP + same 2025-12-23 date + same ParkingCrew NS as exodus-troubleshooting.com = same-batch parked pair."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-troubleshooting.com",
+    "idn_decoded": "",
+    "nameservers": "ns1.parkingcrew.net, ns2.parkingcrew.net",
+    "registered": "2025-12-23",
+    "registrar": "Internet Domain Service BS Corp (IANA 2487)",
+    "source": "HTTP: resolves (104.247.81.99); HTTPS 410 Gone; no redirect. Parked. Batch-mate of encrypted-exodus.com (same IP/NS/date) + exodus-authentication.com (same IP)."
+  },
+  {
+    "brand": "Exodus",
+    "domain": "exodus-app.biz",
+    "idn_decoded": "",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "registered": "2025-12-15",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (IANA 1647)",
+    "source": "HTTP: resolves (185.53.179.136, Team Internet parking); HTTPS 410 Gone; no redirect. Parked on registrar.eu default NS. Same registrar (1647) as the three .org domains."
+  },
+  {
+    "domain": "exodus-wallet.biz",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (Openprovider, IANA 1647)",
+    "registered": "2025-12-15T09:49:08Z",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "RDAP(rdap.nic.biz). HTTP: resolves yes 185.53.179.136, status 410 Gone, no redirect \u2014 Openprovider/registrar.eu parking IP (suspended/taken-down listing). Registered SAME MINUTE as exodus-wallet.cloud."
+  },
+  {
+    "domain": "exodus-wallet.cloud",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Registrar.eu (Hosting Concepts B.V. / Openprovider)",
+    "registered": "2025-12-15T09:49:21Z",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "RDAP(rdap.nic.cloud via bootstrap). HTTP: resolves yes 185.53.179.136, status 410 Gone, no redirect (same parking IP/cluster as exodus-wallet.biz). SAME-MINUTE batch registration with the .biz."
+  },
+  {
+    "domain": "exodusweb3app.org",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Global Domain Group LLC",
+    "registered": "2025-12-15T15:50:06Z",
+    "nameservers": "anahi.ns.cloudflare.com, gabriel.ns.cloudflare.com",
+    "source": "RDAP(PIR). HTTP: resolves yes 2606:4700:3031::ac43:bc46 (Cloudflare), status 301 \u2192 https://exodusweb3app.org/ (self, HTTP\u2192HTTPS upgrade only)."
+  },
+  {
+    "domain": "exodusprop.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "GoDaddy.com, LLC",
+    "registered": "2025-12-02T03:05:41Z",
+    "nameservers": "ns51.domaincontrol.com, ns52.domaincontrol.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 216.198.79.1, status 308 \u2192 https://exodusprop.com/ (self, HTTP\u2192HTTPS upgrade)."
+  },
+  {
+    "domain": "exodus-backup.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Sav.com, LLC",
+    "registered": "2025-10-10T16:27:14Z",
+    "nameservers": "ns1.all-harmless.domains, ns2.all-harmless.domains",
+    "source": "RDAP(Verisign) \u2014 REGISTERED. HTTP: DNS delegated but web server did NOT respond to us (curl 56: connection reset by peer, no page served). Not a clean negative \u2014 server-side refusal/no-listener, domain is live in RDAP."
+  },
+  {
+    "domain": "exoduswalletverificationweb3.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (Openprovider)",
+    "registered": "2025-10-09T14:04:26Z",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "RDAP(Verisign). HTTP: resolves yes 185.53.179.136, status 410 Gone, no redirect \u2014 same Openprovider/registrar.eu parking cluster as exodus-wallet.biz/.cloud + download-exodus.io."
+  },
+  {
+    "domain": "securing-exodus.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Internet Domain Service BS Corp (Internet.bs)",
+    "registered": "2025-10-03T13:06:35Z",
+    "nameservers": "ns1.parkingcrew.net, ns2.parkingcrew.net",
+    "source": "RDAP(Verisign). HTTP: resolves yes 104.247.81.99, status 410 Gone, no redirect \u2014 ParkingCrew parking (NS = parkingcrew.net)."
+  },
+  {
+    "domain": "exodus-contact.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "IONOS SE",
+    "registered": "2025-09-24T12:55:13Z",
+    "nameservers": "ns1038.ui-dns.org, ns1074.ui-dns.biz, ns1081.ui-dns.com, ns1108.ui-dns.de",
+    "source": "RDAP(Verisign). HTTP: resolves yes 2001:8d8:100f:f000::200 (IONOS), status 200, no redirect (Server: Apache, blank/empty <title> \u2014 page live but no content served to us)."
+  },
+  {
+    "domain": "exodusproof.net",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Dynadot Inc",
+    "registered": "2025-09-16T15:04:23Z",
+    "nameservers": "ns115.my-control-panel.com, ns116.my-control-panel.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 198.251.89.82, status 301 \u2192 https://exodusproof.net/ (self, HTTP\u2192HTTPS upgrade)."
+  },
+  {
+    "domain": "exodus-wallet.cc",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Spaceship, Inc.",
+    "registered": "2025-08-25T14:46:59Z",
+    "nameservers": "anderson.ns.cloudflare.com, violet.ns.cloudflare.com",
+    "source": "RDAP(Verisign .cc). HTTP: resolves yes 2a06:98c1:3121::3 (Cloudflare), status 200, no redirect \u2014 default page 'Welcome to nginx!' (infrastructure staged, phishing content not yet deployed)."
+  },
+  {
+    "domain": "exodusftx.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2025-08-17T14:26:17Z",
+    "nameservers": "ns13.netlightsystems.com, ns14.netlightsystems.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 86.107.77.158, status 200, no redirect (Server: LiteSpeed) \u2014 LIVE crypto-investment scam page, <title> 'auxtroveftx.com The Global Crypto Investors' (FTX-themed)."
+  },
+  {
+    "domain": "exodus-verification.support",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2025-07-30T14:37:32Z",
+    "nameservers": "ns1.ns306.parklogic.com, ns2.ns306.parklogic.com",
+    "source": "RDAP(nic.support). HTTP: resolves yes 172.237.129.236 (Linode), status 200, no HTTP-level redirect \u2014 Server: openresty, <title> 'Redirecting...' (JS/meta redirect lander). ParkLogic NS. Sibling of access-exodus.com."
+  },
+  {
+    "domain": "access-exodus.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2025-07-21T00:35:17Z",
+    "nameservers": "ns1.ns306.parklogic.com, ns2.ns306.parklogic.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 172.237.129.242 (Linode, adjacent to exodus-verification.support .236), status 200, no HTTP-level redirect \u2014 Server: openresty, <title> 'Redirecting...' (JS lander). Same NameSilo+ParkLogic cluster as exodus-verification.support."
+  },
+  {
+    "domain": "exodus-request.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Dynadot Inc",
+    "registered": "2025-07-18T20:11:14Z",
+    "nameservers": "5014.ns1.abovedomains.com, 5014.ns2.abovedomains.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 103.224.212.142, status 200, no redirect (Server: Apache, <title> bare domain) \u2014 abovedomains/Trellian parking."
+  },
+  {
+    "domain": "exodus.to",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NAMECHEAP",
+    "registered": "2025-07-18T20:33:43Z",
+    "nameservers": "malavika.ns.cloudflare.com, ricardo.ns.cloudflare.com",
+    "source": "RDAP(rdap.nic.to via bootstrap). HTTP: resolves yes 2a06:98c1:3121::3 (Cloudflare), status 301 CROSS-DOMAIN \u2192 https://eile.ie/ \u2192 301 https://phimmoir.ac/ \u2192 403. Redirect chain leaves the domain but does NOT go to the real Exodus site (lands on an unrelated VN movie-piracy host)."
+  },
+  {
+    "domain": "exodus-support.help",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2024-12-28T04:52:33Z",
+    "nameservers": "ns1.dnsowl.com, ns2.dnsowl.com, ns3.dnsowl.com",
+    "source": "RDAP(nic.help). HTTP: resolves yes 91.195.240.123 (Sedo/parking range), status 200, no redirect \u2014 Server: Parking/1.0, German monetized parking page ('Informationen zum Thema exodus support'). Oldest .help in set."
+  },
+  {
+    "domain": "exodustoptrade.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NameSilo, LLC",
+    "registered": "2024-11-15T19:05:10Z",
+    "nameservers": "jimmy.ns.cloudflare.com, paityn.ns.cloudflare.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 2606:4700:3033::ac43:c4ee (Cloudflare), status 301 \u2192 https://exodustoptrade.com/ (self, HTTP\u2192HTTPS upgrade)."
+  },
+  {
+    "domain": "exodus-appnode.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (Openprovider)",
+    "registered": "2026-05-30T02:15:08Z",
+    "nameservers": "ns1cp82.panamaserver.com, ns2cp82.panamaserver.com",
+    "source": "RDAP(Verisign). HTTP: resolves yes 2803:200:ffff:ff0a::82 (Panamaserver), status 200, no redirect (Server: LiteSpeed, default 'Hosted by Panamaserver.com'). NEWEST registration in the set (2026-05-30)."
+  },
+  {
+    "domain": "download-exodus.io",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "Hosting Concepts B.V. d/b/a Registrar.eu (Openprovider)",
+    "registered": "2025-11-05T11:30:13Z",
+    "nameservers": "ina1.registrar.eu, ina2.registrar.eu, ina3.registrar.eu",
+    "source": "RDAP(Identity Digital .io). HTTP: resolves yes 185.53.179.136, status 410 Gone, no redirect \u2014 same Openprovider/registrar.eu parking cluster (185.53.179.136) as exodus-wallet.biz/.cloud/exoduswalletverificationweb3.com."
+  },
+  {
+    "domain": "exodus-wallet.ph",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph has NO RDAP and NO CLI/HTTP whois \u2014 dot.ph offers only a JS web form at whois.dot.ph; registrar/date not obtainable via allowed methods)",
+    "registered": "unknown (.ph registry exposes no machine-readable whois)",
+    "nameservers": "none delegated (queries to .ph return only parent referral)",
+    "source": "MEASURED via public resolvers (8.8.8.8/1.1.1.1/9.9.9.9): A=45.79.222.138; HTTP (pinned to IP) status 200 (HTTPS none). PTR of that IP = k8s-svc-lander-dotph-nxd-us-southeast-01.parklogic.net = dot.ph NXDOMAIN wildcard lander (ParkLogic). No delegated NS + 'nxd' catch-all \u21d2 INFERRED likely NOT registered (registry wildcard, not attacker infra). Local resolver was flaky \u2014 used public DNS."
+  },
+  {
+    "domain": "exodus-service.ph",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph: no RDAP, no CLI/HTTP whois \u2014 web form only)",
+    "registered": "unknown (no machine-readable .ph whois)",
+    "nameservers": "none delegated",
+    "source": "MEASURED via public resolvers: A=45.79.222.138; HTTP status 200. Same dot.ph NXDOMAIN wildcard lander (parklogic '...nxd...') as the other .ph names. INFERRED likely unregistered (registry catch-all)."
+  },
+  {
+    "domain": "exodus-helpdesk.ph",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph: no RDAP, no CLI/HTTP whois \u2014 web form only)",
+    "registered": "unknown (no machine-readable .ph whois)",
+    "nameservers": "none delegated",
+    "source": "MEASURED via public resolvers: A=45.79.222.138; HTTP (pinned to IP) status 200. Same dot.ph NXDOMAIN wildcard lander (parklogic). INFERRED likely unregistered."
+  },
+  {
+    "domain": "exodus-unlock.ph",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph: no RDAP, no CLI/HTTP whois \u2014 web form only)",
+    "registered": "unknown (no machine-readable .ph whois)",
+    "nameservers": "none delegated",
+    "source": "MEASURED via public resolvers: A=45.79.222.138; HTTP status 200. Same dot.ph NXDOMAIN wildcard lander (parklogic). INFERRED likely unregistered."
+  },
+  {
+    "domain": "exodussecurity.ph",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "rdap-failed (.ph: no RDAP, no CLI/HTTP whois \u2014 web form only)",
+    "registered": "unknown (no machine-readable .ph whois)",
+    "nameservers": "none delegated",
+    "source": "MEASURED via public resolvers: A=45.79.222.138; HTTP status 200. Same dot.ph NXDOMAIN wildcard lander (parklogic). INFERRED likely unregistered."
+  },
+  {
+    "domain": "exodus--wallet.com",
+    "brand": "Exodus",
+    "idn_decoded": "",
+    "registrar": "NOT REGISTERED \u2014 RDAP(Verisign) empty and whois returns 'No match for domain EXODUS--WALLET.COM'",
+    "registered": "not registered",
+    "nameservers": "none",
+    "source": "whois+RDAP: available/unregistered. HTTP: does not resolve (NXDOMAIN, curl 6). Not attacker infrastructure at this time."
+  }
+]
